@@ -1,0 +1,10 @@
+# Era brief A5 — Roman Empire. Output file: era05_principate.json
+
+Slice years (CE): 14, 60, 117, 180, 235, 271, 300, 337, 370, 395.
+Previous ends -31 (Actium); next starts 410 (sack of Rome). Join plausibly.
+
+Coverage checklist — Rome's exact frontier per slice: 14 (no Britain; Rhine–Danube after Teutoburg 9 CE; Egypt province; clients: Cappadocia (annexed 17), Thrace (annexed 46), Mauretania (annexed 44)); 60 (Britain south from 43, Boudica 60/61, Armenia contested with Parthia — Corbulo); 117 (Trajan max: Dacia (106), Armenia+Mesopotamia briefly annexed, Arabia Petraea (106)); 180 (Hadrianic frontier holds; Marcomannic wars just ended); 235 (Severan borders; Crisis begins); 271 (FRACTURE: Gallic Empire (Gaul+Britain+Rhineland), Palmyra (Zenobia: Egypt, LEV, SYR, much Anatolia), Rome the rest; Dacia abandoned 271-275); 300 (Diocletian reunified; Britain recovered from Carausius 296); 337 (Constantine dead; Constantinople founded 330 — CON matters from here); 370 (Huns arriving ~370 north of Black Sea; Goths in UKR/MDA/WLC being displaced); 395 (Theodosius dies: PERMANENT split — from this slice use west_rome and byzantium).
+
+Also: Parthia → Sassanids (224); wars over Armenia/Mesopotamia (track MES_N/MES_S/ARM_W per slice); Armenia buffer client (partition 387); Bosporan client (CRM); Sarmatians/Alans; Goths arrive north of Black Sea ~200 (UKR/STE Gothic ~230-370, Chernyakhov); Adrianople 378; Germania Magna (Marcomanni BOH, Quadi SVK, Saxons, Franks named ~250, Alamanni ~213, Vandals, Burgundians); Roman Britain (ENG+WAL; SCO Picts; IRL gaels); Scandinavia (germanic; sami/finnic north); Balts; Slavs proto-emerging ~300+ (BLR/UKR_W fringe); Garamantes; Nabataea annexed 106.
+
+Themes: Pax Romana connectivity peak (~80 at 117-180); Antonine Plague (165-180 population hit); Crisis of the Third Century (population+connectivity dip); tetrarchy recovery; Christianization; population arc (empire peak ~60-70M around 150-165 — Scheidel/McEvedy); wealth concentrated in the east (Egypt/Syria).

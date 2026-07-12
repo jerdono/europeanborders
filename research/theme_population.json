@@ -1,0 +1,355 @@
+{
+  "checkpoints": [
+    { "year": -3000, "europePopulation": 1.7, "mapPopulation": 3.6,
+      "note": "First farming-based population growth; Egypt's Nile floodplain already supports the map's densest cluster.",
+      "majorPolities": [
+        { "name": "Egypt (Early Dynastic)", "population": 1.0 },
+        { "name": "Corded Ware culture", "population": 0.6 },
+        { "name": "Levant Early Bronze city-states", "population": 0.3 },
+        { "name": "Anatolian Chalcolithic cultures", "population": 0.4 },
+        { "name": "Maghreb pastoral-Neolithic groups", "population": 0.15 }
+      ],
+      "richest": ["Egypt"] },
+    { "year": -2500, "europePopulation": 2.1, "mapPopulation": 4.8,
+      "note": "Old Kingdom Egypt's pyramid-building state is the map's first true demographic and fiscal concentration; Europe still thinly settled.",
+      "majorPolities": [
+        { "name": "Egypt (Old Kingdom)", "population": 1.6 },
+        { "name": "Bell Beaker culture", "population": 0.8 },
+        { "name": "Levant EB III city-states", "population": 0.4 },
+        { "name": "Anatolian Early Bronze cultures", "population": 0.5 },
+        { "name": "Maghreb Neolithic/pastoral groups", "population": 0.2 }
+      ],
+      "richest": ["Egypt"] },
+    { "year": -2000, "europePopulation": 2.6, "mapPopulation": 5.5,
+      "note": "Middle Kingdom Egypt recovers from the First Intermediate Period; Minoan Crete's first palaces mark the Aegean's takeoff.",
+      "majorPolities": [
+        { "name": "Egypt (Middle Kingdom)", "population": 1.6 },
+        { "name": "Unetice culture", "population": 1.0 },
+        { "name": "Levant Amorite city-states", "population": 0.45 },
+        { "name": "Minoan Crete (Old Palace)", "population": 0.25 },
+        { "name": "Anatolian proto-Hittite/Hattic cultures", "population": 0.6 }
+      ],
+      "richest": ["Egypt", "Minoan Crete"] },
+    { "year": -1500, "europePopulation": 3.8, "mapPopulation": 8.8,
+      "note": "Palatial Bronze Age growth: Egypt, the Hittites and the Minoans all expand on irrigated or palace-redistributed surplus.",
+      "majorPolities": [
+        { "name": "Egypt (New Kingdom)", "population": 3.0 },
+        { "name": "Tumulus culture", "population": 1.5 },
+        { "name": "Hittite Old Kingdom", "population": 1.0 },
+        { "name": "Mitanni (on-map extent)", "population": 0.5 },
+        { "name": "Minoan Crete (Neopalatial)", "population": 0.3 }
+      ],
+      "richest": ["Egypt", "Minoan Crete"] },
+    { "year": -1200, "europePopulation": 4.5, "mapPopulation": 10.6,
+      "note": "Late Bronze Age population peak just before the palatial world's systemic collapse.",
+      "majorPolities": [
+        { "name": "Egypt (Ramesside)", "population": 3.5 },
+        { "name": "Urnfield culture", "population": 2.0 },
+        { "name": "Hittite Empire", "population": 1.3 },
+        { "name": "Mycenaean Greece", "population": 0.5 },
+        { "name": "Ugarit & Levantine port cities", "population": 0.3 }
+      ],
+      "richest": ["Egypt", "Ugarit / Levantine ports"] },
+    { "year": -800, "europePopulation": 7.0, "mapPopulation": 13.6,
+      "note": "Post-collapse recovery still incomplete in the east (Aegean/Anatolia lost most of their Bronze Age peak c.1100-1000 BCE); Iron Age farming pushes numbers up in temperate Europe regardless.",
+      "majorPolities": [
+        { "name": "Egypt (Third Intermediate Period)", "population": 3.3 },
+        { "name": "Hallstatt culture", "population": 3.0 },
+        { "name": "Greek poleis (aggregate)", "population": 1.0 },
+        { "name": "Phoenician cities (Tyre, Sidon)", "population": 0.7 },
+        { "name": "Phrygia", "population": 0.6 },
+        { "name": "Carthage", "population": 0.05 }
+      ],
+      "richest": ["Phoenician cities (Tyre, Sidon)"] },
+    { "year": -400, "europePopulation": 13.0, "mapPopulation": 23.2,
+      "note": "Classical urbanization: Persian satrapal wealth, Greek poleis and an expanding Carthage all growing on trade and grain surplus.",
+      "majorPolities": [
+        { "name": "Achaemenid Persia (total empire)", "population": 25.0 },
+        { "name": "Egypt (28th-30th Dynasty, independent)", "population": 4.0 },
+        { "name": "La Tene Celtic culture", "population": 5.0 },
+        { "name": "Carthage", "population": 1.2 },
+        { "name": "Athens", "population": 0.3 }
+      ],
+      "richest": ["Athens", "Achaemenid Anatolia/Levant satrapies", "Carthage"] },
+    { "year": -200, "europePopulation": 19.0, "mapPopulation": 32.0,
+      "note": "Hellenistic and Punic Mediterranean at its commercial height, just before Rome's conquests absorb it wholesale.",
+      "majorPolities": [
+        { "name": "Rome (Republic)", "population": 6.0 },
+        { "name": "Seleucid Empire (total)", "population": 14.0 },
+        { "name": "Ptolemaic Egypt", "population": 4.5 },
+        { "name": "La Tene Celtic culture", "population": 7.0 },
+        { "name": "Carthage", "population": 1.5 },
+        { "name": "Numidia", "population": 1.0 }
+      ],
+      "richest": ["Ptolemaic Egypt", "Rhodes", "Pergamon"] },
+    { "year": 1, "europePopulation": 36.0, "mapPopulation": 58.0,
+      "note": "Augustan peace unifies almost the entire map under one administration; monetized, tax-fed growth follows.",
+      "majorPolities": [
+        { "name": "Roman Empire (total)", "population": 55.0 },
+        { "name": "Free Germania", "population": 3.0 },
+        { "name": "Sarmatians / Dacians", "population": 1.0 }
+      ],
+      "richest": ["Roman Italy", "Alexandria"] },
+    { "year": 200, "europePopulation": 39.0, "mapPopulation": 62.3,
+      "note": "Roman demographic plateau near its ancient peak, but the Antonine Plague (165-180) has already cut the growth rate.",
+      "majorPolities": [
+        { "name": "Roman Empire (total)", "population": 58.0 },
+        { "name": "Free Germania", "population": 3.5 },
+        { "name": "Sarmatians", "population": 1.2 }
+      ],
+      "richest": ["Rome/Italy", "Alexandria", "Antioch"] },
+    { "year": 400, "europePopulation": 34.0, "mapPopulation": 54.8,
+      "note": "Crisis-of-the-3rd-century plagues, civil wars and Germanic migrations reverse two centuries of Roman growth.",
+      "majorPolities": [
+        { "name": "Western Roman Empire", "population": 17.0 },
+        { "name": "Eastern Roman Empire", "population": 17.0 },
+        { "name": "Visigoths (settling)", "population": 0.3 },
+        { "name": "Free Germanic tribes", "population": 3.0 }
+      ],
+      "richest": ["Constantinople / Eastern Empire", "Alexandria"] },
+    { "year": 600, "europePopulation": 27.0, "mapPopulation": 43.1,
+      "note": "Justinianic Plague (from 541) and endless Byzantine-Sassanid war produce antiquity's deepest population trough.",
+      "majorPolities": [
+        { "name": "Byzantine Empire", "population": 12.0 },
+        { "name": "Frankish Kingdom", "population": 5.0 },
+        { "name": "Visigothic Spain", "population": 4.0 },
+        { "name": "Lombard Italy", "population": 2.5 },
+        { "name": "Avar Khaganate", "population": 0.5 }
+      ],
+      "richest": ["Constantinople"] },
+    { "year": 800, "europePopulation": 30.0, "mapPopulation": 48.3,
+      "note": "Carolingian agricultural revival in the west; Abbasid-era prosperity lifts Egypt and the Levant.",
+      "majorPolities": [
+        { "name": "Carolingian Empire", "population": 15.0 },
+        { "name": "Abbasid Caliphate (total)", "population": 28.0 },
+        { "name": "Byzantine Empire", "population": 7.0 },
+        { "name": "Umayyad Cordoba (al-Andalus)", "population": 3.0 },
+        { "name": "Aghlabid/Idrisid Maghreb", "population": 3.0 }
+      ],
+      "richest": ["Abbasid-linked Egypt/Levant", "Constantinople", "Cordoba"] },
+    { "year": 1000, "europePopulation": 39.0, "mapPopulation": 60.3,
+      "note": "The medieval climate optimum begins a long, nearly unbroken expansion across the whole map.",
+      "majorPolities": [
+        { "name": "Holy Roman Empire", "population": 8.0 },
+        { "name": "Byzantine Empire", "population": 10.0 },
+        { "name": "France", "population": 6.0 },
+        { "name": "Fatimid Caliphate", "population": 6.0 }
+      ],
+      "richest": ["Cordoba (Umayyad)", "Constantinople", "Fatimid Cairo"] },
+    { "year": 1200, "europePopulation": 59.0, "mapPopulation": 82.8,
+      "note": "High medieval takeoff: three-field rotation, forest clearance and the commercial revolution drive Europe past 55 million.",
+      "majorPolities": [
+        { "name": "Holy Roman Empire", "population": 10.0 },
+        { "name": "France", "population": 8.0 },
+        { "name": "Almohad Caliphate", "population": 7.0 },
+        { "name": "Ayyubid Sultanate", "population": 6.0 },
+        { "name": "Byzantine Empire", "population": 6.0 }
+      ],
+      "richest": ["Venice", "Fatimid/Ayyubid Cairo", "Almohad Marrakesh"] },
+    { "year": 1340, "europePopulation": 75.0, "mapPopulation": 99.7,
+      "note": "Medieval population ceiling reached just before catastrophe; Europe, Egypt and the Levant are all near their pre-modern peaks.",
+      "majorPolities": [
+        { "name": "France", "population": 17.0 },
+        { "name": "Holy Roman Empire", "population": 14.0 },
+        { "name": "Mamluk Sultanate", "population": 6.0 },
+        { "name": "England", "population": 5.0 }
+      ],
+      "richest": ["Mamluk Cairo", "Venice", "Florence"] },
+    { "year": 1400, "europePopulation": 52.0, "mapPopulation": 71.8,
+      "note": "The Black Death (1347-51) and its recurring waves cut roughly a third off the map's population within two generations.",
+      "majorPolities": [
+        { "name": "France", "population": 12.0 },
+        { "name": "Holy Roman Empire", "population": 10.0 },
+        { "name": "Mamluk Sultanate", "population": 3.5 },
+        { "name": "Ottoman Empire", "population": 3.0 },
+        { "name": "England", "population": 2.5 }
+      ],
+      "richest": ["Venice", "Mamluk Cairo"] },
+    { "year": 1500, "europePopulation": 67.0, "mapPopulation": 91.1,
+      "note": "Renaissance-era recovery is essentially complete north of the Alps; Ottoman conquests reorganize the eastern rim.",
+      "majorPolities": [
+        { "name": "France", "population": 15.0 },
+        { "name": "Holy Roman Empire", "population": 12.0 },
+        { "name": "Ottoman Empire (total)", "population": 10.0 },
+        { "name": "Spain", "population": 6.8 },
+        { "name": "Mamluk Sultanate", "population": 4.5 }
+      ],
+      "richest": ["Venice", "Ottoman Istanbul"] },
+    { "year": 1600, "europePopulation": 90.0, "mapPopulation": 117.8,
+      "note": "Ottoman and Habsburg territorial peaks coincide with steady population growth, though not yet back above the pre-Black-Death growth rate.",
+      "majorPolities": [
+        { "name": "Ottoman Empire (total)", "population": 30.0 },
+        { "name": "France", "population": 18.0 },
+        { "name": "Holy Roman Empire", "population": 16.0 },
+        { "name": "Poland-Lithuania", "population": 11.0 },
+        { "name": "Spain (Iberian core)", "population": 8.5 }
+      ],
+      "richest": ["Dutch Republic (emerging)", "Ottoman Istanbul"] },
+    { "year": 1700, "europePopulation": 120.0, "mapPopulation": 145.8,
+      "note": "Growth slows overall: the Ottoman core stagnates and France plateaus, while Russia and England begin accelerating.",
+      "majorPolities": [
+        { "name": "Ottoman Empire (total)", "population": 24.0 },
+        { "name": "France", "population": 21.0 },
+        { "name": "Austria-led Holy Roman Empire", "population": 20.0 },
+        { "name": "Russia", "population": 15.0 },
+        { "name": "Spain", "population": 8.0 }
+      ],
+      "richest": ["Dutch Republic", "England"] },
+    { "year": 1750, "europePopulation": 143.0, "mapPopulation": 169.1,
+      "note": "Pre-industrial demographic take-off begins in Britain and Russia; most of the map is still Malthusian.",
+      "majorPolities": [
+        { "name": "France", "population": 25.0 },
+        { "name": "Ottoman Empire (total)", "population": 24.0 },
+        { "name": "Russia", "population": 20.0 },
+        { "name": "Habsburg Austria", "population": 18.0 },
+        { "name": "Great Britain", "population": 7.5 }
+      ],
+      "richest": ["Great Britain", "Dutch Republic"] },
+    { "year": 1800, "europePopulation": 190.0, "mapPopulation": 217.5,
+      "note": "The agricultural and early industrial revolution breaks the old Malthusian ceiling in northwest Europe first.",
+      "majorPolities": [
+        { "name": "Russia", "population": 35.0 },
+        { "name": "France", "population": 29.0 },
+        { "name": "Habsburg Austria", "population": 24.0 },
+        { "name": "Ottoman Empire (total)", "population": 24.0 },
+        { "name": "United Kingdom", "population": 15.7 }
+      ],
+      "richest": ["Great Britain", "Netherlands"] },
+    { "year": 1850, "europePopulation": 267.0, "mapPopulation": 298.0,
+      "note": "Industrializing Europe adds nearly 80 million in a single generation; Egypt's Muhammad Ali-era cotton boom also drives fast growth.",
+      "majorPolities": [
+        { "name": "Russia", "population": 68.0 },
+        { "name": "Austria (Habsburg)", "population": 35.0 },
+        { "name": "France", "population": 36.0 },
+        { "name": "United Kingdom", "population": 27.5 },
+        { "name": "Prussia", "population": 16.9 }
+      ],
+      "richest": ["United Kingdom", "Belgium"] },
+    { "year": 1900, "europePopulation": 408.0, "mapPopulation": 443.5,
+      "note": "Second Industrial Revolution and public-health gains drive the fastest sustained growth the map has ever recorded.",
+      "majorPolities": [
+        { "name": "Russian Empire (total)", "population": 132.0 },
+        { "name": "German Empire", "population": 56.0 },
+        { "name": "Austria-Hungary", "population": 47.0 },
+        { "name": "United Kingdom", "population": 41.5 },
+        { "name": "France", "population": 40.7 }
+      ],
+      "richest": ["United Kingdom", "Germany"] },
+    { "year": 1913, "europePopulation": 468.0, "mapPopulation": 509.5,
+      "note": "Peak of the first globalization era; mass emigration to the Americas is the only real brake on European growth.",
+      "majorPolities": [
+        { "name": "Russian Empire (total)", "population": 175.0 },
+        { "name": "German Empire", "population": 67.0 },
+        { "name": "Austria-Hungary", "population": 52.0 },
+        { "name": "United Kingdom", "population": 45.6 },
+        { "name": "France", "population": 41.5 }
+      ],
+      "richest": ["United Kingdom", "Germany", "France"] },
+    { "year": 1930, "europePopulation": 520.0, "mapPopulation": 569.0,
+      "note": "WWI (~17M dead) and the 1918-20 flu slow growth sharply; the USSR's collectivization famines are just ahead.",
+      "majorPolities": [
+        { "name": "USSR (total)", "population": 157.0 },
+        { "name": "Germany", "population": 65.0 },
+        { "name": "United Kingdom", "population": 46.0 },
+        { "name": "France", "population": 41.5 },
+        { "name": "Italy", "population": 41.0 }
+      ],
+      "richest": ["United Kingdom", "Germany"] },
+    { "year": 1950, "europePopulation": 549.0, "mapPopulation": 619.2,
+      "note": "Postwar count: WWII killed roughly 40 million Europeans including the Holocaust, a loss the following baby boom already masks here.",
+      "majorPolities": [
+        { "name": "USSR (total)", "population": 180.0 },
+        { "name": "Germany (divided, aggregate)", "population": 68.0 },
+        { "name": "United Kingdom", "population": 50.0 },
+        { "name": "Italy", "population": 47.0 },
+        { "name": "France", "population": 41.7 }
+      ],
+      "richest": ["Switzerland", "Sweden", "United Kingdom"] },
+    { "year": 1975, "europePopulation": 676.0, "mapPopulation": 809.9,
+      "note": "Postwar baby boom plus the Green Revolution in Egypt/Maghreb/Anatolia drive the fastest map-wide growth on record.",
+      "majorPolities": [
+        { "name": "USSR (total)", "population": 254.0 },
+        { "name": "Germany (divided, aggregate)", "population": 78.0 },
+        { "name": "United Kingdom", "population": 56.0 },
+        { "name": "Italy", "population": 55.8 },
+        { "name": "France", "population": 52.7 },
+        { "name": "Turkey (total)", "population": 40.3 }
+      ],
+      "richest": ["Switzerland", "Norway", "West Germany"] },
+    { "year": 2000, "europePopulation": 727.0, "mapPopulation": 963.6,
+      "note": "European growth has nearly stopped (below-replacement fertility almost everywhere) while Egypt, the Maghreb and Anatolia keep booming.",
+      "majorPolities": [
+        { "name": "Russia (total)", "population": 146.6 },
+        { "name": "Germany", "population": 82.2 },
+        { "name": "Turkey (total)", "population": 67.4 },
+        { "name": "Egypt", "population": 68.0 },
+        { "name": "France", "population": 60.9 },
+        { "name": "United Kingdom", "population": 58.9 }
+      ],
+      "richest": ["Switzerland", "Norway", "Luxembourg"] },
+    { "year": 2025, "europePopulation": 744.4, "mapPopulation": 1101.9,
+      "note": "Europe's population has plateaued or begun to shrink; almost all further map growth now comes from Egypt, the Maghreb and Anatolia.",
+      "majorPolities": [
+        { "name": "Russia (total)", "population": 143.0 },
+        { "name": "Germany", "population": 84.0 },
+        { "name": "Turkey (total)", "population": 87.7 },
+        { "name": "Egypt", "population": 116.3 },
+        { "name": "France", "population": 68.6 },
+        { "name": "United Kingdom", "population": 68.3 }
+      ],
+      "richest": ["Switzerland", "Norway", "Ireland"] }
+  ],
+  "wealthEras": [
+    { "period": "early-bronze-nile (c.3000-2000 BCE)", "note": "Egypt's Nile floodplain surplus creates the map's first great concentration of wealth; nothing else on the map comes close." },
+    { "period": "palatial-bronze-age (c.2000-1200 BCE)", "note": "Palace-temple redistribution economies (Egypt, Hittites, Minoans, Mycenaeans) hoard bronze-trade wealth; commoners see little of it." },
+    { "period": "phoenician-iron-age (c.1000-600 BCE)", "note": "Phoenician city-states (Tyre, Sidon, then Carthage) monopolize Mediterranean maritime trade in metal, purple dye and timber." },
+    { "period": "classical-mediterranean (c.600-300 BCE)", "note": "Wealth spreads to Greek poleis (Athens' silver/trade empire) and to Achaemenid satrapal taxation of Anatolia and the Levant." },
+    { "period": "hellenistic-egypt (c.300-30 BCE)", "note": "Ptolemaic Egypt's royal monopolies on grain, papyrus and Red Sea trade, plus Rhodian/Pergamene commerce, mark the era's wealth peaks." },
+    { "period": "roman-peak (1-200 CE)", "note": "Pax Romana taxes and trades almost the whole map as one unit; Italian elites, Alexandria and Antioch concentrate the surplus." },
+    { "period": "byzantine-abbasid (c.700-1000 CE)", "note": "Constantinople's gold solidus and the Baghdad-centered Abbasid economy, radiating into Egypt and the Levant, dwarf a poor, rural Latin West." },
+    { "period": "fatimid-italian-revival (c.1000-1250 CE)", "note": "Fatimid/Ayyubid Cairo's Red Sea spice trade, Venetian and Genoese maritime commerce, and trans-Saharan Almoravid gold define the era's wealth." },
+    { "period": "mamluk-spice-monopoly (c.1250-1500 CE)", "note": "Mamluk Egypt taxes the world's spice trade at its Red Sea chokepoint; Venice and Florentine banking are its main European partners." },
+    { "period": "iberian-dutch-atlantic (c.1500-1700 CE)", "note": "Spanish American silver inflates prices without building lasting wealth; the Dutch Republic becomes the era's genuinely richest society per capita." },
+    { "period": "british-industrial-takeoff (c.1700-1870 CE)", "note": "Britain's agricultural then industrial revolution overtakes the Dutch per-capita lead by the 1840s and pulls decisively ahead." },
+    { "period": "second-industrial-revolution (c.1870-1913 CE)", "note": "Germany, Britain, France and Belgium build steel, chemical and electrical industries; Britain still leads world finance and shipping." },
+    { "period": "interwar-fragmentation (1913-1945 CE)", "note": "Two world wars, hyperinflation and the Depression destroy capital repeatedly; the United States (off-map) becomes the world's wealthiest economy." },
+    { "period": "postwar-european-recovery (1945-1990 CE)", "note": "Marshall Plan reconstruction fuels West German, French and Benelux 'economic miracles'; the Communist bloc stagnates behind separate pricing." },
+    { "period": "eu-convergence-gulf-fringe (1990-2025 CE)", "note": "Northwest/Nordic Europe (Switzerland, Norway, Ireland, Germany) leads per-capita wealth; Egypt, the Maghreb and the Levant remain far poorer despite much faster population growth." }
+  ],
+  "sources": [
+    { "title": "McEvedy & Jones, Atlas of World Population History (1978)", "url": "https://dmo.econ.msu.ru/Teaching/Histpop/Reading/Atlas%20of%20World%20Pop%20History%20McEvedy&Jones.pdf" },
+    { "title": "Scheidel, \"Roman population size: the logic of the debate\"", "url": "https://homepages.uc.edu/~martinj/Latin/Roman_Population/Scheildel%20-%20Roman%20population%20Size.pdf" },
+    { "title": "Demography of the Roman Empire - Wikipedia", "url": "https://en.wikipedia.org/wiki/Demography_of_the_Roman_Empire" },
+    { "title": "Estimates of historical world population - Wikipedia", "url": "https://en.wikipedia.org/wiki/Estimates_of_historical_world_population" },
+    { "title": "Consequences of the Black Death - Wikipedia", "url": "https://en.wikipedia.org/wiki/Consequences_of_the_Black_Death" },
+    { "title": "How many people died in the Black Death? - Medievalists.net", "url": "https://www.medievalists.net/2023/11/how-many-people-died-black-death/" },
+    { "title": "Plague of Justinian - Wikipedia", "url": "https://en.wikipedia.org/wiki/Plague_of_Justinian" },
+    { "title": "Mordechai & Eisenberg, \"The Justinianic Plague: an inconsequential pandemic?\" PNAS 2019", "url": "https://www.pnas.org/doi/10.1073/pnas.1903797116" },
+    { "title": "\"Rejecting Catastrophe: The Case of the Justinianic Plague\" - Past & Present", "url": "https://academic.oup.com/past/article-abstract/244/1/3/5532056" },
+    { "title": "Demographics of Europe - Wikipedia", "url": "https://en.wikipedia.org/wiki/Demographics_of_Europe" },
+    { "title": "UN World Population Prospects 2024", "url": "https://population.un.org/wpp/" },
+    { "title": "Demographics of the Ottoman Empire - Wikipedia", "url": "https://en.wikipedia.org/wiki/Demographics_of_the_Ottoman_Empire" },
+    { "title": "Population history of Egypt - Wikipedia", "url": "https://en.wikipedia.org/wiki/Population_history_of_Egypt" },
+    { "title": "Egypt Population 2025 - UNFPA", "url": "https://www.unfpa.org/data/world-population/EG" },
+    { "title": "Maddison Project Database / \"The Dutch Republic was extremely rich for its time\"", "url": "https://frompovertytoprogress.substack.com/p/the-dutch-republic-was-extremely" },
+    { "title": "List of regions by past GDP (PPP) per capita - Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_regions_by_past_GDP_(PPP)_per_capita" },
+    { "title": "Turkiye Population 2025 - UNFPA", "url": "https://www.unfpa.org/data/world-population/TR" },
+    { "title": "Morocco / Algeria / Tunisia / Libya Population 2025 - UNFPA", "url": "https://www.unfpa.org/data/world-population/MA" },
+    { "title": "HYDE - History Database of the Global Environment", "url": "https://www.pbl.nl/en/hyde-history-database-of-the-global-environment" },
+    { "title": "Historical Estimates of World Population - US Census Bureau", "url": "https://www.census.gov/data/tables/time-series/demo/international-programs/historical-est-worldpop.html" }
+  ],
+  "uncertainties": [
+    "1 CE / 200 CE Roman Empire population is the single biggest ancient dispute: modern estimates range roughly 45-76 million depending on assumed Egyptian and Anatolian densities; I used a mid estimate (~55-58M) rather than Beloch's low end or Russell/Frier's higher end.",
+    "Bronze Age Collapse (c.1200-1000 BCE) demographic impact is not directly visible between the -1200 and -800 checkpoints (no intervening year); the Aegean/Anatolia likely lost 50-90% of local Late Bronze Age population by c.1000 BCE before recovering, masked here by continued growth in unaffected temperate Europe.",
+    "Justinianic Plague (541 CE onward) severity is actively disputed: the traditional view (Russell, McCormick) holds it killed a third to half of the Mediterranean population; revisionists (Mordechai & Eisenberg, 2019) argue textual sources are overstated and archaeological/palynological evidence shows no comparable collapse. I followed the traditional (higher-mortality) view for the 600 CE trough but flag it as contested.",
+    "Black Death mortality (1347-51) is usually cited as 30-50% of Europe's population, with some post-2004 scholarship (Benedictow) arguing for ~50% and worst-hit regions (England, Norway) losing 60-70%. I used an aggregate ~30% Europe-wide drop between 1340 and 1400, which is conservative relative to the highest estimates.",
+    "Ptolemaic/Roman Egypt population is disputed between low modern estimates (~4-5 million, Scheidel/Bagnall-Frier) and high ancient literary figures (Diodorus ~7M free residents, Josephus ~7.5M excluding Alexandria); I followed the modern low estimate.",
+    "Achaemenid Persia's total imperial population (used for the -400 majorPolities entry) is wildly uncertain in the literature, with published figures ranging from ~17 million to over 50 million; 25M is a rough compromise, not a consensus figure.",
+    "Pre-1881 Ottoman Empire population figures (used at 1500-1800) rest on tax-register extrapolation, not census, since the first real Ottoman census was 1881-93; my 1600/1700 figures reconcile a '30M in 1600' aggregate estimate against a lower '~21M Asian+European' 1700 estimate, implying real 17th-century stagnation/decline that is itself debated.",
+    "Egypt's population c.1800 is cited as low as ~2.5M (first modern/French-survey era count) and as high as ~4.5M in some secondary literature; I used 3.0M, closer to the lower end, which affects how dramatic the 1800-1900 cotton-boom growth looks.",
+    "europePopulation for 1900-2025 follows the common demographic convention of counting Russia's population wholly within 'Europe' (the standard UN Population Division regional grouping) rather than splitting out Asian Russia/Siberia; a stricter 'European Russia only' definition would run several tens of millions lower at each modern checkpoint.",
+    "McEvedy & Jones (1978) is the backbone source for most pre-1800 figures on this file, but is itself, by modern historiographical consensus, an extrapolation from very thin evidence for most pre-Roman and post-Roman dates; treat all checkpoints before 1500 as order-of-magnitude estimates, not precise counts.",
+    "1913 and 1930 Europe totals are reconstructed from a c.1900 anchor (408M) and c.1950 anchor (549M) using plausible pre-/post-WWI growth rates rather than a single authoritative published table; exact contemporaneous figures vary by several percent across sources (Maddison's 'Greater Europe' figures also include overseas European-settler populations and are not directly comparable).",
+    "1975/2000 Anatolia, Levant and Maghreb sub-totals are built up from national population series (Turkey, Syria, Lebanon, Israel, Jordan, Morocco, Algeria, Tunisia, Libya) rather than a single regional source, so rounding/consistency errors of a few percent are likely in the mapPopulation totals for those years."
+  ]
+}

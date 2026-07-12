@@ -1,0 +1,104 @@
+{
+  "meta": { "note": "placeholder dev data" },
+  "slices": [
+    {
+      "year": -3000, "eraName": "Early Bronze Age", "label": "The first states",
+      "events": ["Egypt unified under the pharaohs", "Megalithic temple builders on Malta"],
+      "connectivity": 15, "connectivityNote": "Local exchange only; copper and obsidian move short distances.",
+      "entities": [
+        { "id": "egypt", "name": "Old Kingdom Egypt", "type": "state", "culture": "egyptian", "founded": -3100, "capital": "Memphis", "capitalRegion": "EGY_N", "regions": ["EGY_N", "EGY_S"], "stability": "stable", "population": 1.2, "wealth": 5 },
+        { "id": "sumer", "name": "Sumerian city-states", "type": "state", "culture": "semitic_levantine", "founded": -3500, "regions": ["MES_S", "MES_N"], "stability": "stable", "population": 0.8, "wealth": 5 },
+        { "id": "canaan", "name": "Canaanite towns", "type": "culture", "culture": "semitic_levantine", "regions": ["LEV", "SYR"], "population": 0.4, "wealth": 3 },
+        { "id": "anatolian_chalc", "name": "Hattian Anatolia", "type": "culture", "culture": "anatolian", "regions": ["ION", "BIT", "CAP", "PON", "CIL", "ARM_W", "CON"], "population": 0.6, "wealth": 2 },
+        { "id": "aegean_ebl", "name": "Early Aegean farmers", "type": "culture", "culture": "pre_ie", "regions": ["CRE", "AEG", "DOD", "PEL", "ATT", "EPI", "CYP"], "population": 0.3, "wealth": 2 },
+        { "id": "trypillia", "name": "Cucuteni–Trypillia", "type": "culture", "culture": "pre_ie", "regions": ["UKR_W", "MDA"], "population": 0.4, "wealth": 2 },
+        { "id": "yamnaya", "name": "Yamnaya herders", "type": "tribal", "culture": "steppe", "regions": ["STE", "DON", "CRM", "UKR_E", "RUS_S"], "population": 0.3, "wealth": 1 },
+        { "id": "old_europe", "name": "Old Europe (Chalcolithic)", "type": "culture", "culture": "pre_ie", "regions": ["THR", "BGR", "MAC", "ALB", "SRB", "WLC", "TRN", "HUN", "SVK", "CRO", "BOS", "DAL"], "population": 0.6, "wealth": 2 },
+        { "id": "corded_ware", "name": "Corded Ware culture", "type": "culture", "culture": "pre_ie", "regions": ["POL_W", "POL_C", "POL_S", "SIL", "VOL", "BLR", "LTU", "LVA", "EST", "PRS", "RUS_NW", "RUS_C", "KAR", "FIN_S", "FIN_N", "SWE_N", "SWE_C", "SWE_S", "NOR_S", "NOR_N", "JUT", "BRA", "SAX", "SAX_L", "BOH"], "population": 0.5, "wealth": 1 },
+        { "id": "bell_beaker_pre", "name": "Atlantic megalith builders", "type": "culture", "culture": "pre_ie", "regions": ["IRL_N", "IRL_S", "SCO_N", "SCO_S", "ENG_N", "ENG_M", "ENG_E", "ENG_S", "WAL", "BRE", "NRM", "PIC", "IDF", "LOI", "LOR", "BUR", "AUV", "AQU", "OCC", "PRO", "FLA", "NED", "RHE", "FRK", "SWA", "BAV", "AUT", "SUI", "GAL", "EUS", "POR_N", "POR_S", "CAS_N", "CAS_S", "ARA", "VAL", "AND", "BAL", "PIE", "LOM", "TUS", "ROM", "NAP", "CLB", "SIC", "SAR", "COR", "MLT"], "population": 1.0, "wealth": 2 },
+        { "id": "libyans", "name": "Libyan & Berber tribes", "type": "tribal", "culture": "berber", "regions": ["CYR", "TRP", "TUN", "NUM", "ORA", "RIF", "MAR"], "population": 0.3, "wealth": 1 },
+        { "id": "arabs_early", "name": "North Arabian nomads", "type": "tribal", "culture": "semitic_levantine", "regions": ["ARB"], "population": 0.1, "wealth": 1 },
+        { "id": "caucasus_early", "name": "Kura–Araxes culture", "type": "culture", "culture": "caucasian", "regions": ["GEO", "ARM"], "population": 0.2, "wealth": 2 }
+      ],
+      "relations": [ { "a": "egypt", "b": "canaan", "type": "trade", "note": "Cedar and resin via Byblos" } ]
+    },
+    {
+      "year": 117, "eraName": "Roman Empire", "label": "Trajan's maximum",
+      "events": ["The Roman Empire reaches its greatest extent under Trajan", "Dacia and Mesopotamia are provinces — briefly"],
+      "connectivity": 80, "connectivityNote": "One sea, one road network, one coinage: the Pax Romana.",
+      "entities": [
+        { "id": "rome", "name": "Roman Empire", "type": "state", "culture": "italic", "founded": -509, "capital": "Rome", "capitalRegion": "ROM", "regions": ["ENG_S", "ENG_E", "ENG_M", "ENG_N", "WAL", "GAL", "EUS", "POR_N", "POR_S", "CAS_N", "CAS_S", "ARA", "VAL", "AND", "BAL", "BRE", "NRM", "PIC", "IDF", "LOR", "LOI", "BUR", "AQU", "OCC", "PRO", "AUV", "FLA", "NED", "RHE", "SWA", "BAV", "AUT", "SUI", "PIE", "LOM", "TUS", "ROM", "NAP", "CLB", "SIC", "SAR", "COR", "MLT", "CRO", "BOS", "DAL", "SRB", "ALB", "MAC", "BGR", "THR", "EPI", "ATT", "PEL", "AEG", "DOD", "CRE", "CON", "ION", "BIT", "CAP", "PON", "CIL", "ARM_W", "CYP", "SYR", "LEV", "MES_N", "MES_S", "ARB", "EGY_N", "EGY_S", "CYR", "TRP", "TUN", "NUM", "ORA", "RIF", "MAR", "HUN", "TRN", "WLC"], "contestedRegions": ["MES_S"], "stability": "stable", "population": 65, "wealth": 5, "note": "Mare Nostrum" },
+        { "id": "parthia", "name": "Parthian Empire", "type": "state", "culture": "iranic", "founded": -247, "regions": [], "extendsBeyondMap": true, "stability": "contested", "population": 8, "wealth": 3 },
+        { "id": "armenia_kingdom", "name": "Kingdom of Armenia", "type": "state", "culture": "caucasian", "founded": -321, "regions": ["ARM"], "stability": "contested", "population": 0.5, "wealth": 2 },
+        { "id": "iberia_colchis", "name": "Iberia & Colchis", "type": "state", "culture": "caucasian", "founded": -302, "regions": ["GEO"], "stability": "stable", "population": 0.3, "wealth": 2 },
+        { "id": "bosporan_kingdom", "name": "Bosporan Kingdom", "type": "state", "culture": "hellenic", "founded": -438, "regions": ["CRM"], "stability": "stable", "population": 0.3, "wealth": 3 },
+        { "id": "sarmatians", "name": "Sarmatian tribes", "type": "tribal", "culture": "steppe", "regions": ["STE", "DON", "UKR_E", "UKR_W", "MDA", "RUS_S"], "population": 0.5, "wealth": 1 },
+        { "id": "germani", "name": "Germania Magna", "type": "tribal", "culture": "germanic", "regions": ["SAX_L", "BRA", "SAX", "FRK", "BOH", "SVK", "JUT", "POL_W", "POL_C", "POL_S", "SIL", "PRS", "NOR_S", "SWE_S", "SWE_C"], "population": 2.5, "wealth": 1 },
+        { "id": "balts_early", "name": "Baltic tribes", "type": "tribal", "culture": "baltic", "regions": ["LTU", "LVA", "VOL", "BLR"], "population": 0.4, "wealth": 1 },
+        { "id": "finnic_peoples", "name": "Finnic & Sami peoples", "type": "tribal", "culture": "uralic", "regions": ["EST", "FIN_S", "FIN_N", "KAR", "RUS_NW", "RUS_C", "SWE_N", "NOR_N"], "population": 0.3, "wealth": 1 },
+        { "id": "picts", "name": "Caledonian tribes", "type": "tribal", "culture": "celtic", "regions": ["SCO_S", "SCO_N"], "population": 0.2, "wealth": 1 },
+        { "id": "gaels", "name": "Hibernian tribes", "type": "tribal", "culture": "celtic", "regions": ["IRL_N", "IRL_S"], "population": 0.3, "wealth": 1 }
+      ],
+      "relations": [
+        { "a": "rome", "b": "parthia", "type": "war", "note": "Trajan's Parthian campaign" },
+        { "a": "rome", "b": "bosporan_kingdom", "type": "trade", "note": "Black Sea grain" }
+      ]
+    },
+    {
+      "year": 2025, "eraName": "Contemporary Europe", "label": "The present map",
+      "events": ["Russia's invasion of Ukraine grinds on; the front barely moves", "Finland and Sweden shelter inside NATO"],
+      "connectivity": 88, "connectivityNote": "Schengen openness in the west; a hard new curtain in the east.",
+      "entities": [
+        { "id": "uk", "name": "United Kingdom", "type": "state", "culture": "germanic", "founded": 1801, "capital": "London", "capitalRegion": "ENG_S", "regions": ["ENG_S", "ENG_E", "ENG_M", "ENG_N", "WAL", "SCO_S", "SCO_N", "IRL_N"], "stability": "stable", "population": 69, "wealth": 4 },
+        { "id": "ireland", "name": "Ireland", "type": "state", "culture": "celtic", "founded": 1922, "capital": "Dublin", "capitalRegion": "IRL_S", "regions": ["IRL_S"], "stability": "stable", "population": 5.3, "wealth": 5 },
+        { "id": "france", "name": "France", "type": "state", "culture": "italic", "founded": 987, "capital": "Paris", "capitalRegion": "IDF", "regions": ["BRE", "NRM", "PIC", "IDF", "LOR", "LOI", "BUR", "AQU", "OCC", "PRO", "AUV", "COR"], "stability": "stable", "population": 68, "wealth": 4 },
+        { "id": "spain", "name": "Spain", "type": "state", "culture": "italic", "founded": 1479, "capital": "Madrid", "capitalRegion": "CAS_S", "regions": ["GAL", "EUS", "CAS_N", "CAS_S", "ARA", "VAL", "AND", "BAL"], "stability": "stable", "population": 48, "wealth": 4 },
+        { "id": "portugal", "name": "Portugal", "type": "state", "culture": "italic", "founded": 1139, "capital": "Lisbon", "capitalRegion": "POR_S", "regions": ["POR_N", "POR_S"], "stability": "stable", "population": 10.5, "wealth": 3 },
+        { "id": "germany", "name": "Germany", "type": "state", "culture": "germanic", "founded": 1871, "capital": "Berlin", "capitalRegion": "BRA", "regions": ["RHE", "SAX_L", "BRA", "SAX", "FRK", "BAV", "SWA"], "stability": "stable", "population": 84, "wealth": 5 },
+        { "id": "benelux", "name": "Benelux", "type": "state", "culture": "germanic", "founded": 1830, "regions": ["FLA", "NED"], "stability": "stable", "population": 29, "wealth": 5 },
+        { "id": "switzerland", "name": "Switzerland", "type": "state", "culture": "germanic", "founded": 1291, "capital": "Bern", "capitalRegion": "SUI", "regions": ["SUI"], "stability": "stable", "population": 9, "wealth": 5 },
+        { "id": "austria", "name": "Austria", "type": "state", "culture": "germanic", "founded": 1918, "capital": "Vienna", "capitalRegion": "AUT", "regions": ["AUT"], "stability": "stable", "population": 9.1, "wealth": 5 },
+        { "id": "italy", "name": "Italy", "type": "state", "culture": "italic", "founded": 1861, "capital": "Rome", "capitalRegion": "ROM", "regions": ["PIE", "LOM", "TUS", "ROM", "NAP", "CLB", "SIC", "SAR"], "stability": "stable", "population": 59, "wealth": 4 },
+        { "id": "malta_state", "name": "Malta", "type": "state", "culture": "semitic_levantine", "founded": 1964, "regions": ["MLT"], "stability": "stable", "population": 0.5, "wealth": 4 },
+        { "id": "denmark", "name": "Denmark", "type": "state", "culture": "germanic", "founded": 958, "capital": "Copenhagen", "capitalRegion": "JUT", "regions": ["JUT"], "stability": "stable", "population": 6, "wealth": 5 },
+        { "id": "norway", "name": "Norway", "type": "state", "culture": "germanic", "founded": 1905, "capital": "Oslo", "capitalRegion": "NOR_S", "regions": ["NOR_S", "NOR_N"], "stability": "stable", "population": 5.5, "wealth": 5 },
+        { "id": "sweden", "name": "Sweden", "type": "state", "culture": "germanic", "founded": 1000, "capital": "Stockholm", "capitalRegion": "SWE_C", "regions": ["SWE_S", "SWE_C", "SWE_N"], "stability": "stable", "population": 10.5, "wealth": 5 },
+        { "id": "finland", "name": "Finland", "type": "state", "culture": "uralic", "founded": 1917, "capital": "Helsinki", "capitalRegion": "FIN_S", "regions": ["FIN_S", "FIN_N"], "stability": "stable", "population": 5.6, "wealth": 5 },
+        { "id": "estonia", "name": "Estonia", "type": "state", "culture": "uralic", "founded": 1918, "regions": ["EST"], "stability": "stable", "population": 1.4, "wealth": 4 },
+        { "id": "latvia", "name": "Latvia", "type": "state", "culture": "baltic", "founded": 1918, "regions": ["LVA"], "stability": "stable", "population": 1.9, "wealth": 4 },
+        { "id": "lithuania", "name": "Lithuania", "type": "state", "culture": "baltic", "founded": 1918, "regions": ["LTU"], "stability": "stable", "population": 2.9, "wealth": 4 },
+        { "id": "poland", "name": "Poland", "type": "state", "culture": "slavic", "founded": 1918, "capital": "Warsaw", "capitalRegion": "POL_C", "regions": ["POL_W", "POL_C", "POL_S", "SIL", "PRS"], "contestedRegions": [], "stability": "stable", "population": 37, "wealth": 4, "note": "PRS region = Kaliningrad is Russian; region-level approximation" },
+        { "id": "czechia", "name": "Czechia & Slovakia", "type": "state", "culture": "slavic", "founded": 1993, "regions": ["BOH", "SVK"], "stability": "stable", "population": 16, "wealth": 4 },
+        { "id": "hungary", "name": "Hungary", "type": "state", "culture": "uralic", "founded": 1000, "capital": "Budapest", "capitalRegion": "HUN", "regions": ["HUN"], "stability": "stable", "population": 9.6, "wealth": 3 },
+        { "id": "romania", "name": "Romania", "type": "state", "culture": "italic", "founded": 1859, "capital": "Bucharest", "capitalRegion": "WLC", "regions": ["TRN", "WLC"], "stability": "stable", "population": 19, "wealth": 3 },
+        { "id": "moldova", "name": "Moldova", "type": "state", "culture": "italic", "founded": 1991, "regions": ["MDA"], "stability": "contested", "population": 2.4, "wealth": 2 },
+        { "id": "ex_yugoslavia", "name": "Western Balkans", "type": "state", "culture": "slavic", "founded": 1991, "regions": ["CRO", "BOS", "DAL", "SRB", "MAC"], "stability": "stable", "population": 15, "wealth": 3 },
+        { "id": "albania", "name": "Albania", "type": "state", "culture": "paleo_balkan", "founded": 1912, "regions": ["ALB"], "stability": "stable", "population": 2.7, "wealth": 3 },
+        { "id": "bulgaria", "name": "Bulgaria", "type": "state", "culture": "slavic", "founded": 1878, "capital": "Sofia", "capitalRegion": "BGR", "regions": ["BGR"], "stability": "stable", "population": 6.4, "wealth": 3 },
+        { "id": "greece", "name": "Greece", "type": "state", "culture": "hellenic", "founded": 1830, "capital": "Athens", "capitalRegion": "ATT", "regions": ["EPI", "ATT", "PEL", "AEG", "DOD", "CRE"], "stability": "stable", "population": 10.3, "wealth": 3 },
+        { "id": "turkey", "name": "Türkiye", "type": "state", "culture": "turkic", "founded": 1923, "capital": "Ankara", "capitalRegion": "CAP", "regions": ["THR", "CON", "ION", "BIT", "CAP", "PON", "CIL", "ARM_W"], "stability": "stable", "population": 86, "wealth": 3 },
+        { "id": "cyprus_state", "name": "Cyprus (divided)", "type": "state", "culture": "hellenic", "founded": 1960, "regions": ["CYP"], "contestedRegions": ["CYP"], "stability": "contested", "population": 1.3, "wealth": 4 },
+        { "id": "ukraine", "name": "Ukraine", "type": "state", "culture": "slavic", "founded": 1991, "capital": "Kyiv", "capitalRegion": "UKR_W", "regions": ["UKR_W", "UKR_E", "VOL"], "contestedRegions": ["UKR_E"], "stability": "contested", "population": 33, "wealth": 2, "note": "At war; front line east and south" },
+        { "id": "russia", "name": "Russia", "type": "state", "culture": "slavic", "founded": 1263, "capital": "Moscow", "capitalRegion": "RUS_C", "regions": ["RUS_NW", "RUS_C", "RUS_S", "KAR", "DON", "STE", "CRM"], "contestedRegions": ["STE", "CRM"], "stability": "contested", "population": 144, "wealth": 3, "extendsBeyondMap": true, "note": "Occupies Crimea and the southern corridor of Ukraine" },
+        { "id": "belarus", "name": "Belarus", "type": "state", "culture": "slavic", "founded": 1991, "regions": ["BLR"], "stability": "stable", "population": 9.1, "wealth": 3 },
+        { "id": "georgia", "name": "Georgia", "type": "state", "culture": "caucasian", "founded": 1991, "regions": ["GEO"], "contestedRegions": ["GEO"], "stability": "contested", "population": 3.7, "wealth": 2 },
+        { "id": "armenia", "name": "Armenia & Azerbaijan", "type": "state", "culture": "caucasian", "founded": 1991, "regions": ["ARM"], "stability": "contested", "population": 13, "wealth": 2 },
+        { "id": "syria", "name": "Syria (transition)", "type": "state", "culture": "arab", "founded": 1946, "regions": ["SYR"], "contestedRegions": ["SYR"], "stability": "consolidating", "population": 23, "wealth": 1, "note": "Assad fell December 2024" },
+        { "id": "lebanon_israel", "name": "Levant states", "type": "state", "culture": "semitic_levantine", "founded": 1948, "regions": ["LEV"], "contestedRegions": ["LEV"], "stability": "contested", "population": 16, "wealth": 3 },
+        { "id": "iraq", "name": "Iraq", "type": "state", "culture": "arab", "founded": 1932, "regions": ["MES_N", "MES_S"], "stability": "contested", "population": 45, "wealth": 2 },
+        { "id": "saudi_jordan", "name": "Jordan & Saudi fringe", "type": "state", "culture": "arab", "founded": 1946, "regions": ["ARB"], "stability": "stable", "population": 12, "wealth": 3 },
+        { "id": "egypt", "name": "Egypt", "type": "state", "culture": "arab", "founded": 1922, "capital": "Cairo", "capitalRegion": "EGY_N", "regions": ["EGY_N", "EGY_S"], "stability": "stable", "population": 107, "wealth": 2, "note": "The state that began the map, still on it" },
+        { "id": "libya", "name": "Libya (fractured)", "type": "state", "culture": "arab", "founded": 1951, "regions": ["CYR", "TRP"], "contestedRegions": ["CYR", "TRP"], "stability": "collapsing", "population": 7, "wealth": 2 },
+        { "id": "tunisia", "name": "Tunisia", "type": "state", "culture": "arab", "founded": 1956, "regions": ["TUN"], "stability": "stable", "population": 12, "wealth": 3 },
+        { "id": "algeria", "name": "Algeria", "type": "state", "culture": "arab", "founded": 1962, "regions": ["NUM", "ORA"], "stability": "stable", "population": 46, "wealth": 3 },
+        { "id": "morocco", "name": "Morocco", "type": "state", "culture": "arab", "founded": 1631, "capital": "Rabat", "capitalRegion": "MAR", "regions": ["MAR", "RIF"], "stability": "stable", "population": 38, "wealth": 3 }
+      ],
+      "relations": [
+        { "a": "russia", "b": "ukraine", "type": "war", "note": "Full-scale war since 2022" },
+        { "a": "france", "b": "germany", "type": "trade", "note": "EU single market core" },
+        { "a": "uk", "b": "france", "type": "trade", "note": "Post-Brexit trade continues" },
+        { "a": "turkey", "b": "greece", "type": "trade", "note": "Uneasy neighbours, busy trade" }
+      ]
+    }
+  ]
+}

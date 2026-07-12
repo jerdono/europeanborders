@@ -1,0 +1,10 @@
+# Era brief A6 — Late Antiquity. Output file: era06_late_antiquity.json
+
+Slice years (CE): 410, 440, 476, 500, 527, 540, 565, 580, 600.
+Previous ends 395 (final split); next starts 620 (Heraclius' darkest hour). Join plausibly.
+
+Coverage checklist: 410 (Alaric sacks Rome; Britain abandoned → sub-Roman Britons; Vandals/Alans/Suebi in Spain from 409; Gaul chaos); 440 (Vandal Africa — Carthage 439; Attila peak: HUN+SVK+TRN+WLC+MDA+STE+UKR + tributary Germani; Visigoths Toulouse (418); Suebi GAL/POR_N); 476 (Odoacer; Visigoths AQU/OCC + most of Spain; Burgundians BUR/PRO-east; Franks small FLA/PIC; Vandals TUN+NUM coast+SAR+COR+west SIC+BAL; Hun empire collapsed → Gepids HUN/TRN, Ostrogoths Pannonia); 500 (Theodoric Italy (493) + PRO+DAL; Clovis beats Alamanni (496), most of Gaul; Visigoths still hold AQU/OCC until Vouillé 507; Anastasius East; Kavadh Persia); 527 (Justinian accedes); 540 (Africa retaken 533-4, Sicily 535, Ravenna 540 — Gothic war, Ostrogoth rump north of Po; PLAGUE 541-2 catastrophe); 565 (Justinian dies: Italy (552), south Spain coast (552), Africa, Illyricum; exhausted); 580 (Lombards in Italy 568: LOM/PIE/TUS interior vs Byzantine Ravenna/ROM/NAP coasts; Avars Pannonia (567); Slavs raiding Danube; Leovigild Visigoths, Suebi annexed 585); 600 (Maurice's Balkans vs Slav infiltration; Merovingian tripartition; Anglo-Saxon heptarchy: ENG_S/ENG_E/ENG_M/ENG_N angles_saxons, WAL Britons, SCO Picts, IRL gaels).
+
+Also: Sassanid Persia (wars 502-6, 540 Antioch sacked, 572-91); Armenia partitioned; Lazica/Iberia (GEO) contested; Ghassanids/Lakhmids (ARB/SYR desert); Berber Mauro-Roman kingdoms (NUM/ORA/MAR after Vandal decline); Garamantes; Baltic/Finnic/Sami; proto-Danes/Svear/Geats; Slavs expanding (by 600: BOH/POL/SIL/UKR_W/BLR/CRO/SRB fringe — Prague-Korchak); Kutrigurs/Utigurs then Avars (558) on steppe; Crimean Goths + Byzantine Cherson (CRM).
+
+Themes: 536 volcanic winter + 541 Justinianic plague (massive crash — encode it); Mediterranean still one trade lake under Vandals/Ostrogoths; reconquest as last gasp; Arian vs Nicene. Population: empire ~26M at 400; Italy 5M→3M through Gothic war; plague kills 25-50% in cities.

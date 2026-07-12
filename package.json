@@ -1,0 +1,29 @@
+{
+  "name": "europeanborders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerdono/europeanborders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerdono/europeanborders/issues"
+  },
+  "homepage": "https://github.com/jerdono/europeanborders#readme",
+  "dependencies": {
+    "d3-delaunay": "^6.0.4",
+    "d3-geo": "^3.1.1",
+    "playwright": "^1.61.1",
+    "topojson-client": "^3.1.0"
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Borders — Europe &amp; the Mediterranean, 3000 BCE to today</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <div id="brand">
+      <h1>BORDERS</h1>
+      <p class="sub">Europe &amp; the Mediterranean · 3000 <span class="bce">BCE</span> — 2025 <span class="bce">CE</span></p>
+    </div>
+    <div id="yearblock">
+      <div id="yearnum">1453</div>
+      <div id="yearmeta"><span id="eraname">Late Middle Ages</span><span id="slicelabel">Constantinople falls</span></div>
+    </div>
+    <div id="topcontrols">
+      <button id="themebtn" class="iconbtn" title="Toggle light/dark">◐</button>
+      <button id="aboutbtn" class="iconbtn" title="About & sources">ℹ</button>
+    </div>
+  </header>
+
+  <main id="stage">
+    <canvas id="map"></canvas>
+    <div id="tooltip" hidden></div>
+    <div id="legend" class="panelbox collapsed">
+      <button id="legendtoggle">Cultural worlds</button>
+      <div id="legendbody"></div>
+    </div>
+    <div id="overlaybar">
+      <button class="ovbtn active" data-ov="political">Political</button>
+      <button class="ovbtn" data-ov="cultures">Cultures</button>
+      <button class="ovbtn toggle active" data-ov="labels">Labels</button>
+      <button class="ovbtn toggle" data-ov="population">Population</button>
+      <button class="ovbtn toggle active" data-ov="relations">Trade &amp; war</button>
+      <button class="ovbtn toggle" data-ov="borderage">Border age</button>
+    </div>
+  </main>
+
+  <aside id="sidepanel">
+    <section id="events">
+      <h2>This year</h2>
+      <ul id="eventlist"></ul>
+    </section>
+    <section id="connectivity">
+      <h2>Connection <span class="hint" title="How freely goods, people and ideas move across the map — trade networks, safe seas, open roads. War and fragmentation push it down.">?</span></h2>
+      <div id="connbar"><div id="connfill"></div><span id="connval"></span></div>
+      <p id="connnote"></p>
+    </section>
+    <section id="powers">
+      <h2>Great powers <span class="unit">by population</span></h2>
+      <ol id="powerlist"></ol>
+    </section>
+    <section id="detail" hidden>
+      <h2 id="detailname"></h2>
+      <div id="detailbody"></div>
+    </section>
+  </aside>
+
+  <footer id="timeline">
+    <div id="transport">
+      <button id="playbtn" title="Play / pause (space)">▶</button>
+      <div id="modes">
+        <button class="modebtn active" data-mode="linear" title="Constant years per second">Linear</button>
+        <button class="modebtn" data-mode="recency" title="Recent centuries get more screen time — the distant past flies by">Focus on now</button>
+        <button class="modebtn" data-mode="change" title="Turbulent years run slow, quiet centuries run fast — equal screen time per unit of change">Equal change</button>
+      </div>
+      <select id="speed">
+        <option value="0.5">0.5×</option>
+        <option value="1" selected>1×</option>
+        <option value="2">2×</option>
+        <option value="4">4×</option>
+      </select>
+    </div>
+    <canvas id="strip"></canvas>
+  </footer>
+
+  <div id="about" hidden>
+    <div id="aboutcard">
+      <button id="aboutclose">×</button>
+      <h2>About this map</h2>
+      <div id="aboutbody"></div>
+    </div>
+  </div>
+</div>
+<script src="app.js" type="module"></script>
+</body>
+</html>

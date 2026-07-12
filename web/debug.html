@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;background:#0b1420}</style></head><body>
+<canvas id="c"></canvas>
+<script>
+fetch('geometry.json').then(r=>r.json()).then(G=>{
+  const c=document.getElementById('c'); c.width=G.W; c.height=G.H;
+  const x=c.getContext('2d');
+  // land mask
+  const off=new OffscreenCanvas(G.W,G.H); const ox=off.getContext('2d');
+  ox.fillStyle='#fff'; for(const ring of G.land){ox.beginPath(); ring.forEach((p,i)=>i?ox.lineTo(p[0],p[1]):ox.moveTo(p[0],p[1])); ox.closePath(); ox.fill();}
+  // cells colored
+  const cells=new OffscreenCanvas(G.W,G.H); const cx=cells.getContext('2d');
+  const codes=Object.keys(G.cells);
+  codes.forEach((code,i)=>{
+    const poly=G.cells[code]; if(!poly.length)return;
+    cx.fillStyle=`hsl(${(i*47)%360} 55% ${35+(i%4)*8}%)`;
+    cx.beginPath(); poly.forEach((p,j)=>j?cx.lineTo(p[0],p[1]):cx.moveTo(p[0],p[1])); cx.closePath(); cx.fill();
+    cx.strokeStyle='#0008'; cx.stroke();
+  });
+  cx.globalCompositeOperation='destination-in'; cx.drawImage(off,0,0);
+  x.drawImage(cells,0,0);
+  x.font='10px sans-serif'; x.textAlign='center';
+  codes.forEach(code=>{const s=G.seats[code]; x.fillStyle='#fff'; x.fillText(code,s[0],s[1]); x.fillStyle='#f00'; x.fillRect(s[0]-1,s[1]+1,2,2);});
+});
+</script></body></html>

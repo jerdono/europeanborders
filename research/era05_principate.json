@@ -1,0 +1,4440 @@
+{
+  "era": "principate",
+  "agent": "A5",
+  "slices": [
+    {
+      "year": 14,
+      "eraName": "Early Principate",
+      "label": "Augustus dies, the Principate consolidates",
+      "events": [
+        "Augustus dies; Tiberius succeeds without incident",
+        "Rhine legions mutiny briefly over pay and service terms",
+        "Frontier fixed at the Rhine and Danube after the Teutoburg disaster of 9 CE"
+      ],
+      "connectivity": 65,
+      "connectivityNote": "Roman roads and Mediterranean shipping knit the new empire together; frontiers still settling.",
+      "entities": [
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "contested",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Arsacid throne contested between Roman and Parthian candidates"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Iron Age tribal kingdoms (Catuvellauni, Iceni, Brigantes...) unconquered"
+        },
+        {
+          "id": "cappadocia",
+          "name": "Kingdom of Cappadocia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Cappadocian",
+          "founded": -95,
+          "regions": [
+            "CAP"
+          ],
+          "capital": "Mazaca",
+          "capitalRegion": "CAP",
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "King Archelaus rules as Rome's client; annexed on his death in 17"
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Kingdom of Iberia and Colchis, a Rome-leaning Caucasus buffer"
+        },
+        {
+          "id": "dacians",
+          "name": "Dacian Kingdom",
+          "type": "state",
+          "culture": "paleo_balkan",
+          "cultureName": "Dacian",
+          "founded": -82,
+          "regions": [
+            "MDA",
+            "TRN",
+            "WLC"
+          ],
+          "capital": "Sarmizegetusa",
+          "capitalRegion": "TRN",
+          "stability": "contested",
+          "population": 1.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Fragmented since Burebista's death; rival petty kings"
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "FRK",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SAX_L",
+            "SIL",
+            "SWA",
+            "SWE_C",
+            "SWE_S",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 3.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Marbod's Bohemian kingdom, a Roman-watched buffer state"
+        },
+        {
+          "id": "mauretania",
+          "name": "Kingdom of Mauretania",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Mauretanian Berber",
+          "founded": -110,
+          "regions": [
+            "MAR",
+            "ORA",
+            "RIF"
+          ],
+          "capital": "Caesarea",
+          "capitalRegion": "ORA",
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "King Ptolemy rules as Roman client; executed by Caligula in 40"
+        },
+        {
+          "id": "nabataea",
+          "name": "Nabataean Kingdom",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Nabataean Arab",
+          "founded": -400,
+          "regions": [
+            "ARB"
+          ],
+          "capital": "Petra",
+          "capitalRegion": "ARB",
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 4,
+          "wealthNote": "Incense and spice caravan wealth centred on Petra",
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "osroene",
+          "name": "Osroene",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Syriac/Aramaic",
+          "founded": -132,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Edessa",
+          "capitalRegion": "MES_N",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Abgarid dynasty, Parthian-leaning client at Edessa"
+        },
+        {
+          "id": "parthia",
+          "name": "Parthian Empire",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Parthian",
+          "founded": -247,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "stable",
+          "population": 16,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Arsacid dynasty rules the Iranian plateau and Mesopotamia"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SYR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "contestedRegions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "stability": "consolidating",
+          "population": 45,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Augustus dead; Tiberius secures an unchallenged succession"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sarmatians",
+          "name": "Sarmatian tribes",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Sarmatian",
+          "founded": -200,
+          "regions": [
+            "DON",
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian Kingdom",
+          "type": "state",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -450,
+          "regions": [
+            "THR"
+          ],
+          "capital": "Bizye",
+          "capitalRegion": "THR",
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Client kingdom under Rhoemetalces III; annexed after his murder in 46"
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "germani",
+          "type": "war",
+          "note": "Germanicus's punitive campaigns beyond the Rhine avenge Teutoburg"
+        },
+        {
+          "a": "rome",
+          "b": "marcomanni",
+          "type": "war",
+          "note": "Marbod's Bohemian kingdom checked by Roman diplomacy and force"
+        },
+        {
+          "a": "rome",
+          "b": "parthia",
+          "type": "trade",
+          "note": "Silk Road luxury trade crosses the Euphrates via Palmyra"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "war",
+          "note": "Rival Roman and Parthian candidates contest the Armenian throne"
+        },
+        {
+          "a": "rome",
+          "b": "dacians",
+          "type": "war",
+          "note": "Border raids continue across the lower Danube"
+        },
+        {
+          "a": "rome",
+          "b": "cappadocia",
+          "type": "alliance",
+          "note": "Client king Archelaus rules at Rome's pleasure"
+        },
+        {
+          "a": "rome",
+          "b": "nabataea",
+          "type": "trade",
+          "note": "Incense and spice caravans enrich Petra under Roman protection"
+        }
+      ]
+    },
+    {
+      "year": 60,
+      "eraName": "Julio-Claudian Rome",
+      "label": "Nero's Rome: revolt in Britain, war for Armenia",
+      "events": [
+        "Boudica's revolt burns Camulodunum, Londinium and Verulamium",
+        "Corbulo captures the Armenian capital Artaxata",
+        "Nero's Mediterranean core enjoys peace and building projects"
+      ],
+      "connectivity": 70,
+      "connectivityNote": "Provincial road network maturing; Rhine-Danube and Mediterranean trade routes thicken.",
+      "entities": [
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "contested",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Corbulo's war for the Armenian throne against Parthia"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "ENG_N",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Brigantian client north of the new province; Wales still unconquered"
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dacians",
+          "name": "Dacian Kingdom",
+          "type": "state",
+          "culture": "paleo_balkan",
+          "cultureName": "Dacian",
+          "founded": -82,
+          "regions": [
+            "MDA",
+            "TRN",
+            "WLC"
+          ],
+          "capital": "Sarmizegetusa",
+          "capitalRegion": "TRN",
+          "stability": "contested",
+          "population": 1.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "FRK",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SAX_L",
+            "SIL",
+            "SWA",
+            "SWE_C",
+            "SWE_S",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 3.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Vannius rules as Roman client after Marbod's fall"
+        },
+        {
+          "id": "nabataea",
+          "name": "Nabataean Kingdom",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Nabataean Arab",
+          "founded": -400,
+          "regions": [
+            "ARB"
+          ],
+          "capital": "Petra",
+          "capitalRegion": "ARB",
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "osroene",
+          "name": "Osroene",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Syriac/Aramaic",
+          "founded": -132,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Edessa",
+          "capitalRegion": "MES_N",
+          "stability": "contested",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "parthia",
+          "name": "Parthian Empire",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Parthian",
+          "founded": -247,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "contested",
+          "population": 16,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Dynastic rivalry over the Armenian throne with Rome"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SYR",
+            "THR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "contestedRegions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "stability": "stable",
+          "population": 52,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Nero's reign; Julio-Claudian prosperity despite court intrigue"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sarmatians",
+          "name": "Sarmatian tribes",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Sarmatian",
+          "founded": -200,
+          "regions": [
+            "DON",
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "britons",
+          "type": "war",
+          "note": "Boudica's revolt devastates the new province before being crushed"
+        },
+        {
+          "a": "rome",
+          "b": "parthia",
+          "type": "war",
+          "note": "Corbulo campaigns for control of Armenia; Artaxata burned"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "war",
+          "note": "Tigranocerta captured by Corbulo's legions"
+        },
+        {
+          "a": "rome",
+          "b": "dacians",
+          "type": "trade",
+          "note": "Danube frontier trade continues despite periodic raids"
+        },
+        {
+          "a": "bosporan_kingdom",
+          "b": "rome",
+          "type": "alliance",
+          "note": "Client kingdom guards the Cimmerian Bosporus for Rome"
+        }
+      ]
+    },
+    {
+      "year": 117,
+      "eraName": "Trajanic Rome",
+      "label": "The empire at its greatest extent",
+      "events": [
+        "Trajan dies at Selinus; the empire reaches its greatest territorial extent",
+        "Dacia, Armenia, Mesopotamia and Arabia are now Roman provinces",
+        "Jewish diaspora revolts (115-117) shake Cyrenaica, Egypt and Cyprus"
+      ],
+      "connectivity": 82,
+      "connectivityNote": "Pax Romana near its height: roads, ports and a single currency bind Britain to Mesopotamia.",
+      "entities": [
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dacians",
+          "name": "Dacian Kingdom",
+          "type": "state",
+          "culture": "paleo_balkan",
+          "cultureName": "Dacian",
+          "founded": -82,
+          "regions": [
+            "MDA"
+          ],
+          "capital": "Sarmizegetusa",
+          "capitalRegion": "TRN",
+          "stability": "contested",
+          "population": 1.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "FRK",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SAX_L",
+            "SIL",
+            "SWE_C",
+            "SWE_S",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ARM",
+            "ARM_W",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MES_N",
+            "MES_S",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SWA",
+            "SYR",
+            "THR",
+            "TRN",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL",
+            "WLC"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "stability": "consolidating",
+          "population": 58,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Trajan's conquests reach their limit at his death"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sarmatians",
+          "name": "Sarmatian tribes",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Sarmatian",
+          "founded": -200,
+          "regions": [
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "parthia",
+          "type": "war",
+          "note": "Trajan storms Ctesiphon; Mesopotamia and Armenia annexed as provinces"
+        },
+        {
+          "a": "rome",
+          "b": "dacians",
+          "type": "war",
+          "note": "Aftermath of Trajan's Dacian Wars; Dacia now a province"
+        },
+        {
+          "a": "rome",
+          "b": "sarmatians",
+          "type": "war",
+          "note": "Jewish revolts and frontier unrest strain the newly annexed east"
+        },
+        {
+          "a": "rome",
+          "b": "nabataea",
+          "type": "trade",
+          "note": "Via Nova Traiana secures the incense route through Arabia"
+        },
+        {
+          "a": "rome",
+          "b": "germani",
+          "type": "trade",
+          "note": "Amber and grain trade continues across the Rhine limes"
+        }
+      ]
+    },
+    {
+      "year": 180,
+      "eraName": "Antonine Rome",
+      "label": "Marcus Aurelius dies; the golden afternoon ends",
+      "events": [
+        "Marcus Aurelius dies at Vindobona, ending years of Marcomannic Wars",
+        "Commodus succeeds, closing the age of the 'Five Good Emperors'",
+        "Antonine Plague (from 165) has cut deep into the empire's population"
+      ],
+      "connectivity": 75,
+      "connectivityNote": "Antonine Plague disrupts trade and garrison towns even as the road network remains open.",
+      "entities": [
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Client kingship restored after the 161-166 Parthian War"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dacians",
+          "name": "Dacian Kingdom",
+          "type": "state",
+          "culture": "paleo_balkan",
+          "cultureName": "Dacian",
+          "founded": -82,
+          "regions": [
+            "MDA"
+          ],
+          "capital": "Sarmizegetusa",
+          "capitalRegion": "TRN",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Free Dacians beyond the Roman province, in Moldavia"
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "FRK",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SAX_L",
+            "SIL",
+            "SWE_C",
+            "SWE_S",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "collapsing",
+          "population": 0.35,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Crushed by Marcus Aurelius after invading Italy in 166-180"
+        },
+        {
+          "id": "osroene",
+          "name": "Osroene",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Syriac/Aramaic",
+          "founded": -132,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Edessa",
+          "capitalRegion": "MES_N",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Roman-aligned client since Lucius Verus's Parthian War"
+        },
+        {
+          "id": "parthia",
+          "name": "Parthian Empire",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Parthian",
+          "founded": -247,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "contested",
+          "population": 15,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Weakened by repeated Roman invasions since 165"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "contested",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Fought and defeated by Marcus Aurelius in the Marcomannic Wars"
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SWA",
+            "SYR",
+            "THR",
+            "TRN",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL",
+            "WLC"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "stability": "stable",
+          "population": 58,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Marcus Aurelius dies; Antonine Plague has cut population since 165"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sarmatians",
+          "name": "Sarmatian tribes",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Sarmatian",
+          "founded": -200,
+          "regions": [
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "contested",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Iazyges raid Pannonia; wars with Marcus Aurelius"
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "marcomanni",
+          "type": "war",
+          "note": "Marcomannic Wars just concluded after over a decade of Danube fighting"
+        },
+        {
+          "a": "rome",
+          "b": "quadi",
+          "type": "war",
+          "note": "Quadi forced into treaty after Marcus Aurelius's campaigns"
+        },
+        {
+          "a": "rome",
+          "b": "parthia",
+          "type": "trade",
+          "note": "Silk and spice caravans move again after the 161-166 war"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "alliance",
+          "note": "Client kingship restored after the Parthian War of 161-166"
+        },
+        {
+          "a": "rome",
+          "b": "sarmatians",
+          "type": "war",
+          "note": "Iazyges raid the Pannonian frontier"
+        }
+      ]
+    },
+    {
+      "year": 235,
+      "eraName": "Severan Twilight",
+      "label": "Alexander Severus murdered; the Crisis begins",
+      "events": [
+        "Severus Alexander is murdered by his own troops at Mainz",
+        "Maximinus Thrax becomes the first common soldier proclaimed emperor",
+        "Sassanid Persia presses the eastern frontier now that the Arsacids are gone"
+      ],
+      "connectivity": 55,
+      "connectivityNote": "Debased coinage, plague, and the first military coups begin to choke inter-provincial trade.",
+      "entities": [
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "contested",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Squeezed between Rome and the new Sassanid dynasty"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "contested",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Gothic seaborne raids launch from Bosporan harbours after c.250"
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "FRK",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SAX_L",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "contested",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "goths",
+          "name": "Goths",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Gothic (Chernyakhov)",
+          "founded": 230,
+          "regions": [
+            "MDA",
+            "UKR_E",
+            "UKR_W",
+            "VOL"
+          ],
+          "stability": "consolidating",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Chernyakhov culture groups raid the Danube and Black Sea coasts"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "contested",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MES_N",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SWA",
+            "SYR",
+            "THR",
+            "TRN",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL",
+            "WLC"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "contestedRegions": [
+            "SWA"
+          ],
+          "stability": "contested",
+          "population": 52,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Severus Alexander murdered; military anarchy begins"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sarmatians",
+          "name": "Sarmatian tribes",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Sarmatian",
+          "founded": -200,
+          "regions": [
+            "STE"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Pressured by arriving Gothic groups from the north"
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "consolidating",
+          "population": 19,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Ardashir I has overthrown the Parthians (224) and taken Ctesiphon"
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "sassanid",
+          "type": "war",
+          "note": "Severus Alexander campaigns against the new Sassanid dynasty in Mesopotamia"
+        },
+        {
+          "a": "rome",
+          "b": "marcomanni",
+          "type": "war",
+          "note": "Rhine-Danube frontier pressured as Severus Alexander is murdered by his troops"
+        },
+        {
+          "a": "rome",
+          "b": "goths",
+          "type": "war",
+          "note": "Gothic groups begin raiding the lower Danube and Black Sea coast"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "alliance",
+          "note": "Arsacid Armenia remains Rome's buffer against the Sassanids"
+        },
+        {
+          "a": "bosporan_kingdom",
+          "b": "goths",
+          "type": "war",
+          "note": "Gothic seaborne raids threaten Bosporan cities"
+        }
+      ]
+    },
+    {
+      "year": 271,
+      "eraName": "Crisis of the Third Century",
+      "label": "Empire fractured: Gaul, Palmyra, and Rome",
+      "events": [
+        "Empire splits three ways: Aurelian's Rome, the Gallic Empire, and Zenobia's Palmyra",
+        "Aurelian abandons Dacia, pulling the frontier back to the Danube",
+        "Palmyrene armies hold Egypt and push into Anatolia as far as Ancyra"
+      ],
+      "connectivity": 35,
+      "connectivityNote": "Empire split three ways; overland routes cut by rival tolls, civil war and Gothic raiding.",
+      "entities": [
+        {
+          "id": "alamanni",
+          "name": "Alamanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Alamannic",
+          "founded": 213,
+          "regions": [
+            "SWA"
+          ],
+          "stability": "consolidating",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Overran the Agri Decumates limes c.260"
+        },
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "contested",
+          "population": 0.25,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britonnic tribes",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -300,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Caught between Rome and a resurgent Sassanid Persia"
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "franks",
+          "name": "Franks",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Frankish",
+          "founded": 257,
+          "regions": [
+            "FRK"
+          ],
+          "stability": "consolidating",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Rhine tribal confederation; unified kingdom under Clovis from 481"
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "gallic_empire",
+          "name": "Gallic Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Gallo-Roman",
+          "founded": 260,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "BUR",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "FLA",
+            "IDF",
+            "LOI",
+            "LOR",
+            "NED",
+            "NRM",
+            "OCC",
+            "PIC",
+            "PRO",
+            "RHE",
+            "SUI",
+            "WAL"
+          ],
+          "capital": "Trier",
+          "capitalRegion": "RHE",
+          "stability": "collapsing",
+          "population": 8.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tetricus I rules a shrinking rump before submitting to Aurelian in 274"
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "consolidating",
+          "population": 2.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Franks and Saxons have split off as named confederations"
+        },
+        {
+          "id": "goths",
+          "name": "Goths",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Gothic (Chernyakhov)",
+          "founded": 230,
+          "regions": [
+            "MDA",
+            "STE",
+            "TRN",
+            "UKR_E",
+            "UKR_W",
+            "VOL",
+            "WLC"
+          ],
+          "stability": "consolidating",
+          "population": 1.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Occupy former Roman Dacia after Aurelian's withdrawal"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "palmyra",
+          "name": "Palmyrene Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Palmyrene Aramaic",
+          "founded": 260,
+          "regions": [
+            "ARB",
+            "CAP",
+            "CIL",
+            "EGY_N",
+            "EGY_S",
+            "LEV",
+            "MES_N",
+            "SYR"
+          ],
+          "capital": "Palmyra",
+          "capitalRegion": "SYR",
+          "stability": "consolidating",
+          "population": 9,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Zenobia claims Augusta for her son Vaballathus; Aurelian marches east"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "ARA",
+            "ATT",
+            "AUT",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "CAS_N",
+            "CAS_S",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EPI",
+            "EUS",
+            "GAL",
+            "HUN",
+            "ION",
+            "LOM",
+            "MAC",
+            "MAR",
+            "MLT",
+            "NAP",
+            "NUM",
+            "ORA",
+            "PEL",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "THR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "contestedRegions": [
+            "SWA"
+          ],
+          "stability": "collapsing",
+          "population": 32,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Aurelian's rump empire: Italy, Africa, the Balkans, most of Anatolia"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "stable",
+          "population": 20,
+          "wealth": 4,
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "saxons",
+          "name": "Saxons",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 250,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Sea raiders along the Channel and North Sea coasts"
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "gallic_empire",
+          "type": "war",
+          "note": "Aurelian prepares to reclaim the secessionist Gallic provinces"
+        },
+        {
+          "a": "rome",
+          "b": "palmyra",
+          "type": "war",
+          "note": "Aurelian marches east against Zenobia's Palmyrene Empire"
+        },
+        {
+          "a": "palmyra",
+          "b": "sassanid",
+          "type": "war",
+          "note": "Palmyra's power built on Odaenathus's earlier victories over Persia"
+        },
+        {
+          "a": "rome",
+          "b": "goths",
+          "type": "war",
+          "note": "Aurelian cedes Dacia to Goths and Carpi, shortening the frontier"
+        },
+        {
+          "a": "rome",
+          "b": "alamanni",
+          "type": "war",
+          "note": "Alamanni invade Italy before being repelled at Fano and Pavia"
+        },
+        {
+          "a": "sassanid",
+          "b": "armenia_kingdom",
+          "type": "war",
+          "note": "Sassanid princes have ruled occupied Armenia since 252"
+        }
+      ]
+    },
+    {
+      "year": 300,
+      "eraName": "Tetrarchy",
+      "label": "Diocletian's reforms reunify and re-fortify the empire",
+      "events": [
+        "Diocletian's Tetrarchy has restored order and refortified the frontiers",
+        "Britain recovered from the usurpers Carausius and Allectus in 296",
+        "Peace of Nisibis (299) secures the eastern frontier against Persia"
+      ],
+      "connectivity": 55,
+      "connectivityNote": "Diocletian's fortified roads and supply lines knit the Tetrarchy's four courts back together.",
+      "entities": [
+        {
+          "id": "alamanni",
+          "name": "Alamanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Alamannic",
+          "founded": 213,
+          "regions": [
+            "SWA"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Fought by Diocletian and Maximian along the upper Rhine"
+        },
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "consolidating",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tiridates III restored 287; Armenia adopts Christianity c.301"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "contested",
+          "population": 0.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "franks",
+          "name": "Franks",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Frankish",
+          "founded": 257,
+          "regions": [
+            "FRK"
+          ],
+          "stability": "contested",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Defeated bands resettled as laeti inside Gaul"
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 2.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "goths",
+          "name": "Goths",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Gothic (Chernyakhov)",
+          "founded": 230,
+          "regions": [
+            "MDA",
+            "STE",
+            "TRN",
+            "UKR_E",
+            "UKR_W",
+            "VOL",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 1.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Tervingi and Greuthungi confederations, pre-Visigoth/Ostrogoth split"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "picts",
+          "name": "Picts",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Picts",
+          "founded": 297,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Name first attested c.297; Caledonian tribal confederation"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MES_N",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SYR",
+            "THR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "stability": "consolidating",
+          "population": 40,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Diocletian's Tetrarchy reunifies and refortifies the empire"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "contested",
+          "population": 20,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Narseh defeated by Galerius; Peace of Nisibis cedes territory to Rome"
+        },
+        {
+          "id": "saxons",
+          "name": "Saxons",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 250,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "sassanid",
+          "type": "war",
+          "note": "Peace of Nisibis confirms Roman gains of territory beyond the Tigris"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "alliance",
+          "note": "Tiridates III restored as Rome's client king in Armenia"
+        },
+        {
+          "a": "rome",
+          "b": "goths",
+          "type": "trade",
+          "note": "Danubian frontier trade resumes under new Tetrarchic fortifications"
+        },
+        {
+          "a": "rome",
+          "b": "franks",
+          "type": "war",
+          "note": "Defeated Frankish raiders resettled as laeti within Gaul"
+        },
+        {
+          "a": "rome",
+          "b": "alamanni",
+          "type": "war",
+          "note": "Diocletianic campaigns along the upper Rhine frontier"
+        }
+      ]
+    },
+    {
+      "year": 337,
+      "eraName": "Constantinian Rome",
+      "label": "Constantine dies; a Christian, Constantinople-centred empire",
+      "events": [
+        "Constantine dies at Nicomedia after refounding Byzantium as Constantinople",
+        "Christianity now favoured at the highest levels of the state",
+        "Empire divided among Constantine's three surviving sons"
+      ],
+      "connectivity": 62,
+      "connectivityNote": "Constantinople's rise reorients trade toward the Bosphorus and the eastern Mediterranean.",
+      "entities": [
+        {
+          "id": "alamanni",
+          "name": "Alamanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Alamannic",
+          "founded": 213,
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "alans",
+          "name": "Alans",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Alanic",
+          "founded": 50,
+          "regions": [
+            "DON"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "contested",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Shapur II renews pressure after Tiridates III's death"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "contested",
+          "population": 0.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Last known coinage; kingdom's fortunes fading"
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "franks",
+          "name": "Franks",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Frankish",
+          "founded": 257,
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Frankish chiefs now serve as Roman generals"
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 2.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "goths",
+          "name": "Goths",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Gothic (Chernyakhov)",
+          "founded": 230,
+          "regions": [
+            "MDA",
+            "STE",
+            "TRN",
+            "UKR_E",
+            "UKR_W",
+            "VOL",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Tervingi under Constantine's 332 treaty as Roman foederati"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "picts",
+          "name": "Picts",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Picts",
+          "founded": 297,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Name first attested c.297; Caledonian tribal confederation"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MES_N",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SYR",
+            "THR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "stability": "stable",
+          "population": 44,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Constantine dies; Constantinople now a second capital"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "stable",
+          "population": 21,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Shapur II prepares renewed war for Mesopotamia and Armenia"
+        },
+        {
+          "id": "saxons",
+          "name": "Saxons",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 250,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "goths",
+          "type": "alliance",
+          "note": "Constantine's 332 treaty makes the Tervingi Goths Roman foederati"
+        },
+        {
+          "a": "rome",
+          "b": "sassanid",
+          "type": "war",
+          "note": "Shapur II prepares new campaigns for Mesopotamia and Armenia"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "alliance",
+          "note": "Christian Armenia remains a Roman client against Persia"
+        },
+        {
+          "a": "rome",
+          "b": "franks",
+          "type": "alliance",
+          "note": "Frankish chieftains now serve as generals in the Roman army"
+        },
+        {
+          "a": "rome",
+          "b": "alamanni",
+          "type": "war",
+          "note": "Rhine frontier raids continue despite Constantinian fortification"
+        }
+      ]
+    },
+    {
+      "year": 370,
+      "eraName": "Valentinianic Era",
+      "label": "Huns loom beyond the Danube frontier",
+      "events": [
+        "Huns cross the Volga, shattering Gothic power beyond the Danube",
+        "Valentinian and Valens rule West and East as Rome's frontiers strain",
+        "Roman Britain still recovering from the 367 'Great Conspiracy' raids"
+      ],
+      "connectivity": 52,
+      "connectivityNote": "Danube trade curdles as Gothic displacement and Hunnic pressure close old routes.",
+      "entities": [
+        {
+          "id": "alamanni",
+          "name": "Alamanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Alamannic",
+          "founded": 213,
+          "regions": [
+            "SWA"
+          ],
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Valentinian I builds forts against them along the Rhine"
+        },
+        {
+          "id": "armenia_kingdom",
+          "name": "Kingdom of Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": -321,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Artaxata",
+          "capitalRegion": "ARM",
+          "stability": "collapsing",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "King Pap murdered by Rome in 374 amid Roman-Persian rivalry"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bosporan_kingdom",
+          "name": "Bosporan Kingdom",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Bosporan Greek",
+          "founded": -438,
+          "regions": [
+            "CRM"
+          ],
+          "capital": "Panticapaeum",
+          "capitalRegion": "CRM",
+          "stability": "collapsing",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "franks",
+          "name": "Franks",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Frankish",
+          "founded": 257,
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Rhine tribal confederation; unified kingdom under Clovis from 481"
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 2.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "goths",
+          "name": "Goths",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Gothic (Chernyakhov)",
+          "founded": 230,
+          "regions": [
+            "MDA",
+            "TRN",
+            "UKR_E",
+            "UKR_W",
+            "VOL",
+            "WLC"
+          ],
+          "stability": "contested",
+          "population": 1.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Athanaric's Tervingi and Ermanaric's Greuthungi face the arriving Huns"
+        },
+        {
+          "id": "huns",
+          "name": "Huns",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Hunnic",
+          "founded": 370,
+          "regions": [
+            "DON",
+            "STE"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Newly arrived from beyond the Volga; overrunning Alans and Goths"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "picts",
+          "name": "Picts",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Picts",
+          "founded": 297,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "contested",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Part of the 367 'Great Conspiracy' raids on Roman Britain"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "rome",
+          "name": "Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "AND",
+            "AQU",
+            "ARA",
+            "ARB",
+            "ATT",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BGR",
+            "BIT",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAP",
+            "CAS_N",
+            "CAS_S",
+            "CIL",
+            "CLB",
+            "CON",
+            "COR",
+            "CRE",
+            "CRO",
+            "CYP",
+            "CYR",
+            "DAL",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EPI",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "ION",
+            "LEV",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAC",
+            "MAR",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PEL",
+            "PIC",
+            "PIE",
+            "PON",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SRB",
+            "SUI",
+            "SYR",
+            "THR",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL"
+          ],
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "stability": "contested",
+          "population": 45,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Valentinian (west) and Valens (east) rule jointly; Danube frontier under strain"
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "MES_N",
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "stable",
+          "population": 22,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Holds Nisibis since Jovian's 363 treaty"
+        },
+        {
+          "id": "saxons",
+          "name": "Saxons",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 250,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Part of the 367 Great Conspiracy raids on Britain"
+        }
+      ],
+      "relations": [
+        {
+          "a": "rome",
+          "b": "goths",
+          "type": "war",
+          "note": "Valens campaigns against Athanaric's Tervingi across the Danube"
+        },
+        {
+          "a": "rome",
+          "b": "alamanni",
+          "type": "war",
+          "note": "Valentinian I fortifies the Rhine against Alamannic incursions"
+        },
+        {
+          "a": "rome",
+          "b": "sassanid",
+          "type": "war",
+          "note": "Renewed contest over Armenia as Shapur II presses Roman client kings"
+        },
+        {
+          "a": "goths",
+          "b": "huns",
+          "type": "war",
+          "note": "Hunnic horsemen cross the Volga and shatter Ermanaric's Greuthungi realm"
+        },
+        {
+          "a": "rome",
+          "b": "armenia_kingdom",
+          "type": "alliance",
+          "note": "King Pap balances precariously between Rome and Persia"
+        }
+      ]
+    },
+    {
+      "year": 395,
+      "eraName": "Theodosian Split",
+      "label": "Theodosius dies: the empire permanently divides East and West",
+      "events": [
+        "Theodosius I dies; the empire splits permanently between Honorius and Arcadius",
+        "Alaric's Gothic foederati rise in revolt across Illyricum and Greece",
+        "Huns raid through the Caucasus into Roman Cappadocia and Syria"
+      ],
+      "connectivity": 48,
+      "connectivityNote": "Administrative split disrupts unified logistics, though Mediterranean shipping still links both halves.",
+      "entities": [
+        {
+          "id": "alamanni",
+          "name": "Alamanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Alamannic",
+          "founded": 213,
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -1000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "byzantium",
+          "name": "Eastern Roman Empire",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Roman-Greek",
+          "founded": -509,
+          "regions": [
+            "AEG",
+            "ALB",
+            "ARB",
+            "ARM_W",
+            "ATT",
+            "BGR",
+            "BIT",
+            "CAP",
+            "CIL",
+            "CON",
+            "CRE",
+            "CYP",
+            "CYR",
+            "DOD",
+            "EGY_N",
+            "EGY_S",
+            "EPI",
+            "ION",
+            "LEV",
+            "MAC",
+            "PEL",
+            "PON",
+            "SRB",
+            "SYR",
+            "THR"
+          ],
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "contestedRegions": [
+            "BGR",
+            "THR",
+            "SRB"
+          ],
+          "stability": "contested",
+          "population": 27,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Arcadius rules from Constantinople; Alaric's Goths revolt in the Balkans"
+        },
+        {
+          "id": "caucasian_iberia",
+          "name": "Caucasian Iberia & Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian (Kartvelian)",
+          "founded": -299,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Mtskheta",
+          "capitalRegion": "GEO",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic peoples",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -1000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "franks",
+          "name": "Franks",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Frankish",
+          "founded": 257,
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Rhine tribal confederation; unified kingdom under Clovis from 481"
+        },
+        {
+          "id": "gaels",
+          "name": "Gaelic Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -300,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Germanic tribes",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Germanic",
+          "founded": -100,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SAX",
+            "SIL",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 2.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "huns",
+          "name": "Huns",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Hunnic",
+          "founded": 370,
+          "regions": [
+            "CRM",
+            "DON",
+            "MDA",
+            "STE",
+            "TRN",
+            "UKR_E",
+            "UKR_W",
+            "VOL",
+            "WLC"
+          ],
+          "stability": "consolidating",
+          "population": 1,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Dominate the Pontic steppe; raid Cappadocia and Syria via the Caucasus"
+        },
+        {
+          "id": "marcomanni",
+          "name": "Marcomanni",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Marcomannic",
+          "founded": 9,
+          "regions": [
+            "BOH"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "picts",
+          "name": "Picts",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Picts",
+          "founded": 297,
+          "regions": [
+            "SCO_N",
+            "SCO_S"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Name first attested c.297; Caledonian tribal confederation"
+        },
+        {
+          "id": "quadi",
+          "name": "Quadi",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Quadi",
+          "founded": 20,
+          "regions": [
+            "SVK"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami",
+          "type": "culture",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -1500,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sassanid",
+          "name": "Sassanid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Sassanid Persian",
+          "founded": 224,
+          "regions": [
+            "ARM",
+            "MES_N",
+            "MES_S"
+          ],
+          "capital": "Ctesiphon",
+          "stability": "stable",
+          "population": 23,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Larger eastern share of Armenia after the 387 partition"
+        },
+        {
+          "id": "saxons",
+          "name": "Saxons",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 250,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "west_rome",
+          "name": "Western Roman Empire",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman",
+          "founded": -509,
+          "regions": [
+            "AND",
+            "AQU",
+            "ARA",
+            "AUT",
+            "AUV",
+            "BAL",
+            "BAV",
+            "BOS",
+            "BRE",
+            "BUR",
+            "CAS_N",
+            "CAS_S",
+            "CLB",
+            "COR",
+            "CRO",
+            "DAL",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "EUS",
+            "FLA",
+            "GAL",
+            "HUN",
+            "IDF",
+            "LOI",
+            "LOM",
+            "LOR",
+            "MAR",
+            "MLT",
+            "NAP",
+            "NED",
+            "NRM",
+            "NUM",
+            "OCC",
+            "ORA",
+            "PIC",
+            "PIE",
+            "POR_N",
+            "POR_S",
+            "PRO",
+            "RHE",
+            "RIF",
+            "ROM",
+            "SAR",
+            "SIC",
+            "SUI",
+            "TRP",
+            "TUN",
+            "TUS",
+            "VAL",
+            "WAL"
+          ],
+          "capital": "Milan",
+          "capitalRegion": "LOM",
+          "stability": "contested",
+          "population": 22,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Honorius nominally rules from Milan under Stilicho's regency"
+        }
+      ],
+      "relations": [
+        {
+          "a": "byzantium",
+          "b": "goths",
+          "type": "war",
+          "note": "Alaric's Gothic foederati revolt in the Balkans after Theodosius's death"
+        },
+        {
+          "a": "west_rome",
+          "b": "byzantium",
+          "type": "alliance",
+          "note": "The two halves remain formally one empire under Honorius and Arcadius"
+        },
+        {
+          "a": "byzantium",
+          "b": "huns",
+          "type": "war",
+          "note": "Huns raid deep into Cappadocia, Syria and Mesopotamia via the Caucasus"
+        },
+        {
+          "a": "byzantium",
+          "b": "sassanid",
+          "type": "trade",
+          "note": "Silk Road trade continues despite the 387 Armenian partition"
+        },
+        {
+          "a": "west_rome",
+          "b": "alamanni",
+          "type": "war",
+          "note": "Rhine garrisons thinned as troops are recalled to defend Italy"
+        },
+        {
+          "a": "byzantium",
+          "b": "armenia_kingdom",
+          "type": "trade",
+          "note": "Roman Armenia (the western third) trades under Byzantine protection"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tiridates III of Armenia — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia"
+    },
+    {
+      "title": "Kingdom of Armenia (antiquity) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)"
+    },
+    {
+      "title": "Sasanian Armenia — Wikipedia (387 partition)",
+      "url": "https://en.wikipedia.org/wiki/Sasanian_Armenia"
+    },
+    {
+      "title": "Palmyrene Empire — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palmyrene_Empire"
+    },
+    {
+      "title": "Omniatlas — Palmyrene invasion of Asia Minor, summer 271",
+      "url": "https://omniatlas.com/maps/eastern-mediterranean/2710708/"
+    },
+    {
+      "title": "Peace of Nisibis (299) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peace_of_Nisibis_(299)"
+    },
+    {
+      "title": "Perso-Roman Peace Treaty of 363 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perso-Roman_Peace_Treaty_of_363"
+    },
+    {
+      "title": "Agri Decumates — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Agri_Decumates"
+    },
+    {
+      "title": "Hadrian's Wall — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hadrian's_Wall"
+    },
+    {
+      "title": "Antonine Wall — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antonine_Wall"
+    },
+    {
+      "title": "Roman Dacia / Dacia Aureliana — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dacia_Aureliana"
+    },
+    {
+      "title": "Bosporan Kingdom — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+    },
+    {
+      "title": "Demography of the Roman Empire — Wikipedia (Scheidel, McEvedy & Jones estimates)",
+      "url": "https://en.wikipedia.org/wiki/Demography_of_the_Roman_Empire"
+    },
+    {
+      "title": "Battle of Adrianople — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Adrianople"
+    },
+    {
+      "title": "History of the Huns — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Huns"
+    },
+    {
+      "title": "Carausian revolt — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carausian_revolt"
+    },
+    {
+      "title": "Cappadocia (Roman province) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cappadocia_(Roman_province)"
+    },
+    {
+      "title": "Thracia — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thracia"
+    },
+    {
+      "title": "Mauretania — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mauretania"
+    },
+    {
+      "title": "Nabataean Kingdom / annexation 106 AD — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nabataean_Kingdom"
+    },
+    {
+      "title": "Trajan's Parthian campaign — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trajan's_Parthian_campaign"
+    },
+    {
+      "title": "Osroene — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Osroene"
+    },
+    {
+      "title": "Hunnic raid of 395 — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hunnic_raid_of_395"
+    }
+  ],
+  "uncertainties": [
+    "271 Anatolia: Palmyra confirmed to have taken Galatia/Ancyra (CAP) and, by inference, Cilicia (CIL, contiguous with Syria); Bithynia (BIT) and coastal Ionia (ION) explicitly held out (Chalcedon siege failed), so kept Roman. Pontus (PON) and Cyprus (CYP) are genuinely uncertain and were conservatively kept Roman for lack of positive evidence.",
+    "271 Mesopotamia (MES_N/Osroene): assigned to Palmyra as a continuation of Odaenathus's earlier defence of the eastern frontier against Persia; sources do not confirm Zenobia's administrative control here as clearly as for Egypt/Syria/Anatolia, so this is a judgment call.",
+    "Armenia 252-287: Sassanid princes ruled occupied Armenia after Khosrov II's assassination in 252; Tiridates III restored with Roman military backing in 287 (Peace of Nisibis in 299 later formalized Roman support). The 271 slice therefore shows Armenia (ARM, ARM_W) under Sassanid control.",
+    "Armenia partition of 387: Rome received roughly the western third (Acilisene/Sophene, mapped here to ARM_W near Erzurum), Persia the larger eastern two-thirds (mapped to ARM, the Ararat/Yerevan core). The exact demarcation ran through Karin/Erzurum itself, so the ARM_W/ARM split is a simplification of a messier border.",
+    "Bosporan Kingdom's decline is poorly dated (last coinage 341; scholars disagree on exact end). Kept it nominally independent/client through 370, becoming a Hunnic-dominated territory (assigned to 'huns') only at 395, in line with sources describing it becoming a Hunnic vassal in the late 4th century.",
+    "Poland (POL_W, SIL, POL_C, POL_S) and the North European Plain are treated as a broad 'germani' culture zone throughout (Przeworsk-culture Vandal/Burgundian/Lugii groups); no distinct Vandal or Burgundian polity entity was created before this era's end (395), since their historically attested kingdoms only form in the 5th century (matching the data-spec's canonical founded dates).",
+    "Proto-Slavic ethnogenesis (Zarubintsy/Kyiv archaeological cultures in UKR_W/BLR, c.100 BCE-300 CE) is a real but contested strand; since the data-spec pins 'slavs_early' to the 500s CE, UKR_W was instead tracked as sarmatians (to 180) then goths (235-370, Chernyakhov culture) and BLR kept as balts_early throughout, deferring the Slavic question to the following era.",
+    "RUS_S (Chernigov & Upper Don) and RUS_NW/RUS_C are sparsely attested in this period; assigned to balts_early (RUS_S) and finnic_peoples (RUS_NW, RUS_C) as a reasonable default rather than precise attestation.",
+    "Netherlands (NED)/Frisia: treated as loosely Roman-aligned/tributary throughout rather than showing the 28 CE Frisian revolt and subsequent on-again-off-again control, since no slice year falls close enough to that event to justify a dedicated entity.",
+    "Population figures for tribal/culture entities (germani, balts_early, finnic_peoples, sami, sarmatians, goths, etc.) are rough order-of-magnitude estimates for the mapped regions only; no census data exists for this period and figures are extrapolated from general demographic literature on Iron Age/Migration Period Europe.",
+    "Roman Empire population at 395 split (west ~22M / east ~27M) follows commonly cited orders of magnitude but individual scholarly estimates vary considerably (Diocese-level figures are contested); treated as approximate.",
+    "Dacia's eastern reaches (WLC/Wallachia beyond the Limes Transalutanus, and MDA/Moldavia) are simplified: Roman Dacia (117-235) is shown covering all of TRN and WLC, though the eastern Limes Transalutanus zone was a looser military frontier rather than fully settled province territory."
+  ]
+}
