@@ -206,6 +206,7 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
@@ -778,7 +779,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -792,7 +793,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -824,7 +825,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.15,
      "wealth": 3
     },
     {
@@ -843,7 +844,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.1,
      "wealth": 1
     },
     {
@@ -859,7 +860,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -896,7 +897,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -911,7 +912,7 @@
       "CAS_S"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.0,
      "wealth": 1
     },
     {
@@ -920,13 +921,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -940,7 +942,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 2
     },
     {
@@ -974,7 +976,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -988,7 +990,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -1001,7 +1003,7 @@
       "CAP"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -1050,7 +1052,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.08,
+     "population": 1.4,
      "wealth": 1
     },
     {
@@ -1065,7 +1067,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.0,
      "wealth": 2
     },
     {
@@ -1117,7 +1119,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.1,
      "wealth": 1
     },
     {
@@ -1151,7 +1153,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -1167,7 +1169,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -1181,7 +1183,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -1194,7 +1196,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -1300,7 +1302,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -1316,7 +1318,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -1352,7 +1354,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.9,
      "wealth": 1
     }
    ],
@@ -1414,7 +1416,7 @@
       "PEL"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.55,
      "wealth": 3,
      "note": "Allied with Macedon against Sparta and the Aetolians in the Social War."
     },
@@ -1432,7 +1434,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.5,
      "wealth": 2
     },
     {
@@ -1448,7 +1450,7 @@
       "ATT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 3
     },
     {
@@ -1466,7 +1468,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -1480,7 +1482,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -1496,7 +1498,7 @@
       "BIT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 3
     },
     {
@@ -1512,7 +1514,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.15,
      "wealth": 3
     },
     {
@@ -1531,7 +1533,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.1,
      "wealth": 1
     },
     {
@@ -1547,7 +1549,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -1585,7 +1587,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -1607,13 +1609,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -1627,7 +1630,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 2
     },
     {
@@ -1661,7 +1664,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -1675,7 +1678,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -1688,7 +1691,7 @@
       "CAP"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -1737,7 +1740,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.08,
+     "population": 1.5,
      "wealth": 1
     },
     {
@@ -1767,7 +1770,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 1.2,
      "wealth": 1
     },
     {
@@ -1787,7 +1790,7 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 0.96,
+     "population": 1.5,
      "wealth": 1
     },
     {
@@ -1819,7 +1822,7 @@
       "MAC"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.75,
      "wealth": 3,
      "note": "Philip V ascends, ambitious and soon to clash with Rome and the Aetolians."
     },
@@ -1836,7 +1839,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -1852,7 +1855,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -1866,7 +1869,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 1
     },
     {
@@ -1879,7 +1882,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -1895,7 +1898,7 @@
       "ION"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 4
     },
     {
@@ -1911,7 +1914,7 @@
       "PON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.55,
      "wealth": 3
     },
     {
@@ -1948,7 +1951,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.12,
      "wealth": 5
     },
     {
@@ -1987,7 +1990,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -2003,7 +2006,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -2039,7 +2042,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.9,
      "wealth": 1
     }
    ],
@@ -2101,7 +2104,7 @@
       "PEL"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.55,
      "wealth": 3,
      "note": "Delicately balancing Macedon, Rome, and Nabis's revived Sparta."
     },
@@ -2119,7 +2122,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.55,
      "wealth": 2
     },
     {
@@ -2135,7 +2138,7 @@
       "ATT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 3
     },
     {
@@ -2153,7 +2156,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -2180,7 +2183,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -2196,7 +2199,7 @@
       "BIT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 3
     },
     {
@@ -2212,7 +2215,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.15,
      "wealth": 3
     },
     {
@@ -2231,7 +2234,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.2,
      "wealth": 1
     },
     {
@@ -2247,7 +2250,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -2281,7 +2284,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -2294,7 +2297,7 @@
       "CAS_N"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -2303,13 +2306,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -2323,7 +2327,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 2
     },
     {
@@ -2357,7 +2361,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -2371,7 +2375,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -2384,7 +2388,7 @@
       "CAP"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -2412,7 +2416,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 1.92,
+     "population": 4.2,
      "wealth": 2
     },
     {
@@ -2433,7 +2437,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.08,
+     "population": 1.5,
      "wealth": 1
     },
     {
@@ -2446,7 +2450,7 @@
       "EUS"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -2463,7 +2467,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 1.2,
      "wealth": 1
     },
     {
@@ -2482,7 +2486,7 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.3,
      "wealth": 1
     },
     {
@@ -2497,7 +2501,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.0,
      "wealth": 1
     },
     {
@@ -2531,7 +2535,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -2547,7 +2551,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -2595,7 +2599,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -2611,7 +2615,7 @@
       "ION"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.5,
      "wealth": 4
     },
     {
@@ -2627,7 +2631,7 @@
       "PON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.55,
      "wealth": 3
     },
     {
@@ -2664,7 +2668,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.12,
      "wealth": 5
     },
     {
@@ -2707,7 +2711,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -2758,7 +2762,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
@@ -2820,7 +2824,7 @@
       "PEL"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.6,
      "wealth": 3,
      "note": "Backed Rome at Pydna, but Achaean hostages (including Polybius) are taken to Rome."
     },
@@ -2838,7 +2842,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.6,
      "wealth": 2,
      "note": "Artaxias I has declared full independence from the Seleucids since 189."
     },
@@ -2855,7 +2859,7 @@
       "ATT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 3,
      "note": "A cultural showcase under growing Roman patronage."
     },
@@ -2874,7 +2878,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -2887,7 +2891,7 @@
       "MDA"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.2,
      "wealth": 1
     },
     {
@@ -2901,7 +2905,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -2917,7 +2921,7 @@
       "BIT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 3
     },
     {
@@ -2933,7 +2937,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.15,
      "wealth": 3
     },
     {
@@ -2952,7 +2956,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.2,
      "wealth": 1
     },
     {
@@ -2968,7 +2972,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -3002,7 +3006,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -3015,7 +3019,7 @@
       "CAS_N"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -3024,13 +3028,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -3044,7 +3049,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 2
     },
     {
@@ -3060,7 +3065,7 @@
       "EPI"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.3,
      "wealth": 2,
      "note": "Sacked by Aemilius Paullus's legions in 167; 150,000 enslaved, the league dissolved."
     },
@@ -3078,7 +3083,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -3092,7 +3097,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -3105,7 +3110,7 @@
       "CAP"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -3131,7 +3136,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 1.68,
+     "population": 4.0,
      "wealth": 2
     },
     {
@@ -3153,7 +3158,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.2,
+     "population": 1.6,
      "wealth": 1
     },
     {
@@ -3166,7 +3171,7 @@
       "EUS"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -3183,7 +3188,7 @@
       "SRB"
      ],
      "stability": "contested",
-     "population": 0.6,
+     "population": 1.1,
      "wealth": 1,
      "note": "Gentius's kingdom crushed at Scodra this year; the coast now a Roman client zone."
     },
@@ -3202,7 +3207,7 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 1.1,
      "wealth": 1
     },
     {
@@ -3217,7 +3222,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.0,
      "wealth": 1
     },
     {
@@ -3250,7 +3255,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -3266,7 +3271,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -3312,7 +3317,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -3328,7 +3333,7 @@
       "ION"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 1.5,
      "wealth": 4,
      "note": "Enlarged hugely by the Peace of Apamea (188), gifted most of Seleucid Anatolia."
     },
@@ -3345,7 +3350,7 @@
       "PON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.6,
      "wealth": 3
     },
     {
@@ -3428,7 +3433,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -3444,7 +3449,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -3480,7 +3485,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
@@ -3504,10 +3509,10 @@
      "note": "Third Illyrian War captures King Gentius"
     },
     {
-     "a": "seleucid",
-     "b": "judea",
-     "type": "war",
-     "note": "Antiochus IV's persecution edicts ignite the Maccabean revolt next year"
+     "a": "pergamon",
+     "b": "rome",
+     "type": "alliance",
+     "note": "Eumenes II fought beside Rome at Pydna, though the Senate's suspicion grows"
     },
     {
      "a": "rhodes",
@@ -3543,7 +3548,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.6,
      "wealth": 2
     },
     {
@@ -3561,7 +3566,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -3574,7 +3579,7 @@
       "MDA"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.2,
      "wealth": 1
     },
     {
@@ -3588,7 +3593,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -3604,7 +3609,7 @@
       "BIT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 3
     },
     {
@@ -3620,7 +3625,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.15,
      "wealth": 3
     },
     {
@@ -3639,7 +3644,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.2,
      "wealth": 1
     },
     {
@@ -3655,7 +3660,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -3670,7 +3675,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -3683,7 +3688,7 @@
       "CAS_N"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -3692,13 +3697,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -3712,7 +3718,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 2
     },
     {
@@ -3729,7 +3735,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -3743,7 +3749,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -3756,7 +3762,7 @@
       "CAP"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1,
      "note": "Reduced to tribute-paying tetrarchies since Manlius Vulso's campaign of 189."
     },
@@ -3783,7 +3789,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 1.68,
+     "population": 4.2,
      "wealth": 2
     },
     {
@@ -3806,7 +3812,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.32,
+     "population": 1.7,
      "wealth": 1
     },
     {
@@ -3819,7 +3825,7 @@
       "EUS"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -3836,7 +3842,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 1.1,
      "wealth": 1
     },
     {
@@ -3853,7 +3859,7 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.9,
      "wealth": 1
     },
     {
@@ -3868,7 +3874,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 1.0,
      "wealth": 1
     },
     {
@@ -3884,7 +3890,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -3900,7 +3906,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -3949,7 +3955,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -3965,7 +3971,7 @@
       "ION"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 2.0,
      "wealth": 4,
      "note": "Rome's staunchest Anatolian ally, fabulously wealthy from the Pergamon library and wool trade."
     },
@@ -3982,7 +3988,7 @@
       "PON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.7,
      "wealth": 3
     },
     {
@@ -4070,7 +4076,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -4086,7 +4092,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -4122,34 +4128,34 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
    "relations": [
     {
      "a": "rome",
-     "b": "carthage",
-     "type": "war",
-     "note": "Third Punic War ends in Carthage's total destruction"
+     "b": "numidia",
+     "type": "alliance",
+     "note": "Numidian cavalry helped Rome finish Carthage after decades of encroachment"
     },
     {
      "a": "rome",
-     "b": "achaean_league",
-     "type": "war",
-     "note": "Corinth sacked, the League dissolved the same year"
-    },
-    {
-     "a": "numidia",
-     "b": "carthage",
-     "type": "war",
-     "note": "Masinissa's border encroachments provoked the final war"
+     "b": "pergamon",
+     "type": "alliance",
+     "note": "Attalus II remains Rome's staunchest Anatolian ally"
     },
     {
      "a": "seleucid",
-     "b": "judea",
+     "b": "ptolemaic_egypt",
      "type": "war",
-     "note": "Hasmonean autonomy grows as Seleucid civil wars rage"
+     "note": "Ptolemy VI intervenes in the Seleucid civil war in Syria"
+    },
+    {
+     "a": "rhodes",
+     "b": "rome",
+     "type": "trade",
+     "note": "Delos's free port has gutted Rhodian customs, but grain still flows"
     }
    ]
   },
@@ -4179,7 +4185,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.6,
      "wealth": 2
     },
     {
@@ -4197,7 +4203,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -4210,7 +4216,7 @@
       "MDA"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.2,
      "wealth": 1
     },
     {
@@ -4226,7 +4232,7 @@
       "BIT"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.45,
      "wealth": 3,
      "note": "Nicomedes III balances Pontic pressure and Roman favor."
     },
@@ -4246,7 +4252,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.3,
      "wealth": 1
     },
     {
@@ -4262,7 +4268,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -4277,7 +4283,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -4286,13 +4292,14 @@
      "type": "state",
      "culture": "hellenic",
      "cultureName": "Cretan Greek",
+     "founded": -800,
      "capital": "Knossos",
      "capitalRegion": "CRE",
      "regions": [
       "CRE"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.25,
      "wealth": 2
     },
     {
@@ -4306,7 +4313,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.5,
      "wealth": 2
     },
     {
@@ -4323,7 +4330,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -4337,7 +4344,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -4362,7 +4369,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 1.56,
+     "population": 4.5,
      "wealth": 2
     },
     {
@@ -4387,7 +4394,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.56,
+     "population": 1.8,
      "wealth": 1
     },
     {
@@ -4403,7 +4410,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 1
     },
     {
@@ -4435,7 +4442,7 @@
       "SVK"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.6,
      "wealth": 1
     },
     {
@@ -4449,7 +4456,7 @@
       "POR_N"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     },
     {
@@ -4465,7 +4472,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -4499,7 +4506,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -4547,7 +4554,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -4621,7 +4628,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.12,
      "wealth": 5,
      "note": "Still independent and wealthy, though eclipsed by Delos and menaced by pirates."
     },
@@ -4680,7 +4687,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -4696,7 +4703,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -4729,7 +4736,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
@@ -4811,7 +4818,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -4843,7 +4850,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 3,
      "note": "Restored under Pharnaces II, Mithridates's son, as a Roman-aligned client."
     },
@@ -4863,7 +4870,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.3,
      "wealth": 1
     },
     {
@@ -4879,7 +4886,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -4911,7 +4918,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -4945,7 +4952,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -4959,7 +4966,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -4980,7 +4987,7 @@
       "SUI"
      ],
      "stability": "contested",
-     "population": 1.08,
+     "population": 4.5,
      "wealth": 2
     },
     {
@@ -5005,7 +5012,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.56,
+     "population": 2.0,
      "wealth": 1
     },
     {
@@ -5021,7 +5028,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 1
     },
     {
@@ -5053,7 +5060,7 @@
       "SVK"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.6,
      "wealth": 1
     },
     {
@@ -5067,7 +5074,7 @@
       "POR_N"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     },
     {
@@ -5083,7 +5090,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.06,
      "wealth": 4
     },
     {
@@ -5117,7 +5124,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -5219,7 +5226,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.1,
      "wealth": 5,
      "note": "A shrunken but proud free ally, its fleet no longer the Aegean's arbiter."
     },
@@ -5284,7 +5291,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -5300,7 +5307,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -5314,7 +5321,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
@@ -5333,9 +5340,9 @@
     },
     {
      "a": "dacians",
-     "b": "bastarnae",
-     "type": "alliance",
-     "note": "Burebista's realm absorbs the Bastarnae borderlands"
+     "b": "thracians",
+     "type": "war",
+     "note": "Burebista raids Thrace and the Greek cities of the Black Sea coast"
     },
     {
      "a": "armenia_kingdom",
@@ -5377,7 +5384,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.6,
      "wealth": 2,
      "note": "Artavasdes II navigates carefully between Rome and Parthia."
     },
@@ -5396,7 +5403,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -5425,7 +5432,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 3
     },
     {
@@ -5444,7 +5451,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.3,
      "wealth": 1
     },
     {
@@ -5460,7 +5467,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -5475,7 +5482,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -5509,7 +5516,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -5523,7 +5530,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -5562,7 +5569,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.56,
+     "population": 2.1,
      "wealth": 1
     },
     {
@@ -5578,7 +5585,7 @@
       "SRB"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 1
     },
     {
@@ -5609,7 +5616,7 @@
       "SVK"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 1
     },
     {
@@ -5623,7 +5630,7 @@
       "POR_N"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     },
     {
@@ -5658,7 +5665,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -5741,7 +5748,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.1,
      "wealth": 5
     },
     {
@@ -5822,7 +5829,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -5838,7 +5845,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -5852,16 +5859,16 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
    "relations": [
     {
      "a": "rome",
-     "b": "gauls",
+     "b": "germani",
      "type": "war",
-     "note": "Memory of the Gallic Wars (58-51) still fresh; Vercingetorix executed 46 BC"
+     "note": "Caesar's Rhine bridges and massacres made the river Rome's frontier"
     },
     {
      "a": "rome",
@@ -5915,7 +5922,7 @@
       "ARM_W"
      ],
      "stability": "stable",
-     "population": 0.7,
+     "population": 0.6,
      "wealth": 2,
      "note": "Recently plundered by Antony (34 BC); the Artaxiad line is being restored as Antony's cause collapses."
     },
@@ -5934,7 +5941,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 0.72,
+     "population": 0.5,
      "wealth": 1
     },
     {
@@ -5976,7 +5983,7 @@
       "CRM"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 3
     },
     {
@@ -5995,7 +6002,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 0.84,
+     "population": 1.4,
      "wealth": 1
     },
     {
@@ -6011,7 +6018,7 @@
       "CON"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.05,
      "wealth": 3
     },
     {
@@ -6026,7 +6033,7 @@
       "GEO"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 2
     },
     {
@@ -6058,7 +6065,7 @@
       "RUS_NW"
      ],
      "stability": "stable",
-     "population": 0.6,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -6072,7 +6079,7 @@
       "IRL_S"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.35,
      "wealth": 1
     },
     {
@@ -6111,7 +6118,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 1.56,
+     "population": 2.2,
      "wealth": 1
     },
     {
@@ -6125,7 +6132,7 @@
       "SRB"
      ],
      "stability": "contested",
-     "population": 0.24,
+     "population": 0.5,
      "wealth": 1,
      "note": "Octavian's Illyrian War (35–33) has just stripped away the Iapodes and Delmatae coastlands."
     },
@@ -6157,7 +6164,7 @@
       "SVK"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.4,
      "wealth": 1
     },
     {
@@ -6171,7 +6178,7 @@
       "POR_N"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     },
     {
@@ -6187,7 +6194,7 @@
       "ARB"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.2,
      "wealth": 4
     },
     {
@@ -6232,7 +6239,7 @@
       "HUN"
      ],
      "stability": "stable",
-     "population": 0.12,
+     "population": 0.3,
      "wealth": 1
     },
     {
@@ -6283,7 +6290,7 @@
       "DOD"
      ],
      "stability": "stable",
-     "population": 0.35,
+     "population": 0.1,
      "wealth": 5,
      "note": "Still nominally free — one of the last independent Aegean states."
     },
@@ -6370,7 +6377,7 @@
       "SWE_N"
      ],
      "stability": "stable",
-     "population": 0.36,
+     "population": 0.05,
      "wealth": 1
     },
     {
@@ -6386,7 +6393,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 0.48,
+     "population": 0.9,
      "wealth": 2
     },
     {
@@ -6400,7 +6407,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 0.24,
+     "population": 0.7,
      "wealth": 1
     }
    ],
@@ -6520,6 +6527,7 @@
   "Numidia/Carthage border in Tripolitania (TRP): corrected during research to show Carthage holding it through -168, Numidia from -146 (Masinissa's seizure begun 162 BC, confirmed 146 BC) through -60, and Rome from -44 (Caesar's Africa Nova annexation, 46 BC) — an initial draft had mistakenly routed it through Rome earlier.",
   "Sardinia/Corsica are shown transitioning from Carthage to Rome at slice -218 (historically 238 BC, the Mercenary War aftermath) since no slice falls exactly on that year; Malta is shown Roman from -218 (seized early in the Second Punic War) rather than at -241.",
   "Sarmatians are shown displacing Scythians as of slice -201 ('by -200' per the brief); the exact transition was gradual over decades and any single year is a simplification.",
-  "Noricum is treated as a coalescing/allied Celtic federation from -201 (tribes uniting 'from 200 BC' per sources) rather than a fully sovereign kingdom; before that AUT is folded into generic La Tène Celtic tribes."
+  "Noricum is treated as a coalescing/allied Celtic federation from -201 (tribes uniting 'from 200 BC' per sources) rather than a fully sovereign kingdom; before that AUT is folded into generic La Tène Celtic tribes.",
+  "GEO (Colchis-Iberia) is kept with caucasian_iberia at -100 even though Mithridates VI had annexed coastal Colchis by c. 100 BC; the cell also covers interior Iberia, which stayed independent throughout."
  ]
 }
