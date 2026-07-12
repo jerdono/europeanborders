@@ -10,24 +10,24 @@ const lerp = (a, b, t) => a + (b - a) * t;
 /* ---------------- culture palette ---------------- */
 // family: [hue, sat, light] anchors per theme
 const FAMILIES = {
-  hellenic:          { label: 'Hellenic',        dark: [214, 52, 56] },
-  italic:            { label: 'Italic · Romance', dark: [13, 58, 52],  light: [13, 55, 44] },
-  celtic:            { label: 'Celtic',          dark: [130, 38, 45] },
-  germanic:          { label: 'Germanic',        dark: [42, 55, 55],  light: [42, 52, 46] },
-  slavic:            { label: 'Slavic',          dark: [168, 42, 44] },
-  baltic:            { label: 'Baltic',          dark: [276, 36, 58] },
-  uralic:            { label: 'Uralic',          dark: [322, 45, 55] },
-  steppe:            { label: 'Steppe nomad',    dark: [27, 45, 48],  light: [27, 44, 42] },
-  turkic:            { label: 'Turkic',          dark: [352, 55, 48] },
-  iranic:            { label: 'Iranic',          dark: [84, 35, 48],  light: [84, 33, 41] },
-  semitic_levantine: { label: 'Levantine',       dark: [318, 30, 42] },
-  arab:              { label: 'Arab · Islamic',  dark: [152, 45, 38] },
-  berber:            { label: 'Berber',          dark: [33, 40, 58],  light: [33, 38, 50] },
-  egyptian:          { label: 'Egyptian',        dark: [48, 60, 58],  light: [48, 55, 48] },
-  anatolian:         { label: 'Anatolian',       dark: [20, 40, 58],  light: [20, 38, 50] },
-  caucasian:         { label: 'Caucasian',       dark: [190, 45, 42] },
+  hellenic:          { label: 'Hellenic',        dark: [214, 54, 58] },
+  italic:            { label: 'Italic · Romance', dark: [13, 58, 52] },
+  celtic:            { label: 'Celtic',          dark: [130, 40, 47] },
+  germanic:          { label: 'Germanic',        dark: [42, 54, 52] },
+  slavic:            { label: 'Slavic',          dark: [164, 48, 50] },
+  baltic:            { label: 'Baltic',          dark: [292, 40, 66] },
+  uralic:            { label: 'Uralic',          dark: [322, 48, 57] },
+  steppe:            { label: 'Steppe nomad',    dark: [27, 48, 56] },
+  turkic:            { label: 'Turkic',          dark: [352, 55, 46] },
+  iranic:            { label: 'Iranic',          dark: [88, 34, 35] },
+  semitic_levantine: { label: 'Levantine',       dark: [318, 34, 46] },
+  arab:              { label: 'Arab · Islamic',  dark: [152, 48, 37] },
+  berber:            { label: 'Berber',          dark: [33, 48, 58] },
+  egyptian:          { label: 'Egyptian',        dark: [48, 58, 55] },
+  anatolian:         { label: 'Anatolian',       dark: [20, 42, 60] },
+  caucasian:         { label: 'Caucasian',       dark: [195, 52, 36] },
   pre_ie:            { label: 'Pre-Indo-European', dark: [100, 16, 50] },
-  paleo_balkan:      { label: 'Paleo-Balkan',    dark: [262, 25, 52] },
+  paleo_balkan:      { label: 'Paleo-Balkan',    dark: [262, 26, 54] },
 };
 function familyHSL(key, th) {
   const [h, s, l] = (FAMILIES[key] || FAMILIES.pre_ie).dark;
@@ -356,6 +356,7 @@ function frame(ts) {
 
   drawMap(i, p);
   drawStripNeedle();
+  drawPopNeedle();
   requestAnimationFrame(frame);
 }
 
@@ -519,6 +520,73 @@ function drawLabels(i) {
       mapX.fillStyle = P.inkSoft; mapX.fill();
     }
   }
+}
+
+/* ---------------- population curve ---------------- */
+let popBG = null, popC = null, popX = null;
+function yearToTourX(y, W) {
+  // piecewise-linear year -> tour-time position under the current mode
+  if (y <= years[0]) return 0;
+  if (y >= years[years.length - 1]) return W;
+  let i = 0;
+  while (i < years.length - 2 && y > years[i + 1]) i++;
+  const f = (y - years[i]) / (years[i + 1] - years[i] || 1);
+  const t = cumTime[mode][i] + f * (cumTime[mode][i + 1] - cumTime[mode][i]);
+  return (t / totalTime[mode]) * W;
+}
+function renderPopBG() {
+  const sect = $('#popsection');
+  if (!(DATA.benchmarks || []).length) { if (sect) sect.hidden = true; return; }
+  if (sect) sect.hidden = false;
+  popC = $('#popcurve'); if (!popC) return;
+  popX = popC.getContext('2d');
+  const dpr = view.dpr || 1;
+  const W = popC.clientWidth, H = popC.clientHeight;
+  if (!W) return;
+  popC.width = W * dpr; popC.height = H * dpr;
+  popBG = new OffscreenCanvas(popC.width, popC.height);
+  const x = popBG.getContext('2d');
+  x.scale(dpr, dpr);
+  const bm = (DATA.benchmarks || []).filter(b => b.mapPopulation > 0);
+  if (bm.length < 2) return;
+  const maxP = Math.max(...bm.map(b => b.mapPopulation));
+  const py = v => H - 4 - Math.sqrt(v / maxP) * (H - 12);
+  x.beginPath();
+  bm.forEach((b, k) => { const cx = yearToTourX(b.year, W), cy = py(b.mapPopulation); k ? x.lineTo(cx, cy) : x.moveTo(cx, cy); });
+  x.lineTo(yearToTourX(bm[bm.length - 1].year, W), H); x.lineTo(yearToTourX(bm[0].year, W), H); x.closePath();
+  const P = THEME_CANVAS[theme];
+  const gr = x.createLinearGradient(0, 0, 0, H);
+  gr.addColorStop(0, theme === 'dark' ? 'rgba(150,180,225,.35)' : 'rgba(70,95,130,.3)');
+  gr.addColorStop(1, 'rgba(150,180,225,.03)');
+  x.fillStyle = gr; x.fill();
+  x.beginPath();
+  bm.forEach((b, k) => { const cx = yearToTourX(b.year, W), cy = py(b.mapPopulation); k ? x.lineTo(cx, cy) : x.moveTo(cx, cy); });
+  x.strokeStyle = theme === 'dark' ? 'rgba(160,190,235,.75)' : 'rgba(70,95,130,.8)'; x.lineWidth = 1.4; x.stroke();
+}
+function drawPopNeedle() {
+  if (!popBG || !popX) return;
+  const dpr = view.dpr || 1;
+  const W = popC.clientWidth, H = popC.clientHeight;
+  popX.setTransform(1, 0, 0, 1, 0, 0);
+  popX.clearRect(0, 0, popC.width, popC.height);
+  popX.drawImage(popBG, 0, 0);
+  popX.scale(dpr, dpr);
+  const { i, p } = locate();
+  const y = lerp(years[i], years[Math.min(i + 1, years.length - 1)], p);
+  const nx = yearToTourX(y, W);
+  const bm = (DATA.benchmarks || []).filter(b => b.mapPopulation > 0);
+  if (bm.length < 2) return;
+  let v = bm[0].mapPopulation;
+  for (let k = 1; k < bm.length; k++) {
+    if (y <= bm[k].year) { const f = (y - bm[k - 1].year) / (bm[k].year - bm[k - 1].year || 1); v = lerp(bm[k - 1].mapPopulation, bm[k].mapPopulation, clamp(f, 0, 1)); break; }
+    v = bm[k].mapPopulation;
+  }
+  const P = THEME_CANVAS[theme];
+  popX.strokeStyle = P.trade; popX.lineWidth = 1;
+  popX.beginPath(); popX.moveTo(nx, 0); popX.lineTo(nx, H); popX.stroke();
+  popX.font = '600 10px system-ui'; popX.fillStyle = P.trade;
+  popX.textAlign = nx > W - 46 ? 'right' : 'left'; popX.textBaseline = 'top';
+  popX.fillText(fmtPop(v), nx + (nx > W - 46 ? -4 : 4), 1);
 }
 
 /* ---------------- timeline strip ---------------- */
@@ -706,7 +774,7 @@ function bindUI() {
     mode = b.dataset.mode;
     document.querySelectorAll('.modebtn').forEach(x => x.classList.toggle('active', x === b));
     tcum = cumTime[mode][i] + p * (cumTime[mode][i + 1] - cumTime[mode][i] || 0);
-    renderStripBG();
+    renderStripBG(); renderPopBG();
   }));
   $('#speed').addEventListener('change', e => speed = +e.target.value);
   document.querySelectorAll('.ovbtn').forEach(b => b.addEventListener('click', () => {
@@ -726,7 +794,7 @@ function bindUI() {
   $('#themebtn').addEventListener('click', () => {
     theme = theme === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = theme;
-    buildStatic(); rebake(); buildLegend(); renderStripBG(); updatePanels(displayIdx);
+    buildStatic(); rebake(); buildLegend(); renderStripBG(); renderPopBG(); updatePanels(displayIdx);
   });
   $('#aboutbtn').addEventListener('click', () => $('#about').hidden = false);
   $('#aboutclose').addEventListener('click', () => $('#about').hidden = true);
@@ -874,6 +942,7 @@ function resizeStrip() {
   if (!w || !h) return;
   stripC.width = w * dpr; stripC.height = h * dpr;
   renderStripBG();
+  renderPopBG();
 }
 
 /* ---------------- format ---------------- */
@@ -891,7 +960,12 @@ function fmtPop(m) {
 function smooth(t) { t = clamp(t, 0, 1); return t * t * (3 - 2 * t); }
 function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
-// test hook: jump to a fraction of the tour
+// test hooks: jump to a fraction of the tour / to the slice at-or-before a year
 window.__scrub = f => { tcum = clamp(f, 0, 1) * totalTime[mode]; };
+window.__scrubYear = y => {
+  let i = 0;
+  for (let k = 0; k < years.length; k++) if (years[k] <= y) i = k;
+  tcum = cumTime[mode][i] + 0.001;
+};
 
 boot();

@@ -134,6 +134,8 @@ body { margin: 0; background: var(--sea-deep); color: var(--ink); font-family: v
 #connval { position: absolute; right: 0; top: -17px; font-size: 11px; color: var(--accent); font-variant-numeric: tabular-nums; }
 #connnote { margin: 7px 0 0; font-size: 11.5px; line-height: 1.45; color: var(--ink-2); }
 
+#popcurve { width: 100%; height: 56px; display: block; }
+
 #powerlist { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; counter-reset: pw; }
 .pw { display: grid; grid-template-columns: 13px 1fr auto; gap: 8px; align-items: center; cursor: pointer; }
 .pw:hover .pw-name { color: var(--accent); }
