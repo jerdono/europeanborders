@@ -1,0 +1,6525 @@
+{
+ "era": "hellenistic",
+ "agent": "A4",
+ "slices": [
+  {
+   "year": -270,
+   "eraName": "Hellenistic Equilibrium",
+   "label": "Pyrrhus gone, Rome rules Italy; the Successor kingdoms divide the east",
+   "events": [
+    "Rome completes the conquest of peninsular Italy as the last holdouts submit after Pyrrhus",
+    "Galatian war-bands, having sacked Delphi in 279, settle permanently in central Anatolia",
+    "Ptolemy II's Nesiotic League and library make Alexandria the wonder of the Hellenistic world"
+   ],
+   "connectivity": 55,
+   "connectivityNote": "Hellenistic successor courts, Rhodian shipping and Alexandria's library bind the east together.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2
+    },
+    {
+     "id": "athens",
+     "name": "Athens",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Athenian Greek",
+     "founded": -800,
+     "capital": "Athens",
+     "capitalRegion": "ATT",
+     "regions": [
+      "ATT"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 3,
+     "note": "Nominally free, still garrisoned by Macedon at the Piraeus and Museum hill."
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 3,
+     "note": "An independent kingdom since Zipoites, notorious for inviting the Galatians into Asia."
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 1.1,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 3
+    },
+    {
+     "id": "carthage",
+     "name": "Carthage",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Punic",
+     "founded": -814,
+     "capital": "Carthage",
+     "capitalRegion": "TUN",
+     "regions": [
+      "BAL",
+      "COR",
+      "MLT",
+      "SAR",
+      "TRP",
+      "TUN"
+     ],
+     "stability": "stable",
+     "population": 1.6,
+     "wealth": 4,
+     "note": "Punic seapower dominates the western Mediterranean from Africa to the Balearics."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "ARA",
+      "CAS_N",
+      "CAS_S"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "epirus",
+     "name": "Epirote League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Epirote Greek",
+     "founded": -330,
+     "capital": "Ambracia",
+     "capitalRegion": "EPI",
+     "regions": [
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "note": "Pyrrhus has just died at Argos (272); the kingdom he built in Italy is gone."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "consolidating",
+     "population": 0.25,
+     "wealth": 1,
+     "note": "Celtic warbands invited into Asia Minor as mercenaries, raiding at will."
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOM",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "PIE",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4.0,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.4,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "AND",
+      "EUS",
+      "VAL"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 1.2,
+     "wealth": 1
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "AUT",
+      "BAV",
+      "BOH",
+      "FRK",
+      "POL_S",
+      "SIL",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 1.5,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 1.1,
+     "wealth": 1
+    },
+    {
+     "id": "macedon",
+     "name": "Kingdom of Macedon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Macedonian Greek",
+     "founded": -808,
+     "capital": "Pella",
+     "capitalRegion": "MAC",
+     "regions": [
+      "MAC"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 3,
+     "note": "Antigonus II Gonatas secures the throne after decades of chaos since Alexander."
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.06,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 4,
+     "note": "Arab caravan kingdom controlling the incense routes from Petra."
+    },
+    {
+     "id": "numidian_tribes",
+     "name": "Numidian tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Massylii & Masaesylii",
+     "regions": [
+      "NUM",
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "note": "A young Persian-descended dynasty on the Black Sea coast."
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "AEG",
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S",
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 5.0,
+     "wealth": 5,
+     "note": "Alexandria is the intellectual and commercial capital of the Hellenistic world."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 5,
+     "note": "The Aegean's premier trading and naval power, famous for its Colossus."
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "CLB",
+      "NAP",
+      "ROM",
+      "TUS"
+     ],
+     "stability": "consolidating",
+     "population": 3.2,
+     "wealth": 3,
+     "note": "Master of peninsular Italy after Pyrrhus's withdrawal; Carthage still a wary ally."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1
+    },
+    {
+     "id": "scythians",
+     "name": "Scythians",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Scythian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "ION",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "stable",
+     "population": 16.0,
+     "wealth": 4,
+     "note": "Vast empire from the Aegean to the Indus, though Bactria and Parthia are already stirring.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "sparta",
+     "name": "Sparta",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Spartan Greek",
+     "founded": -900,
+     "capital": "Sparta",
+     "capitalRegion": "PEL",
+     "regions": [
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "note": "Weakened but unconquered, having helped repel Pyrrhus's siege in 272."
+    },
+    {
+     "id": "syracuse",
+     "name": "Syracuse",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Syracusan Greek",
+     "founded": -734,
+     "capital": "Syracuse",
+     "capitalRegion": "SIC",
+     "regions": [
+      "SIC"
+     ],
+     "stability": "consolidating",
+     "population": 0.65,
+     "wealth": 3
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "MDA",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "carthage",
+     "type": "trade",
+     "note": "Old treaties of friendship still hold, for now"
+    },
+    {
+     "a": "seleucid",
+     "b": "ptolemaic_egypt",
+     "type": "war",
+     "note": "First Syrian War just concluded over the Levant"
+    },
+    {
+     "a": "macedon",
+     "b": "epirus",
+     "type": "war",
+     "note": "Rivalry over hegemony in northern Greece"
+    },
+    {
+     "a": "galatians",
+     "b": "bithynia",
+     "type": "war",
+     "note": "Galatian raiders ravage Bithynian and Greek cities alike"
+    },
+    {
+     "a": "athens",
+     "b": "macedon",
+     "type": "war",
+     "note": "Macedonian garrison still holds the Piraeus"
+    },
+    {
+     "a": "rome",
+     "b": "syracuse",
+     "type": "trade",
+     "note": "Wary neutrality across the Sicilian strait"
+    }
+   ]
+  },
+  {
+   "year": -241,
+   "eraName": "Punic Sicily",
+   "label": "Sicily falls to Rome as Carthage reels from mercenary revolt",
+   "events": [
+    "Rome wins the First Punic War; Sicily becomes its first overseas province",
+    "Carthage's unpaid mercenaries revolt in the brutal Truceless War",
+    "Attalus I begins turning Pergamon from a city into a kingdom"
+   ],
+   "connectivity": 56,
+   "connectivityNote": "Punic and Hellenistic trade networks intact despite the First Punic War's western disruption.",
+   "entities": [
+    {
+     "id": "achaean_league",
+     "name": "Achaean League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Achaean Greek",
+     "founded": -280,
+     "capital": "Aigion",
+     "capitalRegion": "PEL",
+     "regions": [
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "note": "Aratus of Sicyon is expanding the federal league across the Peloponnese."
+    },
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2
+    },
+    {
+     "id": "athens",
+     "name": "Athens",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Athenian Greek",
+     "founded": -800,
+     "capital": "Athens",
+     "capitalRegion": "ATT",
+     "regions": [
+      "ATT"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 3
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 3
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "carthage",
+     "name": "Carthage",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Punic",
+     "founded": -814,
+     "capital": "Carthage",
+     "capitalRegion": "TUN",
+     "regions": [
+      "BAL",
+      "COR",
+      "MLT",
+      "SAR",
+      "TRP",
+      "TUN"
+     ],
+     "stability": "stable",
+     "population": 1.5,
+     "wealth": 4,
+     "note": "Defeated at sea; Sicily lost, but Iberian expansion about to begin under the Barcids."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "ARA",
+      "CAS_N",
+      "CAS_S"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "epirus",
+     "name": "Epirote League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Epirote Greek",
+     "founded": -330,
+     "capital": "Ambracia",
+     "capitalRegion": "EPI",
+     "regions": [
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "note": "A modest federal league since the royal line's extinction."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOM",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "PIE",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4.1,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.08,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "AND",
+      "EUS",
+      "VAL"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 1.2,
+     "wealth": 1
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "AUT",
+      "BAV",
+      "BOH",
+      "FRK",
+      "POL_S",
+      "SIL",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 1.5,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "macedon",
+     "name": "Kingdom of Macedon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Macedonian Greek",
+     "founded": -808,
+     "capital": "Pella",
+     "capitalRegion": "MAC",
+     "regions": [
+      "AEG",
+      "MAC"
+     ],
+     "stability": "stable",
+     "population": 0.75,
+     "wealth": 3,
+     "note": "Aegean naval hegemony contested with the Ptolemaic fleet."
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "numidian_tribes",
+     "name": "Numidian tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Massylii & Masaesylii",
+     "regions": [
+      "NUM",
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "pergamon",
+     "name": "Kingdom of Pergamon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Attalid Greek",
+     "founded": -282,
+     "capital": "Pergamon",
+     "capitalRegion": "ION",
+     "regions": [
+      "ION"
+     ],
+     "stability": "consolidating",
+     "population": 0.35,
+     "wealth": 4,
+     "note": "Attalus I is carving an independent kingdom from Seleucid Ionia."
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S",
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 4.9,
+     "wealth": 5,
+     "note": "Holds Cyrenaica, Cyprus, Coele-Syria and an Aegean island league at its territorial peak."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 5
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "CLB",
+      "NAP",
+      "ROM",
+      "SIC",
+      "TUS"
+     ],
+     "stability": "consolidating",
+     "population": 3.8,
+     "wealth": 3,
+     "note": "First Punic War won; Sicily becomes Rome's first overseas province."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "scythians",
+     "name": "Scythians",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Scythian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "stable",
+     "population": 15.0,
+     "wealth": 4,
+     "note": "Losing the Third Syrian War's opening rounds to Ptolemy III deep in Mesopotamia.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "MDA",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "carthage",
+     "type": "war",
+     "note": "First Punic War ends with Rome victorious at sea"
+    },
+    {
+     "a": "carthage",
+     "b": "numidian_tribes",
+     "type": "war",
+     "note": "Mercenary War draws in Berber allies against Carthage"
+    },
+    {
+     "a": "seleucid",
+     "b": "ptolemaic_egypt",
+     "type": "war",
+     "note": "Third Syrian War ravages Seleucid Mesopotamia"
+    },
+    {
+     "a": "pergamon",
+     "b": "galatians",
+     "type": "war",
+     "note": "Attalus I's victories begin curbing Galatian raids"
+    },
+    {
+     "a": "rhodes",
+     "b": "ptolemaic_egypt",
+     "type": "trade",
+     "note": "Rhodian shippers carry Egyptian grain across the Aegean"
+    }
+   ]
+  },
+  {
+   "year": -218,
+   "eraName": "The Hannibalic War",
+   "label": "The Second Punic War's opening catastrophe for Rome",
+   "events": [
+    "Hannibal crosses the Alps and invades Italy after seizing Saguntum",
+    "Carthaginian Spain now runs to the Ebro river under the Barcid dynasty",
+    "Cisalpine Gaul's Boii and Insubres rise against Rome in support of Hannibal"
+   ],
+   "connectivity": 42,
+   "connectivityNote": "Hannibal's invasion and the Cisalpine revolt sever Italy's roads and the western sea lanes.",
+   "entities": [
+    {
+     "id": "achaean_league",
+     "name": "Achaean League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Achaean Greek",
+     "founded": -280,
+     "capital": "Aigion",
+     "capitalRegion": "PEL",
+     "regions": [
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "Allied with Macedon against Sparta and the Aetolians in the Social War."
+    },
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2
+    },
+    {
+     "id": "athens",
+     "name": "Athens",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Athenian Greek",
+     "founded": -800,
+     "capital": "Athens",
+     "capitalRegion": "ATT",
+     "regions": [
+      "ATT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "carthage",
+     "name": "Carthage",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Punic",
+     "founded": -814,
+     "capital": "Carthage",
+     "capitalRegion": "TUN",
+     "regions": [
+      "AND",
+      "ARA",
+      "BAL",
+      "CAS_S",
+      "TRP",
+      "TUN",
+      "VAL"
+     ],
+     "stability": "contested",
+     "population": 2.9,
+     "wealth": 4,
+     "note": "Hannibal marches on Italy while Hasdrubal secures a new Punic Spain."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "CAS_N"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "epirus",
+     "name": "Epirote League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Epirote Greek",
+     "founded": -330,
+     "capital": "Ambracia",
+     "capitalRegion": "EPI",
+     "regions": [
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "note": "Allied with Macedon against the Aetolians and Rome's Illyrian clients."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOM",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "PIE",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "contested",
+     "population": 4.1,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.08,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "AUT",
+      "BAV",
+      "BOH",
+      "FRK",
+      "POL_S",
+      "SIL",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 0.96,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 1.1,
+     "wealth": 1
+    },
+    {
+     "id": "macedon",
+     "name": "Kingdom of Macedon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Macedonian Greek",
+     "founded": -808,
+     "capital": "Pella",
+     "capitalRegion": "MAC",
+     "regions": [
+      "AEG",
+      "MAC"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 3,
+     "note": "Philip V ascends, ambitious and soon to clash with Rome and the Aetolians."
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "numidian_tribes",
+     "name": "Numidian tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Massylii & Masaesylii",
+     "regions": [
+      "NUM",
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "pergamon",
+     "name": "Kingdom of Pergamon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Attalid Greek",
+     "founded": -282,
+     "capital": "Pergamon",
+     "capitalRegion": "ION",
+     "regions": [
+      "ION"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S",
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 4.9,
+     "wealth": 5,
+     "note": "Antiochus III presses into Coele-Syria; the Ptolemaic war machine strained."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "CLB",
+      "COR",
+      "MLT",
+      "NAP",
+      "ROM",
+      "SAR",
+      "SIC",
+      "TUS"
+     ],
+     "stability": "contested",
+     "population": 4.6,
+     "wealth": 3,
+     "note": "Hannibal has crossed the Alps; Cisalpine Gaul in revolt at Rome's back."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "scythians",
+     "name": "Scythians",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Scythian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "stable",
+     "population": 14.5,
+     "wealth": 4,
+     "note": "Antiochus III's Fourth Syrian War push toward Coele-Syria is under way.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "MDA",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "carthage",
+     "type": "war",
+     "note": "Hannibal invades Italy after Saguntum falls"
+    },
+    {
+     "a": "carthage",
+     "b": "gauls",
+     "type": "alliance",
+     "note": "Cisalpine Boii and Insubres join Hannibal's war"
+    },
+    {
+     "a": "seleucid",
+     "b": "ptolemaic_egypt",
+     "type": "war",
+     "note": "Fourth Syrian War fought over Coele-Syria"
+    },
+    {
+     "a": "macedon",
+     "b": "achaean_league",
+     "type": "alliance",
+     "note": "Philip V backs the League in the Social War"
+    },
+    {
+     "a": "rome",
+     "b": "illyrians",
+     "type": "war",
+     "note": "Second Illyrian War secures Rome's Adriatic flank"
+    }
+   ]
+  },
+  {
+   "year": -201,
+   "eraName": "Rome Ascendant",
+   "label": "Carthage broken, Rome now the western Mediterranean's arbiter",
+   "events": [
+    "Scipio's victory at Zama ends the Second Punic War; Carthage loses Spain and its fleet",
+    "Masinissa's Numidia becomes Rome's indispensable African ally",
+    "Antiochus III presses into Coele-Syria, alarming a weakened Ptolemaic Egypt"
+   ],
+   "connectivity": 46,
+   "connectivityNote": "Postwar recovery begins as Rome reopens the western basin, though the east still fights.",
+   "entities": [
+    {
+     "id": "achaean_league",
+     "name": "Achaean League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Achaean Greek",
+     "founded": -280,
+     "capital": "Aigion",
+     "capitalRegion": "PEL",
+     "regions": [
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "Delicately balancing Macedon, Rome, and Nabis's revived Sparta."
+    },
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2
+    },
+    {
+     "id": "athens",
+     "name": "Athens",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Athenian Greek",
+     "founded": -800,
+     "capital": "Athens",
+     "capitalRegion": "ATT",
+     "regions": [
+      "ATT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "bastarnae",
+     "name": "Bastarnae",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Bastarnae",
+     "regions": [
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "carthage",
+     "name": "Carthage",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Punic",
+     "founded": -814,
+     "capital": "Carthage",
+     "capitalRegion": "TUN",
+     "regions": [
+      "BAL",
+      "TRP",
+      "TUN"
+     ],
+     "stability": "collapsing",
+     "population": 1.2,
+     "wealth": 4,
+     "note": "Crushed at Zama; reduced to Africa alone, paying crippling war indemnity."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "CAS_N"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "epirus",
+     "name": "Epirote League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Epirote Greek",
+     "founded": -330,
+     "capital": "Ambracia",
+     "capitalRegion": "EPI",
+     "regions": [
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "note": "Caught between Macedon and Rome in the widening Second Macedonian War."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOM",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "PIE",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 1.92,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.08,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "BOH",
+      "FRK",
+      "POL_S",
+      "SIL",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "macedon",
+     "name": "Kingdom of Macedon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Macedonian Greek",
+     "founded": -808,
+     "capital": "Pella",
+     "capitalRegion": "MAC",
+     "regions": [
+      "AEG",
+      "MAC"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 3,
+     "note": "Philip V's aggression in the Aegean draws Rome's attention east."
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "note": "Norican tribes are coalescing into a federal kingdom prized for its iron."
+    },
+    {
+     "id": "numidia",
+     "name": "Kingdom of Numidia",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Numidian",
+     "founded": -202,
+     "capital": "Cirta",
+     "capitalRegion": "NUM",
+     "regions": [
+      "NUM",
+      "ORA"
+     ],
+     "stability": "consolidating",
+     "population": 0.5,
+     "wealth": 2,
+     "note": "Masinissa unifies the Massylii and Masaesylii after Zama, Rome's most valued African ally."
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "pergamon",
+     "name": "Kingdom of Pergamon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Attalid Greek",
+     "founded": -282,
+     "capital": "Pergamon",
+     "capitalRegion": "ION",
+     "regions": [
+      "ION"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S",
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 4.8,
+     "wealth": 5,
+     "note": "Antiochus III's invasion of Coele-Syria is only narrowly being held off."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AND",
+      "ARA",
+      "CAS_S",
+      "CLB",
+      "COR",
+      "MLT",
+      "NAP",
+      "ROM",
+      "SAR",
+      "SIC",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "consolidating",
+     "population": 5.3,
+     "wealth": 3,
+     "note": "Zama won; Carthage stripped of Spain and its fleet."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "stable",
+     "population": 13.5,
+     "wealth": 4,
+     "note": "Antiochus III turns east and south; Coele-Syria campaign about to climax at Panion.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "carthage",
+     "type": "war",
+     "note": "Zama ends the Second Punic War; harsh peace imposed"
+    },
+    {
+     "a": "rome",
+     "b": "numidia",
+     "type": "alliance",
+     "note": "Masinissa's cavalry proved decisive at Zama"
+    },
+    {
+     "a": "seleucid",
+     "b": "ptolemaic_egypt",
+     "type": "war",
+     "note": "Fifth Syrian War over Coele-Syria nears its climax"
+    },
+    {
+     "a": "rome",
+     "b": "macedon",
+     "type": "war",
+     "note": "Second Macedonian War opens against Philip V"
+    },
+    {
+     "a": "rhodes",
+     "b": "macedon",
+     "type": "war",
+     "note": "Rhodes and Pergamon appeal to Rome against Philip's fleet"
+    }
+   ]
+  },
+  {
+   "year": -168,
+   "eraName": "Pydna and the Roman Settlement",
+   "label": "Macedon's monarchy falls; Rome humbles a Seleucid king without a battle",
+   "events": [
+    "Aemilius Paullus crushes Perseus at Pydna, ending the Antigonid monarchy",
+    "Rome's ultimatum at Eleusis forces Antiochus IV out of Egypt in a single humiliating day",
+    "Gentius of Illyria is defeated and captured at Scodra"
+   ],
+   "connectivity": 58,
+   "connectivityNote": "Pydna's peace and expanding Roman roads lift trade even as Rhodes's fortunes are about to be crushed.",
+   "entities": [
+    {
+     "id": "achaean_league",
+     "name": "Achaean League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Achaean Greek",
+     "founded": -280,
+     "capital": "Aigion",
+     "capitalRegion": "PEL",
+     "regions": [
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "Backed Rome at Pydna, but Achaean hostages (including Polybius) are taken to Rome."
+    },
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2,
+     "note": "Artaxias I has declared full independence from the Seleucids since 189."
+    },
+    {
+     "id": "athens",
+     "name": "Athens",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Athenian Greek",
+     "founded": -800,
+     "capital": "Athens",
+     "capitalRegion": "ATT",
+     "regions": [
+      "ATT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "A cultural showcase under growing Roman patronage."
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "bastarnae",
+     "name": "Bastarnae",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Bastarnae",
+     "regions": [
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "carthage",
+     "name": "Carthage",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Punic",
+     "founded": -814,
+     "capital": "Carthage",
+     "capitalRegion": "TUN",
+     "regions": [
+      "BAL",
+      "TRP",
+      "TUN"
+     ],
+     "stability": "stable",
+     "population": 1.1,
+     "wealth": 4,
+     "note": "A rump trading city, hemmed in by Masinissa's expanding Numidia."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "CAS_N"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "epirus",
+     "name": "Epirote League",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Epirote Greek",
+     "founded": -330,
+     "capital": "Ambracia",
+     "capitalRegion": "EPI",
+     "regions": [
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "note": "Sacked by Aemilius Paullus's legions in 167; 150,000 enslaved, the league dissolved."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 1.68,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.2,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "contested",
+     "population": 0.6,
+     "wealth": 1,
+     "note": "Gentius's kingdom crushed at Scodra this year; the coast now a Roman client zone."
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "BOH",
+      "FRK",
+      "SIL",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "macedon",
+     "name": "Kingdom of Macedon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Macedonian Greek",
+     "founded": -808,
+     "capital": "Pella",
+     "capitalRegion": "MAC",
+     "regions": [
+      "MAC"
+     ],
+     "stability": "collapsing",
+     "population": 0.55,
+     "wealth": 3,
+     "note": "Defeated at Pydna; the monarchy abolished, split into four tribute-paying republics."
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2
+    },
+    {
+     "id": "numidia",
+     "name": "Kingdom of Numidia",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Numidian",
+     "founded": -202,
+     "capital": "Cirta",
+     "capitalRegion": "NUM",
+     "regions": [
+      "NUM",
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 2
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "pergamon",
+     "name": "Kingdom of Pergamon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Attalid Greek",
+     "founded": -282,
+     "capital": "Pergamon",
+     "capitalRegion": "ION",
+     "regions": [
+      "ION"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4,
+     "note": "Enlarged hugely by the Peace of Apamea (188), gifted most of Seleucid Anatolia."
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "stable",
+     "population": 4.6,
+     "wealth": 5,
+     "note": "Coele-Syria lost to the Seleucids at Panion; Rome's 'Day of Eleusis' ultimatum saves Alexandria from Antiochus IV."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "AEG",
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 5,
+     "note": "Punished for wavering at Pydna; Rome's 'free port' of Delos guts Rhodian customs revenue next year."
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AND",
+      "ARA",
+      "CAS_S",
+      "CLB",
+      "COR",
+      "LOM",
+      "MLT",
+      "NAP",
+      "PIE",
+      "ROM",
+      "SAR",
+      "SIC",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "stable",
+     "population": 7.5,
+     "wealth": 3,
+     "note": "Pydna ends the Antigonid monarchy; Rome now Mediterranean arbiter."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "contested",
+     "population": 10.0,
+     "wealth": 4,
+     "note": "Antiochus IV humiliated at Eleusis by Rome; his persecution edicts spark Judea's revolt next year.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "macedon",
+     "type": "war",
+     "note": "Pydna ends the Third Macedonian War and the monarchy"
+    },
+    {
+     "a": "rome",
+     "b": "seleucid",
+     "type": "war",
+     "note": "Rome's Eleusis ultimatum halts Antiochus IV's conquest of Egypt"
+    },
+    {
+     "a": "rome",
+     "b": "illyrians",
+     "type": "war",
+     "note": "Third Illyrian War captures King Gentius"
+    },
+    {
+     "a": "seleucid",
+     "b": "judea",
+     "type": "war",
+     "note": "Antiochus IV's persecution edicts ignite the Maccabean revolt next year"
+    },
+    {
+     "a": "rhodes",
+     "b": "rome",
+     "type": "trade",
+     "note": "Rhodes soon punished with Delos's tax-free status, gutting its revenue"
+    }
+   ]
+  },
+  {
+   "year": -146,
+   "eraName": "Year of Two Destructions",
+   "label": "Carthage and Corinth destroyed the same year; Africa and Macedonia become provinces",
+   "events": [
+    "Carthage is annihilated by Scipio Aemilianus after a three-year siege",
+    "Corinth is razed the same year as the Achaean League is crushed; Macedonia becomes a province",
+    "Numidia is confirmed in its seizure of Carthage's former Tripolitanian ports"
+   ],
+   "connectivity": 52,
+   "connectivityNote": "Two great destructions this year rattle trade, but Roman roads and a unified west and Greece knit new links.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "bastarnae",
+     "name": "Bastarnae",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Bastarnae",
+     "regions": [
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Mauri tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Mauretanian Berber",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "celtiberians",
+     "name": "Celtiberian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtiberian",
+     "regions": [
+      "CAS_N"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1,
+     "note": "Reduced to tribute-paying tetrarchies since Manlius Vulso's campaign of 189."
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOR",
+      "NED",
+      "NRM",
+      "OCC",
+      "PIC",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 1.68,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SIL",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.32,
+     "wealth": 1
+    },
+    {
+     "id": "iberians",
+     "name": "Iberian tribes",
+     "type": "tribal",
+     "culture": "pre_ie",
+     "cultureName": "Iberian",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "ALB",
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "BOH",
+      "FRK",
+      "SVK",
+      "SWA"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "POR_S"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.28,
+     "wealth": 2,
+     "note": "A firm Roman ally ('hospitium publicum') since the 170s, trading famous Noric steel."
+    },
+    {
+     "id": "numidia",
+     "name": "Kingdom of Numidia",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Numidian",
+     "founded": -202,
+     "capital": "Cirta",
+     "capitalRegion": "NUM",
+     "regions": [
+      "NUM",
+      "ORA",
+      "TRP"
+     ],
+     "stability": "consolidating",
+     "population": 0.75,
+     "wealth": 2,
+     "note": "Confirmed in the seized Carthaginian Emporia (Tripolitania) the same year Carthage falls."
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "pergamon",
+     "name": "Kingdom of Pergamon",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Attalid Greek",
+     "founded": -282,
+     "capital": "Pergamon",
+     "capitalRegion": "ION",
+     "regions": [
+      "ION"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4,
+     "note": "Rome's staunchest Anatolian ally, fabulously wealthy from the Pergamon library and wool trade."
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "stable",
+     "population": 4.4,
+     "wealth": 5,
+     "note": "Dynastic strife between Ptolemaic siblings; still fabulously rich from Nile grain."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 5
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AEG",
+      "AND",
+      "ARA",
+      "ATT",
+      "BAL",
+      "CAS_S",
+      "CLB",
+      "COR",
+      "EPI",
+      "LOM",
+      "MAC",
+      "MLT",
+      "NAP",
+      "PEL",
+      "PIE",
+      "ROM",
+      "SAR",
+      "SIC",
+      "TUN",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "consolidating",
+     "population": 9.5,
+     "wealth": 3,
+     "note": "Carthage and Corinth both razed this year; Africa and Macedonia become provinces."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "SYR"
+     ],
+     "stability": "collapsing",
+     "population": 6.0,
+     "wealth": 4,
+     "note": "Wracked by dynastic civil war between rival claimants; Parthia already holds Media.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "carthage",
+     "type": "war",
+     "note": "Third Punic War ends in Carthage's total destruction"
+    },
+    {
+     "a": "rome",
+     "b": "achaean_league",
+     "type": "war",
+     "note": "Corinth sacked, the League dissolved the same year"
+    },
+    {
+     "a": "numidia",
+     "b": "carthage",
+     "type": "war",
+     "note": "Masinissa's border encroachments provoked the final war"
+    },
+    {
+     "a": "seleucid",
+     "b": "judea",
+     "type": "war",
+     "note": "Hasmonean autonomy grows as Seleucid civil wars rage"
+    }
+   ]
+  },
+  {
+   "year": -100,
+   "eraName": "Piracy and Client Kings",
+   "label": "Cilician pirates and Mithridates VI test a Rome distracted by its own poor",
+   "events": [
+    "Cilician and Cretan pirates paralyze Mediterranean grain shipping",
+    "Mithridates VI of Pontus annexes the Bosporan Kingdom and presses into Cappadocia and Galatia",
+    "Gaius Marius, fresh from annihilating the Cimbri and Teutones, dominates Roman politics"
+   ],
+   "connectivity": 35,
+   "connectivityNote": "Cilician and Cretan piracy strangles grain and slave shipping across the whole basin.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "bastarnae",
+     "name": "Bastarnae",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Bastarnae",
+     "regions": [
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "bithynia",
+     "name": "Kingdom of Bithynia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Bithynian",
+     "founded": -297,
+     "capital": "Nicomedia",
+     "capitalRegion": "BIT",
+     "regions": [
+      "BIT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "Nicomedes III balances Pontic pressure and Roman favor."
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "cretan_league",
+     "name": "Cretan cities",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cretan Greek",
+     "capital": "Knossos",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 2
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "FLA",
+      "IDF",
+      "LOI",
+      "LOR",
+      "NED",
+      "NRM",
+      "PIC",
+      "RHE",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 1.56,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "FRK",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SIL",
+      "SWA",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.56,
+     "wealth": 1
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 1
+    },
+    {
+     "id": "judea",
+     "name": "Hasmonean Judea",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Judean",
+     "founded": -140,
+     "capital": "Jerusalem",
+     "capitalRegion": "LEV",
+     "regions": [
+      "LEV"
+     ],
+     "stability": "consolidating",
+     "population": 0.45,
+     "wealth": 2,
+     "note": "Alexander Jannaeus expands the Hasmonean state along the coast and into Transjordan."
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "BOH",
+      "SVK"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "mauretania",
+     "name": "Kingdom of Mauretania",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Mauretanian",
+     "founded": -110,
+     "capital": "Volubilis",
+     "capitalRegion": "MAR",
+     "regions": [
+      "MAR",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 2,
+     "note": "Bocchus I's reward for betraying Jugurtha to Rome (105 BC)."
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.32,
+     "wealth": 2
+    },
+    {
+     "id": "numidia",
+     "name": "Kingdom of Numidia",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Numidian",
+     "founded": -202,
+     "capital": "Cirta",
+     "capitalRegion": "NUM",
+     "regions": [
+      "NUM",
+      "ORA",
+      "TRP"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "note": "Split by the Jugurthine War's settlement; western lands ceded to Bocchus of Mauretania."
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "parthia",
+     "name": "Parthian Empire",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Parthian",
+     "founded": -247,
+     "capital": "Ctesiphon",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "MES_N",
+      "MES_S"
+     ],
+     "stability": "stable",
+     "population": 6.5,
+     "wealth": 3,
+     "note": "Holds both Babylonia and Assyria; the great eastern rival Rome has not yet met in battle.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "pontus_kingdom",
+     "name": "Kingdom of Pontus",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Pontic Greek-Anatolian",
+     "founded": -281,
+     "capital": "Sinope",
+     "capitalRegion": "PON",
+     "regions": [
+      "CAP",
+      "CRM",
+      "PON"
+     ],
+     "stability": "consolidating",
+     "population": 1.5,
+     "wealth": 3,
+     "note": "Mithridates VI Eupator has annexed the Bosporan Kingdom and pushes into Cappadocia and Galatia."
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "CYR",
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "stable",
+     "population": 4.3,
+     "wealth": 5,
+     "note": "Ptolemy IX/X civil wars sap the kingdom; Cyrenaica has gone its own way and now to Rome."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5,
+     "note": "Still independent and wealthy, though eclipsed by Delos and menaced by pirates."
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AEG",
+      "ALB",
+      "AND",
+      "ARA",
+      "ATT",
+      "BAL",
+      "CAS_N",
+      "CAS_S",
+      "CLB",
+      "COR",
+      "EPI",
+      "EUS",
+      "ION",
+      "LOM",
+      "MAC",
+      "MLT",
+      "NAP",
+      "OCC",
+      "PEL",
+      "PIE",
+      "POR_S",
+      "ROM",
+      "SAR",
+      "SIC",
+      "TUN",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "contested",
+     "population": 15.0,
+     "wealth": 3,
+     "note": "Asia and Narbonensis add wealthy new provinces; Cilician piracy chokes eastern trade."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "seleucid",
+     "name": "Seleucid Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Seleucid Greek-Syrian",
+     "founded": -312,
+     "capital": "Antioch",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "SYR"
+     ],
+     "stability": "collapsing",
+     "population": 1.8,
+     "wealth": 4,
+     "note": "A rump state around Antioch alone; Cilician coasts a pirate haven beyond royal control.",
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "pontus_kingdom",
+     "type": "war",
+     "note": "Rome reverses Mithridates's seizure of Cappadocia and Galatia"
+    },
+    {
+     "a": "pontus_kingdom",
+     "b": "bithynia",
+     "type": "war",
+     "note": "Mithridates and Nicomedes III contest Cappadocia and Paphlagonia"
+    },
+    {
+     "a": "rome",
+     "b": "gauls",
+     "type": "war",
+     "note": "Cimbri and Teutones, having ravaged Gaul, are annihilated by Marius"
+    },
+    {
+     "a": "rome",
+     "b": "seleucid",
+     "type": "trade",
+     "note": "Cilician pirates prey on shipping despite nominal Seleucid sovereignty"
+    },
+    {
+     "a": "judea",
+     "b": "nabataea",
+     "type": "war",
+     "note": "Hasmonean expansion clashes with Nabataean border claims"
+    }
+   ]
+  },
+  {
+   "year": -60,
+   "eraName": "The First Triumvirate",
+   "label": "Caesar, Pompey and Crassus share power as Gaul and the east await conquest",
+   "events": [
+    "Caesar, Pompey and Crassus form the First Triumvirate",
+    "Pompey organizes Syria as a Roman province after ending the Seleucid line",
+    "Burebista's Dacian kingdom dominates the middle Danube from Bohemia's edge to the Black Sea"
+   ],
+   "connectivity": 53,
+   "connectivityNote": "Pompey's clearance of the pirates (67 BC) restores safe seas just as Gaul remains a closed frontier.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "contested",
+     "population": 0.6,
+     "wealth": 2,
+     "note": "Reduced to its highland core after Tigranes the Great's empire collapsed against Lucullus and Pompey."
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "belgae",
+     "name": "Belgic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Belgic",
+     "regions": [
+      "FLA",
+      "NED",
+      "PIC",
+      "RHE"
+     ],
+     "stability": "contested",
+     "population": 1.3,
+     "wealth": 1
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3,
+     "note": "Restored under Pharnaces II, Mithridates's son, as a Roman-aligned client."
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "cappadocia",
+     "name": "Kingdom of Cappadocia",
+     "type": "state",
+     "culture": "anatolian",
+     "cultureName": "Cappadocian",
+     "founded": -255,
+     "capital": "Mazaca",
+     "capitalRegion": "CAP",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "contested",
+     "population": 0.5,
+     "wealth": 2,
+     "note": "Ariobarzanes's Rome-backed dynasty, squeezed between Pontus and Armenia for decades."
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "HUN",
+      "MDA",
+      "TRN",
+      "WLC"
+     ],
+     "stability": "consolidating",
+     "population": 1.4,
+     "wealth": 2,
+     "note": "Burebista has forged a great Danubian kingdom, raiding Illyria, Thrace, and the Pontic Greek cities."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "gauls",
+     "name": "Gallic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaulish",
+     "regions": [
+      "AQU",
+      "AUV",
+      "BRE",
+      "BUR",
+      "IDF",
+      "LOI",
+      "LOR",
+      "NRM",
+      "SUI"
+     ],
+     "stability": "contested",
+     "population": 1.08,
+     "wealth": 2
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "FRK",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SIL",
+      "SWA",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.56,
+     "wealth": 1
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 1
+    },
+    {
+     "id": "judea",
+     "name": "Hasmonean Judea",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Judean",
+     "founded": -140,
+     "capital": "Jerusalem",
+     "capitalRegion": "LEV",
+     "regions": [
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2,
+     "note": "A Roman client since Pompey's capture of Jerusalem in 63; Hasmoneans reduced to high priesthood."
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "BOH",
+      "SVK"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "massalia",
+     "name": "Massalia",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Massaliote Greek",
+     "founded": -600,
+     "capital": "Massalia",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "mauretania",
+     "name": "Kingdom of Mauretania",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Mauretanian",
+     "founded": -110,
+     "capital": "Volubilis",
+     "capitalRegion": "MAR",
+     "regions": [
+      "MAR",
+      "ORA",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "numidia",
+     "name": "Kingdom of Numidia",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Numidian",
+     "founded": -202,
+     "capital": "Cirta",
+     "capitalRegion": "NUM",
+     "regions": [
+      "NUM",
+      "TRP"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2
+    },
+    {
+     "id": "osroene",
+     "name": "Kingdom of Osroene",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Osroenian Arab",
+     "founded": -132,
+     "capital": "Edessa",
+     "capitalRegion": "MES_N",
+     "regions": [
+      "MES_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "note": "Abgarid Arab dynasty at Edessa, a buffer between Rome and Parthia."
+    },
+    {
+     "id": "parthia",
+     "name": "Parthian Empire",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Parthian",
+     "founded": -247,
+     "capital": "Ctesiphon",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "MES_S"
+     ],
+     "stability": "stable",
+     "population": 8.0,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "CYP",
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "stable",
+     "population": 4.0,
+     "wealth": 5,
+     "note": "Ptolemy XII bribes Rome for recognition; Cyprus about to be annexed by Cato."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5,
+     "note": "A shrunken but proud free ally, its fleet no longer the Aegean's arbiter."
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AEG",
+      "ALB",
+      "AND",
+      "ARA",
+      "ATT",
+      "BAL",
+      "BIT",
+      "CAS_N",
+      "CAS_S",
+      "CIL",
+      "CLB",
+      "COR",
+      "CRE",
+      "CYR",
+      "EPI",
+      "EUS",
+      "ION",
+      "LOM",
+      "MAC",
+      "MLT",
+      "NAP",
+      "OCC",
+      "PEL",
+      "PIE",
+      "PON",
+      "POR_S",
+      "ROM",
+      "SAR",
+      "SIC",
+      "SYR",
+      "TUN",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "stable",
+     "population": 23.0,
+     "wealth": 3,
+     "note": "First Triumvirate rules Rome; Gaul still unconquered, the east newly organized."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "parthia",
+     "type": "trade",
+     "note": "Uneasy new neighbors after Pompey's settlement of the east"
+    },
+    {
+     "a": "rome",
+     "b": "gauls",
+     "type": "war",
+     "note": "Ariovistus's Suebi cross the Rhine, drawing Roman attention to Gaul"
+    },
+    {
+     "a": "dacians",
+     "b": "bastarnae",
+     "type": "alliance",
+     "note": "Burebista's realm absorbs the Bastarnae borderlands"
+    },
+    {
+     "a": "armenia_kingdom",
+     "b": "rome",
+     "type": "trade",
+     "note": "Reduced Armenia now a cautious Roman client after Tigranes's defeat"
+    },
+    {
+     "a": "rome",
+     "b": "judea",
+     "type": "trade",
+     "note": "Hasmonean high priests govern as Roman clients after Pompey's 63 BC conquest"
+    }
+   ]
+  },
+  {
+   "year": -44,
+   "eraName": "Caesar's Rome",
+   "label": "Caesar's Gaul is won and he is dead within the year",
+   "events": [
+    "Julius Caesar is assassinated on the Ides of March",
+    "Gaul, conquered in Caesar's nine-year war, is now fully Roman",
+    "Cleopatra VII rules Egypt as Rome's client and the mother of Caesar's son"
+   ],
+   "connectivity": 47,
+   "connectivityNote": "Civil war after Caesar's murder disrupts Italy even as Gaul's roads newly open the north.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2,
+     "note": "Artavasdes II navigates carefully between Rome and Parthia."
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "boii",
+     "name": "Boii",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Boii",
+     "regions": [
+      "BOH"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "HUN",
+      "MDA",
+      "TRN",
+      "WLC"
+     ],
+     "stability": "collapsing",
+     "population": 1.5,
+     "wealth": 2,
+     "note": "Burebista assassinated this same year as Caesar; his realm about to fragment."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "note": "Deiotarus, tetrarch turned king, is one of Rome's most trusted eastern client rulers."
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "FRK",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SIL",
+      "SWA",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.56,
+     "wealth": 1
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "BOS",
+      "CRO",
+      "DAL",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 1
+    },
+    {
+     "id": "judea",
+     "name": "Hasmonean Judea",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Judean",
+     "founded": -140,
+     "capital": "Jerusalem",
+     "capitalRegion": "LEV",
+     "regions": [
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2,
+     "note": "Antipater and Hyrcanus II govern as Caesar's confirmed allies."
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "SVK"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "mauretania",
+     "name": "Kingdom of Mauretania",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Mauretanian",
+     "founded": -110,
+     "capital": "Volubilis",
+     "capitalRegion": "MAR",
+     "regions": [
+      "MAR",
+      "ORA",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 2,
+     "note": "Bogud and Bocchus II rule as Caesar's allies in the civil wars."
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "osroene",
+     "name": "Kingdom of Osroene",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Osroenian Arab",
+     "founded": -132,
+     "capital": "Edessa",
+     "capitalRegion": "MES_N",
+     "regions": [
+      "MES_N"
+     ],
+     "stability": "stable",
+     "population": 0.22,
+     "wealth": 2
+    },
+    {
+     "id": "parthia",
+     "name": "Parthian Empire",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Parthian",
+     "founded": -247,
+     "capital": "Ctesiphon",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "MES_S"
+     ],
+     "stability": "stable",
+     "population": 8.5,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "contested",
+     "population": 3.9,
+     "wealth": 5,
+     "note": "Cleopatra VII rules as Caesar's ally and mother of Caesarion."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AEG",
+      "ALB",
+      "AND",
+      "AQU",
+      "ARA",
+      "ATT",
+      "AUV",
+      "BAL",
+      "BIT",
+      "BRE",
+      "BUR",
+      "CAS_N",
+      "CAS_S",
+      "CIL",
+      "CLB",
+      "COR",
+      "CRE",
+      "CYP",
+      "CYR",
+      "EPI",
+      "EUS",
+      "FLA",
+      "IDF",
+      "ION",
+      "LOI",
+      "LOM",
+      "LOR",
+      "MAC",
+      "MLT",
+      "NAP",
+      "NED",
+      "NRM",
+      "NUM",
+      "OCC",
+      "PEL",
+      "PIC",
+      "PIE",
+      "PON",
+      "POR_S",
+      "PRO",
+      "RHE",
+      "ROM",
+      "SAR",
+      "SIC",
+      "SUI",
+      "SYR",
+      "TRP",
+      "TUN",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "contested",
+     "population": 40.0,
+     "wealth": 3,
+     "note": "Caesar assassinated on the Ides of March; Gaul fully conquered, Cleopatra's Egypt a client."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "gauls",
+     "type": "war",
+     "note": "Memory of the Gallic Wars (58-51) still fresh; Vercingetorix executed 46 BC"
+    },
+    {
+     "a": "rome",
+     "b": "ptolemaic_egypt",
+     "type": "alliance",
+     "note": "Cleopatra, recently in Rome, allied with the murdered Caesar"
+    },
+    {
+     "a": "rome",
+     "b": "parthia",
+     "type": "war",
+     "note": "Crassus's disaster at Carrhae (53 BC) still unavenged"
+    },
+    {
+     "a": "galatians",
+     "b": "rome",
+     "type": "alliance",
+     "note": "Deiotarus defended by Cicero before Caesar as a loyal ally"
+    },
+    {
+     "a": "dacians",
+     "b": "rome",
+     "type": "war",
+     "note": "Caesar was planning a Dacian campaign when he was killed"
+    }
+   ]
+  },
+  {
+   "year": -31,
+   "eraName": "Actium",
+   "label": "Octavian's fleet ends the age of the Successor kingdoms save Egypt",
+   "events": [
+    "Octavian and Agrippa crush Antony and Cleopatra's fleet at Actium",
+    "Every Mediterranean shore but Egypt now answers to Rome",
+    "Octavian's Illyrian War (35-33 BC) has pushed Roman control up the Dalmatian coast"
+   ],
+   "connectivity": 62,
+   "connectivityNote": "Decades of civil war end at Actium; the Mediterranean is one basin again bar Egypt.",
+   "entities": [
+    {
+     "id": "armenia_kingdom",
+     "name": "Kingdom of Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": -321,
+     "capital": "Artaxata",
+     "capitalRegion": "ARM_W",
+     "regions": [
+      "ARM",
+      "ARM_W"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2,
+     "note": "Recently plundered by Antony (34 BC); the Artaxiad line is being restored as Antony's cause collapses."
+    },
+    {
+     "id": "balts_early",
+     "name": "Balts",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "BLR",
+      "LTU",
+      "LVA",
+      "PRS",
+      "RUS_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.72,
+     "wealth": 1
+    },
+    {
+     "id": "bastarnae",
+     "name": "Bastarnae",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Bastarnae",
+     "regions": [
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1
+    },
+    {
+     "id": "boii",
+     "name": "Boii",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Boii",
+     "regions": [
+      "BOH"
+     ],
+     "stability": "stable",
+     "population": 0.18,
+     "wealth": 1
+    },
+    {
+     "id": "bosporan_kingdom",
+     "name": "Bosporan Kingdom",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Greco-Scythian",
+     "founded": -438,
+     "capital": "Panticapaeum",
+     "capitalRegion": "CRM",
+     "regions": [
+      "CRM"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "britons",
+     "name": "Britonnic tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Britonnic",
+     "regions": [
+      "ENG_E",
+      "ENG_M",
+      "ENG_N",
+      "ENG_S",
+      "SCO_N",
+      "SCO_S",
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.84,
+     "wealth": 1
+    },
+    {
+     "id": "byzantion",
+     "name": "Byzantion",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Megarian Greek",
+     "founded": -667,
+     "capital": "Byzantion",
+     "capitalRegion": "CON",
+     "regions": [
+      "CON"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 3
+    },
+    {
+     "id": "caucasian_iberia",
+     "name": "Caucasian Iberia & Colchis",
+     "type": "tribal",
+     "culture": "caucasian",
+     "cultureName": "Georgian (Iberian-Colchian)",
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 2
+    },
+    {
+     "id": "dacians",
+     "name": "Dacian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Dacian/Getic",
+     "regions": [
+      "TRN",
+      "WLC"
+     ],
+     "stability": "collapsing",
+     "population": 0.6,
+     "wealth": 2,
+     "note": "Collapsed into rival chieftaincies since Burebista's death."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "EST",
+      "FIN_S",
+      "KAR",
+      "RUS_C",
+      "RUS_NW"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Ireland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "galatians",
+     "name": "Galatian tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Galatian",
+     "regions": [
+      "CAP"
+     ],
+     "stability": "consolidating",
+     "population": 0.3,
+     "wealth": 1,
+     "note": "King Amyntas defected from Antony to Octavian just before the battle."
+    },
+    {
+     "id": "germani",
+     "name": "Germanic tribes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Germanic",
+     "regions": [
+      "BRA",
+      "FRK",
+      "JUT",
+      "NOR_S",
+      "POL_C",
+      "POL_S",
+      "POL_W",
+      "SAX",
+      "SAX_L",
+      "SIL",
+      "SWA",
+      "SWE_C",
+      "SWE_S"
+     ],
+     "stability": "stable",
+     "population": 1.56,
+     "wealth": 1
+    },
+    {
+     "id": "illyrians",
+     "name": "Illyrian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Illyrian",
+     "regions": [
+      "BOS",
+      "SRB"
+     ],
+     "stability": "contested",
+     "population": 0.24,
+     "wealth": 1,
+     "note": "Octavian's Illyrian War (35–33) has just stripped away the Iapodes and Delmatae coastlands."
+    },
+    {
+     "id": "judea",
+     "name": "Hasmonean Judea",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Judean",
+     "founded": -140,
+     "capital": "Jerusalem",
+     "capitalRegion": "LEV",
+     "regions": [
+      "LEV"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 2,
+     "note": "Herod the Great, installed by Rome in 37, rules as a loyal client king."
+    },
+    {
+     "id": "la_tene",
+     "name": "La Tène Celts",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Celtic (La Tène)",
+     "regions": [
+      "BAV",
+      "SVK"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "lusitanians",
+     "name": "Lusitanian & Gallaeci tribes",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Lusitanian",
+     "regions": [
+      "GAL",
+      "POR_N"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    },
+    {
+     "id": "nabataea",
+     "name": "Nabataean Kingdom",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Nabataean",
+     "founded": -300,
+     "capital": "Petra",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 4
+    },
+    {
+     "id": "noricum",
+     "name": "Kingdom of Noricum",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Norican Celtic",
+     "founded": -200,
+     "capital": "Noreia",
+     "capitalRegion": "AUT",
+     "regions": [
+      "AUT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2
+    },
+    {
+     "id": "osroene",
+     "name": "Kingdom of Osroene",
+     "type": "state",
+     "culture": "semitic_levantine",
+     "cultureName": "Osroenian Arab",
+     "founded": -132,
+     "capital": "Edessa",
+     "capitalRegion": "MES_N",
+     "regions": [
+      "MES_N"
+     ],
+     "stability": "stable",
+     "population": 0.22,
+     "wealth": 2
+    },
+    {
+     "id": "pannonians",
+     "name": "Pannonian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Pannonian",
+     "regions": [
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 0.12,
+     "wealth": 1
+    },
+    {
+     "id": "parthia",
+     "name": "Parthian Empire",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Parthian",
+     "founded": -247,
+     "capital": "Ctesiphon",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "MES_S"
+     ],
+     "stability": "stable",
+     "population": 9.0,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "ptolemaic_egypt",
+     "name": "Ptolemaic Egypt",
+     "type": "state",
+     "culture": "egyptian",
+     "cultureName": "Ptolemaic Greek-Egyptian",
+     "founded": -305,
+     "capital": "Alexandria",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "EGY_N",
+      "EGY_S"
+     ],
+     "stability": "collapsing",
+     "population": 3.8,
+     "wealth": 5,
+     "note": "Actium lost; Cleopatra's Egypt survives one more year before annexation."
+    },
+    {
+     "id": "rhodes",
+     "name": "Rhodes",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Rhodian Greek",
+     "founded": -408,
+     "capital": "Rhodes",
+     "capitalRegion": "DOD",
+     "regions": [
+      "DOD"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 5,
+     "note": "Still nominally free — one of the last independent Aegean states."
+    },
+    {
+     "id": "rome",
+     "name": "Roman Republic",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Roman",
+     "founded": -509,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "AEG",
+      "ALB",
+      "AND",
+      "AQU",
+      "ARA",
+      "ATT",
+      "AUV",
+      "BAL",
+      "BIT",
+      "BRE",
+      "BUR",
+      "CAS_N",
+      "CAS_S",
+      "CIL",
+      "CLB",
+      "COR",
+      "CRE",
+      "CRO",
+      "CYP",
+      "CYR",
+      "DAL",
+      "EPI",
+      "EUS",
+      "FLA",
+      "IDF",
+      "ION",
+      "LOI",
+      "LOM",
+      "LOR",
+      "MAC",
+      "MAR",
+      "MLT",
+      "NAP",
+      "NED",
+      "NRM",
+      "NUM",
+      "OCC",
+      "ORA",
+      "PEL",
+      "PIC",
+      "PIE",
+      "PON",
+      "POR_S",
+      "PRO",
+      "RHE",
+      "RIF",
+      "ROM",
+      "SAR",
+      "SIC",
+      "SUI",
+      "SYR",
+      "TRP",
+      "TUN",
+      "TUS",
+      "VAL"
+     ],
+     "stability": "consolidating",
+     "population": 46.0,
+     "wealth": 3,
+     "note": "Actium breaks Antony and Cleopatra; only Egypt remains outside direct rule."
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "FIN_N",
+      "NOR_N",
+      "SWE_N"
+     ],
+     "stability": "stable",
+     "population": 0.36,
+     "wealth": 1
+    },
+    {
+     "id": "sarmatians",
+     "name": "Sarmatian tribes",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Sarmatian",
+     "regions": [
+      "DON",
+      "STE",
+      "UKR_E",
+      "UKR_W"
+     ],
+     "stability": "stable",
+     "population": 0.48,
+     "wealth": 2
+    },
+    {
+     "id": "thracians",
+     "name": "Thracian tribes",
+     "type": "tribal",
+     "culture": "paleo_balkan",
+     "cultureName": "Thracian",
+     "regions": [
+      "BGR",
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 0.24,
+     "wealth": 1
+    }
+   ],
+   "relations": [
+    {
+     "a": "rome",
+     "b": "ptolemaic_egypt",
+     "type": "war",
+     "note": "Actium shatters Antony and Cleopatra's fleet"
+    },
+    {
+     "a": "rome",
+     "b": "illyrians",
+     "type": "war",
+     "note": "Octavian's Illyrian War extends Roman control up the Dalmatian coast"
+    },
+    {
+     "a": "galatians",
+     "b": "rome",
+     "type": "alliance",
+     "note": "King Amyntas defects to Octavian just before the battle"
+    },
+    {
+     "a": "rome",
+     "b": "nabataea",
+     "type": "trade",
+     "note": "Nabataean caravans profit as Red Sea trade routes stabilize"
+    },
+    {
+     "a": "parthia",
+     "b": "armenia_kingdom",
+     "type": "trade",
+     "note": "Both watch Rome's civil war resolve with wary interest"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Battle of Panium - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Panium"
+  },
+  {
+   "title": "Octavian's military campaigns in Illyricum - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Octavian%27s_military_campaigns_in_Illyricum"
+  },
+  {
+   "title": "Numidia - Wikipedia (Masinissa's seizure of the Emporia/Tripolitania)",
+   "url": "https://en.wikipedia.org/wiki/Numidia"
+  },
+  {
+   "title": "Ariobarzanes I of Cappadocia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ariobarzanes_I_of_Cappadocia"
+  },
+  {
+   "title": "Osroene - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Osroene"
+  },
+  {
+   "title": "Gentius - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gentius"
+  },
+  {
+   "title": "Ptolemy Apion - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ptolemy_Apion"
+  },
+  {
+   "title": "Nicomedes IV of Bithynia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nicomedes_IV_of_Bithynia"
+  },
+  {
+   "title": "War of Aristonicus - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/War_of_Aristonicus"
+  },
+  {
+   "title": "Mithridates VI Eupator - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mithridates_VI_Eupator"
+  },
+  {
+   "title": "Jugurthine War - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jugurthine_War"
+  },
+  {
+   "title": "Amyntas of Galatia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amyntas_of_Galatia"
+  },
+  {
+   "title": "Deiotarus - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Deiotarus"
+  },
+  {
+   "title": "Military campaigns of Tigranes the Great - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Military_campaigns_of_Tigranes_the_Great"
+  },
+  {
+   "title": "Regnum Noricum - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Regnum_Noricum"
+  },
+  {
+   "title": "Bocchus II - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bocchus_II"
+  },
+  {
+   "title": "Juba II - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Juba_II"
+  }
+ ],
+ "uncertainties": [
+  "CAP region merges historical Cappadocia and Galatia into one code; alternated the controlling entity by slice (galatians -270..-146, pontus_kingdom at -100 reflecting Mithridates VI's 115-100 BC annexation drive, cappadocia at -60 after Ariobarzanes I's Roman-backed restoration c.96-95 BC, galatians again -44/-31 for Deiotarus/Amyntas) rather than showing both simultaneously.",
+  "AEG (Cyclades) allegiance in the 3rd-2nd century BC is genuinely contested in scholarship (Ptolemaic Nesiotic League vs. Antigonid naval hegemony after Cos/Andros, dates disputed ~255-245 BC); assigned ptolemaic_egypt(-270)->macedon(-241,-218,-201)->rhodes(-168, transitional)->rome(-146 on) as a defensible simplification.",
+  "LEV region merges Phoenicia with Judea/Palestine; assigned to whichever power was dominant each slice (Ptolemaic, then Seleucid, then Hasmonean Judea from -100), which understates Phoenician cities' distinct status.",
+  "Massalia's territory in PRO is treated as folded into Rome from -44 onward following Caesar's 49 BC siege, even though the city itself retained nominal free-ally status for some time after.",
+  "Mauretania (MAR/RIF/ORA) assigned to direct Roman administration at -31 reflecting the historical 33-25 BC interregnum after Bocchus II's death, before Juba II's 25 BC installation (just after this slice).",
+  "Burebista's Dacia at -60/-44 is shown holding all of HUN (Pannonian plain) per the era brief, though ancient sources describe his reach into Pannonia/Thrace only impressionistically; TRN/WLC/MDA are its firmer core.",
+  "Population figures for Seleucid, Parthian and Ptolemaic entities (total-empire, largely off-map) are order-of-magnitude estimates following McEvedy & Jones-style ranges, not precise censuses.",
+  "Illyrian regions at -31 reflect Octavian's 35-33 BC Illyrian War narrowly (Iapodes/CRO and Delmatae coast/DAL to Rome); the interior (BOS, SRB/Dardania) and most of Pannonia (HUN) remained unconquered until Tiberius's 12-9 BC campaigns, per era05's continuity.",
+  "Numidia/Carthage border in Tripolitania (TRP): corrected during research to show Carthage holding it through -168, Numidia from -146 (Masinissa's seizure begun 162 BC, confirmed 146 BC) through -60, and Rome from -44 (Caesar's Africa Nova annexation, 46 BC) — an initial draft had mistakenly routed it through Rome earlier.",
+  "Sardinia/Corsica are shown transitioning from Carthage to Rome at slice -218 (historically 238 BC, the Mercenary War aftermath) since no slice falls exactly on that year; Malta is shown Roman from -218 (seized early in the Second Punic War) rather than at -241.",
+  "Sarmatians are shown displacing Scythians as of slice -201 ('by -200' per the brief); the exact transition was gradual over decades and any single year is a simplification.",
+  "Noricum is treated as a coalescing/allied Celtic federation from -201 (tribes uniting 'from 200 BC' per sources) rather than a fully sovereign kingdom; before that AUT is folded into generic La Tène Celtic tribes."
+ ]
+}
