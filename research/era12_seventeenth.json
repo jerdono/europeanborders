@@ -1,0 +1,6546 @@
+{
+  "era": "seventeenth",
+  "agent": "A12",
+  "slices": [
+    {
+      "year": 1618,
+      "eraName": "Thirty Years' War",
+      "label": "Europe stumbles into the Thirty Years' War",
+      "events": [
+        "Defenestration of Prague (23 May): the Bohemian Estates revolt — the Thirty Years' War begins",
+        "Truce of Deulino: Poland-Lithuania at its greatest extent, keeping Smolensk and Chernigov",
+        "Sir Walter Raleigh executed in London as James I courts a Spanish match"
+      ],
+      "connectivity": 45,
+      "connectivityNote": "Baltic grain and Dutch shipping flow freely under the Twelve Years' Truce, but war clouds gather over Germany.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 5.5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "James I rules England, Scotland and Ireland in personal union; Ulster plantation under way"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Shares its king with England since 1603"
+        },
+        {
+          "id": "spain",
+          "name": "Spain of Philip III",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL",
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 9.4,
+          "wealth": 4,
+          "wealthNote": "American silver still flows, but Castile is exhausted",
+          "extendsBeyondMap": true,
+          "note": "Iberian union with Portugal since 1580"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "stable",
+          "population": 20,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Young Louis XIII shakes off his mother's regency"
+        },
+        {
+          "id": "lorraine",
+          "name": "Duchy of Lorraine",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Lorrainer",
+          "founded": 959,
+          "capital": "Nancy",
+          "capitalRegion": "LOR",
+          "regions": [
+            "LOR"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands (Archdukes)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "stable",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Archdukes Albert and Isabella; truce with the Dutch expires 1621"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 5,
+          "wealthNote": "Amsterdam entrepôt; VOC dividends; the first stock market",
+          "extendsBeyondMap": true,
+          "note": "Twelve Years' Truce ending; Oldenbarnevelt falls to Maurice this year"
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Calvinist Frederick V will fatally accept the Bohemian crown in 1619"
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.85,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Free cities, Hansa towns and bishoprics of the north-west"
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Hohenzollerns inherit ducal Prussia this year (as Polish vassals)"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Maximilian I leads the Catholic League"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bohemia",
+          "name": "Kingdom of Bohemia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Czech",
+          "founded": 895,
+          "capital": "Prague",
+          "capitalRegion": "BOH",
+          "regions": [
+            "BOH",
+            "SIL"
+          ],
+          "contestedRegions": [
+            "BOH"
+          ],
+          "stability": "contested",
+          "population": 2.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Estates in open revolt against their Habsburg king Ferdinand"
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg lands (Royal Hungary)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "SVK",
+            "CRO"
+          ],
+          "contestedRegions": [
+            "BOH"
+          ],
+          "stability": "contested",
+          "population": 2.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Ferdinand of Styria faces the Bohemian revolt"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 0.95,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Charles Emmanuel I plays France against Spain"
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "CRE"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 4,
+          "wealthNote": "Levant trade slipping to Dutch and English rivals",
+          "extendsBeyondMap": false,
+          "note": "Spanish 'conspiracy' against Venice foiled this year"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "stable",
+          "population": 2.9,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 4,
+          "wealthNote": "Banker of the Spanish crown",
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Corsairing crusade against Barbary and the Porte"
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "stable",
+          "population": 1.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Christian IV rich on Sound tolls, eyeing Germany"
+        },
+        {
+          "id": "sweden",
+          "name": "Kingdom of Sweden",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST"
+          ],
+          "stability": "consolidating",
+          "population": 1.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Stolbovo (1617) took Ingria and Kexholm — Russia cut off from the Baltic"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C"
+          ],
+          "stability": "consolidating",
+          "population": 8,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Romanovs (since 1613) rebuild after the Time of Troubles; Deulino cedes Smolensk"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W",
+            "LVA",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 10.5,
+          "wealth": 3,
+          "wealthNote": "Danzig grain fleet feeds western Europe",
+          "extendsBeyondMap": false,
+          "note": "Greatest territorial extent after Deulino"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Zaporozhian Cossacks",
+          "type": "tribal",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Zaporozhian Sich",
+          "capitalRegion": "STE",
+          "regions": [
+            "UKR_E",
+            "STE"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Sahaidachny's host raids the Black Sea and serves Poland for pay"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Ottoman vassal; slave raids into Ukraine and Muscovy"
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Bethlen Gábor's golden age; Protestant champion under Ottoman wing"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Ottoman vassal; hospodars appointed by the Porte"
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Târgoviște",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Ottoman vassal principality"
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "MES_S",
+            "HUN"
+          ],
+          "stability": "stable",
+          "population": 27,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Osman II ascends; Celali revolts smoulder in Anatolia"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia of Shah Abbas",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Treaty of Serav confirms Persian Yerevan"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Kartli and Kakheti under Safavid suzerainty; Teimuraz I resists"
+        },
+        {
+          "id": "saadi",
+          "name": "Saadi Morocco (civil war)",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Saadi Sharifian Morocco",
+          "founded": 1511,
+          "capital": "Marrakesh",
+          "capitalRegion": "MAR",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "contested",
+          "population": 2.6,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Dynasty splintering since 1603; Salé corsair republic emerging"
+        }
+      ],
+      "relations": [
+        {
+          "a": "bohemia",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "Defenestration of Prague; the Estates raise an army against their king"
+        },
+        {
+          "a": "poland_lithuania",
+          "b": "russia",
+          "type": "war",
+          "note": "Truce of Deulino (Dec): Poland keeps Smolensk and Chernigov"
+        },
+        {
+          "a": "spain",
+          "b": "dutch_republic",
+          "type": "trade",
+          "note": "Twelve Years' Truce holds — it expires in 1621"
+        },
+        {
+          "a": "england",
+          "b": "spain",
+          "type": "alliance",
+          "note": "James I courts a Spanish match for Prince Charles"
+        },
+        {
+          "a": "ottoman",
+          "b": "safavid",
+          "type": "war",
+          "note": "Treaty of Serav ends the war; Persia keeps Yerevan"
+        },
+        {
+          "a": "venice",
+          "b": "ottoman",
+          "type": "trade",
+          "note": "Levant trade continues despite corsair raids"
+        }
+      ]
+    },
+    {
+      "year": 1629,
+      "eraName": "Thirty Years' War",
+      "label": "Habsburg high-water mark",
+      "events": [
+        "Edict of Restitution (March): imperial-Catholic power at its zenith; Wallenstein's army stands on the Baltic",
+        "Truce of Altmark (Sept): Sweden takes Livonia and Riga from Poland; Gustavus Adolphus eyes Germany",
+        "Charles I dissolves Parliament — eleven years of Personal Rule begin"
+      ],
+      "connectivity": 38,
+      "connectivityNote": "War closes German roads and Baltic ports; Dunkirk privateers savage shipping; Dutch convoys sail on regardless.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 5.8,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Personal Rule begins; peace made with France and soon Spain"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "spain",
+          "name": "Spain of Philip IV",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL",
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 9,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Olivares strains every sinew; silver fleet lost to Piet Heyn 1628"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "stable",
+          "population": 20,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "La Rochelle fallen (1628); Richelieu supreme"
+        },
+        {
+          "id": "lorraine",
+          "name": "Duchy of Lorraine",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Lorrainer",
+          "founded": 959,
+          "capital": "Nancy",
+          "capitalRegion": "LOR",
+          "regions": [
+            "LOR"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "contested",
+          "population": 1.55,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Frederick Henry takes 's-Hertogenbosch this year"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 5,
+          "wealthNote": "WIC silver-fleet windfall funds the war",
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "contested",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Wallenstein quarters his army on the north; Stralsund defied him 1628"
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Caught between Wallenstein, Sweden and Poland"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "John George clings to neutrality — until 1631"
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "contested",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Bavaria (with the Palatinate)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV",
+            "RHE"
+          ],
+          "stability": "consolidating",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Maximilian I holds the conquered Palatinate and its electoral vote"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Edict of Restitution strips Protestant church lands"
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO"
+          ],
+          "stability": "consolidating",
+          "population": 5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Bohemia crushed at White Mountain (1620), re-Catholicized and hereditary"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Mantuan war: French army crosses the Alps"
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "CRE"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Plague of 1630 about to strike Italy"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Urban VIII balances between Bourbon and Habsburg"
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "stable",
+          "population": 3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Taxed hard for Spain's wars"
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "contested",
+          "population": 1.35,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Peace of Lübeck: Christian IV beaten out of Germany, lands intact"
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "consolidating",
+          "population": 1.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Altmark: Livonia and Prussian port tolls won; Germany next (1630)"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C"
+          ],
+          "stability": "consolidating",
+          "population": 9,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Filaret rebuilds the army for a Smolensk revanche"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W",
+            "RUS_S"
+          ],
+          "stability": "stable",
+          "population": 10,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Livonia lost to Sweden; grain trade still booms"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Zaporozhian Cossacks",
+          "type": "tribal",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Zaporozhian Sich",
+          "capitalRegion": "STE",
+          "regions": [
+            "UKR_E",
+            "STE"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Registered-Cossack revolts against Polish magnates begin"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Bethlen Gábor dies (Nov 1629) after a golden reign"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Târgoviște",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "HUN"
+          ],
+          "stability": "contested",
+          "population": 26.5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Murad IV fights anarchy at home; Baghdad lost to Persia since 1624"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM",
+            "MES_S"
+          ],
+          "stability": "stable",
+          "population": 8.5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Shah Abbas dies (Jan 1629) holding Baghdad and Yerevan"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "saadi",
+          "name": "Saadi Morocco (civil war)",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Saadi Sharifian Morocco",
+          "founded": 1511,
+          "capital": "Marrakesh",
+          "capitalRegion": "MAR",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "collapsing",
+          "population": 2.5,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Sultans rule little beyond Marrakesh; Dila'i zawiya rising"
+        }
+      ],
+      "relations": [
+        {
+          "a": "austria_habsburg",
+          "b": "denmark",
+          "type": "war",
+          "note": "Peace of Lübeck (June) knocks Denmark out of the German war"
+        },
+        {
+          "a": "sweden",
+          "b": "poland_lithuania",
+          "type": "war",
+          "note": "Truce of Altmark (Sept): Sweden keeps Livonia and Prussian port tolls"
+        },
+        {
+          "a": "spain",
+          "b": "dutch_republic",
+          "type": "war",
+          "note": "Eighty Years' War resumed; 's-Hertogenbosch falls to the Dutch"
+        },
+        {
+          "a": "france",
+          "b": "spain",
+          "type": "war",
+          "note": "War of the Mantuan Succession draws Richelieu into Italy"
+        },
+        {
+          "a": "england",
+          "b": "france",
+          "type": "war",
+          "note": "Peace of Susa (April) ends the bungled Anglo-French war"
+        },
+        {
+          "a": "venice",
+          "b": "ottoman",
+          "type": "trade",
+          "note": "Levant commerce continues between wars"
+        }
+      ]
+    },
+    {
+      "year": 1648,
+      "eraName": "Thirty Years' War",
+      "label": "Westphalia: a shattered Germany, a new order",
+      "events": [
+        "Peace of Westphalia (24 Oct): Dutch and Swiss independence recognized; Sweden takes Pomerania and Bremen, France Alsace — Germany has lost a third of its people",
+        "Khmelnytsky's Cossack rising sweeps Ukraine from Poland; Lviv besieged",
+        "Second Civil War in England: Cromwell crushes the Scots at Preston; the king will die in January"
+      ],
+      "connectivity": 40,
+      "connectivityNote": "Germany's markets lie in ruins, but Amsterdam's entrepôt, Baltic grain and the Atlantic sugar circuits hum.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England (Civil War)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N"
+          ],
+          "contestedRegions": [
+            "IRL_N"
+          ],
+          "stability": "collapsing",
+          "population": 5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Army holds the king; trial and regicide weeks away"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Engager army destroyed at Preston; Kirk party seizes power"
+        },
+        {
+          "id": "confederate_ireland",
+          "name": "Confederate Ireland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Irish Catholic",
+          "founded": 1642,
+          "capital": "Kilkenny",
+          "capitalRegion": "IRL_S",
+          "regions": [
+            "IRL_S"
+          ],
+          "contestedRegions": [
+            "IRL_N"
+          ],
+          "stability": "contested",
+          "population": 1.2,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Catholic Confederation rules from Kilkenny; Cromwell comes in 1649"
+        },
+        {
+          "id": "spain",
+          "name": "Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "contestedRegions": [
+            "ARA"
+          ],
+          "stability": "contested",
+          "population": 7.3,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Rocroi lost (1643); Catalonia under French protection; plague strikes the south"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "consolidating",
+          "population": 1.3,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Braganza restoration (1640); fighting Spain for recognition"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOR",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "contestedRegions": [
+            "ARA"
+          ],
+          "stability": "contested",
+          "population": 20.5,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Alsace won at Westphalia; Lorraine occupied — but the Fronde erupts in Paris"
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "stable",
+          "population": 1.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Peace with the Dutch at last; Scheldt stays closed"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "wealthNote": "Richest people per head in Europe; world's carrying trade",
+          "extendsBeyondMap": true,
+          "note": "Independence recognized at Münster (Jan 1648)"
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "consolidating",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Charles Louis restored by Westphalia to a devastated land"
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Devastated; Sweden takes Bremen-Verden and Wismar on the coast"
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Great Elector gains eastern Pomerania and Magdeburg's reversion"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Wrecked by seventeen years of campaigning; keeps Lusatia"
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "contested",
+          "population": 0.45,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Twice invaded; keeps the Upper Palatinate and electoral title"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "contested",
+          "population": 0.35,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Population more than halved by war, famine and plague"
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO"
+          ],
+          "stability": "contested",
+          "population": 4.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Swedes stormed Prague's castle bank as peace was signed"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Formal independence from the Empire recognized at Westphalia"
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "CRE"
+          ],
+          "contestedRegions": [
+            "CRE"
+          ],
+          "stability": "contested",
+          "population": 1.7,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Candia besieged since spring; the siege will last 21 years"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Innocent X protests Westphalia in vain"
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "contested",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Masaniello's revolt (1647) and a short-lived republic just crushed"
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "contested",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Palermo bread riots 1647"
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "contested",
+          "population": 1.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Brömsebro (1645): Halland, Gotland and the Sound's grip lost to Sweden"
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "consolidating",
+          "population": 2.4,
+          "wealth": 3,
+          "wealthNote": "Baltic tolls and German war indemnities",
+          "extendsBeyondMap": false,
+          "note": "Westphalia adds Pomerania, Wismar, Bremen-Verden (off-cell coastal holds)"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C"
+          ],
+          "stability": "consolidating",
+          "population": 11,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Salt riot shakes Moscow; the 1649 Ulozhenie fixes serfdom"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "RUS_S"
+          ],
+          "contestedRegions": [
+            "VOL",
+            "UKR_W"
+          ],
+          "stability": "collapsing",
+          "population": 8.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Korsun and Pyliavtsi lost to Khmelnytsky; Lviv ransomed"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Cossack Hetmanate (Zaporozhian Host)",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Chyhyryn",
+          "capitalRegion": "UKR_W",
+          "regions": [
+            "UKR_W",
+            "UKR_E",
+            "STE"
+          ],
+          "contestedRegions": [
+            "VOL"
+          ],
+          "stability": "consolidating",
+          "population": 1.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Khmelnytsky master of Ukraine after Korsun and Pyliavtsi"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Islam III Giray rides as Khmelnytsky's ally"
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "George I Rákóczi dies; George II inherits the golden age"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Târgoviște",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Matei Basarab's long prosperous reign"
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "MES_S",
+            "HUN"
+          ],
+          "contestedRegions": [
+            "CRE"
+          ],
+          "stability": "contested",
+          "population": 26,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Ibrahim deposed and strangled (Aug 1648); boy sultan Mehmed IV"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Zuhab (1639) fixed the Ottoman border for good; Baghdad given up"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Rostom of Kartli rules as Persia's loyal viceroy"
+        },
+        {
+          "id": "saadi",
+          "name": "Saadi Morocco (collapsing)",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Saadi Sharifian Morocco",
+          "founded": 1511,
+          "capital": "Marrakesh",
+          "capitalRegion": "MAR",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "collapsing",
+          "population": 2.3,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Dila'i zawiya takes Fez this year; Saadi rump in Marrakesh"
+        }
+      ],
+      "relations": [
+        {
+          "a": "france",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "Peace of Westphalia signed (24 Oct): France gains Alsace"
+        },
+        {
+          "a": "sweden",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "Swedes storm Prague as the peace is signed; Pomerania and Bremen won"
+        },
+        {
+          "a": "france",
+          "b": "spain",
+          "type": "war",
+          "note": "Their war runs on past Westphalia — eleven more years"
+        },
+        {
+          "a": "poland_lithuania",
+          "b": "zaporozhian_cossacks",
+          "type": "war",
+          "note": "Khmelnytsky wins at Korsun and Pyliavtsi; Cossack Ukraine breaks free"
+        },
+        {
+          "a": "england",
+          "b": "scotland",
+          "type": "war",
+          "note": "Cromwell destroys the Scottish Engager army at Preston"
+        },
+        {
+          "a": "ottoman",
+          "b": "venice",
+          "type": "war",
+          "note": "Candia besieged; Venice blockades the Dardanelles"
+        },
+        {
+          "a": "dutch_republic",
+          "b": "spain",
+          "type": "trade",
+          "note": "Peace of Münster (Jan): Spain recognizes the Republic; Amsterdam booms"
+        }
+      ]
+    },
+    {
+      "year": 1660,
+      "eraName": "Age of Louis XIV",
+      "label": "Restoration England, the Swedish peak",
+      "events": [
+        "Peaces of Oliva and Copenhagen end the Northern Wars: Sweden's Baltic empire at its height, Skåne kept (taken 1658)",
+        "Charles II restored to the English throne (May)",
+        "Ottomans break Transylvania: Várad falls (Aug)"
+      ],
+      "connectivity": 46,
+      "connectivityNote": "Peace from the Pyrenees (1659) to Oliva reopens roads and seas; Dutch and English fleets carry grain, silk and sugar.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England (Restoration)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "consolidating",
+          "population": 6.4,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Charles II restored; Navigation Acts stand; Ireland held since Cromwell's conquest"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "consolidating",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Cromwellian union dissolved; Charles II king again"
+        },
+        {
+          "id": "spain",
+          "name": "Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "stability": "contested",
+          "population": 7.1,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Pyrenees peace cedes Artois and Roussillon to France; Portugal still fights"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "consolidating",
+          "population": 1.4,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "English alliance sealed by Catherine of Braganza's betrothal"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOR",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "stable",
+          "population": 20.8,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Louis XIV weds Maria Theresa; Mazarin's last year; Lorraine still occupied"
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "stable",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "wealthNote": "De Witt's True Freedom; the world's entrepôt",
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Slow recovery; Hamburg thrives on neutrality"
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Wehlau/Oliva: the Great Elector wins full sovereignty in Prussia"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.55,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "consolidating",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO"
+          ],
+          "stability": "stable",
+          "population": 4.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Leopold I elected emperor 1658 despite French intrigue"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 1.05,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "CRE"
+          ],
+          "contestedRegions": [
+            "CRE"
+          ],
+          "stability": "contested",
+          "population": 1.6,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Candia holds; Venetian fleets win at the Dardanelles"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "contested",
+          "population": 2.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Plague of 1656 killed nearly half of Naples city"
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "contested",
+          "population": 1.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Copenhagen survived the siege; Skåne lost; absolutism proclaimed this year"
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "stable",
+          "population": 2.6,
+          "wealth": 3,
+          "wealthNote": "Dominium maris baltici: tolls on every Baltic mouth",
+          "extendsBeyondMap": false,
+          "note": "Charles X dead (Feb); regency rules the empire at its peak"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C",
+            "RUS_S"
+          ],
+          "stability": "consolidating",
+          "population": 11,
+          "wealth": 1,
+          "extendsBeyondMap": true,
+          "note": "Holds Smolensk and the left bank; Nikon's schism splits the church"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W"
+          ],
+          "contestedRegions": [
+            "BLR",
+            "UKR_W"
+          ],
+          "stability": "contested",
+          "population": 7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "The Deluge over: a quarter of the population lost; Oliva signed"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Cossack Hetmanate (the Ruin)",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Chyhyryn",
+          "regions": [
+            "UKR_E",
+            "STE"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Hetmanate torn between Moscow and Warsaw after Pereyaslav (1654)"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "collapsing",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Ottoman punitive war after Rákóczi's Polish misadventure; Várad falls"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Târgoviște",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "MES_S",
+            "HUN"
+          ],
+          "contestedRegions": [
+            "CRE",
+            "TRN"
+          ],
+          "stability": "consolidating",
+          "population": 25.5,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Köprülü Mehmed restores order with the gallows"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Quiet under Abbas II"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "morocco",
+          "name": "Morocco (interregnum)",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Alaouite Sharifian Morocco",
+          "founded": 1631,
+          "capital": "Fez",
+          "capitalRegion": "RIF",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "collapsing",
+          "population": 2.3,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Saadi line extinct (1659); Dila'i zawiya, Salé corsairs and Tafilalt Alaouites contend"
+        }
+      ],
+      "relations": [
+        {
+          "a": "sweden",
+          "b": "denmark",
+          "type": "war",
+          "note": "Peace of Copenhagen (May): Skåne stays Swedish; Trondheim returned"
+        },
+        {
+          "a": "sweden",
+          "b": "poland_lithuania",
+          "type": "war",
+          "note": "Peace of Oliva (May): Livonia confirmed Swedish; Vasa claim renounced"
+        },
+        {
+          "a": "russia",
+          "b": "poland_lithuania",
+          "type": "war",
+          "note": "Thirteen Years' War grinds on; Poles win at Polonka and Chudnov"
+        },
+        {
+          "a": "spain",
+          "b": "portugal",
+          "type": "war",
+          "note": "Restoration war: English-backed Portugal holds out"
+        },
+        {
+          "a": "ottoman",
+          "b": "transylvania",
+          "type": "war",
+          "note": "Köprülü punitive war: Várad falls (Aug); the principality is broken"
+        },
+        {
+          "a": "england",
+          "b": "portugal",
+          "type": "alliance",
+          "note": "Charles II to wed Catherine of Braganza — Tangier and Bombay her dowry"
+        },
+        {
+          "a": "france",
+          "b": "spain",
+          "type": "alliance",
+          "note": "Peace of the Pyrenees sealed by Louis XIV's marriage to Maria Theresa (June)"
+        }
+      ]
+    },
+    {
+      "year": 1667,
+      "eraName": "Age of Louis XIV",
+      "label": "Louis XIV moves; Russia reaches the Dnieper",
+      "events": [
+        "Truce of Andrusovo (Jan): Smolensk, Kyiv and left-bank Ukraine pass to Moscow",
+        "De Ruyter burns the English fleet in the Medway; Peace of Breda follows (July)",
+        "War of Devolution: Louis XIV seizes Lille; on Crete, Candia's last siege begins"
+      ],
+      "connectivity": 45,
+      "connectivityNote": "Anglo-Dutch war and French aggression rattle the seas, yet Atlantic sugar, Baltic grain and Levant silk keep moving.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "contested",
+          "population": 6.5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Plague (1665), Great Fire (1666), Medway (1667): annus horribilis; Tangier held since 1661"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "stable",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Pentland Rising of Covenanters crushed (Nov 1666)"
+        },
+        {
+          "id": "spain",
+          "name": "Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "stability": "contested",
+          "population": 7,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Child-king Carlos II; Flanders fortresses falling to France"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "consolidating",
+          "population": 1.5,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Victory at Montes Claros (1665); Spain recognizes independence in 1668"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "consolidating",
+          "population": 20.5,
+          "wealth": 5,
+          "wealthNote": "Colbert's manufactures, tariffs and new navy",
+          "extendsBeyondMap": false,
+          "note": "Devolution war: Turenne takes Lille in days"
+        },
+        {
+          "id": "lorraine",
+          "name": "Duchy of Lorraine",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Lorrainer",
+          "founded": 959,
+          "capital": "Nancy",
+          "capitalRegion": "LOR",
+          "regions": [
+            "LOR"
+          ],
+          "stability": "contested",
+          "population": 0.45,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Charles IV restored (1663) under the French shadow; Alsace is French"
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "contested",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Lille lost; Brussels braces for the next French bite"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "wealthNote": "Golden Age zenith: half of Europe's shipping flies the tricolour",
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "stable",
+          "population": 0.45,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.3,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Standing army built; sovereignty in Prussia confirmed at Oliva"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "stable",
+          "population": 1.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.55,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO"
+          ],
+          "stability": "stable",
+          "population": 4.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Vasvár truce (1664) with the Porte holds despite St Gotthard victory"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.15,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "CRE"
+          ],
+          "contestedRegions": [
+            "CRE"
+          ],
+          "stability": "contested",
+          "population": 1.55,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Morosini defends Candia against the final Ottoman assault"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "stable",
+          "population": 2.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Galleys convoy relief to besieged Candia"
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "stable",
+          "population": 1.45,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "stable",
+          "population": 2.6,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C",
+            "RUS_S",
+            "UKR_E"
+          ],
+          "stability": "consolidating",
+          "population": 12,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Andrusovo makes Moscow the rising eastern power; Kyiv held 'for two years' — forever"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W"
+          ],
+          "stability": "contested",
+          "population": 7.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Left bank and Smolensk signed away at Andrusovo; Lubomirski's rebellion just ended"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Zaporozhian Sich",
+          "type": "tribal",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Zaporozhian Sich",
+          "capitalRegion": "STE",
+          "regions": [
+            "STE"
+          ],
+          "stability": "contested",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "The Ruin: rival hetmans on each Dnieper bank; the Sich raids Crimea"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Apafi rules a diminished Ottoman client"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Bucharest",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire (Köprülü era)",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "MES_S",
+            "HUN"
+          ],
+          "contestedRegions": [
+            "CRE"
+          ],
+          "stability": "consolidating",
+          "population": 25.5,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Grand vizier Fazıl Ahmed Köprülü directs the Candia endgame"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Shah Suleiman I crowned (1666); court turns inward"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "morocco",
+          "name": "Alaouite Morocco",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Alaouite Sharifian Morocco",
+          "founded": 1631,
+          "capital": "Fez",
+          "capitalRegion": "RIF",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "consolidating",
+          "population": 2.4,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Moulay Rashid takes Fez (1666): Alaouite rule begins in earnest"
+        }
+      ],
+      "relations": [
+        {
+          "a": "france",
+          "b": "spain",
+          "type": "war",
+          "note": "War of Devolution: Turenne overruns Flanders fortresses"
+        },
+        {
+          "a": "england",
+          "b": "dutch_republic",
+          "type": "war",
+          "note": "De Ruyter burns the fleet in the Medway; Peace of Breda (July)"
+        },
+        {
+          "a": "russia",
+          "b": "poland_lithuania",
+          "type": "war",
+          "note": "Truce of Andrusovo (Jan): Smolensk, Kyiv and the left bank to Moscow"
+        },
+        {
+          "a": "ottoman",
+          "b": "venice",
+          "type": "war",
+          "note": "Final assault on Candia builds; the city falls in 1669"
+        },
+        {
+          "a": "spain",
+          "b": "portugal",
+          "type": "war",
+          "note": "Exhausted Spain will recognize Portugal in 1668"
+        }
+      ]
+    },
+    {
+      "year": 1683,
+      "eraName": "Age of Louis XIV",
+      "label": "Vienna holds",
+      "events": [
+        "Kara Mustafa's army besieges Vienna July–September; Sobieski's charge at the Kahlenberg (12 Sept) breaks it",
+        "Louis XIV's réunions: Strasbourg seized (1681), Luxembourg bombarded — war of the Reunions with Spain",
+        "England prepares to abandon Tangier to Moulay Ismail's Morocco (1684)"
+      ],
+      "connectivity": 47,
+      "connectivityNote": "Trade grows despite war on the Danube: English and Dutch Levant convoys, Atlantic sugar and slaves, Baltic grain.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 6.9,
+          "wealth": 5,
+          "wealthNote": "London's trade boom; Royal Africa and Levant companies",
+          "extendsBeyondMap": true,
+          "note": "Charles II master at home after the Exclusion Crisis; Rye House Plot exposed"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "spain",
+          "name": "Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "stability": "contested",
+          "population": 7,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "At war with France over the réunions; Luxembourg under the guns"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 2,
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOR",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "consolidating",
+          "population": 21.8,
+          "wealth": 5,
+          "wealthNote": "Versailles court (1682); Colbert dies this year",
+          "extendsBeyondMap": false,
+          "note": "Réunions annex Strasbourg (1681); Franche-Comté taken 1678; Lorraine occupied since 1670"
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "contested",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "War of the Reunions: French armies at the door"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "extendsBeyondMap": true,
+          "note": "William III watches France, builds coalitions"
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Simmern line dies out 1685 — the French claim follows"
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.5,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 1.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Fehrbellin (1675) made the Great Elector's name; French subsidies taken"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "John George III leads Saxon troops to Vienna's relief"
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "stable",
+          "population": 1.15,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Max Emanuel rides to Vienna's relief"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO"
+          ],
+          "contestedRegions": [
+            "AUT",
+            "SVK"
+          ],
+          "stability": "contested",
+          "population": 5.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Vienna besieged; Thököly's kuruc rebels hold Upper Hungary for the Porte"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Young Victor Amadeus II under a French thumb"
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL"
+          ],
+          "stability": "stable",
+          "population": 1.5,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Crete lost (1669) after the 21-year siege; joins the Holy League 1684"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.75,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Innocent XI bankrolls the war against the Turk"
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "stable",
+          "population": 2.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Messina's revolt (1674-78) and French occupation over"
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "French bombardment for serving Spain comes in 1684"
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "stable",
+          "population": 1.5,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "stable",
+          "population": 2.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Charles XI's reduktion and absolutism after the costly Scanian War"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C",
+            "RUS_S",
+            "UKR_E"
+          ],
+          "stability": "stable",
+          "population": 13,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Regent Sophia; peace of Bakhchisarai (1681) with the Porte"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W"
+          ],
+          "contestedRegions": [
+            "VOL",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Sobieski's hussars save Vienna; Podolia lost to the Porte since 1672"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Zaporozhian Sich",
+          "type": "tribal",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Zaporozhian Sich",
+          "capitalRegion": "STE",
+          "regions": [
+            "STE"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON"
+          ],
+          "stability": "stable",
+          "population": 0.55,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Tatar cavalry screens the Ottoman advance on Vienna"
+        },
+        {
+          "id": "transylvania",
+          "name": "Principality of Transylvania",
+          "type": "state",
+          "culture": "uralic",
+          "cultureName": "Hungarian (Transylvanian)",
+          "founded": 1541,
+          "capital": "Gyulafehérvár",
+          "capitalRegion": "TRN",
+          "regions": [
+            "TRN"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Apafi rides with the Ottomans to Vienna"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Bucharest",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Șerban Cantacuzino serves at Vienna — and plots with the Habsburgs"
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "PEL",
+            "MES_S",
+            "HUN",
+            "CRE"
+          ],
+          "contestedRegions": [
+            "AUT",
+            "SVK",
+            "VOL"
+          ],
+          "stability": "contested",
+          "population": 25,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Overreach at Vienna; the Holy League counter-offensive follows (Buda 1686, Belgrade 1688)"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "morocco",
+          "name": "Alaouite Morocco",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Alaouite Sharifian Morocco",
+          "founded": 1631,
+          "capital": "Meknes",
+          "capitalRegion": "RIF",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "consolidating",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Moulay Ismail builds Meknes with slave labour; his siege forces England from Tangier"
+        }
+      ],
+      "relations": [
+        {
+          "a": "ottoman",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "Kara Mustafa's 90,000 besiege Vienna, July–September"
+        },
+        {
+          "a": "poland_lithuania",
+          "b": "austria_habsburg",
+          "type": "alliance",
+          "note": "Sobieski's charge at the Kahlenberg (12 Sept) saves Vienna"
+        },
+        {
+          "a": "france",
+          "b": "spain",
+          "type": "war",
+          "note": "War of the Reunions: Louis bombards Luxembourg while Vienna burns"
+        },
+        {
+          "a": "england",
+          "b": "morocco",
+          "type": "war",
+          "note": "Moulay Ismail's siege forces England to abandon Tangier (1684)"
+        },
+        {
+          "a": "venice",
+          "b": "ottoman",
+          "type": "trade",
+          "note": "Trading under the 1669 peace — Venice joins the Holy League in 1684"
+        },
+        {
+          "a": "crimean_khanate",
+          "b": "ottoman",
+          "type": "alliance",
+          "note": "Tatar riders screen and forage for the Grand Vizier's host"
+        }
+      ]
+    },
+    {
+      "year": 1699,
+      "eraName": "Age of Louis XIV",
+      "label": "Karlowitz: the Ottoman tide recedes",
+      "events": [
+        "Peace of Karlowitz (Jan): Habsburgs take Hungary and Transylvania, Venice the Morea, Poland regains Podolia",
+        "Peter keeps Azov and plots with Denmark and Saxony — the Great Northern War opens in 1700",
+        "Darien disaster bankrupts Scotland, pushing it toward union with England"
+      ],
+      "connectivity": 52,
+      "connectivityNote": "General peace after Ryswick (1697) and Karlowitz: Atlantic and Levant trade at new highs under Anglo-Dutch convoy.",
+      "entities": [
+        {
+          "id": "england",
+          "name": "Kingdom of England",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "English",
+          "founded": 927,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 7.3,
+          "wealth": 5,
+          "wealthNote": "Bank of England (1694) funds war cheaply; London overtakes Amsterdam",
+          "extendsBeyondMap": true,
+          "note": "William III secure since the Boyne (1690); penal laws grip Ireland"
+        },
+        {
+          "id": "scotland",
+          "name": "Kingdom of Scotland",
+          "type": "state",
+          "culture": "celtic",
+          "cultureName": "Scots",
+          "founded": 843,
+          "capital": "Edinburgh",
+          "capitalRegion": "SCO_S",
+          "regions": [
+            "SCO_S",
+            "SCO_N"
+          ],
+          "stability": "contested",
+          "population": 1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Famine of the 'ill years' and the Darien fiasco; union pressure grows"
+        },
+        {
+          "id": "spain",
+          "name": "Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "stability": "collapsing",
+          "population": 7.2,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Carlos II childless and dying; Europe circles the inheritance"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 3,
+          "wealthNote": "Brazilian gold begins to flow through Lisbon",
+          "extendsBeyondMap": true
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "stable",
+          "population": 21,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Ryswick (1697) returned Lorraine but kept Alsace-Strasbourg; famine of 1693-94 killed over a million"
+        },
+        {
+          "id": "lorraine",
+          "name": "Duchy of Lorraine",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Lorrainer",
+          "founded": 959,
+          "capital": "Nancy",
+          "capitalRegion": "LOR",
+          "regions": [
+            "LOR"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Duke Leopold restored at Ryswick; Alsace stays French"
+        },
+        {
+          "id": "habsburg_netherlands",
+          "name": "Spanish Netherlands",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch-Flemish",
+          "founded": 1482,
+          "capital": "Brussels",
+          "capitalRegion": "FLA",
+          "regions": [
+            "FLA"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Battered buffer between France and the Dutch barrier garrisons"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "extendsBeyondMap": true,
+          "note": "William's Republic: banker and convoy of the anti-French coalitions"
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Heidelberg burned twice by French armies (1688-93)"
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Hanover raised to a ninth electorate (1692)"
+        },
+        {
+          "id": "brandenburg",
+          "name": "Brandenburg-Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Brandenburger-Prussian",
+          "founded": 1157,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Frederick III bargains troops for a royal crown — won in 1701"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Augustus the Strong now also elected King of Poland (1697)"
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Electoral prince Joseph Ferdinand, heir to Spain, dies this year"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO",
+            "HUN",
+            "TRN"
+          ],
+          "stability": "consolidating",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Hungary, Transylvania and Slavonia won from the Porte at Karlowitz"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Duchy of Savoy",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 1.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Victor Amadeus II switched sides and won Pinerolo at Ryswick"
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "PEL"
+          ],
+          "stability": "stable",
+          "population": 1.85,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Morea and inland Dalmatia won at Karlowitz — the republic's last conquests"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "naples_kingdom",
+          "name": "Kingdom of Naples (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Neapolitan",
+          "founded": 1282,
+          "capital": "Naples",
+          "capitalRegion": "NAP",
+          "regions": [
+            "NAP",
+            "CLB"
+          ],
+          "stability": "stable",
+          "population": 2.9,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sicily_kingdom",
+          "name": "Kingdom of Sicily (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sicilian",
+          "founded": 1282,
+          "capital": "Palermo",
+          "capitalRegion": "SIC",
+          "regions": [
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.15,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sardinia_kingdom",
+          "name": "Kingdom of Sardinia (Spanish viceroyalty)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Sardinian",
+          "founded": 1324,
+          "capital": "Cagliari",
+          "capitalRegion": "SAR",
+          "regions": [
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "stable",
+          "population": 1.55,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Frederick IV crowned this year; coalition against Sweden forming"
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_S",
+            "FIN_N",
+            "KAR",
+            "EST",
+            "LVA"
+          ],
+          "stability": "stable",
+          "population": 2.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Fifteen-year-old Charles XII rules an empire his neighbours covet"
+        },
+        {
+          "id": "russia",
+          "name": "Tsardom of Russia",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Moscow",
+          "capitalRegion": "RUS_C",
+          "regions": [
+            "RUS_NW",
+            "RUS_C",
+            "RUS_S",
+            "UKR_E",
+            "DON"
+          ],
+          "stability": "consolidating",
+          "population": 14,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Azov taken (1696); Peter back from the Grand Embassy, shaving beards"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 8.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Podolia and Kamianets regained at Karlowitz; Saxon Augustus II on the throne"
+        },
+        {
+          "id": "zaporozhian_cossacks",
+          "name": "Zaporozhian Sich",
+          "type": "tribal",
+          "culture": "slavic",
+          "cultureName": "Ukrainian Cossack",
+          "founded": 1552,
+          "capital": "Zaporozhian Sich",
+          "capitalRegion": "STE",
+          "regions": [
+            "STE"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Mazepa hetman on the left bank under Moscow; the Sich restive"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Azov lost; raiding curbed by treaty"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Bucharest",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Brâncoveanu's golden age of letters between empires"
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "MES_S",
+            "CRE"
+          ],
+          "stability": "contested",
+          "population": 24,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Karlowitz: the first great territorial retreat; Hungary and the Morea gone"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "stable",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Long decay under Shah Sultan Husayn"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "morocco",
+          "name": "Alaouite Morocco",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Alaouite Sharifian Morocco",
+          "founded": 1631,
+          "capital": "Meknes",
+          "capitalRegion": "RIF",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "stable",
+          "population": 3,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Moulay Ismail's Black Guard rules; Larache taken from Spain (1689)"
+        }
+      ],
+      "relations": [
+        {
+          "a": "ottoman",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "Peace of Karlowitz (Jan) ends the 16-year Holy League war"
+        },
+        {
+          "a": "ottoman",
+          "b": "venice",
+          "type": "war",
+          "note": "Karlowitz confirms Venice in the Morea and inland Dalmatia"
+        },
+        {
+          "a": "russia",
+          "b": "ottoman",
+          "type": "war",
+          "note": "Truce: Peter keeps Azov, his first salt-water port"
+        },
+        {
+          "a": "russia",
+          "b": "saxony",
+          "type": "alliance",
+          "note": "Peter and Augustus II plot the assault on Sweden; Denmark joins"
+        },
+        {
+          "a": "england",
+          "b": "france",
+          "type": "alliance",
+          "note": "Partition Treaties try to divide the dying Carlos II's inheritance"
+        },
+        {
+          "a": "england",
+          "b": "dutch_republic",
+          "type": "trade",
+          "note": "Anglo-Dutch convoys dominate Baltic and Levant trade"
+        }
+      ]
+    },
+    {
+      "year": 1714,
+      "eraName": "Age of Louis XIV",
+      "label": "Utrecht: a new balance of power",
+      "events": [
+        "Utrecht and Rastatt: Spanish Netherlands, Naples, Milan and Sardinia to Austria; Sicily to Savoy; Gibraltar and Minorca British",
+        "Barcelona falls (11 Sept): Bourbon Spain abolishes Catalan liberties",
+        "George I ascends the new British throne; Russia's fleet wins at Gangut as Sweden's empire collapses"
+      ],
+      "connectivity": 54,
+      "connectivityNote": "The Utrecht settlement reopens the seas: British and Dutch shipping, the Asiento slave trade and Baltic timber boom — though war still burns in the north.",
+      "entities": [
+        {
+          "id": "great_britain",
+          "name": "Kingdom of Great Britain",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "British (English-Scots)",
+          "founded": 1707,
+          "capital": "London",
+          "capitalRegion": "ENG_E",
+          "regions": [
+            "ENG_S",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "WAL",
+            "SCO_S",
+            "SCO_N",
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "consolidating",
+          "population": 8.6,
+          "wealth": 5,
+          "wealthNote": "Asiento, Gibraltar and Minorca; London the new money capital",
+          "extendsBeyondMap": true,
+          "note": "Union of 1707; Hanoverian George I succeeds Anne (Aug 1714)"
+        },
+        {
+          "id": "spain",
+          "name": "Bourbon Spain",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Castilian-Aragonese Spanish",
+          "founded": 1479,
+          "capital": "Madrid",
+          "capitalRegion": "CAS_S",
+          "regions": [
+            "GAL",
+            "EUS",
+            "CAS_N",
+            "CAS_S",
+            "ARA",
+            "VAL",
+            "AND",
+            "BAL"
+          ],
+          "contestedRegions": [
+            "ARA"
+          ],
+          "stability": "consolidating",
+          "population": 7.5,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Philip V keeps Spain and the Indies; Barcelona falls 11 Sept; Nueva Planta follows; Gibraltar and Minorca lost"
+        },
+        {
+          "id": "portugal",
+          "name": "Kingdom of Portugal",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Portuguese",
+          "founded": 1139,
+          "capital": "Lisbon",
+          "capitalRegion": "POR_S",
+          "regions": [
+            "POR_N",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 2,
+          "wealth": 3,
+          "wealthNote": "Brazil gold and the Methuen trade",
+          "extendsBeyondMap": true,
+          "note": "Peace with Spain at Utrecht (Feb 1715)"
+        },
+        {
+          "id": "france",
+          "name": "Kingdom of France",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "French",
+          "founded": 987,
+          "capital": "Paris",
+          "capitalRegion": "IDF",
+          "regions": [
+            "BRE",
+            "NRM",
+            "PIC",
+            "IDF",
+            "LOI",
+            "BUR",
+            "AQU",
+            "OCC",
+            "PRO",
+            "AUV"
+          ],
+          "stability": "stable",
+          "population": 21.5,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Exhausted by war and the great frost of 1709, but intact; Louis XIV dies 1715"
+        },
+        {
+          "id": "lorraine",
+          "name": "Duchy of Lorraine",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Lorrainer",
+          "founded": 959,
+          "capital": "Nancy",
+          "capitalRegion": "LOR",
+          "regions": [
+            "LOR"
+          ],
+          "stability": "stable",
+          "population": 0.45,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Duke Leopold's duchy intact between French bayonets; Alsace French"
+        },
+        {
+          "id": "dutch_republic",
+          "name": "Dutch Republic",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Dutch",
+          "founded": 1581,
+          "capital": "The Hague",
+          "capitalRegion": "NED",
+          "regions": [
+            "NED"
+          ],
+          "stability": "stable",
+          "population": 1.9,
+          "wealth": 5,
+          "extendsBeyondMap": true,
+          "note": "Barrier fortresses won, finances strained: the Republic's last great-power decade"
+        },
+        {
+          "id": "palatinate",
+          "name": "Electoral Palatinate",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Palatine German",
+          "founded": 1214,
+          "capital": "Heidelberg",
+          "capitalRegion": "RHE",
+          "regions": [
+            "RHE"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hre",
+          "name": "Holy Roman Empire (Lower Saxon Circle)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "German (free cities & princes)",
+          "founded": 962,
+          "regions": [
+            "SAX_L"
+          ],
+          "stability": "stable",
+          "population": 1.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Hanover's elector now wears the British crown"
+        },
+        {
+          "id": "prussia",
+          "name": "Kingdom of Prussia",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Prussian German",
+          "founded": 1525,
+          "capital": "Berlin",
+          "capitalRegion": "BRA",
+          "regions": [
+            "BRA",
+            "PRS"
+          ],
+          "stability": "consolidating",
+          "population": 2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Frederick I crowned 'King in Prussia' (1701); Frederick William I now drills his army"
+        },
+        {
+          "id": "saxony",
+          "name": "Electorate of Saxony",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Saxon",
+          "founded": 1485,
+          "capital": "Dresden",
+          "capitalRegion": "SAX",
+          "regions": [
+            "SAX"
+          ],
+          "stability": "stable",
+          "population": 1.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Augustus II restored in Warsaw after Poltava"
+        },
+        {
+          "id": "hesse",
+          "name": "Landgraviate of Hesse",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Hessian",
+          "founded": 1264,
+          "capital": "Kassel",
+          "capitalRegion": "FRK",
+          "regions": [
+            "FRK"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "bavaria",
+          "name": "Duchy of Bavaria",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Bavarian",
+          "founded": 1180,
+          "capital": "Munich",
+          "capitalRegion": "BAV",
+          "regions": [
+            "BAV"
+          ],
+          "stability": "consolidating",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Max Emanuel restored by the Peace of Baden after wartime exile"
+        },
+        {
+          "id": "wurttemberg",
+          "name": "Duchy of Württemberg",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swabian",
+          "founded": 1495,
+          "capital": "Stuttgart",
+          "capitalRegion": "SWA",
+          "regions": [
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "austria_habsburg",
+          "name": "Austrian Habsburg Monarchy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Austrian",
+          "founded": 1282,
+          "capital": "Vienna",
+          "capitalRegion": "AUT",
+          "regions": [
+            "AUT",
+            "BOH",
+            "SIL",
+            "SVK",
+            "CRO",
+            "HUN",
+            "TRN",
+            "FLA",
+            "NAP",
+            "CLB",
+            "SAR"
+          ],
+          "stability": "consolidating",
+          "population": 14,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Rastatt: Flanders, Milan, Naples and Sardinia acquired; Rákóczi's Hungarian rising ended 1711"
+        },
+        {
+          "id": "switzerland",
+          "name": "Swiss Confederacy",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swiss",
+          "founded": 1291,
+          "capital": "Zürich",
+          "capitalRegion": "SUI",
+          "regions": [
+            "SUI"
+          ],
+          "stability": "stable",
+          "population": 1.25,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Toggenburg war of 1712 settled; armed neutrality pays"
+        },
+        {
+          "id": "savoy_sardinia",
+          "name": "Savoy (Kingdom of Sicily)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Savoyard-Piedmontese",
+          "founded": 1416,
+          "capital": "Turin",
+          "capitalRegion": "PIE",
+          "regions": [
+            "PIE",
+            "SIC"
+          ],
+          "stability": "consolidating",
+          "population": 2.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Victor Amadeus II crowned King of Sicily at Palermo (1713); swapped for Sardinia in 1720"
+        },
+        {
+          "id": "venice",
+          "name": "Republic of Venice",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Venetian",
+          "founded": 697,
+          "capital": "Venice",
+          "capitalRegion": "LOM",
+          "regions": [
+            "LOM",
+            "DAL",
+            "PEL"
+          ],
+          "stability": "contested",
+          "population": 1.9,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "The Porte declares war (Dec 1714): the Morea falls in 1715"
+        },
+        {
+          "id": "tuscany_gd",
+          "name": "Grand Duchy of Tuscany",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Florentine Tuscan",
+          "founded": 1569,
+          "capital": "Florence",
+          "capitalRegion": "TUS",
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Last Medici; the succession already haggled over"
+        },
+        {
+          "id": "papal_states",
+          "name": "Papal States",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Roman/Papal",
+          "founded": 756,
+          "capital": "Rome",
+          "capitalRegion": "ROM",
+          "regions": [
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 1.85,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "genoa",
+          "name": "Republic of Genoa",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Genoese",
+          "founded": 1005,
+          "capital": "Genoa",
+          "capitalRegion": "COR",
+          "regions": [
+            "COR"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "knights_hospitaller",
+          "name": "Knights Hospitaller (Malta)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Knights of St John",
+          "founded": 1310,
+          "capital": "Valletta",
+          "capitalRegion": "MLT",
+          "regions": [
+            "MLT"
+          ],
+          "stability": "stable",
+          "population": 0.06,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "denmark",
+          "name": "Kingdom of Denmark-Norway",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Danish-Norwegian",
+          "founded": 958,
+          "capital": "Copenhagen",
+          "capitalRegion": "JUT",
+          "regions": [
+            "JUT",
+            "NOR_S",
+            "NOR_N"
+          ],
+          "stability": "stable",
+          "population": 1.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Back in the war since Poltava; eyeing Swedish Holstein-Gottorp and Bremen"
+        },
+        {
+          "id": "sweden",
+          "name": "Swedish Empire (collapsing)",
+          "type": "state",
+          "culture": "germanic",
+          "cultureName": "Swedish",
+          "founded": 1523,
+          "capital": "Stockholm",
+          "capitalRegion": "SWE_C",
+          "regions": [
+            "SWE_S",
+            "SWE_C",
+            "SWE_N",
+            "FIN_N"
+          ],
+          "contestedRegions": [
+            "FIN_N"
+          ],
+          "stability": "collapsing",
+          "population": 1.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Poltava (1709) shattered the army; Baltic provinces and Finland lost; Charles XII at Bender"
+        },
+        {
+          "id": "russia",
+          "name": "Russia of Peter the Great",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Muscovite Russian",
+          "founded": 1263,
+          "capital": "Saint Petersburg",
+          "capitalRegion": "RUS_NW",
+          "regions": [
+            "RUS_NW",
+            "RUS_C",
+            "RUS_S",
+            "UKR_E",
+            "EST",
+            "LVA",
+            "KAR",
+            "FIN_S"
+          ],
+          "contestedRegions": [
+            "FIN_N"
+          ],
+          "stability": "consolidating",
+          "population": 15.5,
+          "wealth": 2,
+          "wealthNote": "New Baltic ports; state-driven ironworks",
+          "extendsBeyondMap": true,
+          "note": "St Petersburg capital (1712); Estonia, Livonia and Finland held; Gangut won (July)"
+        },
+        {
+          "id": "poland_lithuania",
+          "name": "Polish-Lithuanian Commonwealth",
+          "type": "state",
+          "culture": "slavic",
+          "cultureName": "Polish-Lithuanian",
+          "founded": 1569,
+          "capital": "Warsaw",
+          "capitalRegion": "POL_C",
+          "regions": [
+            "POL_W",
+            "POL_C",
+            "POL_S",
+            "VOL",
+            "LTU",
+            "BLR",
+            "UKR_W"
+          ],
+          "stability": "contested",
+          "population": 8.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Battleground of the Great Northern War; plague and Russian garrisons; Augustus II restored"
+        },
+        {
+          "id": "crimean_khanate",
+          "name": "Crimean Khanate",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Crimean Tatar",
+          "founded": 1441,
+          "capital": "Bakhchisaray",
+          "capitalRegion": "CRM",
+          "regions": [
+            "CRM",
+            "DON",
+            "STE"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Azov recovered after the Pruth (1711); Zaporozhians at Oleshky under the khan's protection"
+        },
+        {
+          "id": "moldavia",
+          "name": "Principality of Moldavia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Moldavian Romanian",
+          "founded": 1346,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": [
+            "MDA"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Cantemir fled to Russia after the Pruth; Phanariot rule begins (1711)"
+        },
+        {
+          "id": "wallachia",
+          "name": "Principality of Wallachia",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Wallachian Romanian",
+          "founded": 1330,
+          "capital": "Bucharest",
+          "capitalRegion": "WLC",
+          "regions": [
+            "WLC"
+          ],
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Brâncoveanu deposed and executed in Constantinople this year"
+        },
+        {
+          "id": "ottoman",
+          "name": "Ottoman Empire",
+          "type": "state",
+          "culture": "turkic",
+          "cultureName": "Ottoman Turkish",
+          "founded": 1299,
+          "capital": "Constantinople",
+          "capitalRegion": "CON",
+          "regions": [
+            "CON",
+            "ION",
+            "BIT",
+            "CAP",
+            "PON",
+            "CIL",
+            "ARM_W",
+            "CYP",
+            "THR",
+            "BGR",
+            "SRB",
+            "BOS",
+            "ALB",
+            "MAC",
+            "EPI",
+            "ATT",
+            "AEG",
+            "DOD",
+            "SYR",
+            "LEV",
+            "MES_N",
+            "ARB",
+            "EGY_N",
+            "EGY_S",
+            "CYR",
+            "TRP",
+            "TUN",
+            "NUM",
+            "ORA",
+            "MES_S",
+            "CRE"
+          ],
+          "stability": "stable",
+          "population": 24,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Recovered under Ahmed III: Azov regained at the Pruth (1711); war on Venice declared (Dec)"
+        },
+        {
+          "id": "safavid",
+          "name": "Safavid Persia",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Safavid Persian",
+          "founded": 1501,
+          "capital": "Isfahan",
+          "regions": [
+            "ARM"
+          ],
+          "stability": "contested",
+          "population": 8,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Enfeebled court; the Afghan catastrophe comes in 1722"
+        },
+        {
+          "id": "georgia",
+          "name": "Georgian kingdoms (Kartli & Kakheti)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Georgian",
+          "founded": 1008,
+          "capital": "Tbilisi",
+          "capitalRegion": "GEO",
+          "regions": [
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Vakhtang VI codifies law under Persian suzerainty"
+        },
+        {
+          "id": "morocco",
+          "name": "Alaouite Morocco",
+          "type": "state",
+          "culture": "berber",
+          "cultureName": "Alaouite Sharifian Morocco",
+          "founded": 1631,
+          "capital": "Meknes",
+          "capitalRegion": "RIF",
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "stable",
+          "population": 3.2,
+          "wealth": 2,
+          "extendsBeyondMap": true,
+          "note": "Moulay Ismail's Black Guard and Salé corsairs; ports retaken from Europe"
+        }
+      ],
+      "relations": [
+        {
+          "a": "russia",
+          "b": "sweden",
+          "type": "war",
+          "note": "Gangut (July): Russia's first fleet victory; Finland occupied"
+        },
+        {
+          "a": "austria_habsburg",
+          "b": "france",
+          "type": "war",
+          "note": "Rastatt (March) and Baden (Sept) end the war; Austria takes the Spanish inheritance in Italy and Flanders"
+        },
+        {
+          "a": "spain",
+          "b": "austria_habsburg",
+          "type": "war",
+          "note": "No peace between Philip V and Charles VI — both still claim Spain"
+        },
+        {
+          "a": "ottoman",
+          "b": "venice",
+          "type": "war",
+          "note": "The Porte declares war (Dec) to retake the Morea"
+        },
+        {
+          "a": "great_britain",
+          "b": "france",
+          "type": "trade",
+          "note": "Utrecht: Gibraltar, Minorca and the Asiento slave contract to Britain"
+        },
+        {
+          "a": "great_britain",
+          "b": "portugal",
+          "type": "trade",
+          "note": "Methuen treaty cloth-for-port-wine trade thrives"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thirty Years' War — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+    },
+    {
+      "title": "Peace of Westphalia — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+    },
+    {
+      "title": "Truce of Deulino — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Truce_of_Deulino"
+    },
+    {
+      "title": "Treaty of Altmark — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Altmark"
+    },
+    {
+      "title": "Treaty of Stolbovo — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Stolbovo"
+    },
+    {
+      "title": "Khmelnytsky Uprising — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Khmelnytsky_Uprising"
+    },
+    {
+      "title": "Truce of Andrusovo — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Truce_of_Andrusovo"
+    },
+    {
+      "title": "Treaty of Oliva — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Oliva"
+    },
+    {
+      "title": "Cretan War (1645–1669) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cretan_War_(1645%E2%80%931669)"
+    },
+    {
+      "title": "Battle of Vienna — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+    },
+    {
+      "title": "Treaty of Karlowitz — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Karlowitz"
+    },
+    {
+      "title": "Peace of Utrecht — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peace_of_Utrecht"
+    },
+    {
+      "title": "Great Northern War — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Northern_War"
+    },
+    {
+      "title": "Portuguese Restoration War — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portuguese_Restoration_War"
+    },
+    {
+      "title": "Treaty of the Pyrenees — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_the_Pyrenees"
+    },
+    {
+      "title": "McEvedy & Jones, Atlas of World Population History (population baselines)",
+      "url": "https://archive.org/details/atlasofworldpopu0000mcev"
+    }
+  ],
+  "uncertainties": [
+    "LOM assigned to Venice throughout (era11 precedent; the cell seed lies in Venetian terra firma), so Spanish/Austrian Milan is invisible; Austria's 1714 population includes the Milanese (~1M).",
+    "Gibraltar (1704) and Minorca (1708) are British at 1714 but subsumed in the AND/BAL cells held by Spain; shown in events/notes only.",
+    "Swedish Pomerania, Wismar and Bremen-Verden (1648) fall inside the BRA and SAX_L cells; kept with brandenburg/hre and flagged in notes rather than assigned to Sweden.",
+    "Crete kept Venetian 1648–1667 with contested flag although Ottomans held most of the island from 1646; Candia city resisted to 1669 (standard atlas convention).",
+    "KAR given to Sweden 1618–1699 to show Stolbovo's Kexholm county, though eastern (Olonets) Karelia within the cell stayed Russian; returned to Russia at 1714 (taken 1710).",
+    "Smolensk sits in the BLR cell (dominated by Polish Minsk-Polotsk): its transfers (Deulino 1618, Russian 1654/1667) are carried by the RUS_S proxy region and by events/notes.",
+    "Kyiv (Russian from 1667) is subsumed in the UKR_W cell, which is assigned to Poland 1667–1714 as de-facto holder of most right-bank territory.",
+    "Ottoman Podolia (1672–99) shown only as contested VOL, since Kamianets falls in a cell dominated by Polish Lviv/Volhynia.",
+    "Cossack polity simplified: Hetmanate (id zaporozhian_cossacks) a state 1648–1660, folded into Russia on the left bank at 1667 (Andrusovo), rump Sich kept as tribal entity holding STE to 1699, and under Crimean protection (Oleshky) by 1714.",
+    "1648 ARA kept Spanish (contested by France) although Catalonia was under Franco-Catalan control 1641–52; Aragon proper remained Spanish.",
+    "1648 IRL_N given to England despite Confederate strength in west Ulster; east-coast garrisons and Scottish forces held the key ports.",
+    "Morocco: id `morocco` (founded 1631) used from the 1660 interregnum onward although Alaouite control was consolidated only 1666–72; Saadi entity kept to 1648.",
+    "Naples, Sardinia and the Spanish Netherlands folded into austria_habsburg at 1714 to make the Utrecht/Rastatt transfers visible (era11 had shown them as separate Spanish viceroyalties); Sicily moved to savoy_sardinia.",
+    "Barbary regencies (Algiers, Tunis, Tripoli) kept inside `ottoman` per era11 despite de-facto autonomy; Spanish Oran subsumed in the Ottoman ORA cell (it fell to Algiers in 1708).",
+    "Lorraine's oscillation simplified to slice years: French occupation shown 1648–1660 and 1683, duchy restored 1667, 1699, 1714.",
+    "Populations interpolated from McEvedy & Jones; the German entities' mid-century crash reflects regional losses of roughly one-third."
+  ]
+}
