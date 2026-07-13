@@ -25,6 +25,8 @@ const ALIAS = {
   seljuks: 'seljuk', seljuk_empire: 'seljuk',
   mamluks: 'mamluk', mamluk_sultanate: 'mamluk',
   abbasids: 'abbasid', umayyads: 'umayyad', fatimids: 'fatimid',
+  hospitallers: 'knights_hospitaller', knights_of_malta: 'knights_hospitaller',
+  knights_of_rhodes: 'knights_hospitaller',
 };
 const canon = id => ALIAS[id] || id;
 
