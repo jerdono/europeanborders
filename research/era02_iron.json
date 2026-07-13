@@ -1,0 +1,5431 @@
+{
+  "era": "iron",
+  "agent": "A2",
+  "slices": [
+    {
+      "year": -1100,
+      "eraName": "Early Iron Age",
+      "label": "Aftermath of the great collapse",
+      "events": [
+        "The Hittite Empire is gone: Neo-Hittite princes at Carchemish and Tabal carry on Hatti's line",
+        "Egypt's New Kingdom expires (c. 1077): Tanis and Thebes split the Nile, Canaan is lost",
+        "Dorians drift into Greece, Philistines hold the Levant coast, and iron spreads as bronze routes fail"
+      ],
+      "connectivity": 12,
+      "connectivityNote": "The palace trade web is dead: no tin convoys, pirate coasts, writing lost everywhere west of the Levant.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Egypt (late New Kingdom)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Pi-Ramesses",
+          "capitalRegion": "EGY_N",
+          "stability": "collapsing",
+          "population": 2.8,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Ramesses XI a shadow; Herihor's Amun priesthood rules Thebes; Canaan abandoned"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan tribes (Libu, Meshwesh)",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP",
+            "TUN"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Libyan war-bands push into the Nile Delta itself"
+        },
+        {
+          "id": "phoenician_cities",
+          "name": "Phoenician & Canaanite cities",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Phoenician",
+          "founded": -1200,
+          "regions": [
+            "LEV"
+          ],
+          "capital": "Tyre",
+          "capitalRegion": "LEV",
+          "stability": "stable",
+          "population": 0.45,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Byblos, Sidon, Tyre free of Egypt; Philistine pentapolis south, Israelite tribes inland"
+        },
+        {
+          "id": "neo_hittite_states",
+          "name": "Neo-Hittite & Luwian states",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Luwian (Neo-Hittite)",
+          "founded": -1180,
+          "regions": [
+            "CAP",
+            "CIL",
+            "ION",
+            "SYR"
+          ],
+          "capital": "Carchemish",
+          "capitalRegion": "SYR",
+          "stability": "consolidating",
+          "population": 1.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Carchemish, Melid, Tabal, Que — 'Great Kings' over the wreck of Hatti; Luwian west adrift"
+        },
+        {
+          "id": "assyria",
+          "name": "Middle Assyrian kingdom",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Assur",
+          "capitalRegion": "MES_N",
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tiglath-Pileser I raids to the Mediterranean but holds little; Arameans press in"
+        },
+        {
+          "id": "babylon",
+          "name": "Babylonia (2nd Dynasty of Isin)",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Babylon",
+          "capitalRegion": "MES_S",
+          "stability": "contested",
+          "population": 1.0,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "After Nebuchadnezzar I's brief glory, Aramean raiders roam the Euphrates"
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "kaska",
+          "name": "Kaska hillmen",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Kaskian–Paphlagonian",
+          "founded": -1600,
+          "regions": [
+            "PON"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "The mountaineers outlive the empire they harried"
+        },
+        {
+          "id": "caucasus_bronze",
+          "name": "Nairi & Colchian tribes",
+          "type": "culture",
+          "culture": "caucasian",
+          "cultureName": "Nairi–Colchian",
+          "founded": -2100,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Nairi lands and Mushki war-bands; Urartu not yet gathered"
+        },
+        {
+          "id": "alashiya",
+          "name": "Alashiya in twilight",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Cypriot (Alashiyan)",
+          "founded": -1600,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Enkomi",
+          "capitalRegion": "CYP",
+          "stability": "collapsing",
+          "population": 0.12,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Copper towns half-empty; Aegean refugees settling in"
+        },
+        {
+          "id": "greek_dark_age",
+          "name": "Post-Mycenaean Greeks",
+          "type": "culture",
+          "culture": "hellenic",
+          "cultureName": "Greek (Dark Age)",
+          "founded": -1100,
+          "regions": [
+            "AEG",
+            "ATT",
+            "CRE",
+            "DOD",
+            "EPI",
+            "PEL"
+          ],
+          "stability": "collapsing",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Palaces burned, writing lost; Dorian newcomers among the ruins"
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygian migrants",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT"
+          ],
+          "stability": "consolidating",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Bryges from the Balkans filtering toward the Anatolian plateau"
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR",
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "MAC",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Forest-steppe farmers behind earthworks — a possible proto-Slavic horizon"
+        },
+        {
+          "id": "srubnaya",
+          "name": "Belozerka herders (late Srubnaya)",
+          "type": "culture",
+          "culture": "steppe",
+          "cultureName": "Late Srubnaya–Belozerka",
+          "founded": -1900,
+          "regions": [
+            "CRM",
+            "DON",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Proto-Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nordic_bronze",
+          "name": "Nordic Bronze Age",
+          "type": "culture",
+          "culture": "germanic",
+          "cultureName": "Nordic Bronze Age",
+          "founded": -1700,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.55,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Dense fortified villages between Oder and Vistula"
+        },
+        {
+          "id": "urnfield",
+          "name": "Urnfield culture",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Urnfield",
+          "founded": -1300,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "HUN",
+            "LOR",
+            "RHE",
+            "SAX",
+            "SIL",
+            "SUI",
+            "SVK",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 2.0,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Bronze Age",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NED",
+            "NRM",
+            "OCC",
+            "PIC",
+            "PRO",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Carp's-tongue swords and sea-borne scrap trade from Ireland to Iberia"
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Late Bronze",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "AND",
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "EUS",
+            "GAL",
+            "POR_N",
+            "POR_S",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.95,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "italy_bronze",
+          "name": "Proto-Villanovan Italy",
+          "type": "culture",
+          "culture": "italic",
+          "cultureName": "Proto-Villanovan",
+          "founded": -3000,
+          "regions": [
+            "CLB",
+            "LOM",
+            "MLT",
+            "NAP",
+            "PIE",
+            "ROM",
+            "SIC",
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "assyria",
+          "b": "babylon",
+          "type": "war",
+          "note": "Tiglath-Pileser I storms Babylon; two exhausted kingdoms bleed each other"
+        },
+        {
+          "a": "phoenician_cities",
+          "b": "egypt",
+          "type": "trade",
+          "note": "Wenamun buys Byblos cedar — for silver now, not tribute"
+        },
+        {
+          "a": "neo_hittite_states",
+          "b": "assyria",
+          "type": "war",
+          "note": "Assyrian columns raid across the Euphrates to the cedar coast"
+        },
+        {
+          "a": "egypt",
+          "b": "libyans",
+          "type": "war",
+          "note": "Libu and Meshwesh bands settle the western Delta by force"
+        },
+        {
+          "a": "atlantic_bronze",
+          "b": "nordic_bronze",
+          "type": "trade",
+          "note": "Amber and bronze still trickle along the Atlantic–Baltic rim"
+        }
+      ]
+    },
+    {
+      "year": -1000,
+      "eraName": "Early Iron Age",
+      "label": "David's kingdom; recovery at the margins",
+      "events": [
+        "David seizes Jerusalem (c. 1000): a united Israelite monarchy rises between Philistia and Aram",
+        "Ionian Greeks now hold the Aegean's eastern shore; Athens fires fine protogeometric pottery",
+        "Iron is the working metal from Britain to Babylon; Aramean kingdoms blanket Syria"
+      ],
+      "connectivity": 14,
+      "connectivityNote": "Overland caravans and coastal tramping revive in the Levant; the west still trades only locally.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Egypt (Third Intermediate)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Tanis",
+          "capitalRegion": "EGY_N",
+          "stability": "contested",
+          "population": 2.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tanite pharaohs in the Delta; High Priests of Amun rule the south from Thebes"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan tribes (Libu, Meshwesh)",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP",
+            "TUN"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "israel_judah",
+          "name": "United Monarchy of Israel",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Hebrew",
+          "founded": -1020,
+          "regions": [
+            "LEV"
+          ],
+          "capital": "Jerusalem",
+          "capitalRegion": "LEV",
+          "stability": "consolidating",
+          "population": 0.45,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "David's kingdom; Tyre and Sidon are autonomous allied ports on its coast"
+        },
+        {
+          "id": "arameans",
+          "name": "Aramean kingdoms (Zobah, Damascus)",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Aramean",
+          "founded": -1100,
+          "regions": [
+            "SYR"
+          ],
+          "capital": "Damascus",
+          "capitalRegion": "SYR",
+          "stability": "consolidating",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Tribal kingdoms now ruling old Syria; Hadadezer of Zobah leads them"
+        },
+        {
+          "id": "neo_hittite_states",
+          "name": "Neo-Hittite states (Que, Tabal)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Luwian (Neo-Hittite)",
+          "founded": -1180,
+          "regions": [
+            "CIL"
+          ],
+          "capital": "Adanawa (Que)",
+          "capitalRegion": "CIL",
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Luwian kinglets in the Taurus shadow; Carchemish now hemmed by Arameans"
+        },
+        {
+          "id": "assyria",
+          "name": "Assyria (reduced)",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Assur",
+          "capitalRegion": "MES_N",
+          "stability": "contested",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Squeezed to the Assur–Nineveh core by Aramean pressure"
+        },
+        {
+          "id": "babylon",
+          "name": "Babylonia",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Babylon",
+          "capitalRegion": "MES_S",
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Weak kings; Aramean and Chaldean tribes seep into the river-land"
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "kaska",
+          "name": "Kaska & Paphlagonian tribes",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Kaskian–Paphlagonian",
+          "founded": -1600,
+          "regions": [
+            "PON"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasus_bronze",
+          "name": "Nairi & Colchian tribes",
+          "type": "culture",
+          "culture": "caucasian",
+          "cultureName": "Nairi–Colchian",
+          "founded": -2100,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Highland clans the Assyrians call Nairi; Urartu's seed"
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "consolidating",
+          "population": 0.15,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Greek-run kingdoms — Salamis, Paphos — over an Eteocypriot base; Phoenicians at Kition"
+        },
+        {
+          "id": "greek_dark_age",
+          "name": "Dark Age Greeks",
+          "type": "culture",
+          "culture": "hellenic",
+          "cultureName": "Greek (Dark Age)",
+          "founded": -1100,
+          "regions": [
+            "AEG",
+            "ATT",
+            "CRE",
+            "DOD",
+            "EPI",
+            "ION",
+            "PEL"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Ionian migration: twelve new cities on the Anatolian shore"
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT",
+            "CAP"
+          ],
+          "capital": "Gordion",
+          "capitalRegion": "CAP",
+          "stability": "consolidating",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Migrants become a kingdom; Gordion's citadel rises over the Sangarius"
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR",
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "MAC",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "CRM",
+            "DON",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Horse nomads of the Novocherkassk horizon — the Cimmerians of later fame"
+        },
+        {
+          "id": "balts_early",
+          "name": "Proto-Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nordic_bronze",
+          "name": "Nordic Bronze Age",
+          "type": "culture",
+          "culture": "germanic",
+          "cultureName": "Nordic Bronze Age",
+          "founded": -1700,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urnfield",
+          "name": "Urnfield culture",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Urnfield",
+          "founded": -1300,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "HUN",
+            "LOR",
+            "RHE",
+            "SAX",
+            "SIL",
+            "SUI",
+            "SVK",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 2.1,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Bronze Age",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NED",
+            "NRM",
+            "OCC",
+            "PIC",
+            "PRO",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Late Bronze",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "AND",
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "EUS",
+            "GAL",
+            "POR_N",
+            "POR_S",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Villanovan & Italic peoples",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "CLB",
+            "LOM",
+            "MLT",
+            "NAP",
+            "PIE",
+            "ROM",
+            "SIC",
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 1.05,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Cremating Villanovans in the north, Latins and Oscans in the peninsula"
+        }
+      ],
+      "relations": [
+        {
+          "a": "israel_judah",
+          "b": "arameans",
+          "type": "war",
+          "note": "David defeats Hadadezer of Zobah on the Euphrates road"
+        },
+        {
+          "a": "assyria",
+          "b": "arameans",
+          "type": "war",
+          "note": "Aramean tribes squeeze Assyria back to its heartland"
+        },
+        {
+          "a": "egypt",
+          "b": "israel_judah",
+          "type": "trade",
+          "note": "Tanis trades grain and horses through the Levant corridor"
+        },
+        {
+          "a": "greek_dark_age",
+          "b": "cyprus_kingdoms",
+          "type": "trade",
+          "note": "Euboean pots reach Cypriot ports — the sea lanes reopening"
+        },
+        {
+          "a": "cimmerians",
+          "b": "chernoles",
+          "type": "war",
+          "note": "Steppe riders raid the forest-steppe grain villages"
+        }
+      ]
+    },
+    {
+      "year": -900,
+      "eraName": "Early Iron Age",
+      "label": "Divided kingdoms; Assyria stirs; Phoenicia sails west",
+      "events": [
+        "Israel and Judah, split since Solomon's death (c. 930), quarrel while Damascus grows strong",
+        "Adad-nirari II (911-891) puts Assyria back on the war path",
+        "Phoenician galleys work the far west: Tartessian silver enters the eastern circuit"
+      ],
+      "connectivity": 18,
+      "connectivityNote": "Phoenician long-haul seafaring restitches the Mediterranean's edges; Assyrian roads return in the east.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Egypt (22nd Dynasty)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Bubastis",
+          "capitalRegion": "EGY_N",
+          "stability": "stable",
+          "population": 2.3,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Libyan-descended pharaohs; Shoshenq I lately raided Jerusalem (c. 925)"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan & Berber tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP",
+            "TUN"
+          ],
+          "stability": "stable",
+          "population": 0.62,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "israel_judah",
+          "name": "Israel & Judah",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Hebrew",
+          "founded": -1020,
+          "regions": [
+            "LEV"
+          ],
+          "capital": "Jerusalem",
+          "capitalRegion": "LEV",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Two rival kingdoms; Omri's dynasty and Samaria's founding lie a generation ahead"
+        },
+        {
+          "id": "arameans",
+          "name": "Aram-Damascus",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Aramean",
+          "founded": -1100,
+          "regions": [
+            "SYR"
+          ],
+          "capital": "Damascus",
+          "capitalRegion": "SYR",
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Ben-Hadad's Damascus leads the Aramean states"
+        },
+        {
+          "id": "neo_hittite_states",
+          "name": "Neo-Hittite states (Que, Tabal)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Luwian (Neo-Hittite)",
+          "founded": -1180,
+          "regions": [
+            "CIL"
+          ],
+          "capital": "Adanawa (Que)",
+          "capitalRegion": "CIL",
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "assyria",
+          "name": "Neo-Assyrian kingdom",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Assur",
+          "capitalRegion": "MES_N",
+          "stability": "consolidating",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Adad-nirari II reconquers the Aramean marches — the Neo-Assyrian rise begins"
+        },
+        {
+          "id": "babylon",
+          "name": "Babylonia",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "MES_S"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "kaska",
+          "name": "Kaska & Paphlagonian tribes",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Kaskian–Paphlagonian",
+          "founded": -1600,
+          "regions": [
+            "PON"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "caucasus_bronze",
+          "name": "Nairi & Colchian tribes",
+          "type": "culture",
+          "culture": "caucasian",
+          "cultureName": "Nairi–Colchian",
+          "founded": -2100,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.18,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "greek_dark_age",
+          "name": "Geometric Greece",
+          "type": "culture",
+          "culture": "hellenic",
+          "cultureName": "Greek (Dark Age)",
+          "founded": -1100,
+          "regions": [
+            "AEG",
+            "ATT",
+            "CRE",
+            "DOD",
+            "EPI",
+            "ION"
+          ],
+          "stability": "stable",
+          "population": 0.55,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Population and pottery both recovering; Euboean traders venture to the Levant"
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "consolidating",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Dorian villages by the Eurotas unite into a polis"
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT",
+            "CAP"
+          ],
+          "capital": "Gordion",
+          "capitalRegion": "CAP",
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR",
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "MAC",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "CRM",
+            "DON",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Proto-Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.32,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.22,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nordic_bronze",
+          "name": "Nordic Bronze Age",
+          "type": "culture",
+          "culture": "germanic",
+          "cultureName": "Nordic Bronze Age",
+          "founded": -1700,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urnfield",
+          "name": "Urnfield culture (late)",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Urnfield",
+          "founded": -1300,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "HUN",
+            "LOR",
+            "RHE",
+            "SAX",
+            "SIL",
+            "SUI",
+            "SVK",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 2.2,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Bronze Age",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NED",
+            "NRM",
+            "OCC",
+            "PIC",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 2.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE",
+            "PRO"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "consolidating",
+          "population": 0.15,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "River-kings of the silver country; Phoenician Gadir trades at their door"
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Late Bronze",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "EUS",
+            "GAL",
+            "POR_N",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.27,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Phoenician skippers water at Sulcis and Tharros anchorages"
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Villanovan & Italic peoples",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "CLB",
+            "LOM",
+            "MLT",
+            "NAP",
+            "ROM",
+            "SIC",
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "assyria",
+          "b": "arameans",
+          "type": "war",
+          "note": "Annual Assyrian campaigns grind down the Aramean marches"
+        },
+        {
+          "a": "israel_judah",
+          "b": "arameans",
+          "type": "war",
+          "note": "Ben-Hadad raids Galilee in the pay of Judah against Israel"
+        },
+        {
+          "a": "tartessos",
+          "b": "israel_judah",
+          "type": "trade",
+          "note": "Tyre's silver fleets (from the kingdoms' coast) link Huelva to the Levant"
+        },
+        {
+          "a": "egypt",
+          "b": "israel_judah",
+          "type": "trade",
+          "note": "Delta grain for Levantine oil and timber"
+        },
+        {
+          "a": "urnfield",
+          "b": "nordic_bronze",
+          "type": "trade",
+          "note": "The amber road still runs from Jutland to the Danube"
+        }
+      ]
+    },
+    {
+      "year": -814,
+      "eraName": "Early Iron Age",
+      "label": "Dido's Carthage and Hazael's hegemony",
+      "events": [
+        "Tyrian exiles found Carthage (814) on the Gulf of Tunis",
+        "Hazael of Damascus lords it over Israel; Assyria pauses after civil war",
+        "Urartu unites the highlands: Sarduri I builds his fortress-capital at Tushpa on Lake Van"
+      ],
+      "connectivity": 22,
+      "connectivityNote": "The Tyre-to-Tartessos silver run is at full stretch; Greek traders join in at Al-Mina.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Egypt (Libyan dynasts)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Tanis",
+          "capitalRegion": "EGY_N",
+          "stability": "contested",
+          "population": 2.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Rival Libyan lines at Tanis and Leontopolis; the Delta splinters"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan & Berber tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "israel_judah",
+          "name": "Israel & Judah",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Hebrew",
+          "founded": -1020,
+          "regions": [
+            "LEV"
+          ],
+          "capital": "Jerusalem",
+          "capitalRegion": "LEV",
+          "contestedRegions": [
+            "LEV"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Jehu's Israel humbled by Damascus; boy-king Joash rules Judah"
+        },
+        {
+          "id": "arameans",
+          "name": "Aram-Damascus (Hazael)",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Aramean",
+          "founded": -1100,
+          "regions": [
+            "SYR"
+          ],
+          "capital": "Damascus",
+          "capitalRegion": "SYR",
+          "contestedRegions": [
+            "LEV"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Hazael's Damascus at its height — Israel and Philistia pay tribute"
+        },
+        {
+          "id": "neo_hittite_states",
+          "name": "Neo-Hittite states (Que, Tabal)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Luwian (Neo-Hittite)",
+          "founded": -1180,
+          "regions": [
+            "CIL"
+          ],
+          "capital": "Adanawa (Que)",
+          "capitalRegion": "CIL",
+          "stability": "stable",
+          "population": 0.45,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "assyria",
+          "name": "Neo-Assyrian Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Assur",
+          "capitalRegion": "MES_N",
+          "stability": "contested",
+          "population": 1.0,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Shamshi-Adad V restores order after four years of civil war"
+        },
+        {
+          "id": "babylon",
+          "name": "Babylonia",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "MES_S"
+          ],
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Shamshi-Adad will soon sack Der and drag Babylon's king north in chains"
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "kaska",
+          "name": "Kaska & Paphlagonian tribes",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Kaskian–Paphlagonian",
+          "founded": -1600,
+          "regions": [
+            "PON"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urartu",
+          "name": "Urartu",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Urartian",
+          "founded": -860,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "GEO"
+          ],
+          "capital": "Tushpa",
+          "capitalRegion": "ARM_W",
+          "stability": "consolidating",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Sarduri I fortifies Tushpa; the highland clans become a kingdom (c. 860-830)"
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.18,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tyre's colony at Kition anchors the island in the Phoenician web"
+        },
+        {
+          "id": "greek_dark_age",
+          "name": "Late Geometric Greece",
+          "type": "culture",
+          "culture": "hellenic",
+          "cultureName": "Greek (Dark Age)",
+          "founded": -1100,
+          "regions": [
+            "AEG",
+            "ATT",
+            "CRE",
+            "DOD",
+            "EPI",
+            "ION"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "On the eve of the polis: Homer's generation; the first Olympiad (776) approaches"
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT",
+            "CAP"
+          ],
+          "capital": "Gordion",
+          "capitalRegion": "CAP",
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR",
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "MAC",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "CRM",
+            "DON",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "stable",
+          "population": 0.45,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Proto-Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.33,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.23,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nordic_bronze",
+          "name": "Nordic Bronze Age",
+          "type": "culture",
+          "culture": "germanic",
+          "cultureName": "Nordic Bronze Age",
+          "founded": -1700,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NOR_S",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urnfield",
+          "name": "Urnfield culture (final phase)",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Urnfield",
+          "founded": -1300,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "HUN",
+            "LOR",
+            "RHE",
+            "SAX",
+            "SIL",
+            "SUI",
+            "SVK",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 2.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Iron beginning to displace bronze north of the Alps"
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Bronze Age",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NED",
+            "NRM",
+            "OCC",
+            "PIC",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 2.7,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Ewart Park hoards: the last great age of Atlantic bronze"
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE",
+            "PRO"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Silver of the Rio Tinto flows through Gadir to Tyre"
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Late Bronze",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "EUS",
+            "GAL",
+            "POR_N",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.28,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Villanovan & Italic peoples",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "CLB",
+            "LOM",
+            "MLT",
+            "NAP",
+            "ROM",
+            "SIC",
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 1.05,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Villanovan centers of Etruria growing into towns"
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Punic (Phoenician)",
+          "founded": -814,
+          "regions": [
+            "TUN"
+          ],
+          "capital": "Carthage",
+          "capitalRegion": "TUN",
+          "stability": "consolidating",
+          "population": 0.05,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Dido's Tyrian exiles found Qart-Hadasht, the 'New City' (814); Utica its older neighbour"
+        }
+      ],
+      "relations": [
+        {
+          "a": "arameans",
+          "b": "israel_judah",
+          "type": "war",
+          "note": "Hazael strips Israel of Transjordan and takes Gath"
+        },
+        {
+          "a": "assyria",
+          "b": "babylon",
+          "type": "war",
+          "note": "Shamshi-Adad V turns his recovered army against Babylonia"
+        },
+        {
+          "a": "assyria",
+          "b": "urartu",
+          "type": "war",
+          "note": "Assyrian columns probe the new highland kingdom"
+        },
+        {
+          "a": "carthage",
+          "b": "tartessos",
+          "type": "trade",
+          "note": "The new city sits astride the silver route to Tartessos"
+        },
+        {
+          "a": "carthage",
+          "b": "libyans",
+          "type": "trade",
+          "note": "Ground-rent paid to Libyan chiefs for the hill of Byrsa"
+        }
+      ]
+    },
+    {
+      "year": -750,
+      "eraName": "Archaic Age",
+      "label": "Homer's Mediterranean awakens",
+      "events": [
+        "Greek poleis crystallize: the first Olympiad (776) behind them, Euboeans plant Pithekoussai in Italy (c. 770)",
+        "Gordion at its proudest under Phrygia's kings; Kushite Napata takes Thebes",
+        "Ironworking hillforts multiply from Wessex to the Alps; Rome's traditional founding (753) falls in this generation"
+      ],
+      "connectivity": 26,
+      "connectivityNote": "Colonization doubles the ports of call; alphabet and iron travel the same sea-lanes.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Egypt (Delta dynasts)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N"
+          ],
+          "capital": "Tanis",
+          "capitalRegion": "EGY_N",
+          "stability": "contested",
+          "population": 1.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "22nd/23rd-dynasty kinglets share the Delta; Sais rising in the west"
+        },
+        {
+          "id": "kush",
+          "name": "Kingdom of Kush (25th Dynasty rising)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Kushite (Nubian)",
+          "founded": -780,
+          "regions": [
+            "EGY_S"
+          ],
+          "capital": "Napata",
+          "stability": "consolidating",
+          "population": 1.0,
+          "wealth": 3,
+          "extendsBeyondMap": true,
+          "note": "Kashta's Napatan kingdom holds Thebes; his line will take all Egypt (728)"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan & Berber tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "israel_judah",
+          "name": "Israel & Judah",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Hebrew",
+          "founded": -1020,
+          "regions": [
+            "LEV"
+          ],
+          "capital": "Jerusalem",
+          "capitalRegion": "LEV",
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Jeroboam II and Uzziah: a last prosperous generation before Assyria"
+        },
+        {
+          "id": "arameans",
+          "name": "Aram-Damascus",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Aramean",
+          "founded": -1100,
+          "regions": [
+            "SYR"
+          ],
+          "capital": "Damascus",
+          "capitalRegion": "SYR",
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Damascus leads shrinking Aramean coalitions against Assyria"
+        },
+        {
+          "id": "neo_hittite_states",
+          "name": "Neo-Hittite states (Que, Tabal)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Luwian (Neo-Hittite)",
+          "founded": -1180,
+          "regions": [
+            "CIL"
+          ],
+          "capital": "Adanawa (Que)",
+          "capitalRegion": "CIL",
+          "stability": "contested",
+          "population": 0.45,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Squeezed between Phrygia, Urartu and Assyria"
+        },
+        {
+          "id": "assyria",
+          "name": "Neo-Assyrian Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "MES_N"
+          ],
+          "capital": "Kalhu (Nimrud)",
+          "capitalRegion": "MES_N",
+          "stability": "contested",
+          "population": 1.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Eclipsed under Ashur-nirari V; Tiglath-Pileser III's coup (745) will change the world"
+        },
+        {
+          "id": "babylon",
+          "name": "Babylonia",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "MES_S"
+          ],
+          "capital": "Babylon",
+          "capitalRegion": "MES_S",
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Chaldean and Aramean tribes checker the land; Nabonassar (747) restores order"
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists (Qedar)",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "kaska",
+          "name": "Kaska & Paphlagonian tribes",
+          "type": "tribal",
+          "culture": "anatolian",
+          "cultureName": "Kaskian–Paphlagonian",
+          "founded": -1600,
+          "regions": [
+            "PON"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urartu",
+          "name": "Urartu (peak)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Urartian",
+          "founded": -860,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "GEO"
+          ],
+          "capital": "Tushpa",
+          "capitalRegion": "ARM_W",
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Sarduri II at the kingdom's height — Assyria's equal, briefly"
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "greek_poleis",
+          "name": "Greek city-states",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Greek",
+          "founded": -800,
+          "regions": [
+            "AEG",
+            "CRE",
+            "DOD",
+            "EPI",
+            "ION"
+          ],
+          "stability": "consolidating",
+          "population": 0.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Alphabet borrowed from Phoenicia; Euboeans already trading at Pithekoussai"
+        },
+        {
+          "id": "athens",
+          "name": "Athens",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Ionian Greek",
+          "founded": -800,
+          "regions": [
+            "ATT"
+          ],
+          "capital": "Athens",
+          "capitalRegion": "ATT",
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Aristocratic archons replace the old kings"
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "consolidating",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "The First Messenian War looms; Sparta becoming a soldier-state"
+        },
+        {
+          "id": "macedon",
+          "name": "Kingdom of Macedon",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Macedonian Greek",
+          "founded": -808,
+          "regions": [
+            "MAC"
+          ],
+          "capital": "Aigai",
+          "capitalRegion": "MAC",
+          "stability": "consolidating",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Argead herdsmen-kings in the Haliacmon valley"
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygia (peak)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT",
+            "CAP"
+          ],
+          "capital": "Gordion",
+          "capitalRegion": "CAP",
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Mita — Midas of the golden touch — soon on the throne"
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dacians",
+          "name": "Getae & northern Thracians",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Getae–Dacian",
+          "founded": -800,
+          "regions": [
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "CRM",
+            "DON",
+            "HUN",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "contested",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Thraco-Cimmerian horse gear scatters over the Carpathian basin; Scythians press from the east"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.35,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Proto-Germanic peoples",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Proto-Germanic",
+          "founded": -750,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NED",
+            "NOR_S",
+            "SAX",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "The Nordic Bronze world turns to iron — the pre-Jastorf north"
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SIL",
+            "SVK",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Fortified lake-towns of the Biskupin type"
+        },
+        {
+          "id": "hallstatt",
+          "name": "Hallstatt Celts",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Hallstatt",
+          "founded": -800,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "LOR",
+            "RHE",
+            "SUI",
+            "SWA"
+          ],
+          "stability": "consolidating",
+          "population": 2.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Iron-rich chiefdoms; the Hallstatt salt lords grow wealthy"
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Late Bronze",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AQU",
+            "AUV",
+            "BRE",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NRM",
+            "OCC",
+            "PIC"
+          ],
+          "stability": "stable",
+          "population": 1.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britons",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -800,
+          "regions": [
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Hillfort chiefdoms; Ewart Park bronze gives way to iron"
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE",
+            "PRO"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "etruscans",
+          "name": "Etruscan city-states",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Etruscan",
+          "founded": -800,
+          "regions": [
+            "TUS"
+          ],
+          "stability": "consolidating",
+          "population": 0.25,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Villanovan centers becoming cities: Tarquinii, Veii, Vulci"
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Latins, Sabellians & Sicels",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "CLB",
+            "LOM",
+            "MLT",
+            "NAP",
+            "ROM",
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Latins on their hilltops: Rome's traditional founding (753) in this generation"
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.28,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Silver of the Rio Tinto flows through Gadir to the Levant"
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Early Iron communities",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "EUS",
+            "GAL",
+            "POR_N",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Punic (Phoenician)",
+          "founded": -814,
+          "regions": [
+            "TUN"
+          ],
+          "capital": "Carthage",
+          "capitalRegion": "TUN",
+          "stability": "consolidating",
+          "population": 0.1,
+          "wealth": 3,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "urartu",
+          "b": "assyria",
+          "type": "war",
+          "note": "Sarduri II checks a weakened Assyria on the upper Euphrates"
+        },
+        {
+          "a": "assyria",
+          "b": "arameans",
+          "type": "war",
+          "note": "Assyria grinds at Arpad and the Syrian marches"
+        },
+        {
+          "a": "kush",
+          "b": "egypt",
+          "type": "war",
+          "note": "Napata's kings press downriver; the Delta princes arm"
+        },
+        {
+          "a": "greek_poleis",
+          "b": "etruscans",
+          "type": "trade",
+          "note": "Euboean emporion at Pithekoussai trades with Etruscan iron masters"
+        },
+        {
+          "a": "carthage",
+          "b": "tartessos",
+          "type": "trade",
+          "note": "Punic middlemen on the silver route"
+        },
+        {
+          "a": "phrygia",
+          "b": "greek_poleis",
+          "type": "trade",
+          "note": "Midas' dynasty weds Aeolian princesses and dedicates a throne at Delphi"
+        }
+      ]
+    },
+    {
+      "year": -700,
+      "eraName": "Archaic Age",
+      "label": "Sennacherib's iron empire and the colonial swarm",
+      "events": [
+        "Sennacherib crushes revolt: Babylon curbed, Hezekiah's Judah besieged (701), Israel already deported (722)",
+        "Cimmerians maul Urartu and menace Phrygia; Scythians take the Pontic steppe",
+        "Syracuse (733), Sybaris, Croton, Taras (706): Greek Sicily and Italy fill with colonists"
+      ],
+      "connectivity": 28,
+      "connectivityNote": "Assyrian imperial roads and colonial sea-lanes lift exchange despite Cimmerian chaos in Anatolia.",
+      "entities": [
+        {
+          "id": "kush",
+          "name": "Kushite Egypt (25th Dynasty)",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Kushite (Nubian)",
+          "founded": -780,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Memphis",
+          "capitalRegion": "EGY_N",
+          "stability": "stable",
+          "population": 2.9,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Shebitku rules Egypt and Nubia both; black-granite pharaohs patronize Amun"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan & Berber tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "assyria",
+          "name": "Neo-Assyrian Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "CIL",
+            "LEV",
+            "MES_N",
+            "MES_S",
+            "SYR"
+          ],
+          "capital": "Nineveh",
+          "capitalRegion": "MES_N",
+          "contestedRegions": [
+            "MES_S",
+            "LEV"
+          ],
+          "stability": "stable",
+          "population": 3.2,
+          "wealth": 5,
+          "wealthNote": "Tribute of a continent funnels into Nineveh's palaces",
+          "extendsBeyondMap": false,
+          "note": "Sennacherib's machine: deportation, tribute and terror from the Taurus to the Gulf"
+        },
+        {
+          "id": "arabs_early",
+          "name": "North Arabian pastoralists (Qedar)",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "urartu",
+          "name": "Urartu",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Urartian",
+          "founded": -860,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Tushpa",
+          "capitalRegion": "ARM_W",
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Mauled by Sargon (714) and the Cimmerians; the walls hold, the empire shrinks"
+        },
+        {
+          "id": "colchian_tribes",
+          "name": "Colchian tribes",
+          "type": "tribal",
+          "culture": "caucasian",
+          "cultureName": "Colchian",
+          "founded": -1100,
+          "regions": [
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Iron-working chiefdoms along the Phasis"
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Ten kings of 'Yadnana' bow to Sargon's stele at Kition"
+        },
+        {
+          "id": "greek_poleis",
+          "name": "Greek city-states",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Greek",
+          "founded": -800,
+          "regions": [
+            "AEG",
+            "CLB",
+            "CRE",
+            "DOD",
+            "EPI",
+            "ION",
+            "SIC"
+          ],
+          "stability": "consolidating",
+          "population": 0.95,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Colonial boom: a Greater Greece rises in Sicily and the Italian south"
+        },
+        {
+          "id": "athens",
+          "name": "Athens",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Ionian Greek",
+          "founded": -800,
+          "regions": [
+            "ATT"
+          ],
+          "capital": "Athens",
+          "capitalRegion": "ATT",
+          "stability": "stable",
+          "population": 0.12,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Messenia enserfed: helots now feed Sparta's hoplite caste"
+        },
+        {
+          "id": "macedon",
+          "name": "Kingdom of Macedon",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Macedonian Greek",
+          "founded": -808,
+          "regions": [
+            "MAC"
+          ],
+          "capital": "Aigai",
+          "capitalRegion": "MAC",
+          "stability": "stable",
+          "population": 0.12,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "phrygia",
+          "name": "Phrygia (Midas' last years)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Phrygian",
+          "founded": -1180,
+          "regions": [
+            "BIT",
+            "CAP"
+          ],
+          "capital": "Gordion",
+          "capitalRegion": "CAP",
+          "stability": "contested",
+          "population": 1.1,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Cimmerian riders already probe the plateau; Midas courts Assyria too late"
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "HUN",
+            "PON"
+          ],
+          "stability": "contested",
+          "population": 0.35,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "One horde lingers on the Alföld; another, driven south, camps along Anatolia's Black Sea rim"
+        },
+        {
+          "id": "scythians",
+          "name": "Scythians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Scythian",
+          "founded": -700,
+          "regions": [
+            "CRM",
+            "DON",
+            "RUS_S",
+            "STE",
+            "UKR_E"
+          ],
+          "stability": "consolidating",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "The royal horde takes the Pontic grass from the Cimmerians"
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "CON",
+            "MDA",
+            "THR"
+          ],
+          "stability": "stable",
+          "population": 0.78,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "dacians",
+          "name": "Getae & northern Thracians",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Getae–Dacian",
+          "founded": -800,
+          "regions": [
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.32,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "chernoles",
+          "name": "Chernoles culture",
+          "type": "culture",
+          "culture": "slavic",
+          "cultureName": "Chernoles",
+          "founded": -1100,
+          "regions": [
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.38,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.26,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Proto-Germanic peoples",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Proto-Germanic",
+          "founded": -750,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NED",
+            "NOR_S",
+            "SAX",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SIL",
+            "SVK",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hallstatt",
+          "name": "Hallstatt Celts",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Hallstatt",
+          "founded": -800,
+          "regions": [
+            "AUT",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "LOR",
+            "RHE",
+            "SUI",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 2.4,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Iron Age communities",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "AUV",
+            "BRE",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NRM",
+            "OCC",
+            "PIC"
+          ],
+          "stability": "stable",
+          "population": 1.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "aquitanians",
+          "name": "Aquitanians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Aquitanian (proto-Basque)",
+          "founded": -700,
+          "regions": [
+            "AQU",
+            "EUS"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britons",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -800,
+          "regions": [
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 0.62,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE",
+            "PRO"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "etruscans",
+          "name": "Etruscan city-states",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Etruscan",
+          "founded": -800,
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Orientalizing princes import Greek pots, Phoenician silver — and the alphabet"
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Latins, Sabellians & Umbrians",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "LOM",
+            "NAP",
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.28,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Phoenician Sulcis and Tharros grow on the Sardinian shore"
+        },
+        {
+          "id": "talaiotic",
+          "name": "Talaiotic Balearics",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Talaiotic",
+          "founded": -1300,
+          "regions": [
+            "BAL"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 4,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Early Iron communities",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "GAL",
+            "POR_N",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Punic (Phoenician)",
+          "founded": -814,
+          "regions": [
+            "MLT",
+            "TUN"
+          ],
+          "capital": "Carthage",
+          "capitalRegion": "TUN",
+          "stability": "consolidating",
+          "population": 0.15,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Carthage plants its own posts and shepherds Tyre's western web"
+        }
+      ],
+      "relations": [
+        {
+          "a": "assyria",
+          "b": "kush",
+          "type": "war",
+          "note": "Egypt backs Levantine rebels; Assyria wins at Eltekeh (701)"
+        },
+        {
+          "a": "cimmerians",
+          "b": "urartu",
+          "type": "war",
+          "note": "Rusa I's army broken; the steppe horde loose in the highlands"
+        },
+        {
+          "a": "cimmerians",
+          "b": "phrygia",
+          "type": "war",
+          "note": "Gordion's doom rides closer each raiding season"
+        },
+        {
+          "a": "scythians",
+          "b": "cimmerians",
+          "type": "war",
+          "note": "Scythians drive the Cimmerians off the Pontic steppe"
+        },
+        {
+          "a": "greek_poleis",
+          "b": "etruscans",
+          "type": "trade",
+          "note": "Corinthian pottery for Etruscan iron and copper"
+        },
+        {
+          "a": "assyria",
+          "b": "cyprus_kingdoms",
+          "type": "alliance",
+          "note": "Cypriot kings buy peace with tribute to Nineveh"
+        },
+        {
+          "a": "carthage",
+          "b": "greek_poleis",
+          "type": "trade",
+          "note": "Rival colonial webs still trade more than they fight"
+        }
+      ]
+    },
+    {
+      "year": -650,
+      "eraName": "Archaic Age",
+      "label": "Ashurbanipal's zenith; Egypt breaks free",
+      "events": [
+        "Ashurbanipal has sacked Thebes (663) and Susa, yet fights his own brother for Babylon (652-648)",
+        "Psamtik I expels the Assyrian garrisons (c. 655): Saite Egypt reborn",
+        "Cimmerians burn Sardis and kill Gyges (652); Byzantium (667) now guards the Bosphorus"
+      ],
+      "connectivity": 30,
+      "connectivityNote": "Two colonial webs — Greek and Phoenician — now interlock across the whole basin.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Saite Egypt",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Sais",
+          "capitalRegion": "EGY_N",
+          "stability": "consolidating",
+          "population": 2.7,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Psamtik I has expelled Assyria's garrisons (655) and reunited the Nile"
+        },
+        {
+          "id": "libyans",
+          "name": "Libyan & Berber tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Libyan Berber",
+          "founded": -3000,
+          "regions": [
+            "CYR",
+            "MAR",
+            "NUM",
+            "ORA",
+            "RIF",
+            "TRP"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "assyria",
+          "name": "Neo-Assyrian Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Assyrian",
+          "founded": -2000,
+          "regions": [
+            "CIL",
+            "LEV",
+            "MES_N",
+            "MES_S",
+            "SYR"
+          ],
+          "capital": "Nineveh",
+          "capitalRegion": "MES_N",
+          "contestedRegions": [
+            "MES_S"
+          ],
+          "stability": "contested",
+          "population": 3.6,
+          "wealth": 5,
+          "extendsBeyondMap": false,
+          "note": "Ashurbanipal's library and Thebes' loot — but his own brother raises Babylon (652-648)"
+        },
+        {
+          "id": "arabs_early",
+          "name": "Qedarite Arabs",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "contested",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Camel-lords raided by Ashurbanipal's columns"
+        },
+        {
+          "id": "urartu",
+          "name": "Urartu (recovered)",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Urartian",
+          "founded": -860,
+          "regions": [
+            "ARM",
+            "ARM_W"
+          ],
+          "capital": "Tushpa",
+          "capitalRegion": "ARM_W",
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Rusa II has rebuilt with Cimmerian mercenaries; a quieter, smaller kingdom"
+        },
+        {
+          "id": "colchian_tribes",
+          "name": "Colchian tribes",
+          "type": "tribal",
+          "culture": "caucasian",
+          "cultureName": "Colchian",
+          "founded": -1100,
+          "regions": [
+            "GEO"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.22,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Tribute lately sailed to Nineveh — soon to no one"
+        },
+        {
+          "id": "lydia",
+          "name": "Lydia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Lydian",
+          "founded": -680,
+          "regions": [
+            "ION"
+          ],
+          "capital": "Sardis",
+          "capitalRegion": "ION",
+          "stability": "contested",
+          "population": 0.9,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Gyges dead on the field (652), Sardis' lower town burned — the Mermnads fight on"
+        },
+        {
+          "id": "cimmerians",
+          "name": "Cimmerians in Anatolia",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Cimmerian",
+          "founded": -1000,
+          "regions": [
+            "CAP",
+            "PON"
+          ],
+          "stability": "contested",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Conquerors of Gordion and Sardis, now hunted by Lydia and Assyria's Scythian friends"
+        },
+        {
+          "id": "scythians",
+          "name": "Scythians",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Scythian",
+          "founded": -700,
+          "regions": [
+            "CRM",
+            "DON",
+            "HUN",
+            "RUS_S",
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Madyes' Scythians ride through the Caucasus; forest-steppe farmers pay grain-tribute"
+        },
+        {
+          "id": "greek_poleis",
+          "name": "Greek city-states",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Greek",
+          "founded": -800,
+          "regions": [
+            "AEG",
+            "CLB",
+            "CON",
+            "CRE",
+            "DOD",
+            "EPI",
+            "SIC"
+          ],
+          "stability": "consolidating",
+          "population": 1.2,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Byzantium (667) claims the Bosphorus toll; Black Sea colonization begins"
+        },
+        {
+          "id": "athens",
+          "name": "Athens",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Ionian Greek",
+          "founded": -800,
+          "regions": [
+            "ATT"
+          ],
+          "capital": "Athens",
+          "capitalRegion": "ATT",
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Aristocratic archons rule; Cylon's coup and Draco's laws lie just ahead"
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "The Messenian revolt crushed; the Lycurgan drill-state sets hard"
+        },
+        {
+          "id": "macedon",
+          "name": "Kingdom of Macedon",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Macedonian Greek",
+          "founded": -808,
+          "regions": [
+            "MAC"
+          ],
+          "capital": "Aigai",
+          "capitalRegion": "MAC",
+          "stability": "stable",
+          "population": 0.14,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "BIT",
+            "MDA",
+            "THR"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Thracian Bithynians now hold the lands across the straits"
+        },
+        {
+          "id": "dacians",
+          "name": "Getae & northern Thracians",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Getae–Dacian",
+          "founded": -800,
+          "regions": [
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.35,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL",
+            "SRB"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.28,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Proto-Germanic peoples",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Proto-Germanic",
+          "founded": -750,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NED",
+            "NOR_S",
+            "SAX",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 0.95,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SIL",
+            "SVK",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.78,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "hallstatt",
+          "name": "Hallstatt Celts",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Hallstatt",
+          "founded": -800,
+          "regions": [
+            "AUT",
+            "AUV",
+            "BAV",
+            "BOH",
+            "BUR",
+            "FRK",
+            "LOR",
+            "OCC",
+            "RHE",
+            "SUI",
+            "SWA"
+          ],
+          "stability": "consolidating",
+          "population": 2.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Hallstatt C wagon-graves from Bohemia to Burgundy; iron swords, salt fortunes"
+        },
+        {
+          "id": "atlantic_bronze",
+          "name": "Atlantic Iron Age communities",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Atlantic Bronze Age",
+          "founded": -1800,
+          "regions": [
+            "BRE",
+            "FLA",
+            "IDF",
+            "IRL_N",
+            "IRL_S",
+            "LOI",
+            "NRM",
+            "PIC"
+          ],
+          "stability": "stable",
+          "population": 0.9,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "aquitanians",
+          "name": "Aquitanians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Aquitanian (proto-Basque)",
+          "founded": -700,
+          "regions": [
+            "AQU",
+            "EUS"
+          ],
+          "stability": "stable",
+          "population": 0.27,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britons",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -800,
+          "regions": [
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE",
+            "PRO"
+          ],
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "etruscans",
+          "name": "Etruscan city-states",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Etruscan",
+          "founded": -800,
+          "regions": [
+            "TUS"
+          ],
+          "stability": "stable",
+          "population": 0.6,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Twelve cities of the Etruscan league; tombs painted, fleets at sea"
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Latins, Sabellians & Umbrians",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "LOM",
+            "NAP",
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Arganthonios' silver kingdom; Greek guests soon welcome at Huelva"
+        },
+        {
+          "id": "iberia_bronze",
+          "name": "Iberian Early Iron communities",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Iberian Late Bronze",
+          "founded": -3200,
+          "regions": [
+            "ARA",
+            "CAS_N",
+            "CAS_S",
+            "GAL",
+            "POR_N",
+            "VAL"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Punic (Phoenician)",
+          "founded": -814,
+          "regions": [
+            "BAL",
+            "MLT",
+            "TUN"
+          ],
+          "capital": "Carthage",
+          "capitalRegion": "TUN",
+          "stability": "consolidating",
+          "population": 0.3,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Ebusus founded (654): Carthage's first own colony, on the Balearic sea-lane"
+        }
+      ],
+      "relations": [
+        {
+          "a": "assyria",
+          "b": "egypt",
+          "type": "war",
+          "note": "Assyria's Egyptian province slips away as Psamtik expels the garrisons"
+        },
+        {
+          "a": "cimmerians",
+          "b": "lydia",
+          "type": "war",
+          "note": "Lygdamis' horde kills Gyges and burns lower Sardis (652)"
+        },
+        {
+          "a": "egypt",
+          "b": "lydia",
+          "type": "alliance",
+          "note": "Gyges sent Carian and Ionian mercenaries to Psamtik's cause"
+        },
+        {
+          "a": "scythians",
+          "b": "assyria",
+          "type": "alliance",
+          "note": "Madyes' Scythians harry Cimmerians and Medes for Nineveh's gold"
+        },
+        {
+          "a": "greek_poleis",
+          "b": "egypt",
+          "type": "trade",
+          "note": "Ionian 'bronze men' serve and trade in the reborn Egypt"
+        },
+        {
+          "a": "carthage",
+          "b": "tartessos",
+          "type": "trade",
+          "note": "Punic captains squeeze the silver route"
+        },
+        {
+          "a": "etruscans",
+          "b": "greek_poleis",
+          "type": "trade",
+          "note": "Etruria buys Corinthian luxury; wine cups for iron ore"
+        }
+      ]
+    },
+    {
+      "year": -600,
+      "eraName": "Archaic Age",
+      "label": "Nebuchadnezzar's new order",
+      "events": [
+        "Nineveh has fallen (612): Nebuchadnezzar II, victor of Carchemish (605), holds the Levant",
+        "Phocaeans found Massalia (c. 600); Lydia strikes the world's first coins",
+        "Media has swallowed Urartu; Alyattes hammers the last Cimmerians out of Anatolia"
+      ],
+      "connectivity": 33,
+      "connectivityNote": "Coined money appears in Lydia; grain, wine and metal move in bulk between colonies and homelands.",
+      "entities": [
+        {
+          "id": "egypt",
+          "name": "Saite Egypt",
+          "type": "state",
+          "culture": "egyptian",
+          "cultureName": "Ancient Egyptian",
+          "founded": -3100,
+          "regions": [
+            "EGY_N",
+            "EGY_S"
+          ],
+          "capital": "Sais",
+          "capitalRegion": "EGY_N",
+          "stability": "stable",
+          "population": 3.0,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Necho II digs a Nile-Red Sea canal and sends Phoenician crews around Africa"
+        },
+        {
+          "id": "babylon",
+          "name": "Neo-Babylonian Empire",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Babylonian",
+          "founded": -1894,
+          "regions": [
+            "LEV",
+            "MES_N",
+            "MES_S",
+            "SYR"
+          ],
+          "capital": "Babylon",
+          "capitalRegion": "MES_S",
+          "contestedRegions": [
+            "LEV"
+          ],
+          "stability": "stable",
+          "population": 3.8,
+          "wealth": 5,
+          "wealthNote": "The spoil of Assyria and the tolls of all Levantine trade",
+          "extendsBeyondMap": false,
+          "note": "Nebuchadnezzar II: master of the Levant, builder of Babylon; Nabopolassar's line since 626"
+        },
+        {
+          "id": "media",
+          "name": "Median Empire",
+          "type": "state",
+          "culture": "iranic",
+          "cultureName": "Median",
+          "founded": -678,
+          "regions": [
+            "ARM",
+            "ARM_W",
+            "CAP",
+            "PON"
+          ],
+          "capital": "Ecbatana",
+          "contestedRegions": [
+            "CAP"
+          ],
+          "stability": "consolidating",
+          "population": 3.5,
+          "wealth": 4,
+          "extendsBeyondMap": true,
+          "note": "Cyaxares' Medes, Nineveh's destroyers, have swallowed Urartu and ride for the Halys"
+        },
+        {
+          "id": "lydia",
+          "name": "Lydia",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Lydian",
+          "founded": -680,
+          "regions": [
+            "ION"
+          ],
+          "capital": "Sardis",
+          "capitalRegion": "ION",
+          "stability": "stable",
+          "population": 1.3,
+          "wealth": 5,
+          "wealthNote": "Pactolus gold dust and the invention of coined money",
+          "extendsBeyondMap": false,
+          "note": "Alyattes strikes electrum coinage — the world's first money — and razes Smyrna"
+        },
+        {
+          "id": "cilicia",
+          "name": "Cilicia (Syennesis)",
+          "type": "state",
+          "culture": "anatolian",
+          "cultureName": "Cilician (Luwian–Aramean)",
+          "founded": -600,
+          "regions": [
+            "CIL"
+          ],
+          "capital": "Tarsus",
+          "capitalRegion": "CIL",
+          "stability": "consolidating",
+          "population": 0.4,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "The Syennesis dynasty's river-kingdom slipped free as Assyria burned"
+        },
+        {
+          "id": "colchis",
+          "name": "Colchis",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Colchian",
+          "founded": -600,
+          "regions": [
+            "GEO"
+          ],
+          "capital": "Aia (Kutaisi)",
+          "capitalRegion": "GEO",
+          "stability": "consolidating",
+          "population": 0.2,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Lowland chiefdoms coalesce; Milesian traders anchor at the Phasis mouth"
+        },
+        {
+          "id": "cyprus_kingdoms",
+          "name": "Cypriot city-kingdoms",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Cypriot (Greek–Phoenician–Eteocypriot)",
+          "founded": -1050,
+          "regions": [
+            "CYP"
+          ],
+          "capital": "Salamis",
+          "capitalRegion": "CYP",
+          "stability": "stable",
+          "population": 0.25,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Free between empires — until Amasis' fleet arrives (c. 570)"
+        },
+        {
+          "id": "arabs_early",
+          "name": "Qedarite Arabs",
+          "type": "tribal",
+          "culture": "semitic_levantine",
+          "cultureName": "North Arabian",
+          "founded": -3000,
+          "regions": [
+            "ARB"
+          ],
+          "stability": "stable",
+          "population": 0.1,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "cyrene",
+          "name": "Cyrene",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -631,
+          "regions": [
+            "CYR"
+          ],
+          "capital": "Cyrene",
+          "capitalRegion": "CYR",
+          "stability": "consolidating",
+          "population": 0.08,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Battus' Therans farm silphium on the Libyan terrace (631)"
+        },
+        {
+          "id": "greek_poleis",
+          "name": "Greek city-states",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Greek",
+          "founded": -800,
+          "regions": [
+            "AEG",
+            "CLB",
+            "CON",
+            "CRE",
+            "DOD",
+            "EPI",
+            "SIC"
+          ],
+          "stability": "stable",
+          "population": 1.5,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "From Sicily to the Crimea, the polis web spans the whole middle sea"
+        },
+        {
+          "id": "athens",
+          "name": "Athens",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Ionian Greek",
+          "founded": -800,
+          "regions": [
+            "ATT"
+          ],
+          "capital": "Athens",
+          "capitalRegion": "ATT",
+          "stability": "contested",
+          "population": 0.18,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Debt-bondage crisis; Solon soon to arbitrate (594)"
+        },
+        {
+          "id": "sparta",
+          "name": "Sparta",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Dorian Greek",
+          "founded": -900,
+          "regions": [
+            "PEL"
+          ],
+          "capital": "Sparta",
+          "capitalRegion": "PEL",
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "First power of the Peloponnese"
+        },
+        {
+          "id": "macedon",
+          "name": "Kingdom of Macedon",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Macedonian Greek",
+          "founded": -808,
+          "regions": [
+            "MAC"
+          ],
+          "capital": "Aigai",
+          "capitalRegion": "MAC",
+          "stability": "stable",
+          "population": 0.16,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "massalia",
+          "name": "Massalia",
+          "type": "state",
+          "culture": "hellenic",
+          "cultureName": "Phocaean Greek",
+          "founded": -600,
+          "regions": [
+            "PRO"
+          ],
+          "capital": "Massalia",
+          "capitalRegion": "PRO",
+          "stability": "consolidating",
+          "population": 0.03,
+          "wealth": 3,
+          "extendsBeyondMap": false,
+          "note": "Phocaean Massalia (c. 600) opens the Rhone road for tin and wine"
+        },
+        {
+          "id": "thracians",
+          "name": "Thracian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Thracian",
+          "founded": -1300,
+          "regions": [
+            "BGR",
+            "BIT",
+            "SRB",
+            "THR"
+          ],
+          "stability": "stable",
+          "population": 0.8,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Triballi push to the Morava; Bithynian Thracians face Lydia across the straits"
+        },
+        {
+          "id": "dacians",
+          "name": "Getae & Dacians",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Getae–Dacian",
+          "founded": -800,
+          "regions": [
+            "TRN",
+            "WLC"
+          ],
+          "stability": "stable",
+          "population": 0.38,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "illyrians",
+          "name": "Illyrian tribes",
+          "type": "tribal",
+          "culture": "paleo_balkan",
+          "cultureName": "Illyrian",
+          "founded": -1300,
+          "regions": [
+            "ALB",
+            "BOS",
+            "CRO",
+            "DAL"
+          ],
+          "stability": "stable",
+          "population": 0.75,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "scythians",
+          "name": "Royal Scythia",
+          "type": "tribal",
+          "culture": "steppe",
+          "cultureName": "Scythian",
+          "founded": -700,
+          "regions": [
+            "CRM",
+            "DON",
+            "HUN",
+            "MDA",
+            "RUS_S",
+            "STE",
+            "UKR_E",
+            "UKR_W"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Kurgan lords tax the grain and slave routes to the new Greek ports"
+        },
+        {
+          "id": "balts_early",
+          "name": "Balts",
+          "type": "tribal",
+          "culture": "baltic",
+          "cultureName": "Balts",
+          "founded": -2000,
+          "regions": [
+            "BLR",
+            "LTU",
+            "LVA",
+            "PRS",
+            "VOL"
+          ],
+          "stability": "stable",
+          "population": 0.5,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "finnic_peoples",
+          "name": "Finnic forest peoples",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Finnic",
+          "founded": -2000,
+          "regions": [
+            "EST",
+            "FIN_S",
+            "KAR",
+            "RUS_C",
+            "RUS_NW"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "sami",
+          "name": "Sami hunter-fishers",
+          "type": "tribal",
+          "culture": "uralic",
+          "cultureName": "Sami",
+          "founded": -2000,
+          "regions": [
+            "FIN_N",
+            "NOR_N",
+            "SWE_N"
+          ],
+          "stability": "stable",
+          "population": 0.05,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "germani",
+          "name": "Early Germani",
+          "type": "tribal",
+          "culture": "germanic",
+          "cultureName": "Proto-Germanic",
+          "founded": -750,
+          "regions": [
+            "BRA",
+            "JUT",
+            "NED",
+            "NOR_S",
+            "SAX",
+            "SAX_L",
+            "SWE_C",
+            "SWE_S"
+          ],
+          "stability": "stable",
+          "population": 1.0,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "lusatian",
+          "name": "Lusatian culture",
+          "type": "culture",
+          "culture": "baltic",
+          "cultureName": "Lusatian",
+          "founded": -1300,
+          "regions": [
+            "POL_C",
+            "POL_S",
+            "POL_W",
+            "SIL",
+            "SVK"
+          ],
+          "stability": "contested",
+          "population": 0.8,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Scythian arrowheads in burned Lusatian forts tell of raids from the east"
+        },
+        {
+          "id": "hallstatt",
+          "name": "Hallstatt Celts",
+          "type": "culture",
+          "culture": "celtic",
+          "cultureName": "Hallstatt",
+          "founded": -800,
+          "regions": [
+            "AUT",
+            "AUV",
+            "BAV",
+            "BOH",
+            "BRE",
+            "BUR",
+            "FLA",
+            "FRK",
+            "IDF",
+            "LOI",
+            "LOR",
+            "NRM",
+            "OCC",
+            "PIC",
+            "RHE",
+            "SUI",
+            "SWA"
+          ],
+          "stability": "stable",
+          "population": 3.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Hallstatt D princely seats — Heuneburg, Mont Lassois — trade wine with the Greeks"
+        },
+        {
+          "id": "aquitanians",
+          "name": "Aquitanians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Aquitanian (proto-Basque)",
+          "founded": -700,
+          "regions": [
+            "AQU",
+            "EUS"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "britons",
+          "name": "Britons",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Britons",
+          "founded": -800,
+          "regions": [
+            "ENG_E",
+            "ENG_M",
+            "ENG_N",
+            "ENG_S",
+            "SCO_N",
+            "SCO_S",
+            "WAL"
+          ],
+          "stability": "stable",
+          "population": 0.7,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Hillfort Britain; Cornish tin still crosses the Channel"
+        },
+        {
+          "id": "gaels",
+          "name": "Iron Age Ireland",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Gaels",
+          "founded": -600,
+          "regions": [
+            "IRL_N",
+            "IRL_S"
+          ],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "ligurians",
+          "name": "Ligurians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Ligurian",
+          "founded": -900,
+          "regions": [
+            "PIE"
+          ],
+          "stability": "stable",
+          "population": 0.15,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "etruscans",
+          "name": "Etruscan city-states",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Etruscan",
+          "founded": -800,
+          "regions": [
+            "LOM",
+            "TUS"
+          ],
+          "stability": "consolidating",
+          "population": 0.9,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Etruria bestrides the Po plain; Tarquin kings reign in Rome itself"
+        },
+        {
+          "id": "italic_tribes",
+          "name": "Latins, Sabellians & Umbrians",
+          "type": "tribal",
+          "culture": "italic",
+          "cultureName": "Villanovan–Italic",
+          "founded": -1000,
+          "regions": [
+            "NAP",
+            "ROM"
+          ],
+          "stability": "stable",
+          "population": 0.85,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Rome under Etruscan-born kings; Sabellian herdsmen in the high valleys"
+        },
+        {
+          "id": "nuragic",
+          "name": "Nuragic Sardinia & Corsica",
+          "type": "culture",
+          "culture": "pre_ie",
+          "cultureName": "Nuragic",
+          "founded": -1800,
+          "regions": [
+            "COR",
+            "SAR"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 2,
+          "extendsBeyondMap": false,
+          "note": "Punic ports ring a still-Nuragic interior"
+        },
+        {
+          "id": "tartessos",
+          "name": "Tartessos",
+          "type": "state",
+          "culture": "pre_ie",
+          "cultureName": "Tartessian",
+          "founded": -900,
+          "regions": [
+            "AND",
+            "POR_S"
+          ],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 4,
+          "extendsBeyondMap": false,
+          "note": "Arganthonios welcomes Phocaean guests; the silver kingdom's last century"
+        },
+        {
+          "id": "iberians",
+          "name": "Iberians",
+          "type": "tribal",
+          "culture": "pre_ie",
+          "cultureName": "Iberian",
+          "founded": -600,
+          "regions": [
+            "ARA",
+            "VAL"
+          ],
+          "stability": "consolidating",
+          "population": 0.45,
+          "wealth": 2,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "celtiberians",
+          "name": "Celtiberians",
+          "type": "tribal",
+          "culture": "celtic",
+          "cultureName": "Celtiberian",
+          "founded": -600,
+          "regions": [
+            "CAS_N",
+            "CAS_S",
+            "GAL",
+            "POR_N"
+          ],
+          "stability": "consolidating",
+          "population": 0.85,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Celtic-speaking settlers merge with Meseta natives"
+        },
+        {
+          "id": "carthage",
+          "name": "Carthage",
+          "type": "state",
+          "culture": "semitic_levantine",
+          "cultureName": "Punic (Phoenician)",
+          "founded": -814,
+          "regions": [
+            "BAL",
+            "MLT",
+            "TRP",
+            "TUN"
+          ],
+          "capital": "Carthage",
+          "capitalRegion": "TUN",
+          "stability": "consolidating",
+          "population": 0.45,
+          "wealth": 5,
+          "wealthNote": "Silver, salt-fish and the carrying trade of the western sea",
+          "extendsBeyondMap": false,
+          "note": "With Tyre under Babylon's shadow, Carthage now leads the Phoenician west"
+        },
+        {
+          "id": "numidian_tribes",
+          "name": "Numidian tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Numidian",
+          "founded": -800,
+          "regions": [
+            "NUM",
+            "ORA"
+          ],
+          "stability": "stable",
+          "population": 0.65,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        },
+        {
+          "id": "berber_tribes",
+          "name": "Mauri tribes",
+          "type": "tribal",
+          "culture": "berber",
+          "cultureName": "Mauri",
+          "founded": -800,
+          "regions": [
+            "MAR",
+            "RIF"
+          ],
+          "stability": "stable",
+          "population": 0.4,
+          "wealth": 1,
+          "extendsBeyondMap": false
+        }
+      ],
+      "relations": [
+        {
+          "a": "babylon",
+          "b": "egypt",
+          "type": "war",
+          "note": "Necho and Nebuchadnezzar bleed each other at the Sinai gates (601)"
+        },
+        {
+          "a": "media",
+          "b": "babylon",
+          "type": "alliance",
+          "note": "The destroyers of Nineveh, bound by Amytis' marriage"
+        },
+        {
+          "a": "lydia",
+          "b": "greek_poleis",
+          "type": "war",
+          "note": "Alyattes razes Smyrna and besieges Miletus year after year"
+        },
+        {
+          "a": "egypt",
+          "b": "greek_poleis",
+          "type": "trade",
+          "note": "Greek merchants gather at Naukratis on the Delta"
+        },
+        {
+          "a": "carthage",
+          "b": "massalia",
+          "type": "war",
+          "note": "Punic squadrons harry the Phocaean newcomers' sea-lanes"
+        },
+        {
+          "a": "etruscans",
+          "b": "carthage",
+          "type": "alliance",
+          "note": "An anti-Greek axis forms in the Tyrrhenian"
+        },
+        {
+          "a": "britons",
+          "b": "hallstatt",
+          "type": "trade",
+          "note": "Cornish tin crosses the Channel into the Hallstatt world"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Late Bronze Age collapse — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+    },
+    {
+      "title": "Syro-Hittite states — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Syro-Hittite_states"
+    },
+    {
+      "title": "Third Intermediate Period of Egypt — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Third_Intermediate_Period_of_Egypt"
+    },
+    {
+      "title": "Twenty-fifth Dynasty of Egypt (Kushite) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt"
+    },
+    {
+      "title": "Psamtik I and the Saite restoration — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Psamtik_I"
+    },
+    {
+      "title": "Neo-Assyrian Empire — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire"
+    },
+    {
+      "title": "Neo-Babylonian Empire — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire"
+    },
+    {
+      "title": "Urartu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Urartu"
+    },
+    {
+      "title": "Phrygia and the Cimmerian destruction of Gordion — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phrygia"
+    },
+    {
+      "title": "Cimmerians — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cimmerians"
+    },
+    {
+      "title": "Scythians — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scythians"
+    },
+    {
+      "title": "Hazael and Aram-Damascus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hazael"
+    },
+    {
+      "title": "Kingdom of Lydia (Mermnad dynasty) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lydia"
+    },
+    {
+      "title": "Greek colonisation — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greek_colonisation"
+    },
+    {
+      "title": "Ancient Carthage — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Carthage"
+    },
+    {
+      "title": "Tartessos — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tartessos"
+    },
+    {
+      "title": "Hallstatt culture — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hallstatt_culture"
+    },
+    {
+      "title": "McEvedy & Jones, Atlas of World Population History (population baselines)",
+      "url": "https://en.wikipedia.org/wiki/Atlas_of_World_Population_History"
+    }
+  ],
+  "uncertainties": [
+    "LEV is one cell holding Phoenicia, Philistia and Israel at once: assigned to phoenician_cities at -1100, to israel_judah -1000..-750, to Assyria -700/-650, to Babylon -600. Tyre/Sidon's continuing autonomy is carried in notes and relations; phoenician_cities as an entity appears only at -1100.",
+    "-814 LEV kept with israel_judah though Hazael's Damascus was de facto hegemon; flagged via contestedRegions on both sides.",
+    "Urartu's fall is dated anywhere -609..-585 in scholarship; here it is gone by -600 and Media already holds ARM/ARM_W, plus CAP and PON (marked consolidating/contested) although the Halys war with Lydia is -590..-585. This makes the -550 Persia join exact but is ~15 years generous to Media in Anatolia.",
+    "BIT at -650/-600 given to Thracian Bithynians; Lydia only takes it under Croesus (matches era03's -550 Lydia holding). Alyattes' Troad campaigns would also support Lydian BIT at -600.",
+    "MLT assigned to Carthage from -700: Phoenician settlement there is c. -750..-700, but formal Carthaginian hegemony is 6th century.",
+    "BAL assigned to Carthage from -650 on the strength of Ebusus (654); Mallorca/Menorca remained Talaiotic in fact — talaiotic entity ends at -700.",
+    "Chernoles culture (UKR_W, -1100..-700) tagged culture-family 'slavic' following the proto-Slavic school; a Thracian attribution also exists.",
+    "Cimmerians modelled as territorial holders (HUN at -750/-700 via the Mezocsat/Thraco-Cimmerian horizon; PON -700, PON+CAP -650) though they were a moving horde; their -600 disappearance follows Alyattes' victories.",
+    "Kush/egypt split at -750: Kashta's takeover of Thebes (c. 755) shown as Kush holding EGY_S; Delta left to Libyan dynasts. At -700 the 25th Dynasty holds both Egypt regions, so 'egypt' as an entity is absent for that one slice, returning as Saite at -650.",
+    "Brief's parenthetical 'at -650 Assyria holds Egypt' contradicts its own 'lost -655'; followed actual chronology — Psamtik I independent by -655/-653, so -650 shows Saite Egypt free and Assyria without Egypt.",
+    "SIC assigned wholly to greek_poleis from -700 although the interior stayed Sicel and the west Phoenician (Motya); one-cell resolution.",
+    "Founded years kept from era01 for continuity where era03 differs: balts_early -2000 (era03 -1000), finnic/sami -2000 (era03 -1500), nuragic -1800 (era03 -1600), thracians/illyrians -1300 (era03 -1100/-1000).",
+    "Phrygia's Gordion destruction is archaeologically re-dated to c. -800 by some (DeVries et al.); the traditional Cimmerian destruction c. -696..-675 is followed here, so Phrygia dies between -700 and -650.",
+    "Greek ION coast: region given to Greeks from -1000 (Ionian migration) though the Lydian interior of the cell was Anatolian; Lydia then takes the whole cell from -650."
+  ]
+}
