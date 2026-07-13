@@ -1,0 +1,6663 @@
+{
+ "era": "early_medieval",
+ "agent": "A7",
+ "slices": [
+  {
+   "year": 620,
+   "eraName": "Early Medieval",
+   "label": "Byzantium's darkest hour",
+   "events": [
+    "Persia holds Jerusalem, Antioch and Alexandria; Heraclius plans the counter-strike that saves Byzantium",
+    "Avars and Slavs overrun the Balkan interior to the walls of Thessalonica",
+    "In Mecca, Muhammad preaches to a still-pagan Arabia"
+   ],
+   "connectivity": 22,
+   "connectivityNote": "The Persian war severs the Egyptian grain fleets and the eastern land routes; Avar wars close the Balkans.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "NAP",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "CRM",
+      "DAL",
+      "ALB",
+      "MAC",
+      "BGR",
+      "THR",
+      "EPI",
+      "ATT",
+      "PEL",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON",
+      "CYP",
+      "CYR",
+      "TRP",
+      "TUN"
+     ],
+     "contestedRegions": [
+      "CAP",
+      "BAL"
+     ],
+     "stability": "collapsing",
+     "population": 9,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Persians camp on the Bosphorus shore; Avars in the Balkans. Heraclius nearly moved the capital to Carthage."
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Merovingian)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK"
+     ],
+     "stability": "stable",
+     "population": 2.8,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "visigoths",
+     "name": "Visigothic Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Visigothic",
+     "founded": 418,
+     "capital": "Toledo",
+     "capitalRegion": "CAS_S",
+     "regions": [
+      "GAL",
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND",
+      "OCC"
+     ],
+     "stability": "stable",
+     "population": 3.6,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sassanid",
+     "name": "Sassanid Persia",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Persian",
+     "founded": 224,
+     "capital": "Ctesiphon",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "EGY_N",
+      "EGY_S"
+     ],
+     "contestedRegions": [
+      "CIL",
+      "EGY_N"
+     ],
+     "stability": "contested",
+     "population": 25,
+     "wealth": 4,
+     "extendsBeyondMap": true,
+     "note": "Khusrau II holds Syria, Egypt and the East \u2014 the last and greatest Persian overreach."
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "AUT",
+      "HUN",
+      "TRN",
+      "WLC",
+      "MDA",
+      "CRO",
+      "BOS",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 1.2,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "The khagan takes Byzantine tribute and drives Slav columns to the Aegean."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Berber tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "regions": [
+      "NUM",
+      "ORA",
+      "RIF",
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Strathclyde, Wales and Brittany \u2014 the unconquered Roman-British west."
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS"
+     ],
+     "stability": "stable",
+     "population": 2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "U\u00ed N\u00e9ill, Munster and Connacht kings; monasteries are Europe's lamp this century."
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgars_early",
+     "name": "Onogur Bulgars",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Bulgar",
+     "regions": [
+      "STE",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Kings of Fortriu beyond the Forth."
+    },
+    {
+     "id": "frisians",
+     "name": "Frisian Kingdom",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Frisian",
+     "capital": "Dorestad",
+     "capitalRegion": "NED",
+     "regions": [
+      "NED"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "arabs_early",
+     "name": "Arab tribes of the Hejaz fringe",
+     "type": "tribal",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "regions": [
+      "ARB"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1,
+     "extendsBeyondMap": true
+    }
+   ],
+   "relations": [
+    {
+     "a": "byzantium",
+     "b": "sassanid",
+     "type": "war",
+     "note": "The last great war of antiquity \u2014 Persia holds the whole Byzantine east"
+    },
+    {
+     "a": "byzantium",
+     "b": "avars",
+     "type": "war",
+     "note": "Avar-Slav pressure on Thessalonica and Thrace; joint siege of Constantinople comes in 626"
+    },
+    {
+     "a": "lombards",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Grinding contest for the Italian interior"
+    },
+    {
+     "a": "angles_saxons",
+     "b": "britons",
+     "type": "war",
+     "note": "Northumbria under Edwin drives into the Brythonic north"
+    },
+    {
+     "a": "visigoths",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Suinthila is expelling the last imperial garrisons of Spania"
+    },
+    {
+     "a": "franks",
+     "b": "avars",
+     "type": "war",
+     "note": "Frontier skirmishes along the Enns"
+    }
+   ]
+  },
+  {
+   "year": 650,
+   "eraName": "Early Medieval",
+   "label": "The Arab conquests",
+   "events": [
+    "Arab armies rule Syria, Egypt and Mesopotamia; the last Sassanid shah flees east (murdered 651)",
+    "First Arab fleet sacks Cyprus (649) \u2014 the Mediterranean balance tips",
+    "Slavs are now settled through the Balkan interior to the Peloponnese"
+   ],
+   "connectivity": 18,
+   "connectivityNote": "Conquest chaos: the Levant changes masters, but a single caliphal market is quietly forming from Egypt to Iran.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "CRM",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON",
+      "CIL",
+      "CYP",
+      "TUN"
+     ],
+     "contestedRegions": [
+      "CIL",
+      "TUN",
+      "CYP"
+     ],
+     "stability": "contested",
+     "population": 7.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "The empire has lost Syria, Egypt and Africa's hinterland in a generation; Anatolia is the fortress."
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "AUT",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "BGR",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.5,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "From the Elbe to the Aegean interior \u2014 Samo's rebel realm (623-58) defies the Avars."
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Merovingian)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "rashidun",
+     "name": "Rashidun Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 632,
+     "capital": "Medina",
+     "capitalRegion": "ARB",
+     "regions": [
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP"
+     ],
+     "contestedRegions": [
+      "ARM",
+      "GEO"
+     ],
+     "stability": "consolidating",
+     "population": 25,
+     "wealth": 4,
+     "extendsBeyondMap": true,
+     "note": "From Medina, the caliphs rule Syria (636), Egypt (641) and a collapsing Persia."
+    },
+    {
+     "id": "visigoths",
+     "name": "Visigothic Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Visigothic",
+     "founded": 418,
+     "capital": "Toledo",
+     "capitalRegion": "CAS_S",
+     "regions": [
+      "GAL",
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND",
+      "OCC"
+     ],
+     "stability": "stable",
+     "population": 3.6,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Reccared's Catholic kingdom rules all Iberia; Byzantine Spania expelled by 624."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.65,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 2.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN",
+      "WLC",
+      "MDA"
+     ],
+     "stability": "contested",
+     "population": 1.0,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Berber tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "regions": [
+      "NUM",
+      "ORA",
+      "RIF",
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgars_early",
+     "name": "Old Great Bulgaria (Kubrat)",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Bulgar",
+     "regions": [
+      "STE",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Kubrat's Great Bulgaria between Don and Kuban \u2014 Khazar hammer about to fall."
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "frisians",
+     "name": "Frisian Kingdom",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Frisian",
+     "capital": "Dorestad",
+     "capitalRegion": "NED",
+     "regions": [
+      "NED"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "rashidun",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Syria, Egypt and Armenia lost; Arab fleets now raid Cyprus"
+    },
+    {
+     "a": "rashidun",
+     "b": "berber_tribes",
+     "type": "war",
+     "note": "Raids probe past Tripoli toward Ifriqiya (Sufetula 647)"
+    },
+    {
+     "a": "slavs_early",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Sclaveniae hold the Balkan interior; Constans II campaigns against them (658)"
+    },
+    {
+     "a": "bulgars_early",
+     "b": "byzantium",
+     "type": "alliance",
+     "note": "Kubrat, baptized in Constantinople, allies against the Avars"
+    },
+    {
+     "a": "franks",
+     "b": "lombards",
+     "type": "trade",
+     "note": "Alpine passes quiet between the two kingdoms"
+    }
+   ]
+  },
+  {
+   "year": 680,
+   "eraName": "Early Medieval",
+   "label": "Bulgars on the Danube",
+   "events": [
+    "Greek fire breaks the four-year Arab siege of Constantinople (678)",
+    "Asparukh's Bulgars cross the Danube \u2014 the First Bulgarian Empire is born (681)",
+    "Khazar khaganate now rules the steppe from the Don to the Caspian"
+   ],
+   "connectivity": 16,
+   "connectivityNote": "Arab-Byzantine naval war makes the eastern Mediterranean a battle zone; the west trades in local coasting runs.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "CRM",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON",
+      "CYP",
+      "TUN"
+     ],
+     "stability": "contested",
+     "population": 7,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "AUT",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.2,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Merovingian)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "umayyad",
+     "name": "Umayyad Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 661,
+     "capital": "Damascus",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP"
+     ],
+     "contestedRegions": [
+      "GEO",
+      "ARM",
+      "CIL"
+     ],
+     "stability": "consolidating",
+     "population": 28,
+     "wealth": 5,
+     "extendsBeyondMap": true,
+     "note": "Muawiya's dynasty rules from Damascus; the 674-678 siege of Constantinople just failed."
+    },
+    {
+     "id": "visigoths",
+     "name": "Visigothic Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Visigothic",
+     "founded": 418,
+     "capital": "Toledo",
+     "capitalRegion": "CAS_S",
+     "regions": [
+      "GAL",
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND",
+      "OCC"
+     ],
+     "stability": "contested",
+     "population": 3.6,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 2.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Berber tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "regions": [
+      "NUM",
+      "ORA",
+      "RIF",
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate of Asparukh",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "consolidating",
+     "population": 0.7,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Asparukh's horde crosses the Danube this year; Byzantium recognizes the khanate in 681."
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 2,
+     "extendsBeyondMap": true,
+     "note": "Heirs of the western Turks; they crushed Great Bulgaria and take tribute from the steppe."
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "frisians",
+     "name": "Frisian Kingdom",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Frisian",
+     "capital": "Dorestad",
+     "capitalRegion": "NED",
+     "regions": [
+      "NED"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "umayyad",
+     "b": "byzantium",
+     "type": "war",
+     "note": "The 674-678 siege failed; Muawiya pays tribute for a truce"
+    },
+    {
+     "a": "bulgaria",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Constantine IV's army routed at Ongal; the Bulgars take Moesia"
+    },
+    {
+     "a": "khazars",
+     "b": "umayyad",
+     "type": "war",
+     "note": "First Arab-Khazar war contests the Caucasus passes"
+    },
+    {
+     "a": "franks",
+     "b": "frisians",
+     "type": "war",
+     "note": "Pippin of Herstal pushes toward the Rhine mouth"
+    },
+    {
+     "a": "lombards",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Duchies of Spoleto and Benevento gnaw at imperial Italy"
+    }
+   ]
+  },
+  {
+   "year": 711,
+   "eraName": "Early Medieval",
+   "label": "Spain falls in a summer",
+   "events": [
+    "Tariq crosses at Gibraltar; King Roderic falls at Guadalete \u2014 Visigothic Spain collapses in months",
+    "Justinian II slain \u2014 Byzantium burns through six emperors in twenty years",
+    "Umayyad North Africa complete: Carthage fell 698, Tangier 708"
+   ],
+   "connectivity": 17,
+   "connectivityNote": "Within the vast Umayyad realm goods flow from the Indus to Tangier, but the Mediterranean divide deepens.",
+   "entities": [
+    {
+     "id": "umayyad",
+     "name": "Umayyad Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 661,
+     "capital": "Damascus",
+     "capitalRegion": "SYR",
+     "regions": [
+      "CAS_S",
+      "AND",
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP",
+      "TUN",
+      "NUM",
+      "ORA",
+      "RIF",
+      "MAR"
+     ],
+     "contestedRegions": [
+      "CAS_S"
+     ],
+     "stability": "consolidating",
+     "population": 32,
+     "wealth": 5,
+     "extendsBeyondMap": true,
+     "note": "Tariq's Berber army lands at Gibraltar in April \u2014 Iberia's conquest has begun."
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "AUT",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.2,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "stability": "contested",
+     "population": 6,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Merovingian)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "stability": "contested",
+     "population": 4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "visigoths",
+     "name": "Visigothic Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Visigothic",
+     "founded": 418,
+     "capital": "Narbonne (court in flight)",
+     "capitalRegion": "OCC",
+     "regions": [
+      "GAL",
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "ARA",
+      "VAL",
+      "OCC"
+     ],
+     "contestedRegions": [
+      "CAS_S",
+      "AND"
+     ],
+     "stability": "collapsing",
+     "population": 2.8,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Roderic dead at Guadalete; Toledo falling; the kingdom dissolves within five years."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.75,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 2.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "CRM",
+      "DON"
+     ],
+     "contestedRegions": [
+      "CRM",
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate (Danube)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "frisians",
+     "name": "Frisian Kingdom",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Frisian",
+     "capital": "Dorestad",
+     "capitalRegion": "NED",
+     "regions": [
+      "NED"
+     ],
+     "stability": "contested",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Radbod's pagan kingdom controls the Rhine-mouth trade at Dorestad."
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Since 688 Byzantium and the caliphate split Cyprus's taxes \u2014 a unique shared island."
+    }
+   ],
+   "relations": [
+    {
+     "a": "umayyad",
+     "b": "visigoths",
+     "type": "war",
+     "note": "Guadalete: Tariq's 12,000 destroy the kingdom in one battle"
+    },
+    {
+     "a": "umayyad",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Annual raids into Anatolia; the great siege of 717 is coming"
+    },
+    {
+     "a": "khazars",
+     "b": "umayyad",
+     "type": "war",
+     "note": "Contest for Derbent and the Caucasus"
+    },
+    {
+     "a": "bulgaria",
+     "b": "byzantium",
+     "type": "alliance",
+     "note": "Tervel, made Caesar, propped Justinian II back on his throne (705)"
+    },
+    {
+     "a": "franks",
+     "b": "frisians",
+     "type": "war",
+     "note": "Radbod fights the Carolingian mayors for the Rhine delta"
+    }
+   ]
+  },
+  {
+   "year": 732,
+   "eraName": "Early Medieval",
+   "label": "The Umayyad high-water mark",
+   "events": [
+    "Charles Martel breaks the Arab raiding army between Tours and Poitiers",
+    "Leo III, victor of the 717 siege, decrees iconoclasm (730)",
+    "Pelayo's Asturias clings on in the Cantabrian mountains (Covadonga 722)"
+   ],
+   "connectivity": 18,
+   "connectivityNote": "Umayyad unity at maximum: dirhams and ideas circulate caliphate-wide; Francia and Italy live off local exchange.",
+   "entities": [
+    {
+     "id": "umayyad",
+     "name": "Umayyad Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 661,
+     "capital": "Damascus",
+     "capitalRegion": "SYR",
+     "regions": [
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND",
+      "OCC",
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP",
+      "TUN",
+      "NUM",
+      "ORA",
+      "RIF",
+      "MAR"
+     ],
+     "contestedRegions": [
+      "OCC",
+      "AQU"
+     ],
+     "stability": "stable",
+     "population": 34,
+     "wealth": 5,
+     "extendsBeyondMap": true,
+     "note": "From the Indus to the Atlantic \u2014 the largest empire the world had yet seen."
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "AUT",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "stability": "consolidating",
+     "population": 6,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Charles Martel)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "contestedRegions": [
+      "AQU"
+     ],
+     "stability": "consolidating",
+     "population": 4.2,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Charles Martel, mayor of the palace, breaks the Arab raiders between Tours and Poitiers."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 2.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "CRM",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate (Danube)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL"
+     ],
+     "stability": "consolidating",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Pelayo's mountain rump after Covadonga (722) \u2014 the seed of the Reconquista."
+    },
+    {
+     "id": "frisians",
+     "name": "Frisian Kingdom",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Frisian",
+     "capital": "Dorestad",
+     "capitalRegion": "NED",
+     "regions": [
+      "NED"
+     ],
+     "stability": "contested",
+     "population": 0.15,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "franks",
+     "b": "umayyad",
+     "type": "war",
+     "note": "Tours-Poitiers: Charles Martel halts the raid from al-Andalus"
+    },
+    {
+     "a": "umayyad",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Leo III and the Anatolian themes absorb yearly razzias"
+    },
+    {
+     "a": "umayyad",
+     "b": "khazars",
+     "type": "war",
+     "note": "Second Arab-Khazar war rages; Marwan's great raid comes in 737"
+    },
+    {
+     "a": "asturias",
+     "b": "umayyad",
+     "type": "war",
+     "note": "Mountain skirmishes after Covadonga (722)"
+    },
+    {
+     "a": "bulgaria",
+     "b": "byzantium",
+     "type": "trade",
+     "note": "Treaty of 716 fixes tribute and border markets"
+    }
+   ]
+  },
+  {
+   "year": 750,
+   "eraName": "Early Medieval",
+   "label": "The Abbasid revolution",
+   "events": [
+    "Abbasid revolution: the Umayyads annihilated at the Zab; the caliphate refounded from Iraq",
+    "Lombard king Aistulf closes on Byzantine Ravenna \u2014 the exarchate falls in 751",
+    "The Mediterranean is a war frontier: gold coin and papyrus vanish north of the Alps"
+   ],
+   "connectivity": 15,
+   "connectivityNote": "Pirenne's nadir: the sea is a frontier, papyrus and gold vanish north of the Alps; Frisian and Adriatic traders persist.",
+   "entities": [
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "AUT",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "ROM",
+      "CLB",
+      "SIC",
+      "SAR",
+      "COR",
+      "MLT",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 6,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "franks",
+     "name": "Frankish Kingdom (Carolingian mayors)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "PRO",
+      "AUV",
+      "FLA",
+      "NED",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "SUI"
+     ],
+     "stability": "stable",
+     "population": 4.5,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Kufa",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP",
+      "TUN"
+     ],
+     "contestedRegions": [
+      "TUN"
+     ],
+     "stability": "consolidating",
+     "population": 32,
+     "wealth": 5,
+     "extendsBeyondMap": true,
+     "note": "Revolution from Khurasan: the caliphate refounded, soon ruled from Baghdad (762)."
+    },
+    {
+     "id": "umayyad",
+     "name": "al-Andalus under Fihrid governors",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 661,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND",
+      "OCC"
+     ],
+     "stability": "collapsing",
+     "population": 4,
+     "wealth": 5,
+     "extendsBeyondMap": false,
+     "note": "The dynasty is slaughtered in the east; Iberia drifts under al-Fihri until an Umayyad refugee arrives (756)."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Heptarchy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombards",
+     "name": "Lombard Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Lombard",
+     "founded": 568,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "NAP"
+     ],
+     "stability": "consolidating",
+     "population": 2.4,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Aistulf presses the exarchate \u2014 Ravenna falls to him in 751."
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "CRM",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate (Danube)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Berber tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "regions": [
+      "NUM",
+      "ORA",
+      "RIF"
+     ],
+     "stability": "contested",
+     "population": 0.8,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "The Great Berber Revolt (740-43) tore the Maghreb from the caliphate."
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL"
+     ],
+     "stability": "consolidating",
+     "population": 0.15,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Kharijite-inspired Berber confederacy of the Atlantic plain with its own prophet and Koran."
+    }
+   ],
+   "relations": [
+    {
+     "a": "abbasid",
+     "b": "umayyad",
+     "type": "war",
+     "note": "The revolution devours the old dynasty; one prince flees west"
+    },
+    {
+     "a": "lombards",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Aistulf strangles Ravenna \u2014 the exarchate dies in 751"
+    },
+    {
+     "a": "franks",
+     "b": "saxons",
+     "type": "war",
+     "note": "Border raids across the Weser presage the Saxon wars"
+    },
+    {
+     "a": "byzantium",
+     "b": "bulgaria",
+     "type": "war",
+     "note": "Constantine V readies nine campaigns against Pliska"
+    },
+    {
+     "a": "abbasid",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Frontier raiding resumes as the new caliphate settles in"
+    }
+   ]
+  },
+  {
+   "year": 774,
+   "eraName": "Early Medieval",
+   "label": "Charlemagne takes the Iron Crown",
+   "events": [
+    "Charlemagne takes Pavia and the Iron Crown \u2014 the Lombard kingdom annexed",
+    "Abd al-Rahman I, the Umayyad who got away, rules al-Andalus from C\u00f3rdoba (756)",
+    "The Donation of Pepin (756) has made the pope a territorial prince"
+   ],
+   "connectivity": 16,
+   "connectivityNote": "Carolingian order helps overland routes; Radhanite Jewish merchants begin linking Francia to the caliphate.",
+   "entities": [
+    {
+     "id": "franks",
+     "name": "Carolingian Frankish Kingdom",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "OCC",
+      "PRO",
+      "AUV",
+      "FLA",
+      "NED",
+      "RHE",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "AUT",
+      "SUI",
+      "PIE",
+      "LOM",
+      "TUS",
+      "COR"
+     ],
+     "stability": "consolidating",
+     "population": 7,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Charlemagne takes Pavia this year; the Lombard crown passes to the Franks."
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "CRO",
+      "BOS",
+      "SRB",
+      "ALB",
+      "MAC",
+      "EPI",
+      "PEL"
+     ],
+     "stability": "stable",
+     "population": 3.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "CLB",
+      "SIC",
+      "SAR",
+      "MLT",
+      "DAL",
+      "THR",
+      "ATT",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 5.5,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Baghdad",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR",
+      "TRP",
+      "TUN"
+     ],
+     "stability": "stable",
+     "population": 30,
+     "wealth": 5,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "al_andalus",
+     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 756,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "ARA",
+      "VAL",
+      "AND"
+     ],
+     "stability": "consolidating",
+     "population": 3.8,
+     "wealth": 4,
+     "extendsBeyondMap": false,
+     "note": "Abd al-Rahman I, last Umayyad, built an independent emirate at C\u00f3rdoba in 756."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Mercian supremacy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "capital": "Tamworth",
+     "capitalRegion": "ENG_M",
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.85,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "CRM",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate (Danube)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "berber_tribes",
+     "name": "Berber tribes",
+     "type": "tribal",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "regions": [
+      "NUM",
+      "ORA",
+      "RIF"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "avars",
+     "name": "Avar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Avar",
+     "founded": 567,
+     "capital": "The Ring",
+     "capitalRegion": "HUN",
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "stability": "contested",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Ring-bound and quarrelsome \u2014 Charlemagne destroys the khaganate in 795-96."
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "saxons",
+     "name": "Old Saxons",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Saxon",
+     "regions": [
+      "SAX_L"
+     ],
+     "contestedRegions": [
+      "SAX_L"
+     ],
+     "stability": "contested",
+     "population": 0.6,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "papal_states",
+     "name": "Papal States",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 756,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "ROM"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Carved from the exarchate by Pepin's Donation (756); confirmed by Charlemagne."
+    },
+    {
+     "id": "lombard_south",
+     "name": "Principality of Benevento",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Lombard-Italian",
+     "founded": 774,
+     "capital": "Benevento",
+     "capitalRegion": "NAP",
+     "regions": [
+      "NAP"
+     ],
+     "stability": "consolidating",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Benevento escapes Charlemagne \u2014 Lombard princes rule the southern interior for centuries."
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "franks",
+     "b": "lombard_south",
+     "type": "war",
+     "note": "Pavia annexed this year; Benevento alone keeps the Lombard cause alive"
+    },
+    {
+     "a": "franks",
+     "b": "papal_states",
+     "type": "alliance",
+     "note": "Patrician of the Romans \u2014 the Frankish-papal axis"
+    },
+    {
+     "a": "franks",
+     "b": "saxons",
+     "type": "war",
+     "note": "The thirty-year Saxon wars have begun (772)"
+    },
+    {
+     "a": "al_andalus",
+     "b": "abbasid",
+     "type": "war",
+     "note": "Abbasid landing crushed by Abd al-Rahman I (763)"
+    },
+    {
+     "a": "asturias",
+     "b": "al_andalus",
+     "type": "war",
+     "note": "Raid and counter-raid across the empty Duero"
+    },
+    {
+     "a": "byzantium",
+     "b": "bulgaria",
+     "type": "war",
+     "note": "Constantine V's Danube offensives grind on"
+    }
+   ]
+  },
+  {
+   "year": 800,
+   "eraName": "Early Medieval",
+   "label": "An emperor in the West again",
+   "events": [
+    "Charlemagne crowned Roman Emperor in St Peter's on Christmas Day",
+    "Harun al-Rashid's Baghdad is the richest city on earth; his elephant walks to Aachen",
+    "The Avar khaganate is gone (796) \u2014 its treasure hoard carted to Francia"
+   ],
+   "connectivity": 18,
+   "connectivityNote": "Two superpowers at peace internally: Abbasid golden-age trade and Carolingian roads; Baltic emporia (Dorestad, Hedeby) rise.",
+   "entities": [
+    {
+     "id": "franks",
+     "name": "Carolingian Empire",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Frankish",
+     "founded": 481,
+     "capital": "Aachen",
+     "capitalRegion": "RHE",
+     "regions": [
+      "ARA",
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOR",
+      "LOI",
+      "BUR",
+      "AQU",
+      "OCC",
+      "PRO",
+      "AUV",
+      "FLA",
+      "NED",
+      "RHE",
+      "SAX_L",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "AUT",
+      "SUI",
+      "PIE",
+      "LOM",
+      "TUS",
+      "COR",
+      "HUN",
+      "CRO"
+     ],
+     "contestedRegions": [
+      "SAX_L",
+      "ARA"
+     ],
+     "stability": "stable",
+     "population": 10,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Crowned emperor on Christmas Day 800 \u2014 Saxony, Italy, the Spanish March, tributary Slavs."
+    },
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "CLB",
+      "SIC",
+      "SAR",
+      "MLT",
+      "DAL",
+      "ALB",
+      "THR",
+      "ATT",
+      "PEL",
+      "AEG",
+      "DOD",
+      "CRE",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "stability": "stable",
+     "population": 6,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "BRA",
+      "BOH",
+      "POL_W",
+      "SIL",
+      "POL_C",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E",
+      "SVK",
+      "MAC",
+      "EPI"
+     ],
+     "stability": "stable",
+     "population": 2.6,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Baghdad",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "GEO",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR"
+     ],
+     "stability": "stable",
+     "population": 28,
+     "wealth": 5,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "al_andalus",
+     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 756,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "EUS",
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "VAL",
+      "AND"
+     ],
+     "contestedRegions": [
+      "ARA"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon kingdoms (Mercian supremacy)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "capital": "Tamworth",
+     "capitalRegion": "ENG_M",
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.9,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgaria",
+     "name": "Bulgar Khanate (Krum's rise)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "TRN",
+      "WLC",
+      "MDA",
+      "BGR"
+     ],
+     "stability": "consolidating",
+     "population": 1.1,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Brythonic kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S",
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "STE",
+      "CRM",
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "aghlabids",
+     "name": "Aghlabid Emirate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 800,
+     "capital": "Kairouan",
+     "capitalRegion": "TUN",
+     "regions": [
+      "TRP",
+      "TUN",
+      "NUM"
+     ],
+     "stability": "consolidating",
+     "population": 1.2,
+     "wealth": 4,
+     "extendsBeyondMap": false,
+     "note": "Ibrahim ibn al-Aghlab made hereditary emir of Ifriqiya this year for 40,000 dinars a year."
+    },
+    {
+     "id": "gaels",
+     "name": "Gaelic Irish kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Gaelic",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "serbia",
+     "name": "Serbian Principality",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Serbian",
+     "founded": 780,
+     "capital": "Ras",
+     "capitalRegion": "SRB",
+     "regions": [
+      "BOS",
+      "SRB"
+     ],
+     "stability": "consolidating",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Vlastimirovi\u0107 princes consolidate the Serb tribes between Byzantium and the Bulgars."
+    },
+    {
+     "id": "picts",
+     "name": "Pictland",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Pictish",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "papal_states",
+     "name": "Papal States",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 756,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "ROM"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombard_south",
+     "name": "Principality of Benevento",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Lombard-Italian",
+     "founded": 774,
+     "capital": "Benevento",
+     "capitalRegion": "NAP",
+     "regions": [
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "rustamid",
+     "name": "Rustamid Imamate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Ibadi Berber",
+     "founded": 777,
+     "capital": "Tahert",
+     "capitalRegion": "ORA",
+     "regions": [
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Ibadi imamate at Tahert \u2014 a Kharijite merchant republic on the Saharan trade."
+    },
+    {
+     "id": "idrisids",
+     "name": "Idrisid Emirate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Arab-Berber",
+     "founded": 788,
+     "capital": "Fez",
+     "capitalRegion": "RIF",
+     "regions": [
+      "RIF"
+     ],
+     "stability": "consolidating",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Idris, an Alid refugee, founded a Shi'a-tinged realm at Fez (788)."
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "franks",
+     "b": "abbasid",
+     "type": "alliance",
+     "note": "Charlemagne and Harun al-Rashid exchange embassies \u2014 and an elephant"
+    },
+    {
+     "a": "franks",
+     "b": "al_andalus",
+     "type": "war",
+     "note": "Frankish siege of Barcelona under way \u2014 the city falls in 801"
+    },
+    {
+     "a": "franks",
+     "b": "byzantium",
+     "type": "trade",
+     "note": "Frosty peace: two emperors, one title problem"
+    },
+    {
+     "a": "byzantium",
+     "b": "abbasid",
+     "type": "war",
+     "note": "Irene buys truces; Harun's raids reach Ancyra"
+    },
+    {
+     "a": "bulgaria",
+     "b": "franks",
+     "type": "war",
+     "note": "Bulgars and Franks divide the corpse of the Avar khaganate"
+    },
+    {
+     "a": "asturias",
+     "b": "al_andalus",
+     "type": "war",
+     "note": "Alfonso II sacks Lisbon (798) and courts Aachen"
+    }
+   ]
+  },
+  {
+   "year": 843,
+   "eraName": "Early Medieval",
+   "label": "Verdun: Francia divided",
+   "events": [
+    "Treaty of Verdun splits the Carolingian empire into West, Middle and East Francia",
+    "Viking fleets winter in the rivers: Dublin founded 841, Nantes sacked 843",
+    "Aghlabid armies grind through Byzantine Sicily (Palermo 831); Kenneth MacAlpin unites Picts and Scots"
+   ],
+   "connectivity": 20,
+   "connectivityNote": "Viking raids scourge the coasts yet open river arteries; Arab silver dirhams reach the Baltic in bulk.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "CLB",
+      "SAR",
+      "MLT",
+      "CRM",
+      "DAL",
+      "ALB",
+      "THR",
+      "EPI",
+      "ATT",
+      "PEL",
+      "AEG",
+      "DOD",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "contestedRegions": [
+      "SIC"
+     ],
+     "stability": "stable",
+     "population": 7,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "west_francia",
+     "name": "West Francia",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Romance-Frankish",
+     "founded": 843,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "ARA",
+      "BRE",
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOI",
+      "BUR",
+      "AQU",
+      "OCC",
+      "AUV",
+      "FLA"
+     ],
+     "contestedRegions": [
+      "BRE"
+     ],
+     "stability": "contested",
+     "population": 4.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Charles the Bald's share at Verdun; Vikings winter at the river mouths."
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Baghdad",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR"
+     ],
+     "stability": "stable",
+     "population": 26,
+     "wealth": 5,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "middle_francia",
+     "name": "Middle Francia",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Romance-Frankish",
+     "founded": 843,
+     "capital": "Aachen",
+     "capitalRegion": "RHE",
+     "regions": [
+      "LOR",
+      "PRO",
+      "NED",
+      "RHE",
+      "SUI",
+      "PIE",
+      "LOM",
+      "TUS",
+      "COR",
+      "CRO"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Lothair keeps the imperial title, Aachen and Italy \u2014 a corridor realm doomed to partition."
+    },
+    {
+     "id": "east_francia",
+     "name": "East Francia",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "German",
+     "founded": 843,
+     "capital": "Regensburg",
+     "capitalRegion": "BAV",
+     "regions": [
+      "SAX_L",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "AUT",
+      "HUN"
+     ],
+     "stability": "consolidating",
+     "population": 3,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Louis the German's Frankish, Saxon and Bavarian lands east of the Rhine."
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "SIL",
+      "POL_S",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E"
+     ],
+     "stability": "stable",
+     "population": 1.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "al_andalus",
+     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 756,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "POR_N",
+      "POR_S",
+      "CAS_N",
+      "CAS_S",
+      "VAL",
+      "AND"
+     ],
+     "stability": "stable",
+     "population": 4,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_NW",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Anglo-Saxon England (Wessex ascendant)",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "capital": "Winchester",
+     "capitalRegion": "ENG_S",
+     "regions": [
+      "ENG_S",
+      "ENG_E",
+      "ENG_M",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 1.0,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "aghlabids",
+     "name": "Aghlabid Emirate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 800,
+     "capital": "Kairouan",
+     "capitalRegion": "TUN",
+     "regions": [
+      "SIC",
+      "TRP",
+      "TUN",
+      "NUM"
+     ],
+     "contestedRegions": [
+      "SIC"
+     ],
+     "stability": "stable",
+     "population": 1.3,
+     "wealth": 4,
+     "extendsBeyondMap": false,
+     "note": "Palermo taken 831; the grinding conquest of Byzantine Sicily is half done."
+    },
+    {
+     "id": "bulgaria",
+     "name": "First Bulgarian Empire",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "TRN",
+      "WLC",
+      "MAC",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 1.3,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Strathclyde & Welsh kingdoms",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "WAL",
+      "SCO_S"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "ireland_states",
+     "name": "Irish kingdoms",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Gaelic Irish",
+     "founded": 800,
+     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capitalRegion": "IRL_N",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "U\u00ed N\u00e9ill high-kings contest with Norse longphorts \u2014 Dublin founded 841."
+    },
+    {
+     "id": "moravia",
+     "name": "Great Moravia",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Moravian Slavic",
+     "founded": 833,
+     "capital": "Mikul\u010dice (Veligrad)",
+     "capitalRegion": "BOH",
+     "regions": [
+      "BOH",
+      "SVK"
+     ],
+     "stability": "consolidating",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Mojmir's Slavic state above the Danube; Rastislav will invite Cyril and Methodius (863)."
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "polans",
+     "name": "Polans & Vistulan Slavs",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "POL_W",
+      "POL_C"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "magyars",
+     "name": "Magyars (Levedia)",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Magyar",
+     "regions": [
+      "STE",
+      "MDA"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Seven tribes on the Pontic steppe, paying loose tribute to the Khazars."
+    },
+    {
+     "id": "serbia",
+     "name": "Serbian Principality",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Serbian",
+     "founded": 780,
+     "capital": "Ras",
+     "capitalRegion": "SRB",
+     "regions": [
+      "BOS",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "scotland",
+     "name": "Kingdom of Alba",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Scots-Gaelic",
+     "founded": 843,
+     "capital": "Scone",
+     "capitalRegion": "SCO_N",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "consolidating",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Kenneth MacAlpin unites Picts and Scots this very year."
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "navarre",
+     "name": "Kingdom of Pamplona",
+     "type": "state",
+     "culture": "pre_ie",
+     "cultureName": "Basque",
+     "founded": 824,
+     "capital": "Pamplona",
+     "capitalRegion": "EUS",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Basque kingdom of Pamplona (824), wedged between Franks and C\u00f3rdoba."
+    },
+    {
+     "id": "polabian_slavs",
+     "name": "Polabian Slavs (Obodrites & Wilzi)",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "BRA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "papal_states",
+     "name": "Papal States",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 756,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "ROM"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombard_south",
+     "name": "Principality of Benevento",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Lombard-Italian",
+     "founded": 774,
+     "capital": "Benevento",
+     "capitalRegion": "NAP",
+     "regions": [
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "capital": "Hedeby",
+     "capitalRegion": "JUT",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "crete_emirate",
+     "name": "Emirate of Crete",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 824,
+     "capital": "Chandax",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "consolidating",
+     "population": 0.2,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Andalusi exiles seized Crete (824); Chandax is the Aegean's corsair nest."
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "georgian_states",
+     "name": "Georgian Bagratid principalities & Abkhazia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Georgian",
+     "founded": 813,
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Bagratid Tao-Klarjeti and the kings of Abkhazia divide the Georgian lands."
+    },
+    {
+     "id": "rustamid",
+     "name": "Rustamid Imamate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Ibadi Berber",
+     "founded": 777,
+     "capital": "Tahert",
+     "capitalRegion": "ORA",
+     "regions": [
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "idrisids",
+     "name": "Idrisid Emirate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Arab-Berber",
+     "founded": 788,
+     "capital": "Fez",
+     "capitalRegion": "RIF",
+     "regions": [
+      "RIF"
+     ],
+     "contestedRegions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "west_francia",
+     "b": "middle_francia",
+     "type": "alliance",
+     "note": "Verdun: three brothers partition Charlemagne's empire in peace"
+    },
+    {
+     "a": "east_francia",
+     "b": "moravia",
+     "type": "war",
+     "note": "Louis the German deposes Mojmir (846)"
+    },
+    {
+     "a": "danes",
+     "b": "west_francia",
+     "type": "war",
+     "note": "Viking fleets sack Nantes and Rouen; Paris pays in 845"
+    },
+    {
+     "a": "aghlabids",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Messina falls (842-43); Sicily bleeds"
+    },
+    {
+     "a": "abbasid",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Amorium sacked 838; the frontier war is annual"
+    },
+    {
+     "a": "asturias",
+     "b": "al_andalus",
+     "type": "war",
+     "note": "Ramiro I fights off raids by land and Vikings by sea"
+    },
+    {
+     "a": "bulgaria",
+     "b": "serbia",
+     "type": "war",
+     "note": "Presian's invasion broken by Vlastimir's Serbs"
+    }
+   ]
+  },
+  {
+   "year": 870,
+   "eraName": "Early Medieval",
+   "label": "Vikings, Meerssen and the Danelaw",
+   "events": [
+    "Meerssen: East and West Francia carve up Lotharingia between them",
+    "The Great Heathen Army has felled Northumbria and East Anglia \u2014 the Danelaw takes shape",
+    "Malta falls to the Aghlabids; Constantinople and Rome contest the new Bulgarian church"
+   ],
+   "connectivity": 22,
+   "connectivityNote": "The Varangian river roads hum \u2014 Volga and Dnieper silver, furs and slaves; the western sea remains raider-infested.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "BAL",
+      "CLB",
+      "SAR",
+      "CRM",
+      "DAL",
+      "ALB",
+      "THR",
+      "EPI",
+      "ATT",
+      "PEL",
+      "AEG",
+      "DOD",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "contestedRegions": [
+      "SIC"
+     ],
+     "stability": "stable",
+     "population": 7.5,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "east_francia",
+     "name": "East Francia",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "German",
+     "founded": 843,
+     "capital": "Regensburg",
+     "capitalRegion": "BAV",
+     "regions": [
+      "LOR",
+      "NED",
+      "RHE",
+      "SAX_L",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "AUT",
+      "SUI",
+      "HUN"
+     ],
+     "stability": "stable",
+     "population": 3.5,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Baghdad",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "ARM_W",
+      "ARM",
+      "SYR",
+      "LEV",
+      "MES_N",
+      "MES_S",
+      "ARB",
+      "EGY_N",
+      "EGY_S",
+      "CYR"
+     ],
+     "stability": "contested",
+     "population": 24,
+     "wealth": 5,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "west_francia",
+     "name": "West Francia",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Romance-Frankish",
+     "founded": 843,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "ARA",
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOI",
+      "BUR",
+      "AQU",
+      "OCC",
+      "AUV",
+      "FLA"
+     ],
+     "stability": "contested",
+     "population": 4.8,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "SIL",
+      "VOL",
+      "BLR",
+      "RUS_S",
+      "UKR_W",
+      "UKR_E"
+     ],
+     "stability": "stable",
+     "population": 1.2,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "middle_francia",
+     "name": "Kingdom of Italy (Emperor Louis II)",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Romance-Frankish",
+     "founded": 843,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PRO",
+      "PIE",
+      "LOM",
+      "TUS",
+      "COR"
+     ],
+     "stability": "contested",
+     "population": 2.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Emperor Louis II rules Italy alone; Lotharingia carved up at Meerssen this year."
+    },
+    {
+     "id": "aghlabids",
+     "name": "Aghlabid Emirate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 800,
+     "capital": "Kairouan",
+     "capitalRegion": "TUN",
+     "regions": [
+      "SIC",
+      "MLT",
+      "TRP",
+      "TUN",
+      "NUM"
+     ],
+     "contestedRegions": [
+      "SIC"
+     ],
+     "stability": "stable",
+     "population": 1.5,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "al_andalus",
+     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 756,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "POR_S",
+      "CAS_S",
+      "VAL",
+      "AND"
+     ],
+     "stability": "stable",
+     "population": 4.2,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgaria",
+     "name": "First Bulgarian Empire",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Pliska",
+     "capitalRegion": "BGR",
+     "regions": [
+      "TRN",
+      "WLC",
+      "MAC",
+      "BGR"
+     ],
+     "stability": "stable",
+     "population": 1.4,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Boris accepted baptism from Constantinople (864); a Slavic church is forming."
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "CAS_N"
+     ],
+     "stability": "consolidating",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "moravia",
+     "name": "Great Moravia",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Moravian Slavic",
+     "founded": 833,
+     "capital": "Mikul\u010dice (Veligrad)",
+     "capitalRegion": "BOH",
+     "regions": [
+      "BOH",
+      "POL_S",
+      "SVK"
+     ],
+     "contestedRegions": [
+      "BOH"
+     ],
+     "stability": "contested",
+     "population": 1.0,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Rastislav betrayed and blinded this year; Svatopluk will push the realm to its peak."
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Wessex & English Mercia",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "capital": "Winchester",
+     "capitalRegion": "ENG_S",
+     "regions": [
+      "ENG_S",
+      "ENG_M"
+     ],
+     "contestedRegions": [
+      "ENG_M"
+     ],
+     "stability": "contested",
+     "population": 0.6,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "\u00c6thelred and young Alfred stand alone against the Danes."
+    },
+    {
+     "id": "danelaw",
+     "name": "The Danelaw",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Norse-Danish",
+     "founded": 866,
+     "capital": "York",
+     "capitalRegion": "ENG_N",
+     "regions": [
+      "ENG_E",
+      "ENG_N"
+     ],
+     "contestedRegions": [
+      "ENG_M"
+     ],
+     "stability": "consolidating",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "The Great Heathen Army holds York (866) and East Anglia (869); Wessex is next."
+    },
+    {
+     "id": "ireland_states",
+     "name": "Irish kingdoms",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Gaelic Irish",
+     "founded": 800,
+     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capitalRegion": "IRL_N",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "norse",
+     "name": "Norse chiefdoms",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "polans",
+     "name": "Polans & Vistulan Slavs",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "POL_W",
+      "POL_C"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "magyars",
+     "name": "Magyars (Etelk\u00f6z)",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Magyar",
+     "regions": [
+      "STE",
+      "MDA"
+     ],
+     "stability": "contested",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "serbia",
+     "name": "Serbian Principality",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Serbian",
+     "founded": 780,
+     "capital": "Ras",
+     "capitalRegion": "SRB",
+     "regions": [
+      "BOS",
+      "SRB"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "wales_states",
+     "name": "Welsh principalities",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Welsh",
+     "founded": 850,
+     "capital": "Aberffraw",
+     "capitalRegion": "WAL",
+     "regions": [
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Rhodri Mawr of Gwynedd unites most of Wales against Danes and Mercians."
+    },
+    {
+     "id": "britons",
+     "name": "Strathclyde (Alt Clut)",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "SCO_S"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "scotland",
+     "name": "Kingdom of Alba",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Scots-Gaelic",
+     "founded": 843,
+     "capital": "Scone",
+     "capitalRegion": "SCO_N",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "navarre",
+     "name": "Kingdom of Pamplona",
+     "type": "state",
+     "culture": "pre_ie",
+     "cultureName": "Basque",
+     "founded": 824,
+     "capital": "Pamplona",
+     "capitalRegion": "EUS",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "brittany",
+     "name": "Kingdom of Brittany",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Breton",
+     "founded": 846,
+     "capital": "Rennes",
+     "capitalRegion": "BRE",
+     "regions": [
+      "BRE"
+     ],
+     "stability": "consolidating",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "Salomon styles himself king; Brittany won its autonomy at Ballon (845)."
+    },
+    {
+     "id": "polabian_slavs",
+     "name": "Polabian Slavs (Obodrites & Wilzi)",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "BRA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "papal_states",
+     "name": "Papal States",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 756,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "ROM"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombard_south",
+     "name": "Principality of Benevento",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Lombard-Italian",
+     "founded": 774,
+     "capital": "Benevento",
+     "capitalRegion": "NAP",
+     "regions": [
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "capital": "Hedeby",
+     "capitalRegion": "JUT",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "kievan_rus",
+     "name": "Rus of Novgorod (Rurikid)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Rus (Norse-Slav)",
+     "founded": 862,
+     "capital": "Novgorod",
+     "capitalRegion": "RUS_NW",
+     "regions": [
+      "RUS_NW"
+     ],
+     "stability": "consolidating",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Rurik's Norse-Slav polity at Novgorod (862) taps the river roads to the silver of the East."
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "DON"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 3,
+     "extendsBeyondMap": true
+    },
+    {
+     "id": "croatia",
+     "name": "Duchy of Croatia",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Croatian",
+     "founded": 845,
+     "capital": "Nin",
+     "capitalRegion": "CRO",
+     "regions": [
+      "CRO"
+     ],
+     "stability": "consolidating",
+     "population": 0.4,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Trpimir's duchy (845) between Frankish and Byzantine overlords."
+    },
+    {
+     "id": "crete_emirate",
+     "name": "Emirate of Crete",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 824,
+     "capital": "Chandax",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "georgian_states",
+     "name": "Georgian Bagratid principalities & Abkhazia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Georgian",
+     "founded": 813,
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.55,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "rustamid",
+     "name": "Rustamid Imamate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Ibadi Berber",
+     "founded": 777,
+     "capital": "Tahert",
+     "capitalRegion": "ORA",
+     "regions": [
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "idrisids",
+     "name": "Idrisid Emirate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Arab-Berber",
+     "founded": 788,
+     "capital": "Fez",
+     "capitalRegion": "RIF",
+     "regions": [
+      "RIF"
+     ],
+     "contestedRegions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.7,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "danelaw",
+     "b": "angles_saxons",
+     "type": "war",
+     "note": "East Anglia destroyed (869); the Danes turn on Wessex"
+    },
+    {
+     "a": "east_francia",
+     "b": "moravia",
+     "type": "war",
+     "note": "Rastislav captured and blinded; Svatopluk seizes power"
+    },
+    {
+     "a": "byzantium",
+     "b": "aghlabids",
+     "type": "war",
+     "note": "Malta lost (870); Louis II and Basil I retake Bari (871)"
+    },
+    {
+     "a": "byzantium",
+     "b": "bulgaria",
+     "type": "alliance",
+     "note": "Council of 869-70 grants Bulgaria its archbishopric"
+    },
+    {
+     "a": "kievan_rus",
+     "b": "byzantium",
+     "type": "trade",
+     "note": "After the 860 raid, furs and slaves flow south for silk"
+    },
+    {
+     "a": "khazars",
+     "b": "kievan_rus",
+     "type": "trade",
+     "note": "Rivals sharing the Volga-Dnieper silver routes"
+    },
+    {
+     "a": "west_francia",
+     "b": "brittany",
+     "type": "war",
+     "note": "Salomon extracts land and royal rank from Charles the Bald"
+    }
+   ]
+  },
+  {
+   "year": 900,
+   "eraName": "Early Medieval",
+   "label": "Magyars on the plain",
+   "events": [
+    "Magyars seize the Pannonian plain (895-900); Great Moravia will be gone by 906",
+    "Alfred the Great is dead (899); Wessex and the Danelaw brace for the reconquest",
+    "Oleg's Rus rules the river road from Novgorod through Kyiv (882)"
+   ],
+   "connectivity": 25,
+   "connectivityNote": "Radhanites and Varangians carry dirhams and silk around a fractured west; Umayyad C\u00f3rdoba and Byzantium re-anchor the sea.",
+   "entities": [
+    {
+     "id": "byzantium",
+     "name": "Byzantine Empire",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Byzantine Greek",
+     "founded": 395,
+     "capital": "Constantinople",
+     "capitalRegion": "CON",
+     "regions": [
+      "CLB",
+      "CRM",
+      "THR",
+      "EPI",
+      "ATT",
+      "PEL",
+      "AEG",
+      "DOD",
+      "CON",
+      "ION",
+      "BIT",
+      "CAP",
+      "PON"
+     ],
+     "contestedRegions": [
+      "THR"
+     ],
+     "stability": "stable",
+     "population": 8.5,
+     "wealth": 4,
+     "extendsBeyondMap": false,
+     "note": "Leo VI's themes hold firm; the navy plans the reconquest of Crete."
+    },
+    {
+     "id": "west_francia",
+     "name": "West Francia",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Romance-Frankish",
+     "founded": 843,
+     "capital": "Paris",
+     "capitalRegion": "IDF",
+     "regions": [
+      "ARA",
+      "NRM",
+      "PIC",
+      "IDF",
+      "LOI",
+      "BUR",
+      "AQU",
+      "OCC",
+      "AUV",
+      "FLA"
+     ],
+     "stability": "contested",
+     "population": 4.5,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "east_francia",
+     "name": "East Francia",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "German",
+     "founded": 843,
+     "capital": "Regensburg",
+     "capitalRegion": "BAV",
+     "regions": [
+      "LOR",
+      "NED",
+      "RHE",
+      "SAX_L",
+      "SAX",
+      "FRK",
+      "BAV",
+      "SWA",
+      "AUT"
+     ],
+     "contestedRegions": [
+      "AUT"
+     ],
+     "stability": "contested",
+     "population": 3.2,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Louis the Child, aged six; Magyar raids begin in earnest."
+    },
+    {
+     "id": "al_andalus",
+     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 756,
+     "capital": "C\u00f3rdoba",
+     "capitalRegion": "AND",
+     "regions": [
+      "POR_S",
+      "CAS_S",
+      "VAL",
+      "AND",
+      "BAL"
+     ],
+     "contestedRegions": [
+      "AND"
+     ],
+     "stability": "contested",
+     "population": 3.8,
+     "wealth": 5,
+     "extendsBeyondMap": false,
+     "note": "Ibn Hafsun's decades-long revolt hollows the emirate from the southern mountains."
+    },
+    {
+     "id": "aghlabids",
+     "name": "Aghlabid Emirate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 800,
+     "capital": "Kairouan",
+     "capitalRegion": "TUN",
+     "regions": [
+      "SIC",
+      "MLT",
+      "TRP",
+      "TUN",
+      "NUM"
+     ],
+     "stability": "stable",
+     "population": 1.6,
+     "wealth": 4,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "tulunid",
+     "name": "Tulunid Egypt & Syria",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 868,
+     "capital": "al-Qata'i (Fustat)",
+     "capitalRegion": "EGY_N",
+     "regions": [
+      "SYR",
+      "LEV",
+      "EGY_N",
+      "EGY_S",
+      "CYR"
+     ],
+     "contestedRegions": [
+      "SYR"
+     ],
+     "stability": "contested",
+     "population": 5.5,
+     "wealth": 5,
+     "extendsBeyondMap": false,
+     "note": "Ibn Tulun's heirs rule Egypt and Syria; Abbasid armies reclaim it in 905."
+    },
+    {
+     "id": "italy_kingdom",
+     "name": "Kingdom of Italy",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 888,
+     "capital": "Pavia",
+     "capitalRegion": "LOM",
+     "regions": [
+      "PIE",
+      "LOM",
+      "TUS",
+      "COR"
+     ],
+     "stability": "contested",
+     "population": 2.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Berengar and rivals contest the crown; Magyars raid the Po plain (899)."
+    },
+    {
+     "id": "finnic_peoples",
+     "name": "Finnic peoples",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Finnic",
+     "regions": [
+      "FIN_S",
+      "KAR",
+      "EST",
+      "RUS_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "kievan_rus",
+     "name": "Kievan Rus",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Rus (Norse-Slav)",
+     "founded": 882,
+     "capital": "Kyiv",
+     "capitalRegion": "UKR_W",
+     "regions": [
+      "BLR",
+      "RUS_NW",
+      "RUS_S",
+      "UKR_W"
+     ],
+     "stability": "consolidating",
+     "population": 2.0,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Oleg took Kyiv (882) and united the Dnieper route from Novgorod to the steppe edge."
+    },
+    {
+     "id": "pechenegs",
+     "name": "Pechenegs",
+     "type": "tribal",
+     "culture": "steppe",
+     "cultureName": "Pecheneg",
+     "regions": [
+      "UKR_E",
+      "STE",
+      "WLC",
+      "MDA"
+     ],
+     "stability": "consolidating",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": true,
+     "note": "New masters of the Pontic steppe, having driven the Magyars west."
+    },
+    {
+     "id": "abbasid",
+     "name": "Abbasid Caliphate",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Arab",
+     "founded": 750,
+     "capital": "Baghdad",
+     "capitalRegion": "MES_S",
+     "regions": [
+      "CIL",
+      "MES_N",
+      "MES_S",
+      "ARB"
+     ],
+     "contestedRegions": [
+      "CIL"
+     ],
+     "stability": "contested",
+     "population": 16,
+     "wealth": 5,
+     "extendsBeyondMap": true,
+     "note": "The caliphate keeps Iraq and the Jazira but the provinces slip away one by one."
+    },
+    {
+     "id": "asturias",
+     "name": "Kingdom of Asturias",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Astur-Leonese",
+     "founded": 718,
+     "capital": "Oviedo",
+     "capitalRegion": "GAL",
+     "regions": [
+      "GAL",
+      "POR_N",
+      "CAS_N"
+     ],
+     "stability": "consolidating",
+     "population": 0.5,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "balts_early",
+     "name": "Baltic peoples",
+     "type": "tribal",
+     "culture": "baltic",
+     "cultureName": "Baltic",
+     "regions": [
+      "LVA",
+      "LTU",
+      "PRS"
+     ],
+     "stability": "stable",
+     "population": 0.45,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "slavs_early",
+     "name": "Slavic tribes",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "Early Slavic",
+     "regions": [
+      "SIL",
+      "POL_S",
+      "VOL"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bulgaria",
+     "name": "First Bulgarian Empire (Simeon)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Bulgarian (Slav-Bulgar)",
+     "founded": 681,
+     "capital": "Preslav",
+     "capitalRegion": "BGR",
+     "regions": [
+      "ALB",
+      "MAC",
+      "BGR"
+     ],
+     "contestedRegions": [
+      "THR"
+     ],
+     "stability": "consolidating",
+     "population": 1.5,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Simeon, Byzantine-educated, beat the empire at Bulgarophygon (896); he dreams of Constantinople."
+    },
+    {
+     "id": "angles_saxons",
+     "name": "Kingdom of the Anglo-Saxons",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Anglo-Saxon",
+     "founded": 450,
+     "capital": "Winchester",
+     "capitalRegion": "ENG_S",
+     "regions": [
+      "ENG_S",
+      "ENG_M"
+     ],
+     "stability": "consolidating",
+     "population": 0.65,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Edward the Elder succeeds Alfred (899); the reconquest of the Danelaw is planned."
+    },
+    {
+     "id": "danelaw",
+     "name": "The Danelaw",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Norse-Danish",
+     "founded": 866,
+     "capital": "York",
+     "capitalRegion": "ENG_N",
+     "regions": [
+      "ENG_E",
+      "ENG_N"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Danish kings at York and East Anglia; Alfred's burhs cage them from the south."
+    },
+    {
+     "id": "ireland_states",
+     "name": "Irish kingdoms",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Gaelic Irish",
+     "founded": 800,
+     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capitalRegion": "IRL_N",
+     "regions": [
+      "IRL_N",
+      "IRL_S"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "burgundy_kingdom",
+     "name": "Kingdoms of Burgundy (Upper & Lower)",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Burgundian-Romance",
+     "founded": 888,
+     "capital": "Arles",
+     "capitalRegion": "PRO",
+     "regions": [
+      "PRO",
+      "SUI"
+     ],
+     "stability": "consolidating",
+     "population": 0.7,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Rudolph I (888) in the Jura, Louis the Blind in Provence."
+    },
+    {
+     "id": "norway",
+     "name": "Kingdom of Norway",
+     "type": "state",
+     "culture": "germanic",
+     "cultureName": "Norse",
+     "founded": 872,
+     "capital": "Avaldsnes",
+     "capitalRegion": "NOR_S",
+     "regions": [
+      "NOR_S",
+      "NOR_N"
+     ],
+     "stability": "consolidating",
+     "population": 0.25,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "swedes",
+     "name": "Svear & Geats",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Norse (Swedish)",
+     "capital": "Uppsala",
+     "capitalRegion": "SWE_C",
+     "regions": [
+      "SWE_S",
+      "SWE_C"
+     ],
+     "stability": "stable",
+     "population": 0.35,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sami",
+     "name": "Sami",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Sami",
+     "regions": [
+      "SWE_N",
+      "FIN_N"
+     ],
+     "stability": "stable",
+     "population": 0.05,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "polans",
+     "name": "Polans & Vistulan Slavs",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "POL_W",
+      "POL_C"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "magyars",
+     "name": "Magyar tribal confederation",
+     "type": "tribal",
+     "culture": "uralic",
+     "cultureName": "Magyar",
+     "founded": 895,
+     "regions": [
+      "HUN",
+      "TRN"
+     ],
+     "contestedRegions": [
+      "AUT"
+     ],
+     "stability": "consolidating",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false,
+     "note": "\u00c1rp\u00e1d's tribes seized Pannonia 895-900, driven west by the Pechenegs."
+    },
+    {
+     "id": "croatia",
+     "name": "Duchy of Croatia",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Croatian",
+     "founded": 845,
+     "capital": "Nin",
+     "capitalRegion": "CRO",
+     "regions": [
+      "CRO",
+      "DAL"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "serbia",
+     "name": "Serbian Principality",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Serbian",
+     "founded": 780,
+     "capital": "Ras",
+     "capitalRegion": "SRB",
+     "regions": [
+      "BOS",
+      "SRB"
+     ],
+     "stability": "contested",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "armenia_kingdom",
+     "name": "Bagratid Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Armenian",
+     "founded": 884,
+     "capital": "Bagaran",
+     "capitalRegion": "ARM",
+     "regions": [
+      "ARM_W",
+      "ARM"
+     ],
+     "stability": "consolidating",
+     "population": 1.3,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Ashot I crowned by the caliph (884) \u2014 Armenia's first king in nearly five centuries."
+    },
+    {
+     "id": "wales_states",
+     "name": "Welsh principalities",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Welsh",
+     "founded": 850,
+     "capital": "Aberffraw",
+     "capitalRegion": "WAL",
+     "regions": [
+      "WAL"
+     ],
+     "stability": "stable",
+     "population": 0.2,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "britons",
+     "name": "Strathclyde (Alt Clut)",
+     "type": "tribal",
+     "culture": "celtic",
+     "cultureName": "Brythonic",
+     "regions": [
+      "SCO_S"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "scotland",
+     "name": "Kingdom of Alba",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Scots-Gaelic",
+     "founded": 843,
+     "capital": "Scone",
+     "capitalRegion": "SCO_N",
+     "regions": [
+      "SCO_N"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "navarre",
+     "name": "Kingdom of Pamplona",
+     "type": "state",
+     "culture": "pre_ie",
+     "cultureName": "Basque",
+     "founded": 824,
+     "capital": "Pamplona",
+     "capitalRegion": "EUS",
+     "regions": [
+      "EUS"
+     ],
+     "stability": "stable",
+     "population": 0.1,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "brittany",
+     "name": "Kingdom of Brittany",
+     "type": "state",
+     "culture": "celtic",
+     "cultureName": "Breton",
+     "founded": 846,
+     "capital": "Rennes",
+     "capitalRegion": "BRE",
+     "regions": [
+      "BRE"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "polabian_slavs",
+     "name": "Polabian Slavs (Obodrites & Wilzi)",
+     "type": "tribal",
+     "culture": "slavic",
+     "cultureName": "West Slavic",
+     "regions": [
+      "BRA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "bohemia",
+     "name": "Duchy of Bohemia",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Czech",
+     "founded": 895,
+     "capital": "Prague",
+     "capitalRegion": "BOH",
+     "regions": [
+      "BOH"
+     ],
+     "stability": "consolidating",
+     "population": 0.4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "papal_states",
+     "name": "Papal States",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Italian",
+     "founded": 756,
+     "capital": "Rome",
+     "capitalRegion": "ROM",
+     "regions": [
+      "ROM"
+     ],
+     "stability": "stable",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "lombard_south",
+     "name": "Principality of Benevento",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Lombard-Italian",
+     "founded": 774,
+     "capital": "Benevento",
+     "capitalRegion": "NAP",
+     "regions": [
+      "NAP"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "sardinia_giudicati",
+     "name": "Sardinian giudicati",
+     "type": "state",
+     "culture": "italic",
+     "cultureName": "Sardinian",
+     "founded": 900,
+     "capital": "Cagliari",
+     "capitalRegion": "SAR",
+     "regions": [
+      "SAR"
+     ],
+     "stability": "consolidating",
+     "population": 0.3,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Byzantine ties lapsed; four native judges (giudicati) rule the island."
+    },
+    {
+     "id": "danes",
+     "name": "Danes",
+     "type": "tribal",
+     "culture": "germanic",
+     "cultureName": "Danish",
+     "capital": "Hedeby",
+     "capitalRegion": "JUT",
+     "regions": [
+      "JUT"
+     ],
+     "stability": "stable",
+     "population": 0.4,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "khazars",
+     "name": "Khazar Khaganate",
+     "type": "state",
+     "culture": "steppe",
+     "cultureName": "Khazar",
+     "founded": 650,
+     "capital": "Atil",
+     "capitalRegion": "DON",
+     "regions": [
+      "DON"
+     ],
+     "stability": "contested",
+     "population": 0.5,
+     "wealth": 3,
+     "extendsBeyondMap": true,
+     "note": "Still astride the Volga trade, but Rus and Pechenegs erode the western khaganate."
+    },
+    {
+     "id": "moravia",
+     "name": "Great Moravia (rump)",
+     "type": "state",
+     "culture": "slavic",
+     "cultureName": "Moravian Slavic",
+     "founded": 833,
+     "capital": "Nitra",
+     "capitalRegion": "SVK",
+     "regions": [
+      "SVK"
+     ],
+     "stability": "collapsing",
+     "population": 0.5,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Mojmir II's rump fights Magyars and Franks; the state vanishes by 906."
+    },
+    {
+     "id": "crete_emirate",
+     "name": "Emirate of Crete",
+     "type": "state",
+     "culture": "arab",
+     "cultureName": "Andalusi Arab",
+     "founded": 824,
+     "capital": "Chandax",
+     "capitalRegion": "CRE",
+     "regions": [
+      "CRE"
+     ],
+     "stability": "stable",
+     "population": 0.25,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "cyprus_condominium",
+     "name": "Cyprus condominium",
+     "type": "state",
+     "culture": "hellenic",
+     "cultureName": "Cypriot Greek",
+     "founded": 688,
+     "regions": [
+      "CYP"
+     ],
+     "stability": "stable",
+     "population": 0.15,
+     "wealth": 3,
+     "extendsBeyondMap": false,
+     "note": "Still jointly taxed by Byzantium and the caliphate after two centuries."
+    },
+    {
+     "id": "georgian_states",
+     "name": "Georgian Bagratid principalities & Abkhazia",
+     "type": "state",
+     "culture": "caucasian",
+     "cultureName": "Georgian",
+     "founded": 813,
+     "capital": "Kutaisi",
+     "capitalRegion": "GEO",
+     "regions": [
+      "GEO"
+     ],
+     "stability": "stable",
+     "population": 0.6,
+     "wealth": 2,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "rustamid",
+     "name": "Rustamid Imamate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Ibadi Berber",
+     "founded": 777,
+     "capital": "Tahert",
+     "capitalRegion": "ORA",
+     "regions": [
+      "ORA"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "idrisids",
+     "name": "Idrisid Emirate",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Arab-Berber",
+     "founded": 788,
+     "capital": "Fez",
+     "capitalRegion": "RIF",
+     "regions": [
+      "RIF"
+     ],
+     "contestedRegions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.8,
+     "wealth": 3,
+     "extendsBeyondMap": false
+    },
+    {
+     "id": "barghawata",
+     "name": "Barghawata Confederacy",
+     "type": "state",
+     "culture": "berber",
+     "cultureName": "Berber",
+     "founded": 744,
+     "regions": [
+      "MAR"
+     ],
+     "stability": "stable",
+     "population": 0.3,
+     "wealth": 1,
+     "extendsBeyondMap": false
+    }
+   ],
+   "relations": [
+    {
+     "a": "magyars",
+     "b": "east_francia",
+     "type": "war",
+     "note": "Pannonia seized; Italy raided (899); Bavaria is next"
+    },
+    {
+     "a": "magyars",
+     "b": "moravia",
+     "type": "war",
+     "note": "The horsemen dismember Svatopluk's inheritance"
+    },
+    {
+     "a": "bulgaria",
+     "b": "byzantium",
+     "type": "war",
+     "note": "Uneasy truce after Simeon's victory at Bulgarophygon (896)"
+    },
+    {
+     "a": "tulunid",
+     "b": "abbasid",
+     "type": "war",
+     "note": "Caliphal armies prepare to reclaim Egypt (done 905)"
+    },
+    {
+     "a": "kievan_rus",
+     "b": "byzantium",
+     "type": "trade",
+     "note": "The Dnieper route booms; Oleg's treaty raid comes in 907"
+    },
+    {
+     "a": "danelaw",
+     "b": "angles_saxons",
+     "type": "war",
+     "note": "\u00c6thelwold's revolt sputters; Edward eyes the Five Boroughs"
+    },
+    {
+     "a": "al_andalus",
+     "b": "asturias",
+     "type": "war",
+     "note": "Alfonso III pushes the frontier to the Duero"
+    },
+    {
+     "a": "pechenegs",
+     "b": "magyars",
+     "type": "war",
+     "note": "The Pechenegs hold the steppe they drove the Magyars from"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wikipedia \u2014 Byzantine-Sasanian War of 602\u2013628",
+   "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628"
+  },
+  {
+   "title": "Wikipedia \u2014 Early Muslim conquests",
+   "url": "https://en.wikipedia.org/wiki/Early_Muslim_conquests"
+  },
+  {
+   "title": "Wikipedia \u2014 Umayyad conquest of Hispania",
+   "url": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
+  },
+  {
+   "title": "Wikipedia \u2014 First Bulgarian Empire",
+   "url": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+  },
+  {
+   "title": "Wikipedia \u2014 Treaty of Verdun / Treaty of Meerssen",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+  },
+  {
+   "title": "Wikipedia \u2014 Carolingian Empire",
+   "url": "https://en.wikipedia.org/wiki/Carolingian_Empire"
+  },
+  {
+   "title": "Wikipedia \u2014 Great Heathen Army / Danelaw",
+   "url": "https://en.wikipedia.org/wiki/Danelaw"
+  },
+  {
+   "title": "Wikipedia \u2014 Great Moravia",
+   "url": "https://en.wikipedia.org/wiki/Great_Moravia"
+  },
+  {
+   "title": "Wikipedia \u2014 Khazars",
+   "url": "https://en.wikipedia.org/wiki/Khazars"
+  },
+  {
+   "title": "Wikipedia \u2014 Aghlabids / Muslim conquest of Sicily",
+   "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Sicily"
+  },
+  {
+   "title": "Wikipedia \u2014 Tulunids",
+   "url": "https://en.wikipedia.org/wiki/Tulunids"
+  },
+  {
+   "title": "Wikipedia \u2014 Hungarian conquest of the Carpathian Basin",
+   "url": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+  },
+  {
+   "title": "Wikipedia \u2014 Barghawata / Rustamid dynasty / Idrisid dynasty",
+   "url": "https://en.wikipedia.org/wiki/Barghawata"
+  },
+  {
+   "title": "Wikipedia \u2014 Condominium of Cyprus (688)",
+   "url": "https://en.wikipedia.org/wiki/History_of_Cyprus_under_Arab_rule"
+  },
+  {
+   "title": "McEvedy & Jones, Atlas of World Population History (population baselines)",
+   "url": "https://archive.org/details/atlasofworldpopu0000mcev"
+  },
+  {
+   "title": "Wikipedia \u2014 Kievan Rus'",
+   "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27"
+  },
+  {
+   "title": "Wikipedia \u2014 Emirate of Crete",
+   "url": "https://en.wikipedia.org/wiki/Emirate_of_Crete"
+  }
+ ],
+ "uncertainties": [
+  "Verification pass was knowledge-based: the coordinator disabled web searching mid-task, so sources list the reference works underlying the draft rather than live queries.",
+  "620: Persian-held CIL/EGY/SYR/LEV shown as Sassanid though administration was a brief occupation regime; Anatolia kept Byzantine despite deep raids.",
+  "711 is mid-conquest in Iberia: only AND+CAS_S given to the Umayyads (Guadalete July, Toledo late 711); the Visigothic rump keeps the rest until 712-16.",
+  "Balearics (BAL) kept nominally Byzantine/autonomous 620-870 despite Arab raids; assigned to al-Andalus at 900 slightly ahead of the 902-903 conquest.",
+  "Cyprus shown as the 688 Byzantine-Arab tax condominium 711-900; era08 shows it simply Byzantine at 930 \u2014 join note.",
+  "NAP (Campania-Apulia) given to Lombards/Benevento from 650 although coastal Naples, Amalfi and Gaeta stayed nominally Byzantine throughout.",
+  "BOH cell fused Bohemia+Moravia: assigned to Great Moravia 843-870 (Bohemia was only loosely tributary), to P\u0159emyslid Bohemia at 900.",
+  "SUI cell straddles Alemannia and Burgundy: east_francia at 870, burgundy_kingdom at 900 to match era08's 930 slice.",
+  "Barghawata kept in MAR 750-900 (they held the Atlantic plain to the 11th c.); era08 folds MAR into the Idrisids at 930 \u2014 flagged as contested on the Idrisid side instead.",
+  "Sicily assigned to the Aghlabids from 843 (Palermo 831) though Syracuse held to 878 and Taormina to 902 \u2014 marked contested both sides.",
+  "Croatia founded 845 (Trpimir) rather than the canonical 925 kingdom date; Burgundy founded 888 rather than canonical 933 \u2014 both to join era08's usage.",
+  "kievan_rus founded 862 in the 870 slice (Rurik at Novgorod) but 882 at 900 (canonical, Oleg's union) \u2014 deliberate re-founding echo.",
+  "Magyars at 843 placed in Levedia (STE+MDA cells); their exact 9th-century range on the Pontic steppe is scholarly guesswork.",
+  "Venice, Amalfi and the Dalmatian city communes are too small for their cells and are noted in text only; Volga Bulgars lie off-map.",
+  "Slav tribute zones (UKR/BLR paying Khazars, Sorbian marches) simplified to slavs_early; Danelaw boundary at 900 simplified to ENG_E+ENG_N with English Mercia holding ENG_M.",
+  "Population figures interpolate McEvedy & Jones; the 650-700 European trough (~25-26M map-wide) and slow 9th-century recovery are encoded in per-entity numbers."
+ ]
+}
