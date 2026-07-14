@@ -50,12 +50,13 @@ NOTE founded-drift zayyanid: 1236, 1235
 NOTE founded-drift lithuania: 1236, 1918
 NOTE founded-drift austria_habsburg: 1282, 1867
 NOTE founded-drift bavaria: 1180, 1806
-NOTE founded-drift saxony: 1485, 1806
+NOTE founded-drift saxony: 1485, 1423, 1806
 NOTE founded-drift hesse: 1264, 1803
 NOTE founded-drift wurttemberg: 1495, 1806
 NOTE founded-drift russia: 1263, 1547
 NOTE founded-drift ukraine: 1917, 1991
 NOTE founded-drift armenia: 1918, 1991
+NOTE founded-drift saudi_arabia: 1926, 1932
 NOTE founded-drift slovakia: 1939, 1993
 NOTE founded-drift west_germany: 1945, 1949
 NOTE founded-drift east_germany: 1945, 1949
@@ -96,8 +97,8 @@ BOUNDARY -301(era03_classical.json) → -270(era04_hellenistic.json): 41 regions
     CON:lysimachus→byzantion
     ION:lysimachus→seleucid
     BIT:lysimachus→bithynia
-    CAP:lysimachus→galatians
-    PON:lysimachus→pontus_kingdom
+    CAP:cappadocia→galatians
+    PON:cappadocia→pontus_kingdom
     CIL:macedon→seleucid
     ARM_W:seleucid→armenia_kingdom
     CYP:antigonids→ptolemaic_egypt
@@ -109,13 +110,13 @@ BOUNDARY 395(era05_principate.json) → 410(era06_late_antiquity.json): 12 regio
 BOUNDARY 600(era06_late_antiquity.json) → 620(era07_early_medieval.json): 13 regions change
 BOUNDARY 900(era07_early_medieval.json) → 930(era08_ottonian_norman.json): 27 regions change
 BOUNDARY 1180(era08_ottonian_norman.json) → 1204(era09_high_medieval.json): 25 regions change
-BOUNDARY 1396(era09_high_medieval.json) → 1410(era10_late_medieval.json): 24 regions change
+BOUNDARY 1396(era09_high_medieval.json) → 1410(era10_late_medieval.json): 23 regions change
 BOUNDARY 1500(era10_late_medieval.json) → 1512(era11_renaissance.json): 7 regions change
 BOUNDARY 1610(era11_renaissance.json) → 1618(era12_seventeenth.json): 4 regions change
 BOUNDARY 1714(era12_seventeenth.json) → 1721(era13_eighteenth.json): 11 regions change
 BOUNDARY 1795(era13_eighteenth.json) → 1799(era14_nineteenth.json): 9 regions change
 BOUNDARY 1913(era14_nineteenth.json) → 1914(era15_world_wars.json): 0 regions change
-BOUNDARY 1944(era15_world_wars.json) → 1945(era16_postwar.json): 40 regions change  <<< REVIEW
+BOUNDARY 1944(era15_world_wars.json) → 1945(era16_postwar.json): 42 regions change  <<< REVIEW
     GAL:nationalist_spain→spain
     EUS:nationalist_spain→spain
     CAS_N:nationalist_spain→spain
@@ -155,6 +156,8 @@ BOUNDARY 1944(era15_world_wars.json) → 1945(era16_postwar.json): 40 regions ch
     POL_C:ussr→poland
     POL_S:ussr→poland
     SVK:slovakia→czechoslovakia
+    DOD:germany→uk
+    SYR:france→syria
     RIF:nationalist_spain→spain
 NOTE 117: dropped 2 relations with missing entities
 NOTE 271: dropped 1 relations with missing entities
@@ -165,6 +168,7 @@ NOTE 1396: dropped 1 relations with missing entities
 NOTE 1916: dropped 2 relations with missing entities
 NOTE 1920: dropped 1 relations with missing entities
 NOTE 1940: dropped 1 relations with missing entities
+NOTE 1942: dropped 1 relations with missing entities
 POP -3000: in-map entity sum 8.2M vs benchmark ~4M (×2.27)
 POP 1660: in-map entity sum 59.3M vs benchmark ~135M (×0.44)
 POP 1667: in-map entity sum 60.0M vs benchmark ~137M (×0.44)
@@ -177,7 +181,7 @@ POP 1763: in-map entity sum 61.2M vs benchmark ~182M (×0.34)
 POP 1772: in-map entity sum 62.3M vs benchmark ~190M (×0.33)
 POP 1789: in-map entity sum 68.8M vs benchmark ~207M (×0.33)
 POP 1795: in-map entity sum 63.1M vs benchmark ~213M (×0.30)
-POP 1799: in-map entity sum 63.3M vs benchmark ~217M (×0.29)
+POP 1799: in-map entity sum 62.6M vs benchmark ~217M (×0.29)
 POP 1806: in-map entity sum 68.8M vs benchmark ~227M (×0.30)
 POP 1812: in-map entity sum 73.8M vs benchmark ~237M (×0.31)
 POP 1815: in-map entity sum 76.5M vs benchmark ~242M (×0.32)
@@ -191,11 +195,11 @@ POP 1900: in-map entity sum 82.6M vs benchmark ~444M (×0.19)
 POP 1908: in-map entity sum 89.8M vs benchmark ~484M (×0.19)
 POP 1913: in-map entity sum 86.1M vs benchmark ~510M (×0.17)
 POP 1914: in-map entity sum 176.3M vs benchmark ~513M (×0.34)
-POP 1916: in-map entity sum 163.2M vs benchmark ~520M (×0.31)
+POP 1916: in-map entity sum 165.7M vs benchmark ~520M (×0.32)
 POP 1918: in-map entity sum 198.9M vs benchmark ~527M (×0.38)
-POP 1920: in-map entity sum 201.9M vs benchmark ~534M (×0.38)
+POP 1920: in-map entity sum 203.2M vs benchmark ~534M (×0.38)
 POP 1923: in-map entity sum 233.9M vs benchmark ~545M (×0.43)
 POP 1929: in-map entity sum 247.9M vs benchmark ~566M (×0.44)
 POP 1940: in-map entity sum 253.0M vs benchmark ~594M (×0.43)
-POP 1942: in-map entity sum 216.5M vs benchmark ~599M (×0.36)
-POP 1944: in-map entity sum 229.8M vs benchmark ~604M (×0.38)
+POP 1942: in-map entity sum 216.1M vs benchmark ~599M (×0.36)
+POP 1944: in-map entity sum 226.8M vs benchmark ~604M (×0.38)

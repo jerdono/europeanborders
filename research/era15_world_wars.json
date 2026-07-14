@@ -776,7 +776,6 @@
       "GEO",
       "KAR",
       "LVA",
-      "MDA",
       "RUS_C",
       "RUS_NW",
       "RUS_S",
@@ -874,6 +873,25 @@
      "stability": "contested",
      "population": 20,
      "wealth": 2
+    },
+    {
+     "id": "romania",
+     "name": "Romania",
+     "type": "state",
+     "culture": "italic",
+     "founded": 1859,
+     "capital": "Iași",
+     "capitalRegion": "MDA",
+     "regions": [
+      "MDA"
+     ],
+     "contestedRegions": [
+      "MDA"
+     ],
+     "stability": "contested",
+     "population": 2.5,
+     "wealth": 1,
+     "note": "Rump state after Bucharest falls (6 Dec 1916); court and army hold the Moldavian salient from Iași"
     }
    ],
    "relations": [
@@ -961,14 +979,19 @@
       "MLT",
       "SCO_N",
       "SCO_S",
-      "WAL"
+      "WAL",
+      "SYR"
      ],
      "capital": "London",
      "capitalRegion": "ENG_S",
      "extendsBeyondMap": true,
      "stability": "stable",
      "population": 45,
-     "wealth": 4
+     "wealth": 4,
+     "contestedRegions": [
+      "SYR"
+     ],
+     "note": "Faisal's Arab administration (OETA East) governs Syria under British oversight"
     },
     {
      "id": "france",
@@ -1402,14 +1425,12 @@
       "CON",
       "ION",
       "PON",
-      "SYR",
       "THR"
      ],
      "capital": "Constantinople",
      "capitalRegion": "CON",
      "extendsBeyondMap": true,
      "contestedRegions": [
-      "SYR",
       "ARM_W"
      ],
      "stability": "contested",
@@ -1864,7 +1885,6 @@
      "culture": "slavic",
      "founded": 1547,
      "regions": [
-      "ARM",
       "BLR",
       "CRM",
       "DON",
@@ -2035,6 +2055,25 @@
      "stability": "contested",
      "population": 8,
      "wealth": 3
+    },
+    {
+     "id": "armenia",
+     "name": "Armenia",
+     "type": "state",
+     "culture": "caucasian",
+     "founded": 1918,
+     "capital": "Yerevan",
+     "capitalRegion": "ARM",
+     "regions": [
+      "ARM"
+     ],
+     "contestedRegions": [
+      "ARM"
+     ],
+     "stability": "contested",
+     "population": 1.3,
+     "wealth": 2,
+     "note": "First Republic, battered by the Turkish-Armenian War; Sovietized only at the very end of 1920 (29 Nov-4 Dec)"
     }
    ],
    "relations": [
@@ -3212,10 +3251,10 @@
     },
     {
      "id": "saudi_arabia",
-     "name": "Saudi Arabia",
+     "name": "Kingdom of Hejaz and Nejd",
      "type": "state",
      "culture": "arab",
-     "founded": 1932,
+     "founded": 1926,
      "regions": [
       "ARB"
      ],
@@ -3224,7 +3263,8 @@
      "extendsBeyondMap": true,
      "stability": "stable",
      "population": 3,
-     "wealth": 3
+     "wealth": 3,
+     "note": "Ibn Saud unifies Hejaz and Nejd (1926); renamed Saudi Arabia in 1932"
     },
     {
      "id": "turkey",
@@ -5177,7 +5217,8 @@
       "SWA",
       "UKR_E",
       "UKR_W",
-      "VOL"
+      "VOL",
+      "CRE"
      ],
      "capital": "Berlin",
      "capitalRegion": "BRA",
@@ -5186,7 +5227,8 @@
       "DON",
       "SRB",
       "UKR_E",
-      "RUS_S"
+      "RUS_S",
+      "CRE"
      ],
      "stability": "contested",
      "population": 90,
@@ -5506,24 +5548,6 @@
      "stability": "stable",
      "population": 18.5,
      "wealth": 3
-    },
-    {
-     "id": "greece",
-     "name": "Greece",
-     "type": "state",
-     "culture": "hellenic",
-     "founded": 1830,
-     "regions": [
-      "CRE"
-     ],
-     "capital": "Athens",
-     "capitalRegion": "ATT",
-     "contestedRegions": [
-      "CRE"
-     ],
-     "stability": "contested",
-     "population": 0.4,
-     "wealth": 3
     }
    ],
    "relations": [
@@ -5592,7 +5616,6 @@
      "regions": [
       "CYP",
       "CYR",
-      "DOD",
       "ENG_E",
       "ENG_M",
       "ENG_N",
@@ -5677,7 +5700,8 @@
       "SAX_L",
       "SIL",
       "SWA",
-      "TUS"
+      "TUS",
+      "DOD"
      ],
      "capital": "Berlin",
      "capitalRegion": "BRA",
@@ -5710,7 +5734,8 @@
       "OCC",
       "ORA",
       "PRO",
-      "TUN"
+      "TUN",
+      "SYR"
      ],
      "capital": "Paris",
      "capitalRegion": "IDF",
@@ -6024,22 +6049,6 @@
      "note": "Kingdom under heavy British influence"
     },
     {
-     "id": "syria",
-     "name": "Syria",
-     "type": "state",
-     "culture": "arab",
-     "founded": 1946,
-     "regions": [
-      "SYR"
-     ],
-     "capital": "Damascus",
-     "capitalRegion": "SYR",
-     "stability": "stable",
-     "population": 3,
-     "wealth": 3,
-     "note": "French mandate becoming a republic"
-    },
-    {
      "id": "turkey",
      "name": "Türkiye",
      "type": "state",
@@ -6142,6 +6151,54 @@
   {
    "title": "McEvedy & Jones, Atlas of World Population History",
    "url": "https://en.wikipedia.org/wiki/Atlas_of_World_Population_History"
+  },
+  {
+   "title": "Romanian campaign (1916) - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Romanian_campaign_(1916)"
+  },
+  {
+   "title": "Romania in World War I - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Romania_in_World_War_I"
+  },
+  {
+   "title": "Occupied Enemy Territory Administration - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Occupied_Enemy_Territory_Administration"
+  },
+  {
+   "title": "Battle of Maysalun - Grokipedia",
+   "url": "https://grokipedia.com/page/Battle_of_Maysalun"
+  },
+  {
+   "title": "First Republic of Armenia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/First_Republic_of_Armenia"
+  },
+  {
+   "title": "Red Army invasion of Armenia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_Army_invasion_of_Armenia"
+  },
+  {
+   "title": "Ibn Saud - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ibn_Saud"
+  },
+  {
+   "title": "Battle of Crete - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Crete"
+  },
+  {
+   "title": "Axis occupation of Greece - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Axis_occupation_of_Greece"
+  },
+  {
+   "title": "Dodecanese campaign - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dodecanese_campaign"
+  },
+  {
+   "title": "Battle of Leros - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Leros"
+  },
+  {
+   "title": "Syria - Wikipedia (French Mandate/independence timeline)",
+   "url": "https://en.wikipedia.org/wiki/Syria"
   }
  ],
  "uncertainties": [

@@ -79,7 +79,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Neutral-leaning, protected by the Royal Navy"
@@ -113,7 +113,7 @@
       "RHE"
      ],
      "stability": "consolidating",
-     "population": 29.0,
+     "population": 29,
      "wealth": 4,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -184,29 +184,29 @@
     },
     {
      "id": "saxony",
-     "name": "Kingdom of Saxony",
+     "name": "Electorate of Saxony",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Saxon German",
-     "founded": 1806,
+     "founded": 1423,
      "capital": "Dresden",
      "capitalRegion": "SAX",
      "regions": [
       "SAX"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Electorate of Saxony, neutral and prosperous"
     },
     {
      "id": "bavaria",
-     "name": "Kingdom of Bavaria",
+     "name": "Electorate of Bavaria",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Bavarian German",
-     "founded": 1806,
+     "founded": 1180,
      "capital": "Munich",
      "capitalRegion": "BAV",
      "regions": [
@@ -220,25 +220,25 @@
     },
     {
      "id": "wurttemberg",
-     "name": "Kingdom of Württemberg",
+     "name": "Duchy of Württemberg",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Swabian German",
-     "founded": 1806,
+     "founded": 1495,
      "capital": "Stuttgart",
      "capitalRegion": "SWA",
      "regions": [
       "SWA"
      ],
      "stability": "stable",
-     "population": 1.3,
+     "population": 0.65,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Duchy of Württemberg and neighboring Swabian lands"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Habsburg Monarchy",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -259,7 +259,7 @@
       "VOL"
      ],
      "stability": "consolidating",
-     "population": 22.0,
+     "population": 22,
      "wealth": 4,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -298,7 +298,7 @@
       "TUS"
      ],
      "stability": "collapsing",
-     "population": 1.0,
+     "population": 1,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Allied occupation restores the Grand Duchy after the French garrison withdraws"
@@ -336,7 +336,7 @@
       "SIC"
      ],
      "stability": "consolidating",
-     "population": 5.0,
+     "population": 5,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Bourbon Ferdinand IV restored by Nelson and Cardinal Ruffo after the Parthenopean Republic's fall (June 1799)"
@@ -426,7 +426,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 37.0,
+     "population": 37,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Paul I quits the Second Coalition late 1799 after Anglo-Austrian friction over Italy"
@@ -468,7 +468,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 24.0,
+     "population": 24,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "At war with France over Egypt; allied with Britain and Russia"
@@ -596,7 +596,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Dey of Algiers, corsair economy, nominal Ottoman vassal"
@@ -615,7 +615,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Alaouite Sultanate, independent of Ottoman suzerainty"
@@ -743,7 +743,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Last continental holdout still trading with Britain"
@@ -797,7 +797,7 @@
       "NED"
      ],
      "stability": "consolidating",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Louis Bonaparte installed as king, June 1806"
@@ -859,7 +859,7 @@
       "SAX"
      ],
      "stability": "consolidating",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Switches sides after Jena; raised to a kingdom in Napoleon's Confederation of the Rhine, Dec 1806"
@@ -993,7 +993,7 @@
       "ROM"
      ],
      "stability": "contested",
-     "population": 2.0,
+     "population": 2,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Pius VII (restored 1800) resists Napoleon's demands to join the Continental System; French troops occupy Ancona (1805)"
@@ -1142,7 +1142,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 38.0,
+     "population": 38,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Georgia formally annexed 1801; fighting France again after Austerlitz; Russo-Persian War (1804-13) grinds on in the Caucasus"
@@ -1182,7 +1182,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 24.0,
+     "population": 24,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Selim III's reforms provoke unrest; war with Russia begins Dec 1806"
@@ -1291,7 +1291,7 @@
       "EGY_S"
      ],
      "stability": "consolidating",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Muhammad Ali installed as Ottoman viceroy, 1805; Mamluk beys still contest power (massacre still to come, 1811)"
@@ -1347,7 +1347,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Dey of Algiers, corsair economy"
@@ -1366,7 +1366,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Sultan Sulayman consolidates trade with Europe"
@@ -1451,7 +1451,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 17.0,
+     "population": 17,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Luddite unrest at home; War of 1812 opens against the United States, but the Peninsula remains the priority"
@@ -1471,7 +1471,7 @@
       "GAL"
      ],
      "stability": "contested",
-     "population": 5.0,
+     "population": 5,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Patriot Spain: the Cortes of Cádiz promulgates the liberal 1812 Constitution; Soult evacuates Andalusia after Salamanca (Aug)"
@@ -1492,7 +1492,7 @@
       "VAL"
      ],
      "stability": "contested",
-     "population": 6.0,
+     "population": 6,
      "wealth": 2,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -1516,7 +1516,7 @@
       "POR_S"
      ],
      "stability": "consolidating",
-     "population": 3.0,
+     "population": 3,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Wellington's secure base after Fuentes de Oñoro (1811); the court rules from Rio de Janeiro"
@@ -1554,7 +1554,7 @@
       "TUS"
      ],
      "stability": "consolidating",
-     "population": 44.0,
+     "population": 44,
      "wealth": 5,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -1614,7 +1614,7 @@
       "SAX"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Frederick Augustus I doubles as Duke of Warsaw"
@@ -1673,7 +1673,7 @@
       "VOL"
      ],
      "stability": "contested",
-     "population": 20.0,
+     "population": 20,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Napoleon's father-in-law since 1810; lost West Galicia (1809) and the Adriatic littoral; supplies an auxiliary corps for Russia"
@@ -1748,7 +1748,7 @@
       "NAP"
      ],
      "stability": "stable",
-     "population": 5.0,
+     "population": 5,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Joachim Murat, king since 1808, commands Napoleon's cavalry in Russia"
@@ -1857,7 +1857,7 @@
       "UKR_W"
      ],
      "stability": "contested",
-     "population": 42.0,
+     "population": 42,
      "wealth": 3,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -1880,7 +1880,7 @@
       "SRB"
      ],
      "stability": "contested",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Karađorđe's revolutionary Serbia at its peak; abandoned by Russia at Bucharest, reconquest looms (1813)"
@@ -1959,7 +1959,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 24.0,
+     "population": 24,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Peace of Bucharest frees Mahmud II to plan the reconquest of Serbia"
@@ -2073,7 +2073,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Dey of Algiers, corsair economy"
@@ -2092,7 +2092,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Sultan Sulayman keeps clear of the European conflagration"
@@ -2202,7 +2202,7 @@
       "VAL"
      ],
      "stability": "contested",
-     "population": 11.0,
+     "population": 11,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Ferdinand VII restored (1814), abolishes the 1812 Constitution; American colonies in full revolt"
@@ -2250,7 +2250,7 @@
       "PRO"
      ],
      "stability": "contested",
-     "population": 30.0,
+     "population": 30,
      "wealth": 4,
      "extendsBeyondMap": true,
      "note": "Second Bourbon restoration after the Hundred Days; reduced to the 1790 frontiers and occupied by Allied troops until 1818"
@@ -2408,7 +2408,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 25.0,
+     "population": 25,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Metternich's Austria presides over the German Confederation; Lombardy-Venetia, Galicia, Dalmatia and Salzburg all recovered or gained"
@@ -2445,7 +2445,7 @@
       "SAR"
      ],
      "stability": "consolidating",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Victor Emmanuel I restored in Turin; annexes Genoa as Vienna's buffer against France"
@@ -2575,7 +2575,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 45.0,
+     "population": 45,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Alexander I, Europe's arbiter: Congress Poland in personal union, Finland a Grand Duchy, Bessarabia integrated"
@@ -2593,7 +2593,7 @@
       "SRB"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Principality re-established 1815 after the First Uprising state (1804-13) was crushed"
@@ -2611,7 +2611,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Phanariot-ruled Ottoman vassal"
@@ -2766,7 +2766,7 @@
       "ORA"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Algiers bombarded by Exmouth in 1816 over Christian slavery"
@@ -2785,7 +2785,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Alaouite Morocco, aloof from the Concert of Europe"
@@ -2870,7 +2870,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 24.0,
+     "population": 24,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Railway age opens (Liverpool-Manchester, Sept 1830); Reform crisis building; Ionian protectorate held"
@@ -3083,7 +3083,7 @@
       "BAV"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Ludwig I's Bavaria"
@@ -3128,7 +3128,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 32.0,
+     "population": 32,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Metternich's system holds; Italian insurrections (1831) suppressed by Austrian arms"
@@ -3296,7 +3296,7 @@
       "UKR_W"
      ],
      "stability": "contested",
-     "population": 56.0,
+     "population": 56,
      "wealth": 3,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -3353,7 +3353,7 @@
       "MDA"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Under Kiselyov's Russian administration like Wallachia; Organic Statute modernizes the principality"
@@ -3414,7 +3414,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 23.0,
+     "population": 23,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Battered by Adrianople (1829) and Greek independence; Janissaries destroyed 1826, army in painful reform"
@@ -3488,7 +3488,7 @@
       "ORA"
      ],
      "stability": "collapsing",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -3846,7 +3846,7 @@
       "VOL"
      ],
      "stability": "collapsing",
-     "population": 36.0,
+     "population": 36,
      "wealth": 3,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -4024,7 +4024,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 68.0,
+     "population": 68,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Nicholas I, gendarme of Europe: untouched by revolution, ready to crush Hungary for the Habsburgs (1849)"
@@ -4098,7 +4098,7 @@
       "PEL"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Otto's kingdom, constitutional since 1843; untouched by 1848"
@@ -4136,7 +4136,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 25.0,
+     "population": 25,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Tanzimat reforms proceeding; Syria recovered from Egypt in 1840-41"
@@ -4192,7 +4192,7 @@
       "TUN"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Ahmad Bey's reforming Tunis; slavery abolished 1846"
@@ -4539,7 +4539,7 @@
       "VOL"
      ],
      "stability": "contested",
-     "population": 35.0,
+     "population": 35,
      "wealth": 3,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -4714,7 +4714,7 @@
       "UKR_W"
      ],
      "stability": "consolidating",
-     "population": 74.0,
+     "population": 74,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Alexander II prepares serf emancipation (1861) after Crimean defeat; Shamil surrenders (Aug 1859), Caucasus war nearly over"
@@ -4809,7 +4809,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 26.0,
+     "population": 26,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Tanzimat continues under the Hatt-i Humayun (1856); admitted to the Concert of Europe at Paris"
@@ -4865,7 +4865,7 @@
       "TUN"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Muhammad Bey's reforms; first constitution in the Arab world comes 1861"
@@ -4969,7 +4969,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 30.0,
+     "population": 30,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Second Reform Act debates; transatlantic cable finally works (July 1866); Ionian Islands ceded to Greece 1864"
@@ -5013,7 +5013,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Luís I; quiet Regeneration politics"
@@ -5044,7 +5044,7 @@
       "PRO"
      ],
      "stability": "stable",
-     "population": 38.0,
+     "population": 38,
      "wealth": 4,
      "extendsBeyondMap": true,
      "note": "Napoleon III outmaneuvered by Bismarck; gains nothing from Sadowa; Mexican adventure collapsing"
@@ -5184,7 +5184,7 @@
       "VOL"
      ],
      "stability": "contested",
-     "population": 34.0,
+     "population": 34,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Expelled from Germany and Italy in one summer; Ausgleich with Hungary follows (1867) creating Austria-Hungary"
@@ -5226,7 +5226,7 @@
       "TUS"
      ],
      "stability": "consolidating",
-     "population": 25.0,
+     "population": 25,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Beaten at Custoza and Lissa yet wins Venetia via Prussia's victory (ceded Oct 1866); Rome alone remains outside"
@@ -5319,7 +5319,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 79.0,
+     "population": 79,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "January Uprising (1863) crushed; Congress Poland's autonomy abolished; Circassians expelled from the Caucasus (1864)"
@@ -5414,7 +5414,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 27.0,
+     "population": 27,
      "wealth": 2,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -5436,7 +5436,7 @@
       "EGY_S"
      ],
      "stability": "consolidating",
-     "population": 6.0,
+     "population": 6,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Ismail Pasha wins the title Khedive (1867); cotton boom from the American Civil War; canal nearly done"
@@ -5681,7 +5681,7 @@
       "FLA"
      ],
      "stability": "stable",
-     "population": 5.0,
+     "population": 5,
      "wealth": 5,
      "extendsBeyondMap": false,
      "note": "Neutrality respected by both belligerents"
@@ -5709,14 +5709,14 @@
       "SWA"
      ],
      "stability": "consolidating",
-     "population": 41.0,
+     "population": 41,
      "wealth": 5,
      "extendsBeyondMap": false,
      "note": "German Empire proclaimed in the Hall of Mirrors (18 Jan 1871); Alsace-Lorraine annexed as Reichsland"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Austria-Hungary",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -5735,7 +5735,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 36.0,
+     "population": 36,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Austria-Hungary after the Ausgleich (1867); Beust and Andrássy accept the German verdict"
@@ -5778,7 +5778,7 @@
       "TUS"
      ],
      "stability": "consolidating",
-     "population": 27.0,
+     "population": 27,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Rome taken 20 Sept 1870 once French protection lapsed; capital moves there 1871; Pope a self-styled prisoner in the Vatican"
@@ -5853,7 +5853,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 84.0,
+     "population": 84,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Repudiates the Black Sea clauses of 1856 (London Convention, 1871) while Europe watches Paris"
@@ -5948,7 +5948,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 28.0,
+     "population": 28,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Mahmud Nedim's misrule; debt spiral toward the 1875 default"
@@ -6171,7 +6171,7 @@
       "PRO"
      ],
      "stability": "consolidating",
-     "population": 40.0,
+     "population": 40,
      "wealth": 4,
      "extendsBeyondMap": true,
      "note": "Republic of the republicans secured (1877 crisis); Paris Exposition 1878 announces recovery; population includes Algeria"
@@ -6189,7 +6189,7 @@
       "NED"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 4,
      "extendsBeyondMap": true,
      "note": "Neutral trading state"
@@ -6235,14 +6235,14 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 44.0,
+     "population": 44,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Bismarck the 'honest broker' hosts the Congress of Berlin; anti-socialist law passed"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Austria-Hungary",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -6262,7 +6262,7 @@
       "VOL"
      ],
      "stability": "consolidating",
-     "population": 39.0,
+     "population": 39,
      "wealth": 4,
      "extendsBeyondMap": false,
      "contestedRegions": [
@@ -6383,7 +6383,7 @@
       "UKR_W"
      ],
      "stability": "contested",
-     "population": 95.0,
+     "population": 95,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Won the war (San Stefano) but lost the peace at Berlin; keeps Kars, Batum and southern Bessarabia; nihilist terror at home"
@@ -6438,7 +6438,7 @@
       "BGR"
      ],
      "stability": "consolidating",
-     "population": 2.0,
+     "population": 2,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Berlin shrinks San Stefano Bulgaria; Alexander of Battenberg elected prince 1879"
@@ -6493,7 +6493,7 @@
       "THR"
      ],
      "stability": "collapsing",
-     "population": 26.0,
+     "population": 26,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Berlin strips Bosnia, Bulgaria, Cyprus and the Caucasus fortresses; Abdulhamid II suspends the 1876 constitution"
@@ -6512,7 +6512,7 @@
       "EGY_S"
      ],
      "stability": "contested",
-     "population": 7.0,
+     "population": 7,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Ismail's bankruptcy brings Anglo-French Dual Control (1876); deposition (1879) and Urabi's revolt lie ahead"
@@ -6568,7 +6568,7 @@
       "RIF"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Hassan I holds the tribes together"
@@ -6731,7 +6731,7 @@
       "TUN"
      ],
      "stability": "stable",
-     "population": 45.0,
+     "population": 45,
      "wealth": 4,
      "extendsBeyondMap": true,
      "note": "Dreyfus Affair splits the nation; Tunisia a protectorate since 1881; Fashoda backed down (1898); population includes North Africa"
@@ -6795,14 +6795,14 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 56.0,
+     "population": 56,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Overtakes Britain in steel; Tirpitz's fleet laws challenge the Royal Navy; Weltpolitik"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Austria-Hungary",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -6822,7 +6822,7 @@
       "VOL"
      ],
      "stability": "stable",
-     "population": 45.0,
+     "population": 45,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Franz Joseph's dual monarchy: prosperous, waltzing, and quarreling in ten languages"
@@ -6940,7 +6940,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 133.0,
+     "population": 133,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Witte's industrialization boom; Trans-Siberian building; Russification squeezes Finland and Poland"
@@ -6977,7 +6977,7 @@
       "WLC"
      ],
      "stability": "stable",
-     "population": 6.0,
+     "population": 6,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Kingdom since 1881; oil at Ploiești; secretly tied to the Triple Alliance"
@@ -7070,7 +7070,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 24.0,
+     "population": 24,
      "wealth": 2,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -7333,14 +7333,14 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 62.0,
+     "population": 62,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Daily Telegraph affair embarrasses the Kaiser; naval race at fever pitch"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Austria-Hungary",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -7360,7 +7360,7 @@
       "VOL"
      ],
      "stability": "consolidating",
-     "population": 49.0,
+     "population": 49,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Aehrenthal annexes Bosnia-Herzegovina outright (6 Oct 1908), igniting a European crisis with Serbia and Russia"
@@ -7495,7 +7495,7 @@
       "UKR_W"
      ],
      "stability": "contested",
-     "population": 153.0,
+     "population": 153,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "After the 1905 revolution and Tsushima: Duma monarchy, Stolypin's reforms and reaction"
@@ -7625,7 +7625,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 23.0,
+     "population": 23,
      "wealth": 2,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -7774,7 +7774,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 21.0,
+     "population": 21,
      "wealth": 3,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -7796,7 +7796,7 @@
       "POR_S"
      ],
      "stability": "contested",
-     "population": 6.0,
+     "population": 6,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Young republic (1910) fighting royalist risings and strikes"
@@ -7828,7 +7828,7 @@
       "TUN"
      ],
      "stability": "stable",
-     "population": 52.0,
+     "population": 52,
      "wealth": 4,
      "extendsBeyondMap": true,
      "contestedRegions": [
@@ -7895,14 +7895,14 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 67.0,
+     "population": 67,
      "wealth": 5,
      "extendsBeyondMap": true,
      "note": "Europe's industrial giant; army bill of 1913 swells the Reichsheer; Zabern affair sours Alsace"
     },
     {
      "id": "austria_habsburg",
-     "name": "Austrian Empire",
+     "name": "Austria-Hungary",
      "type": "state",
      "culture": "germanic",
      "cultureName": "Austrian German/Hungarian/Slavic",
@@ -7922,7 +7922,7 @@
       "VOL"
      ],
      "stability": "contested",
-     "population": 52.0,
+     "population": 52,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Twice mobilized against Serbia during the Balkan Wars; Conrad presses for preventive war"
@@ -8064,7 +8064,7 @@
       "UKR_W"
      ],
      "stability": "stable",
-     "population": 170.0,
+     "population": 170,
      "wealth": 3,
      "extendsBeyondMap": true,
      "note": "Romanov tercentenary; industrial boom; the Great Programme of rearmament alarms Berlin"
@@ -8193,7 +8193,7 @@
       "THR"
      ],
      "stability": "contested",
-     "population": 22.0,
+     "population": 22,
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Ottoman Europe reduced to Eastern Thrace — Edirne retaken from Bulgaria (July 1913); CUP triumvirate seizes power"
@@ -8297,6 +8297,26 @@
   {
    "title": "Demographics of the Russian Empire - Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Demographics_of_the_Russian_Empire"
+  },
+  {
+   "title": "Kingdom of Württemberg - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_W%C3%BCrttemberg"
+  },
+  {
+   "title": "Duchy of Württemberg - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Duchy_of_W%C3%BCrttemberg"
+  },
+  {
+   "title": "Kingdom of Bavaria - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kingdom_of_Bavaria"
+  },
+  {
+   "title": "Austro-Hungarian Compromise of 1867 - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Austro-Hungarian_Compromise_of_1867"
+  },
+  {
+   "title": "Austria-Hungary - Britannica",
+   "url": "https://www.britannica.com/place/Austria-Hungary"
   }
  ],
  "uncertainties": [

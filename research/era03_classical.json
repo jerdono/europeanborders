@@ -4299,7 +4299,6 @@
       "MAC",
       "EPI",
       "ATT",
-      "PEL",
       "AEG",
       "THR",
       "BGR",
@@ -4309,10 +4308,10 @@
       "BIT"
      ],
      "stability": "consolidating",
-     "population": 4.5,
+     "population": 3.3,
      "wealth": 4,
      "extendsBeyondMap": false,
-     "note": "League of Corinth behind him (Sparta aloof), Alexander invades Asia",
+     "note": "League of Corinth behind him; Sparta stays out, unconquered, Alexander invades Asia",
      "contestedRegions": [
       "ION",
       "BIT"
@@ -4355,13 +4354,14 @@
      "cultureName": "Greeks",
      "founded": -800,
      "regions": [
-      "CRE"
+      "CRE",
+      "PEL"
      ],
      "stability": "stable",
-     "population": 0.3,
+     "population": 1.6,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Cretan cities, the Aegean's mercenary nursery"
+     "note": "Sparta and the Peloponnese stand apart from Alexander's league"
     },
     {
      "id": "rhodes",
@@ -4978,7 +4978,6 @@
       "MAC",
       "EPI",
       "ATT",
-      "PEL",
       "AEG",
       "THR",
       "CON",
@@ -5050,13 +5049,14 @@
      "cultureName": "Greeks",
      "founded": -800,
      "regions": [
-      "CRE"
+      "CRE",
+      "PEL"
      ],
      "stability": "stable",
-     "population": 0.3,
+     "population": 1.3,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "The wider world of independent poleis"
+     "note": "Sparta and the free poleis sit out the Lamian War against Macedon"
     },
     {
      "id": "rhodes",
@@ -5719,15 +5719,13 @@
       "THR",
       "CON",
       "BIT",
-      "ION",
-      "CAP",
-      "PON"
+      "ION"
      ],
      "stability": "consolidating",
-     "population": 3.5,
+     "population": 2.5,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Thrace and western Anatolia won at Ipsus; Bithynian dynasts resist"
+     "note": "Thrace and western Anatolia won at Ipsus; Cappadocia stays with Ariarathes II"
     },
     {
      "id": "macedon",
@@ -6384,6 +6382,23 @@
      "wealth": 2,
      "extendsBeyondMap": true,
      "note": "Nabataeans repelled Antigonus' raid on Petra (-312)"
+    },
+    {
+     "id": "cappadocia",
+     "name": "Cappadocia (Ariarathes II)",
+     "type": "state",
+     "culture": "iranic",
+     "cultureName": "Cappadocians (Iranian dynasty)",
+     "founded": -331,
+     "regions": [
+      "CAP",
+      "PON"
+     ],
+     "stability": "consolidating",
+     "population": 1,
+     "wealth": 2,
+     "extendsBeyondMap": false,
+     "note": "Ariarathes II retakes Cappadocia after Ipsus, slaying satrap Amyntas; rules under Seleucid protection"
     }
    ],
    "relations": [
@@ -6514,6 +6529,30 @@
   {
    "title": "Wikipedia - Demographic history of Greece",
    "url": "https://en.wikipedia.org/wiki/Demographic_history_of_Greece"
+  },
+  {
+   "title": "League of Corinth - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/League_of_Corinth"
+  },
+  {
+   "title": "Battle of Megalopolis - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Megalopolis"
+  },
+  {
+   "title": "Agis III - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Agis_III"
+  },
+  {
+   "title": "Why Didn't Alexander the Great Conquer Sparta? - neutralhistory.com",
+   "url": "http://neutralhistory.com/why-didnt-alexander-the-great-conquer-sparta/"
+  },
+  {
+   "title": "Ariarathes II of Cappadocia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ariarathes_II_of_Cappadocia"
+  },
+  {
+   "title": "Ariarathes II - Livius",
+   "url": "https://www.livius.org/articles/person/ariarathes-ii/"
   }
  ],
  "uncertainties": [
