@@ -1,0 +1,34 @@
+{
+  "file": "era06_late_antiquity.json",
+  "corrections": [
+    {
+      "year": 476,
+      "why": "Auvergne (AUV) is left with the 'west_rome' Roman rump (Soissons & Nepos). But Auvergne was ceded to Euric's Visigoths in 475 -- the Western government under Julius Nepos formally surrendered Clermont-Ferrand and the whole Arverni territory to Euric (the cession Sidonius Apollinaris, bishop of Clermont, denounced bitterly), a full year before this 476 slice. By 476 Euric also held Arles/Marseille (Provence) south of the Durance. Syagrius's rump domain (Soissons) never included Auvergne; it should be Visigothic here.",
+      "assign": { "AUV": "visigoths" },
+      "confidence": "high"
+    },
+    {
+      "year": 500,
+      "why": "AUV (Auvergne) is assigned to the Franks, but Frankish conquest of Aquitaine/Auvergne only happened after Clovis's victory over Alaric II at Vouille in 507 -- seven years after this slice. In 500 Auvergne (ceded to Euric in 475, see the 476 correction) is still Visigothic, consistent with the file's own choice to keep AQU (Aquitaine) Visigothic at this slice. AUV correctly becomes Frankish starting at the 527 slice, which is right (post-Vouille).",
+      "assign": { "AUV": "visigoths" },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Region coverage: all 9 slices (410, 440, 476, 500, 527, 540, 565, 580, 600) assign exactly the 122 canonical region codes each, no duplicates/gaps/invalid codes.",
+    "Hispania partition-by-lot (409-411): Alans in Lusitania/Carthaginiensis, Siling Vandals in Baetica, Suebi+Hasding Vandals sharing Gallaecia at 410, with Alans absorbed into the Vandals and disappearing as a separate entity by 440 -- matches Hydatius's chronicle sequence.",
+    "Vandal Africa timeline: crossing 429 (pre-era), Hippo/federate settlement, Carthage captured 439 (440 slice correctly shows Carthage as capital and Sicily raided), Vandal loss of Africa to Belisarius 533-534 correctly reflected by Vandals dropping out of the entity list at the 540 slice.",
+    "476 Odoacer/Julius Nepos/Syagrius three-way split of the former West, Sicily traded to Odoacer for tribute, and Euric's Visigoths stretching Loire-to-Gibraltar (aside from the AUV correction above) all check out.",
+    "Ostrogothic Italy (493 Theodoric) through the Gothic War (535-554) sequence -- Ravenna falling to Belisarius 540, the Gothic rump surviving north of the Po -- is accurate and well sourced.",
+    "Justinianic reconquest extent at 540 (Africa, Sicily, Dalmatia, Italy south of the Po) and the post-plague/post-Lombard-invasion contraction by 565/580 (Lombards holding Pavia/Tuscany/interior duchies, Byzantium keeping Ravenna-Rome-coasts) both track standard scholarship.",
+    "Caucasus sequence: caucasian_iberia (Kartli) persists as an independent-ish state through 565, is correctly folded into Sassanid Persia at 580 (Persia abolished the Iberian monarchy c. 580), then GEO and ARM correctly pass to Byzantium at 600 per the Peace of 591.",
+    "Founding years for visigoths (418), burgundians (411), suebi (409), sassanid (224), angles_saxons (450), avars (567), ostrogoths (493 Italian kingdom) all match the project's canonical registry.",
+    "Events/labels spot-checked against their exact years (Sack of Rome 410, Carthage 439, Vouille implied at 527/540 transition, Belisarius in Ravenna + Sack of Antioch both dated to 540, Justinian's death 565, Sirmium siege 579-582 shown at 580, Gregorian mission to Kent 597 shown at 600) are all correctly dated."
+  ],
+  "sources": [
+    { "title": "Sidonius Apollinaris - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sidonius_Apollinaris" },
+    { "title": "History of Provence - Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_Provence" },
+    { "title": "Vandal Kingdom - Wikipedia", "url": "https://en.wikipedia.org/wiki/Vandal_Kingdom" },
+    { "title": "Battle of Vouille - Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_Vouill%C3%A9" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "file": "era12_seventeenth.json",
+  "corrections": [],
+  "verified": [
+    "1618 Safavid holds ARM (Yerevan) — confirmed by Treaty of Serav, 26 Sept 1618, ending the 1616-18 Ottoman-Safavid war on terms restoring the 1612 Nasuh Pasha line (Persia keeps the Caucasus).",
+    "1618 Brandenburg gains PRS (ducal Prussia) as a Polish fief on the death of Albert Frederick — correct year for the Hohenzollern union.",
+    "1629 Bavaria holds RHE (Rhine Palatinate) alongside BAV, reflecting Maximilian I's 1623 grant of the Upper Palatinate and electoral title, with the Lower/Rhine Palatinate under Bavarian-Spanish occupation after Frederick V's exile.",
+    "1629 Sweden gains LVA (Livonia) and Poland-Lithuania loses it — Truce of Altmark, Sept 1629, correct.",
+    "1629 Ottoman and Safavid regions correctly reflect Baghdad's loss to Persia in 1624 (MES_S moves to safavid) and its return to Ottoman hands only from the 1648 slice on, consistent with the Treaty of Zuhab (1639).",
+    "1648 Portugal reappears as an independent entity (Braganza Restoration, 1640) holding POR_N/POR_S, correctly split from Spain.",
+    "1648 Venice's Crete siege (Candia, contested) begins exactly at this slice and the entity notes it will run '21 years' — matches the historical 1648-1669 siege precisely.",
+    "1660 Sweden keeps Skåne (SWE_S) per the Peace of Copenhagen (May 1660), consistent with Roskilde 1658 and the wider Second Northern War outcome.",
+    "1667 Truce of Andrusovo (Jan) correctly moves the left bank (UKR_E) and DON-area gains to Russia; Poland retains right-bank UKR_W.",
+    "1683 Ottoman siege of Vienna and Sobieski's relief at Kahlenberg (12 Sept) dated correctly; AUT/SVK correctly marked contested.",
+    "1699 Treaty of Karlowitz transfers HUN and TRN to austria_habsburg, PEL (Morea) to Venice, and clears Poland's VOL contested flag (Podolia/Kamianets regained) — all correct and well-timed.",
+    "1699/1714 Crimean Khanate's loss of DON (Azov, 1696) and its recovery plus STE (Zaporozhian Sich relocation to Oleshky after Poltava) at 1714 are both historically accurate and unusually precise.",
+    "Founding years for episodic/regional entities (moldavia 1346, wallachia 1330, ottoman 1299, safavid 1501, austria_habsburg 1282, brandenburg 1157, sweden 1523, russia 1263, poland_lithuania 1569, morocco 1631) all match the brief's canonical registry.",
+    "Bohemia's disappearance as an independent entity from the 1629 slice onward (crown absorbed into Austria_habsburg after White Mountain, 1620) is correctly timed.",
+    "Transylvania's transfer from its own entity to austria_habsburg's regions happens only at 1699 (Karlowitz), not earlier at the 1691 Diploma Leopoldinum — a defensible slice-year choice given no intervening slice exists.",
+    "Great Britain entity (1714) correctly formed at the 1707 Act of Union, absorbing Scotland's regions; population figures for England/Britain and Ireland's split between english/Confederate Ireland (1648) are within plausible ranges."
+  ],
+  "sources": [
+    { "title": "Treaty of Serav — Wikipedia", "url": "https://en.wikipedia.org/wiki/Treaty_of_Serav" },
+    { "title": "Treaty of Lübeck — Wikipedia", "url": "https://en.wikipedia.org/wiki/Treaty_of_L%C3%BCbeck" },
+    { "title": "Ottoman–Safavid War (1616–1618) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Safavid_War_(1616%E2%80%931618)" }
+  ],
+  "uncertainties": [
+    "Considered flagging the 1629 slice's 'Peace of Lübeck (June)' event label — Wallenstein and Christian IV actually signed at Lübeck on 22 May 1629; only Emperor Ferdinand II's ratification came on 7 June. Left uncorrected: both dates are attested in reliable sources for different stages of the same 1629 peace, it is a one-month event-label nuance rather than a territorial error, and it does not affect any region assignment.",
+    "Considered whether Wallachia's capital should already read 'Bucharest' at the 1660 slice (some sources date the de-facto shift from Târgoviște as early as 1659 under Gheorghe Ghica) rather than only from 1667. Left uncorrected as a defensible judgment call — the transition was gradual and sources disagree on the exact year."
+  ]
+}
