@@ -1,0 +1,47 @@
+{
+  "file": "era05_principate.json",
+  "corrections": [
+    {
+      "year": 14,
+      "why": "Mauretania's note names King Ptolemy as the ruling client king in 14 CE, but Ptolemy only became sole king in 23 CE on his father Juba II's death (Juba II co-ruled with Ptolemy from 21 CE, died 23 CE). In 14 CE the king was still Juba II.",
+      "update": {
+        "mauretania": {
+          "note": "King Juba II rules as Roman client; son Ptolemy co-rules from 21, succeeds in 23, executed by Caligula in 40"
+        }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": 60,
+      "why": "Corbulo captured and burned Artaxata in 58 CE, two years before this slice. By 60 CE Corbulo had gone on to take Armenia's other capital, Tigranocerta, and installed the Roman client king Tigranes VI there — that is the event actually contemporary with year 60, not the Artaxata capture.",
+      "events": [
+        "Boudica's revolt burns Camulodunum, Londinium and Verulamium",
+        "Corbulo storms Tigranocerta and installs Tigranes VI as Rome's client king in Armenia",
+        "Nero's Mediterranean core enjoys peace and building projects"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Cappadocia client kingdom (Archelaus) correctly independent through 14 CE, annexed by Rome only after his death in 17",
+    "Thracian client kingdom correctly independent through 180-era slices, annexed after Rhoemetalces III's murder in 46",
+    "Nabataea correctly shown independent (Petra, ARB) through year 60/117 boundary, absorbed into Roman Arabia by 106 and absent from Rome's client roster from the 117 slice on",
+    "Trajanic Dacia (117, 180) correctly excludes Moldavia (MDA), which stays with the 'Free Dacians' outside the Roman province",
+    "387 Armenia partition at the 395 slice correctly gives Byzantium the smaller western share (ARM_W) and Sassanid Persia the larger eastern share (ARM)",
+    "Armenia shown with no independent client-king entity from 235-300 (Sassanid princes ruled it directly 252-287) and restored as 'armenia_kingdom' by the 300 slice, matching Tiridates III's Roman-backed restoration",
+    "Picts founded date of 297 matches the name's first attestation in a 297 CE Latin panegyric",
+    "Mauretania correctly absorbed into Roman provinces (MAR/ORA/RIF) by the year-60 slice, consistent with its 44 CE annexation",
+    "Huns (DON, STE) replacing the Alans from the 370 slice onward matches the Hunnic crossing of the Volga and defeat of the Alans/Ostrogoths in the early-mid 370s"
+  ],
+  "sources": [
+    { "title": "Ptolemy of Mauretania — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ptolemy_of_Mauretania" },
+    { "title": "Juba II — Wikipedia", "url": "https://en.wikipedia.org/wiki/Juba_II" },
+    { "title": "Roman–Parthian War of 58–63 — Wikipedia", "url": "https://en.wikipedia.org/wiki/Roman%E2%80%93Parthian_War_of_58%E2%80%9363" },
+    { "title": "Tigranes VI — Livius", "url": "https://www.livius.org/articles/person/tigranes-vi-the-cappadocian/" },
+    { "title": "The Roman-Parthian War 58-63 CE — World History Encyclopedia", "url": "https://www.worldhistory.org/article/1198/the-roman-parthian-war-58-63-ce/" }
+  ],
+  "uncertainties": [
+    "Considered flagging the Saxons entity's founded=250 given Ptolemy's Geography (c.150 CE) possibly naming 'Saxones' near the Elbe mouth, but that reading is textually disputed (rival manuscript reading 'Axones'/'Aviones') and 250 matches the more securely attested mid/late-3rd-century Saxon raiding horizon used by most surveys, so left uncorrected as a defensible judgment call.",
+    "Aurelian's withdrawal from Dacia is dated to the 271 slice per the file's own framing; some modern scholarship prefers c.275, but 271 is a mainstream, commonly cited date and not treated as an error."
+  ]
+}

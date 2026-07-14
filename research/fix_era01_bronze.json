@@ -1,0 +1,29 @@
+{
+  "file": "era01_bronze.json",
+  "corrections": [],
+  "verified": [
+    "Founding-date consistency: every entity's `founded` year is <= the slice year it first appears in, checked across all 9 slices (-3000 to -1200) — no anachronisms found.",
+    "Region-count completeness: spot-checked slices -3000, -1300 sum to exactly 122 region assignments with no duplicates or omissions against data/regions.json.",
+    "Steppe frontier (STE/DON/CRM/UKR_E/RUS_S): correctly sequenced Yamnaya -> Catacomb -> Srubnaya with no gaps or overlaps.",
+    "Caucasus (GEO/ARM/ARM_W): Kura-Araxes -> Trialeti/Vanadzor -> Hurrian split on ARM_W is a defensible, well-sourced progression.",
+    "Egypt/Hyksos split at -1600 (EGY_N Hyksos/Avaris, EGY_S Theban 17th Dynasty) matches the historical Second Intermediate Period division.",
+    "Crete handover to Mycenaeans at -1450 (Linear B/Knossos takeover) and Mitanni founding (-1500) match canonical dates.",
+    "All dated events (Ur's fall to Elam 2004 BC, Shamshi-Adad I, Mursili I's sack of Babylon 1595 BC, Battle of Kadesh 1274 BC, Adad-nirari I vs Mitanni, Merneptah/Battle of Perire 1208 BC) check out against the year of their slice.",
+    "Malta (temple culture -> Tarxien Cemetery/Italic Bronze fold-in at -2200), Sardinia/Corsica (Nuragic split at -1800), and Balearics (Talaiotic split at -1300) transitions are archaeologically reasonable.",
+    "North Africa (CYR/TRP/TUN/NUM/ORA/RIF/MAR) held by 'libyans' throughout is a defensible simplification for a pre-literate frontier zone."
+  ],
+  "sources": [
+    {
+      "title": "Alashiya — Wikipedia / DailyHistory.org (kingdom formation c. 1700-1400 BC, place-name attested in Mari letters 18th c. BC)",
+      "url": "https://en.wikipedia.org/wiki/Alashiya"
+    },
+    {
+      "title": "Talaiotic culture — Wikipedia (start date genuinely disputed: 1600 BC, 1300 BC, and 1000 BC all defended in the literature)",
+      "url": "https://en.wikipedia.org/wiki/Talaiotic_culture"
+    }
+  ],
+  "uncertainties": [
+    "Checked whether Alashiya (Cyprus) as a state should be founded earlier than -1600, since the place-name appears in Mari/Alalakh texts from the 18th century BC. Left unchanged: scholarship treats the earlier references as naming a copper source/region, with the unified kingdom emerging in the 1700-1400 BC window per DailyHistory/Wikipedia — -1600 sits inside that range, so this is a defensible judgment call, not an error.",
+    "Checked whether Talaiotic culture (BAL) should split off earlier than -1300 (some sources say c. 1600 BC cyclopean constructions, others say as late as 1000-800 BC for true talayots). The file's -1300 pick is a mainstream middle position; left unchanged as within scholarly disagreement, per the brief's guidance not to churn defensible calls."
+  ]
+}

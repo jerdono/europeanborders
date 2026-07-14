@@ -1,0 +1,28 @@
+{
+  "file": "era07_early_medieval.json",
+  "corrections": [],
+  "verified": [
+    "620: Sassanid Persia correctly holds Levant/Egypt/Cilicia (Khusrau II's conquests of 613-621); Byzantium retains Cyrenaica, Tripolitania and Africa/Ifriqiya (exarchate falls only in 698).",
+    "650: Rashidun regions (Syria 636, Egypt 641, Cyrenaica/Tripolitania raided by 643-648) match the early conquests; Byzantine Africa (TUN) correctly untouched.",
+    "680-711: Khazar acquisition of Crimea (CRM) between the 680 and 711 slices matches the historical Khazar tudun installed at Cherson (Justinian II's exile there, c. 695-705); Byzantium regains CRM by 870, consistent with 9th-century Theme of Cherson reassertion.",
+    "711: Umayyad conquest of Iberia limited to CAS_S/AND with Visigothic rump surviving elsewhere is a defensible mid-conquest snapshot (Guadalete July 711, Toledo falls same year but full conquest runs to 716) and is already flagged in the file's own uncertainties.",
+    "750: Abbasid capital given as Kufa checks out - al-Saffah was proclaimed caliph at Kufa in 750 and used it as administrative seat until building al-Hashimiyya (752) and then Baghdad (762).",
+    "824: Emirate of Crete founding date and Chandax as capital match modern scholarly consensus (Byzantine sources' 824 date preferred over Arabic sources' 827/828).",
+    "843-870: East Francia holding the Pannonian plain (HUN) reflects the real Carolingian March of Pannonia (Frankish suzerainty via the Slavic dukes Pribina/Kocelj) prior to the Magyar conquest of 895-900.",
+    "All entity founding years cross-checked (franks 481, visigoths 418, byzantium 395, sassanid 224, avars 567, lombards 568, umayyad 661, abbasid 750, al_andalus 756, asturias 718, khazars 650, bulgaria 681, navarre 824, moravia 833, kievan_rus 862/882, bohemia 895, croatia 845, serbia 780, georgian_states 813) match the data-spec's canonical registry exactly.",
+    "Crete, Cyprus condominium, Aghlabid, Tulunid, Rustamid/Idrisid/Barghawata Maghreb splits, and the 900 Magyar/Pecheneg steppe handover all match mainstream accounts and are internally consistent across adjacent slices."
+  ],
+  "sources": [
+    { "title": "Abbasid Caliphate - Wikipedia (early capitals: Kufa, al-Hashimiyya, Baghdad)", "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate" },
+    { "title": "al-Saffah - Wikipedia", "url": "https://en.wikipedia.org/wiki/Al-Saffah" },
+    { "title": "Emirate of Crete - Wikipedia", "url": "https://en.wikipedia.org/wiki/Emirate_of_Crete" },
+    { "title": "Andalusi Crete (827-961) and the Arab-Byzantine Frontier - Ballandalus", "url": "https://ballandalus.wordpress.com/2015/04/09/andalusi-crete-827-961-and-the-arab-byzantine-frontier-in-the-early-medieval-mediterranean-2/" },
+    { "title": "March of Pannonia - Wikipedia", "url": "https://en.wikipedia.org/wiki/March_of_Pannonia" },
+    { "title": "Slavs in Lower Pannonia - Grokipedia", "url": "https://grokipedia.com/page/Slavs_in_Lower_Pannonia" }
+  ],
+  "uncertainties": [
+    "No high/medium-confidence territorial errors found after checking every slice's frontier regions (Crimea, Cyprus, Balearics, North Africa, Pannonia, the Caucasus, the Pontic steppe) against the year-by-year narrative and against founding dates in the data spec's canonical registry.",
+    "One low-confidence soft spot noted but not corrected: Rashidun Caliphate's 650 slice includes ARM/GEO as (contested) territory, while the Caucasus campaigns of Habib ibn Maslama are more often dated 653-654; the file already marks both regions contestedRegions, which is an adequate hedge for a coarse-grained slice year and not worth overriding.",
+    "The file's own uncertainties list (11 items) already transparently documents every genuine region-resolution approximation (NAP/Naples-Byzantine overlap, BOH Bohemia/Moravia fusion, SUI Alemannia/Burgundy overlap, Balearics timing, Sicily contested dates, Croatia/Burgundy founding-year choices); none of these needed further correction."
+  ]
+}
