@@ -45,7 +45,9 @@ ${appScript}
 </body>
 </html>`;
 
-const artifact = `${styleTag}
+// body-only variant for the claude.ai Artifact wrapper (title hoisted by the browser)
+const artifact = `<title>Borders — Europe &amp; the Mediterranean, 3000 BCE to today</title>
+${styleTag}
 ${bodyInner}
 ${dataScript}
 ${appScript}`;
@@ -53,4 +55,5 @@ ${appScript}`;
 writeFileSync('dist/index.html', full);
 writeFileSync('index.html', full);
 writeFileSync('dist/artifact.html', artifact);
-console.log(`dist/index.html ${(full.length / 1048576).toFixed(2)}MB · dist/artifact.html ${(artifact.length / 1048576).toFixed(2)}MB`);
+writeFileSync('dist/borders-timeline.html', artifact);
+console.log(`dist/index.html ${(full.length / 1048576).toFixed(2)}MB · dist/borders-timeline.html ${(artifact.length / 1048576).toFixed(2)}MB`);
