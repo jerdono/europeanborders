@@ -1,0 +1,27 @@
+{
+  "file": "era16_postwar.json",
+  "corrections": [],
+  "verified": [
+    "1945: UK holds Dodecanese (DOD), Cyrenaica/Tripolitania (CYR/TRP) as military administration, and Cyprus/Malta as colonies; Syria/Lebanon region (LEV) correctly kept out of French hands given the May 1945 Levant Crisis, with a war relation flagging the French bombardment of Damascus",
+    "1945: Poland gains Silesia/Pomerania (SIL, POL_W) and USSR annexes Königsberg (PRS) per Potsdam, matching the Oder-Neisse line event",
+    "1949: Dodecanese (DOD) correctly moved from UK to Greece (Paris Peace Treaty Feb 1947, union effective March 1948) -- verified by search",
+    "1955: Trieste Zone A to Italy / Zone B to Yugoslavia matches the October 1954 London Memorandum of Understanding -- verified by search",
+    "1955: Austria shown stable/unoccupied only from this slice, matching the May 1955 State Treaty",
+    "1961: Cyprus independence (cyprus_state, founded 1960) and continued UK hold on Malta (pre-1964) are correctly sequenced",
+    "1956/1961-68: Morocco and Tunisia independence (1956) and Algeria (1962, still French/contested at 1961) sequenced correctly across slices",
+    "1991-1993: Yugoslav breakup sequencing (Slovenia/Croatia 1991, Bosnia 1992, Czechoslovakia split into Czech Republic/Slovakia Jan 1993) all correctly dated and reflected in contestedRegions",
+    "2008 Kosovo declaration and Russo-Georgian war, 2014 Crimea annexation vs. Donbas (STE remains Ukrainian in 2014), 2022 Russian-held STE (Zaporizhzhia/Kherson steppe) all consistent with the historical timeline",
+    "Entity founding years throughout (uk 1801, ireland 1922, israel 1948, ukraine/belarus/moldova/georgia/armenia 1991, croatia/macedonia_state 1991, bosnia_state 1992, czech_republic/slovakia 1993, germany 1871 on reunification) match the data-spec's canonical id registry",
+    "Syria entity (founded 1946) appearing already in the 1945 slice is a deliberate continuity choice inherited from era15_world_wars.json's last slice (1944), which already used the same id/founded value with note 'French mandate becoming a republic' -- not an era16-introduced inconsistency"
+  ],
+  "sources": [
+    { "title": "Free Territory of Trieste - Wikipedia", "url": "https://en.wikipedia.org/wiki/Free_Territory_of_Trieste" },
+    { "title": "Trieste agreement | Europe [1954] | Britannica", "url": "https://www.britannica.com/topic/Trieste-agreement" },
+    { "title": "On This Day 1947: Paris Peace Treaties – Greece Gets Dodecanese", "url": "https://greekcitytimes.com/2026/02/11/on-this-day-1947-paris-peace-treaties-dodecanese-greece/" },
+    { "title": "March 7, 1948: The Day The Dodecanese Joined Greece", "url": "https://greekreporter.com/2026/03/07/dodecanese-union-greece-anniversary/" }
+  ],
+  "uncertainties": [
+    "No separate region exists for Saarland, Trieste city, Montenegro, Slovenia, Kosovo, Transnistria, Nagorno-Karabakh, South Ossetia/Abkhazia, or North Cyprus in the fixed 122-region tessellation, so several real 20th/21st-century territorial splits (Cyprus 1974, Bosnia's Republika Srpska, Georgia 2008, Crimea/Donbas nuance) can only be shown via the contestedRegions mechanism on the single enclosing region -- the file already does this consistently and I did not treat it as an error.",
+    "Reviewed all 18 slices (1945-2025) region-by-region against data/regions.json and docs/data-spec.md's canonical id/founding-year registry, cross-checked events/relations text, and spot-verified the two frontier cases I was least sure of (Trieste 1954 zones, Dodecanese transfer date) via WebSearch; both confirmed correct. Found no high- or medium-confidence territorial-assignment or founding-date errors worth correcting."
+  ]
+}

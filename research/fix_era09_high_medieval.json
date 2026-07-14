@@ -1,0 +1,96 @@
+{
+  "file": "era09_high_medieval.json",
+  "corrections": [
+    {
+      "year": 1261,
+      "why": "Provence (PRO) is folded into 'france'. Provence was never part of the Kingdom of France in this period: Charles of Anjou became Count of Provence in 1246 by marriage to Beatrice, heiress of Provence, and held it as a fief of the Holy Roman Empire's Kingdom of Arles, distinct from his (genuinely French-vassal) County of Anjou/Maine. Provence was not annexed to the French crown until 1481. Later slices (1291+) correctly hold PRO under the same Angevin house as 'naples_kingdom'; this 1261 slice is the sole outlier that misassigns it to France proper.",
+      "assign": { "PRO": "anjou_provence" },
+      "addEntities": [
+        {
+          "id": "anjou_provence",
+          "name": "County of Provence (Angevin)",
+          "type": "state",
+          "culture": "italic",
+          "cultureName": "Provençal/French",
+          "founded": 1246,
+          "capital": "Aix-en-Provence",
+          "capitalRegion": "PRO",
+          "regions": ["PRO"],
+          "stability": "stable",
+          "population": 0.3,
+          "wealth": 3,
+          "wealthNote": "Marseille's Mediterranean trade",
+          "extendsBeyondMap": false,
+          "note": "Charles of Anjou (Louis IX's brother) rules Provence as an Imperial fief, separate from the Kingdom of France"
+        }
+      ],
+      "update": { "france": { "population": 10.2 } },
+      "confidence": "high"
+    },
+    {
+      "year": 1328,
+      "why": "Sardinia (SAR) is left with 'pisa'. The Aragonese conquest of Sardinia (1323-1326) expelled Pisa from the island; Castel di Castro (Cagliari) surrendered June 1326 and became the capital of the new Aragonese Kingdom of Sardinia. By 1328 Sardinia has been Aragonese for two years.",
+      "assign": { "SAR": "aragon" },
+      "update": { "aragon": { "population": 1.7 } },
+      "confidence": "high"
+    },
+    {
+      "year": 1346,
+      "why": "Same Aragonese-Sardinia error persists (Pisa expelled 1326; see 1328 correction).",
+      "assign": { "SAR": "aragon" },
+      "update": { "aragon": { "population": 1.8 } },
+      "confidence": "high"
+    },
+    {
+      "year": 1360,
+      "why": "Sardinia has been Aragonese since 1326 (see 1328/1346). Additionally, Pisa's fleet was destroyed at Meloria in 1284 (the file's own 1291 event notes this), and in 1347 a diet of Corsican notables offered the island's sovereignty to Genoa; by 1360 Pisa can no longer plausibly be the outside power holding Corsica (COR). With both SAR and COR removed, Pisa controls no mapped region and should drop out of the entity list (it survives as an inland Tuscan commune, which this dataset already folds into 'hre' via the TUS region).",
+      "assign": { "SAR": "aragon", "COR": "genoa" },
+      "removeEntities": ["pisa"],
+      "update": { "aragon": { "population": 1.15 }, "genoa": { "population": 0.6 } },
+      "confidence": "high"
+    },
+    {
+      "year": 1380,
+      "why": "Sardinia/Corsica corrections continue (Aragon/Genoa, see 1360). Separately: the Armenian Kingdom of Cilicia fell to the Mamluks on 13 April 1375 -- the fall of Sis, with King Leo V captured -- five years before this slice year. CIL should already be Mamluk territory here (as the 1396 slice correctly shows), not still held by a 'cilician_armenia' that no longer existed.",
+      "assign": { "SAR": "aragon", "COR": "genoa", "CIL": "mamluk" },
+      "removeEntities": ["pisa", "cilician_armenia"],
+      "update": { "aragon": { "population": 1.25 }, "genoa": { "population": 0.65 } },
+      "confidence": "high"
+    },
+    {
+      "year": 1396,
+      "why": "Sardinia/Corsica corrections continue (Aragon/Genoa, see 1360/1380).",
+      "assign": { "SAR": "aragon", "COR": "genoa" },
+      "removeEntities": ["pisa"],
+      "update": { "aragon": { "population": 1.25 }, "genoa": { "population": 0.7 } },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Region coverage: all 11 slices assign exactly the 122 canonical region codes, no dupes/gaps/invalid codes.",
+    "1204: Fourth Crusade partition (Latin Empire/Nicaea via 'byzantium'/Epirus/Trebizond), Philip II's 1204 conquest of Normandy+Anjou from England, Almohad Iberia+Maghreb extent, Ayyubid Egypt+Syria all check out.",
+    "1230: Klokotnitsa's Bulgaria (Macedonia/Albania/Thrace), Ferdinand III's León-Castile union, Teutonic Order's 1226 invitation into Prussia, Aragon's 1229 Mallorca conquest all correct.",
+    "1241: Legnica and Mohi both April 1241, Kyiv sacked December 1240, Mongol occupation of the Hungarian plain at this exact moment, Granada founded 1238 as Castilian tributary -- all consistent.",
+    "1261: Byzantine recovery of Constantinople/Thrace/Macedonia/Epirus/Albania after Pelagonia (1259) and the July 1261 retaking of Constantinople; Golden Horde/Ilkhanate split of the Mongol world; Mamluk absorption of Ayyubid Syria+Egypt after Ain Jalut (1260) and the 1258 fall of Baghdad.",
+    "1291: Sicilian Vespers (1282) split into Aragonese Sicily vs Angevin Naples+Provence, Edward I's 1283 conquest of Wales, fall of Acre (1291), founding of Switzerland (1291) all correct.",
+    "1300: Ottoman beylik founding (1299) alongside Karaman/other Anatolian beyliks as the Sultanate of Rum dissolves; Pax Mongolica connectivity peak is well-calibrated.",
+    "1328: Silesia's transfer from Poland to Bohemian suzerainty (John of Bohemia's 1327-29 homage campaign) correctly reflected; Muscovy appearing as a distinct entity from Kievan Rus matches Ivan Kalita's rise.",
+    "1346/1360: Crecy (1346), Dusan's Serbian Empire not reaching Thrace/Constantinople, Treaty of Bretigny's 'enlarged Aquitaine' (1360), Gallipoli beachhead (1354), Black Death connectivity collapse all consistent with sources.",
+    "1380/1396: Kulikovo (1380), Ottoman vassalization of Bulgaria/Macedonia after Maritsa (1371), Nicopolis (1396), Timur's campaigns against the Golden Horde and Georgia, Rhodes under the Hospitallers since 1310 -- all check out.",
+    "Founding years for aragon, granada, marinid, zayyanid, hafsid, ottoman, teutonic_order, golden_horde, ilkhanate, mamluk, wallachia, moldavia, jalayirid, timurid, hospitallers, switzerland, milan_duchy, burgundy_valois all match canonical/scholarly dates."
+  ],
+  "sources": [
+    { "title": "Charles I of Anjou - Wikipedia", "url": "https://en.wikipedia.org/wiki/Charles_I_of_Anjou" },
+    { "title": "Capetian House of Anjou - Wikipedia", "url": "https://en.wikipedia.org/wiki/Capetian_House_of_Anjou" },
+    { "title": "Fall of Sis - Wikipedia", "url": "https://en.wikipedia.org/wiki/Fall_of_Sis" },
+    { "title": "Armenian Kingdom of Cilicia - Wikipedia", "url": "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia" },
+    { "title": "Aragonese conquest of Sardinia - Wikipedia", "url": "https://en.wikipedia.org/wiki/Aragonese_conquest_of_Sardinia" },
+    { "title": "Kingdom of Sardinia (1324-1720) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia_(1324%E2%80%931720)" },
+    { "title": "Medieval Corsica - Wikipedia", "url": "https://en.wikipedia.org/wiki/Medieval_Corsica" },
+    { "title": "Republic of Pisa - Wikipedia", "url": "https://en.wikipedia.org/wiki/Republic_of_Pisa" }
+  ],
+  "uncertainties": [
+    "Corsica's actual mid-14th-century ruler is genuinely messy: the 1298 papal bull nominally granted it to Aragon alongside Sardinia, Aragon never made this stick, and local Cinarca lords (esp. Sinucello della Rocca until ~1312) held real power alongside Genoese and Pisan claimants before the 1347 diet's offer of sovereignty to Genoa. Reassigned COR to 'genoa' from 1360 onward as the best single-holder approximation, flagged medium-high but not maximal confidence.",
+    "Did not alter Pisa's hold on SAR/COR for 1204-1300 (pre-Aragonese-conquest) -- treating Pisa as sole proxy for Sardinia in that period is itself a coarse-grained simplification (ignoring Genoese-aligned Doria/Malaspina in the north and the independent Giudicato of Arborea) but is consistent with the map's one-entity-per-region model and not clearly wrong for those years."
+  ]
+}
