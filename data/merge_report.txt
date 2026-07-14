@@ -104,7 +104,7 @@ BOUNDARY -301(era03_classical.json) → -270(era04_hellenistic.json): 41 regions
     CYP:antigonids→ptolemaic_egypt
     GEO:colchis→caucasian_iberia
     ARB:arabs_early→nabataea
-BOUNDARY -31(era04_hellenistic.json) → 14(era05_principate.json): 21 regions change
+BOUNDARY -31(era04_hellenistic.json) → 14(era05_principate.json): 22 regions change
 BIGJUMP within era05_principate.json: 370 → 395: 85 regions change
 BOUNDARY 395(era05_principate.json) → 410(era06_late_antiquity.json): 12 regions change
 BOUNDARY 600(era06_late_antiquity.json) → 620(era07_early_medieval.json): 13 regions change

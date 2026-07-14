@@ -846,7 +846,7 @@
       "POR_S"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Rechila takes Merida (439) and pushes into Baetica."
@@ -865,7 +865,7 @@
       "TUN"
      ],
      "stability": "consolidating",
-     "population": 3.0,
+     "population": 3,
      "wealth": 4,
      "wealthNote": "Carthage's grain fleet now serves Gaiseric.",
      "extendsBeyondMap": false,
@@ -884,7 +884,7 @@
       "AQU"
      ],
      "stability": "consolidating",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "wealthNote": "Garonne estates granted by the 418 settlement.",
      "extendsBeyondMap": false,
@@ -1017,7 +1017,7 @@
       "SWA"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -1069,7 +1069,7 @@
       "RIF"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Altava, the Aures and other Romanized Berber realms fill the Vandal vacuum."
@@ -1108,7 +1108,7 @@
       "PRO"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Resettled in Savoy 443; now spreading down the Rhone."
@@ -1266,7 +1266,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -1317,7 +1317,7 @@
       "SIC"
      ],
      "stability": "consolidating",
-     "population": 5.0,
+     "population": 5,
      "wealth": 4,
      "wealthNote": "Italy's cities and the Senate intact under a barbarian king.",
      "extendsBeyondMap": false,
@@ -1460,7 +1460,7 @@
       "SIC"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 4,
      "wealthNote": "Grain, olive oil and piracy; the western Mediterranean is a Vandal lake.",
      "extendsBeyondMap": false,
@@ -1484,7 +1484,8 @@
       "EUS",
       "OCC",
       "POR_S",
-      "VAL"
+      "VAL",
+      "AUV"
      ],
      "stability": "consolidating",
      "population": 5.5,
@@ -1502,7 +1503,6 @@
      "capital": "Soissons",
      "capitalRegion": "IDF",
      "regions": [
-      "AUV",
       "BRE",
       "DAL",
       "IDF",
@@ -1639,7 +1639,7 @@
       "RIF"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Altava, the Aures and other Romanized Berber realms fill the Vandal vacuum."
@@ -1659,7 +1659,7 @@
       "WAL"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Badon won; Brittonic Armorica (Brittany) fills with emigres."
@@ -1789,7 +1789,6 @@
      "capital": "Soissons",
      "capitalRegion": "IDF",
      "regions": [
-      "AUV",
       "FLA",
       "FRK",
       "IDF",
@@ -1801,7 +1800,7 @@
       "SWA"
      ],
      "stability": "consolidating",
-     "population": 5.0,
+     "population": 5,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Clovis: Soissons taken 486, Alamanni beaten 496, baptism at Reims."
@@ -2048,7 +2047,7 @@
       "TUN"
      ],
      "stability": "stable",
-     "population": 3.0,
+     "population": 3,
      "wealth": 4,
      "wealthNote": "African grain and the peace of a Gothic marriage alliance.",
      "extendsBeyondMap": false,
@@ -2072,7 +2071,8 @@
       "EUS",
       "OCC",
       "POR_S",
-      "VAL"
+      "VAL",
+      "AUV"
      ],
      "stability": "stable",
      "population": 5.5,
@@ -2571,7 +2571,7 @@
       "WLC"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -2652,7 +2652,7 @@
       "VAL"
      ],
      "stability": "contested",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Gaul lost at Vouille 507; Amalaric clings to Septimania and Hispania."
@@ -3085,7 +3085,7 @@
       "PIE"
      ],
      "stability": "collapsing",
-     "population": 2.0,
+     "population": 2,
      "wealth": 4,
      "extendsBeyondMap": false,
      "note": "Witigis captured; a Gothic rump north of the Po fights on — Totila rises 541."
@@ -3230,7 +3230,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false
     }
@@ -3546,7 +3546,7 @@
       "SWA"
      ],
      "stability": "contested",
-     "population": 6.0,
+     "population": 6,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Plague and partition: the realm splits again among Chlothar's four sons (561)."
@@ -3611,7 +3611,7 @@
       "POL_W"
      ],
      "stability": "contested",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false,
      "note": "Elbe lands emptying westward; Slavs filter into the vacated east."
@@ -3901,7 +3901,7 @@
       "WLC"
      ],
      "stability": "consolidating",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Bayan's khaganate: Gepids destroyed 567, Sirmium falls 582, Slavs driven as spearpoint."
@@ -4713,7 +4713,7 @@
       "NAP"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Agilulf's truce with Rome (598); Queen Theodelinda leans Catholic."
@@ -4824,7 +4824,7 @@
       "VOL"
      ],
      "stability": "consolidating",
-     "population": 3.0,
+     "population": 3,
      "wealth": 1,
      "extendsBeyondMap": false,
      "note": "From the Elbe to the Dnieper and into the Balkans: the quiet conquest."
@@ -4869,7 +4869,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
      "note": "Reccared converts to Nicene faith (589); Suebic Gallaecia annexed (585)."
@@ -4985,6 +4985,22 @@
   {
    "title": "McEvedy & Jones, Atlas of World Population History (population anchors)",
    "url": "https://en.wikipedia.org/wiki/Atlas_of_World_Population_History"
+  },
+  {
+   "title": "Sidonius Apollinaris - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sidonius_Apollinaris"
+  },
+  {
+   "title": "History of Provence - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Provence"
+  },
+  {
+   "title": "Vandal Kingdom - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vandal_Kingdom"
+  },
+  {
+   "title": "Battle of Vouille - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Vouill%C3%A9"
   }
  ],
  "uncertainties": [

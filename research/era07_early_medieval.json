@@ -176,7 +176,7 @@
      "population": 25,
      "wealth": 4,
      "extendsBeyondMap": true,
-     "note": "Khusrau II holds Syria, Egypt and the East \u2014 the last and greatest Persian overreach."
+     "note": "Khusrau II holds Syria, Egypt and the East — the last and greatest Persian overreach."
     },
     {
      "id": "avars",
@@ -252,7 +252,7 @@
       "MAR"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -271,7 +271,7 @@
      "population": 0.5,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "Strathclyde, Wales and Brittany \u2014 the unconquered Roman-British west."
+     "note": "Strathclyde, Wales and Brittany — the unconquered Roman-British west."
     },
     {
      "id": "lombards",
@@ -322,7 +322,7 @@
      "population": 0.4,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "U\u00ed N\u00e9ill, Munster and Connacht kings; monasteries are Europe's lamp this century."
+     "note": "Uí Néill, Munster and Connacht kings; monasteries are Europe's lamp this century."
     },
     {
      "id": "norse",
@@ -465,7 +465,7 @@
      "a": "byzantium",
      "b": "sassanid",
      "type": "war",
-     "note": "The last great war of antiquity \u2014 Persia holds the whole Byzantine east"
+     "note": "The last great war of antiquity — Persia holds the whole Byzantine east"
     },
     {
      "a": "byzantium",
@@ -505,7 +505,7 @@
    "label": "The Arab conquests",
    "events": [
     "Arab armies rule Syria, Egypt and Mesopotamia; the last Sassanid shah flees east (murdered 651)",
-    "First Arab fleet sacks Cyprus (649) \u2014 the Mediterranean balance tips",
+    "First Arab fleet sacks Cyprus (649) — the Mediterranean balance tips",
     "Slavs are now settled through the Balkan interior to the Peloponnese"
    ],
    "connectivity": 18,
@@ -588,7 +588,7 @@
      "population": 3.5,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "From the Elbe to the Aegean interior \u2014 Samo's rebel realm (623-58) defies the Avars."
+     "note": "From the Elbe to the Aegean interior — Samo's rebel realm (623-58) defies the Avars."
     },
     {
      "id": "franks",
@@ -754,7 +754,7 @@
       "MDA"
      ],
      "stability": "contested",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false
     },
@@ -771,7 +771,7 @@
       "MAR"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -883,7 +883,7 @@
      "population": 0.4,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "Kubrat's Great Bulgaria between Don and Kuban \u2014 Khazar hammer about to fall."
+     "note": "Kubrat's Great Bulgaria between Don and Kuban — Khazar hammer about to fall."
     },
     {
      "id": "picts",
@@ -983,7 +983,7 @@
    "label": "Bulgars on the Danube",
    "events": [
     "Greek fire breaks the four-year Arab siege of Constantinople (678)",
-    "Asparukh's Bulgars cross the Danube \u2014 the First Bulgarian Empire is born (681)",
+    "Asparukh's Bulgars cross the Danube — the First Bulgarian Empire is born (681)",
     "Khazar khaganate now rules the steppe from the Don to the Caspian"
    ],
    "connectivity": 16,
@@ -1221,7 +1221,7 @@
       "MAR"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1,
      "extendsBeyondMap": false
     },
@@ -1473,8 +1473,8 @@
    "eraName": "Early Medieval",
    "label": "Spain falls in a summer",
    "events": [
-    "Tariq crosses at Gibraltar; King Roderic falls at Guadalete \u2014 Visigothic Spain collapses in months",
-    "Justinian II slain \u2014 Byzantium burns through six emperors in twenty years",
+    "Tariq crosses at Gibraltar; King Roderic falls at Guadalete — Visigothic Spain collapses in months",
+    "Justinian II slain — Byzantium burns through six emperors in twenty years",
     "Umayyad North Africa complete: Carthage fell 698, Tangier 708"
    ],
    "connectivity": 17,
@@ -1518,7 +1518,7 @@
      "population": 32,
      "wealth": 5,
      "extendsBeyondMap": true,
-     "note": "Tariq's Berber army lands at Gibraltar in April \u2014 Iberia's conquest has begun."
+     "note": "Tariq's Berber army lands at Gibraltar in April — Iberia's conquest has begun."
     },
     {
      "id": "slavs_early",
@@ -1931,7 +1931,7 @@
      "population": 0.15,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Since 688 Byzantium and the caliphate split Cyprus's taxes \u2014 a unique shared island."
+     "note": "Since 688 Byzantium and the caliphate split Cyprus's taxes — a unique shared island."
     }
    ],
    "relations": [
@@ -2025,7 +2025,7 @@
      "population": 34,
      "wealth": 5,
      "extendsBeyondMap": true,
-     "note": "From the Indus to the Atlantic \u2014 the largest empire the world had yet seen."
+     "note": "From the Indus to the Atlantic — the largest empire the world had yet seen."
     },
     {
      "id": "slavs_early",
@@ -2366,7 +2366,7 @@
      "population": 0.1,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "Pelayo's mountain rump after Covadonga (722) \u2014 the seed of the Reconquista."
+     "note": "Pelayo's mountain rump after Covadonga (722) — the seed of the Reconquista."
     },
     {
      "id": "frisians",
@@ -2467,7 +2467,7 @@
    "label": "The Abbasid revolution",
    "events": [
     "Abbasid revolution: the Umayyads annihilated at the Zab; the caliphate refounded from Iraq",
-    "Lombard king Aistulf closes on Byzantine Ravenna \u2014 the exarchate falls in 751",
+    "Lombard king Aistulf closes on Byzantine Ravenna — the exarchate falls in 751",
     "The Mediterranean is a war frontier: gold coin and papyrus vanish north of the Alps"
    ],
    "connectivity": 15,
@@ -2614,7 +2614,7 @@
      "culture": "arab",
      "cultureName": "Arab",
      "founded": 661,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "EUS",
@@ -2688,7 +2688,7 @@
      "population": 2.4,
      "wealth": 2,
      "extendsBeyondMap": false,
-     "note": "Aistulf presses the exarchate \u2014 Ravenna falls to him in 751."
+     "note": "Aistulf presses the exarchate — Ravenna falls to him in 751."
     },
     {
      "id": "britons",
@@ -2959,7 +2959,7 @@
      "a": "lombards",
      "b": "byzantium",
      "type": "war",
-     "note": "Aistulf strangles Ravenna \u2014 the exarchate dies in 751"
+     "note": "Aistulf strangles Ravenna — the exarchate dies in 751"
     },
     {
      "a": "franks",
@@ -2986,8 +2986,8 @@
    "eraName": "Early Medieval",
    "label": "Charlemagne takes the Iron Crown",
    "events": [
-    "Charlemagne takes Pavia and the Iron Crown \u2014 the Lombard kingdom annexed",
-    "Abd al-Rahman I, the Umayyad who got away, rules al-Andalus from C\u00f3rdoba (756)",
+    "Charlemagne takes Pavia and the Iron Crown — the Lombard kingdom annexed",
+    "Abd al-Rahman I, the Umayyad who got away, rules al-Andalus from Córdoba (756)",
     "The Donation of Pepin (756) has made the pope a territorial prince"
    ],
    "connectivity": 16,
@@ -3129,12 +3129,12 @@
     },
     {
      "id": "al_andalus",
-     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "name": "Emirate of Córdoba (al-Andalus)",
      "type": "state",
      "culture": "arab",
      "cultureName": "Andalusi Arab",
      "founded": 756,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "EUS",
@@ -3150,7 +3150,7 @@
      "population": 3.8,
      "wealth": 4,
      "extendsBeyondMap": false,
-     "note": "Abd al-Rahman I, last Umayyad, built an independent emirate at C\u00f3rdoba in 756."
+     "note": "Abd al-Rahman I, last Umayyad, built an independent emirate at Córdoba in 756."
     },
     {
      "id": "finnic_peoples",
@@ -3355,7 +3355,7 @@
      "population": 0.8,
      "wealth": 2,
      "extendsBeyondMap": false,
-     "note": "Ring-bound and quarrelsome \u2014 Charlemagne destroys the khaganate in 795-96."
+     "note": "Ring-bound and quarrelsome — Charlemagne destroys the khaganate in 795-96."
     },
     {
      "id": "picts",
@@ -3439,7 +3439,7 @@
      "population": 0.8,
      "wealth": 2,
      "extendsBeyondMap": false,
-     "note": "Benevento escapes Charlemagne \u2014 Lombard princes rule the southern interior for centuries."
+     "note": "Benevento escapes Charlemagne — Lombard princes rule the southern interior for centuries."
     },
     {
      "id": "danes",
@@ -3497,7 +3497,7 @@
      "a": "franks",
      "b": "papal_states",
      "type": "alliance",
-     "note": "Patrician of the Romans \u2014 the Frankish-papal axis"
+     "note": "Patrician of the Romans — the Frankish-papal axis"
     },
     {
      "a": "franks",
@@ -3532,7 +3532,7 @@
    "events": [
     "Charlemagne crowned Roman Emperor in St Peter's on Christmas Day",
     "Harun al-Rashid's Baghdad is the richest city on earth; his elephant walks to Aachen",
-    "The Avar khaganate is gone (796) \u2014 its treasure hoard carted to Francia"
+    "The Avar khaganate is gone (796) — its treasure hoard carted to Francia"
    ],
    "connectivity": 18,
    "connectivityNote": "Two superpowers at peace internally: Abbasid golden-age trade and Carolingian roads; Baltic emporia (Dorestad, Hedeby) rise.",
@@ -3583,7 +3583,7 @@
      "population": 10,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Crowned emperor on Christmas Day 800 \u2014 Saxony, Italy, the Spanish March, tributary Slavs."
+     "note": "Crowned emperor on Christmas Day 800 — Saxony, Italy, the Spanish March, tributary Slavs."
     },
     {
      "id": "byzantium",
@@ -3676,12 +3676,12 @@
     },
     {
      "id": "al_andalus",
-     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "name": "Emirate of Córdoba (al-Andalus)",
      "type": "state",
      "culture": "arab",
      "cultureName": "Andalusi Arab",
      "founded": 756,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "EUS",
@@ -3908,7 +3908,7 @@
      "population": 0.3,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "Vlastimirovi\u0107 princes consolidate the Serb tribes between Byzantium and the Bulgars."
+     "note": "Vlastimirović princes consolidate the Serb tribes between Byzantium and the Bulgars."
     },
     {
      "id": "picts",
@@ -4020,7 +4020,7 @@
      "population": 0.3,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Ibadi imamate at Tahert \u2014 a Kharijite merchant republic on the Saharan trade."
+     "note": "Ibadi imamate at Tahert — a Kharijite merchant republic on the Saharan trade."
     },
     {
      "id": "idrisids",
@@ -4061,13 +4061,13 @@
      "a": "franks",
      "b": "abbasid",
      "type": "alliance",
-     "note": "Charlemagne and Harun al-Rashid exchange embassies \u2014 and an elephant"
+     "note": "Charlemagne and Harun al-Rashid exchange embassies — and an elephant"
     },
     {
      "a": "franks",
      "b": "al_andalus",
      "type": "war",
-     "note": "Frankish siege of Barcelona under way \u2014 the city falls in 801"
+     "note": "Frankish siege of Barcelona under way — the city falls in 801"
     },
     {
      "a": "franks",
@@ -4227,7 +4227,7 @@
      "population": 4,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Lothair keeps the imperial title, Aachen and Italy \u2014 a corridor realm doomed to partition."
+     "note": "Lothair keeps the imperial title, Aachen and Italy — a corridor realm doomed to partition."
     },
     {
      "id": "east_francia",
@@ -4275,12 +4275,12 @@
     },
     {
      "id": "al_andalus",
-     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "name": "Emirate of Córdoba (al-Andalus)",
      "type": "state",
      "culture": "arab",
      "cultureName": "Andalusi Arab",
      "founded": 756,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "POR_N",
@@ -4329,7 +4329,7 @@
       "ENG_N"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false
     },
@@ -4415,7 +4415,7 @@
      "culture": "celtic",
      "cultureName": "Gaelic Irish",
      "founded": 800,
-     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capital": "Tara (Uí Néill)",
      "capitalRegion": "IRL_N",
      "regions": [
       "IRL_N",
@@ -4425,7 +4425,7 @@
      "population": 0.4,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "U\u00ed N\u00e9ill high-kings contest with Norse longphorts \u2014 Dublin founded 841."
+     "note": "Uí Néill high-kings contest with Norse longphorts — Dublin founded 841."
     },
     {
      "id": "moravia",
@@ -4434,7 +4434,7 @@
      "culture": "slavic",
      "cultureName": "Moravian Slavic",
      "founded": 833,
-     "capital": "Mikul\u010dice (Veligrad)",
+     "capital": "Mikulčice (Veligrad)",
      "capitalRegion": "BOH",
      "regions": [
       "BOH",
@@ -4593,7 +4593,7 @@
      "population": 0.1,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "Basque kingdom of Pamplona (824), wedged between Franks and C\u00f3rdoba."
+     "note": "Basque kingdom of Pamplona (824), wedged between Franks and Córdoba."
     },
     {
      "id": "polabian_slavs",
@@ -4831,11 +4831,11 @@
    "label": "Vikings, Meerssen and the Danelaw",
    "events": [
     "Meerssen: East and West Francia carve up Lotharingia between them",
-    "The Great Heathen Army has felled Northumbria and East Anglia \u2014 the Danelaw takes shape",
+    "The Great Heathen Army has felled Northumbria and East Anglia — the Danelaw takes shape",
     "Malta falls to the Aghlabids; Constantinople and Rome contest the new Bulgarian church"
    ],
    "connectivity": 22,
-   "connectivityNote": "The Varangian river roads hum \u2014 Volga and Dnieper silver, furs and slaves; the western sea remains raider-infested.",
+   "connectivityNote": "The Varangian river roads hum — Volga and Dnieper silver, furs and slaves; the western sea remains raider-infested.",
    "entities": [
     {
      "id": "byzantium",
@@ -5020,12 +5020,12 @@
     },
     {
      "id": "al_andalus",
-     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "name": "Emirate of Córdoba (al-Andalus)",
      "type": "state",
      "culture": "arab",
      "cultureName": "Andalusi Arab",
      "founded": 756,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "POR_S",
@@ -5102,7 +5102,7 @@
      "culture": "slavic",
      "cultureName": "Moravian Slavic",
      "founded": 833,
-     "capital": "Mikul\u010dice (Veligrad)",
+     "capital": "Mikulčice (Veligrad)",
      "capitalRegion": "BOH",
      "regions": [
       "BOH",
@@ -5113,7 +5113,7 @@
       "BOH"
      ],
      "stability": "contested",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Rastislav betrayed and blinded this year; Svatopluk will push the realm to its peak."
@@ -5154,7 +5154,7 @@
      "population": 0.6,
      "wealth": 2,
      "extendsBeyondMap": false,
-     "note": "\u00c6thelred and young Alfred stand alone against the Danes."
+     "note": "Æthelred and young Alfred stand alone against the Danes."
     },
     {
      "id": "danelaw",
@@ -5185,7 +5185,7 @@
      "culture": "celtic",
      "cultureName": "Gaelic Irish",
      "founded": 800,
-     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capital": "Tara (Uí Néill)",
      "capitalRegion": "IRL_N",
      "regions": [
       "IRL_N",
@@ -5260,7 +5260,7 @@
     },
     {
      "id": "magyars",
-     "name": "Magyars (Etelk\u00f6z)",
+     "name": "Magyars (Etelköz)",
      "type": "tribal",
      "culture": "uralic",
      "cultureName": "Magyar",
@@ -5649,7 +5649,7 @@
     "Oleg's Rus rules the river road from Novgorod through Kyiv (882)"
    ],
    "connectivity": 25,
-   "connectivityNote": "Radhanites and Varangians carry dirhams and silk around a fractured west; Umayyad C\u00f3rdoba and Byzantium re-anchor the sea.",
+   "connectivityNote": "Radhanites and Varangians carry dirhams and silk around a fractured west; Umayyad Córdoba and Byzantium re-anchor the sea.",
    "entities": [
     {
      "id": "byzantium",
@@ -5741,12 +5741,12 @@
     },
     {
      "id": "al_andalus",
-     "name": "Emirate of C\u00f3rdoba (al-Andalus)",
+     "name": "Emirate of Córdoba (al-Andalus)",
      "type": "state",
      "culture": "arab",
      "cultureName": "Andalusi Arab",
      "founded": 756,
-     "capital": "C\u00f3rdoba",
+     "capital": "Córdoba",
      "capitalRegion": "AND",
      "regions": [
       "POR_S",
@@ -5864,7 +5864,7 @@
       "UKR_W"
      ],
      "stability": "consolidating",
-     "population": 2.0,
+     "population": 2,
      "wealth": 2,
      "extendsBeyondMap": false,
      "note": "Oleg took Kyiv (882) and united the Dnieper route from Novgorod to the steppe edge."
@@ -6030,7 +6030,7 @@
      "culture": "celtic",
      "cultureName": "Gaelic Irish",
      "founded": 800,
-     "capital": "Tara (U\u00ed N\u00e9ill)",
+     "capital": "Tara (Uí Néill)",
      "capitalRegion": "IRL_N",
      "regions": [
       "IRL_N",
@@ -6143,7 +6143,7 @@
      "population": 0.4,
      "wealth": 1,
      "extendsBeyondMap": false,
-     "note": "\u00c1rp\u00e1d's tribes seized Pannonia 895-900, driven west by the Pechenegs."
+     "note": "Árpád's tribes seized Pannonia 895-900, driven west by the Pechenegs."
     },
     {
      "id": "croatia",
@@ -6198,7 +6198,7 @@
      "population": 1.3,
      "wealth": 3,
      "extendsBeyondMap": false,
-     "note": "Ashot I crowned by the caliph (884) \u2014 Armenia's first king in nearly five centuries."
+     "note": "Ashot I crowned by the caliph (884) — Armenia's first king in nearly five centuries."
     },
     {
      "id": "wales_states",
@@ -6555,7 +6555,7 @@
      "a": "danelaw",
      "b": "angles_saxons",
      "type": "war",
-     "note": "\u00c6thelwold's revolt sputters; Edward eyes the Five Boroughs"
+     "note": "Æthelwold's revolt sputters; Edward eyes the Five Boroughs"
     },
     {
      "a": "al_andalus",
@@ -6574,59 +6574,59 @@
  ],
  "sources": [
   {
-   "title": "Wikipedia \u2014 Byzantine-Sasanian War of 602\u2013628",
+   "title": "Wikipedia — Byzantine-Sasanian War of 602–628",
    "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628"
   },
   {
-   "title": "Wikipedia \u2014 Early Muslim conquests",
+   "title": "Wikipedia — Early Muslim conquests",
    "url": "https://en.wikipedia.org/wiki/Early_Muslim_conquests"
   },
   {
-   "title": "Wikipedia \u2014 Umayyad conquest of Hispania",
+   "title": "Wikipedia — Umayyad conquest of Hispania",
    "url": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
   },
   {
-   "title": "Wikipedia \u2014 First Bulgarian Empire",
+   "title": "Wikipedia — First Bulgarian Empire",
    "url": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
   },
   {
-   "title": "Wikipedia \u2014 Treaty of Verdun / Treaty of Meerssen",
+   "title": "Wikipedia — Treaty of Verdun / Treaty of Meerssen",
    "url": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
   },
   {
-   "title": "Wikipedia \u2014 Carolingian Empire",
+   "title": "Wikipedia — Carolingian Empire",
    "url": "https://en.wikipedia.org/wiki/Carolingian_Empire"
   },
   {
-   "title": "Wikipedia \u2014 Great Heathen Army / Danelaw",
+   "title": "Wikipedia — Great Heathen Army / Danelaw",
    "url": "https://en.wikipedia.org/wiki/Danelaw"
   },
   {
-   "title": "Wikipedia \u2014 Great Moravia",
+   "title": "Wikipedia — Great Moravia",
    "url": "https://en.wikipedia.org/wiki/Great_Moravia"
   },
   {
-   "title": "Wikipedia \u2014 Khazars",
+   "title": "Wikipedia — Khazars",
    "url": "https://en.wikipedia.org/wiki/Khazars"
   },
   {
-   "title": "Wikipedia \u2014 Aghlabids / Muslim conquest of Sicily",
+   "title": "Wikipedia — Aghlabids / Muslim conquest of Sicily",
    "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Sicily"
   },
   {
-   "title": "Wikipedia \u2014 Tulunids",
+   "title": "Wikipedia — Tulunids",
    "url": "https://en.wikipedia.org/wiki/Tulunids"
   },
   {
-   "title": "Wikipedia \u2014 Hungarian conquest of the Carpathian Basin",
+   "title": "Wikipedia — Hungarian conquest of the Carpathian Basin",
    "url": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
   },
   {
-   "title": "Wikipedia \u2014 Barghawata / Rustamid dynasty / Idrisid dynasty",
+   "title": "Wikipedia — Barghawata / Rustamid dynasty / Idrisid dynasty",
    "url": "https://en.wikipedia.org/wiki/Barghawata"
   },
   {
-   "title": "Wikipedia \u2014 Condominium of Cyprus (688)",
+   "title": "Wikipedia — Condominium of Cyprus (688)",
    "url": "https://en.wikipedia.org/wiki/History_of_Cyprus_under_Arab_rule"
   },
   {
@@ -6634,12 +6634,36 @@
    "url": "https://archive.org/details/atlasofworldpopu0000mcev"
   },
   {
-   "title": "Wikipedia \u2014 Kievan Rus'",
+   "title": "Wikipedia — Kievan Rus'",
    "url": "https://en.wikipedia.org/wiki/Kievan_Rus%27"
   },
   {
-   "title": "Wikipedia \u2014 Emirate of Crete",
+   "title": "Wikipedia — Emirate of Crete",
    "url": "https://en.wikipedia.org/wiki/Emirate_of_Crete"
+  },
+  {
+   "title": "Abbasid Caliphate - Wikipedia (early capitals: Kufa, al-Hashimiyya, Baghdad)",
+   "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+  },
+  {
+   "title": "al-Saffah - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Al-Saffah"
+  },
+  {
+   "title": "Emirate of Crete - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Emirate_of_Crete"
+  },
+  {
+   "title": "Andalusi Crete (827-961) and the Arab-Byzantine Frontier - Ballandalus",
+   "url": "https://ballandalus.wordpress.com/2015/04/09/andalusi-crete-827-961-and-the-arab-byzantine-frontier-in-the-early-medieval-mediterranean-2/"
+  },
+  {
+   "title": "March of Pannonia - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/March_of_Pannonia"
+  },
+  {
+   "title": "Slavs in Lower Pannonia - Grokipedia",
+   "url": "https://grokipedia.com/page/Slavs_in_Lower_Pannonia"
   }
  ],
  "uncertainties": [
@@ -6647,14 +6671,14 @@
   "620: Persian-held CIL/EGY/SYR/LEV shown as Sassanid though administration was a brief occupation regime; Anatolia kept Byzantine despite deep raids.",
   "711 is mid-conquest in Iberia: only AND+CAS_S given to the Umayyads (Guadalete July, Toledo late 711); the Visigothic rump keeps the rest until 712-16.",
   "Balearics (BAL) kept nominally Byzantine/autonomous 620-870 despite Arab raids; assigned to al-Andalus at 900 slightly ahead of the 902-903 conquest.",
-  "Cyprus shown as the 688 Byzantine-Arab tax condominium 711-900; era08 shows it simply Byzantine at 930 \u2014 join note.",
+  "Cyprus shown as the 688 Byzantine-Arab tax condominium 711-900; era08 shows it simply Byzantine at 930 — join note.",
   "NAP (Campania-Apulia) given to Lombards/Benevento from 650 although coastal Naples, Amalfi and Gaeta stayed nominally Byzantine throughout.",
-  "BOH cell fused Bohemia+Moravia: assigned to Great Moravia 843-870 (Bohemia was only loosely tributary), to P\u0159emyslid Bohemia at 900.",
+  "BOH cell fused Bohemia+Moravia: assigned to Great Moravia 843-870 (Bohemia was only loosely tributary), to Přemyslid Bohemia at 900.",
   "SUI cell straddles Alemannia and Burgundy: east_francia at 870, burgundy_kingdom at 900 to match era08's 930 slice.",
-  "Barghawata kept in MAR 750-900 (they held the Atlantic plain to the 11th c.); era08 folds MAR into the Idrisids at 930 \u2014 flagged as contested on the Idrisid side instead.",
-  "Sicily assigned to the Aghlabids from 843 (Palermo 831) though Syracuse held to 878 and Taormina to 902 \u2014 marked contested both sides.",
-  "Croatia founded 845 (Trpimir) rather than the canonical 925 kingdom date; Burgundy founded 888 rather than canonical 933 \u2014 both to join era08's usage.",
-  "kievan_rus founded 862 in the 870 slice (Rurik at Novgorod) but 882 at 900 (canonical, Oleg's union) \u2014 deliberate re-founding echo.",
+  "Barghawata kept in MAR 750-900 (they held the Atlantic plain to the 11th c.); era08 folds MAR into the Idrisids at 930 — flagged as contested on the Idrisid side instead.",
+  "Sicily assigned to the Aghlabids from 843 (Palermo 831) though Syracuse held to 878 and Taormina to 902 — marked contested both sides.",
+  "Croatia founded 845 (Trpimir) rather than the canonical 925 kingdom date; Burgundy founded 888 rather than canonical 933 — both to join era08's usage.",
+  "kievan_rus founded 862 in the 870 slice (Rurik at Novgorod) but 882 at 900 (canonical, Oleg's union) — deliberate re-founding echo.",
   "Magyars at 843 placed in Levedia (STE+MDA cells); their exact 9th-century range on the Pontic steppe is scholarly guesswork.",
   "Venice, Amalfi and the Dalmatian city communes are too small for their cells and are noted in text only; Volga Bulgars lie off-map.",
   "Slav tribute zones (UKR/BLR paying Khazars, Sorbian marches) simplified to slavs_early; Danelaw boundary at 900 simplified to ENG_E+ENG_N with English Mercia holding ENG_M.",

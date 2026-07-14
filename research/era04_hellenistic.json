@@ -197,7 +197,7 @@
       "CAS_S"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     },
     {
@@ -317,7 +317,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 2
     },
     {
@@ -353,7 +353,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2
     },
     {
@@ -520,7 +520,7 @@
       "LEV"
      ],
      "stability": "stable",
-     "population": 5.0,
+     "population": 5,
      "wealth": 5,
      "note": "Alexandria is the intellectual and commercial capital of the Hellenistic world."
     },
@@ -609,7 +609,7 @@
       "SYR"
      ],
      "stability": "stable",
-     "population": 16.0,
+     "population": 16,
      "wealth": 4,
      "note": "Vast empire from the Aegean to the Indus, though Bactria and Parthia are already stirring.",
      "extendsBeyondMap": true
@@ -659,7 +659,7 @@
       "THR"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     }
    ],
@@ -912,7 +912,7 @@
       "CAS_S"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     },
     {
@@ -1067,7 +1067,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 2
     },
     {
@@ -1337,7 +1337,7 @@
       "SYR"
      ],
      "stability": "stable",
-     "population": 15.0,
+     "population": 15,
      "wealth": 4,
      "note": "Losing the Third Syrian War's opening rounds to Ptolemy III deep in Mesopotamia.",
      "extendsBeyondMap": true
@@ -2263,7 +2263,6 @@
      "capital": "Carthage",
      "capitalRegion": "TUN",
      "regions": [
-      "BAL",
       "TRP",
       "TUN"
      ],
@@ -2447,7 +2446,8 @@
      "culture": "pre_ie",
      "cultureName": "Iberian",
      "regions": [
-      "EUS"
+      "EUS",
+      "BAL"
      ],
      "stability": "stable",
      "population": 0.3,
@@ -2501,7 +2501,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     },
     {
@@ -2985,7 +2985,6 @@
      "capital": "Carthage",
      "capitalRegion": "TUN",
      "regions": [
-      "BAL",
       "TRP",
       "TUN"
      ],
@@ -3136,7 +3135,7 @@
       "SUI"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 2
     },
     {
@@ -3168,7 +3167,8 @@
      "culture": "pre_ie",
      "cultureName": "Iberian",
      "regions": [
-      "EUS"
+      "EUS",
+      "BAL"
      ],
      "stability": "stable",
      "population": 0.3,
@@ -3222,7 +3222,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     },
     {
@@ -3469,7 +3469,7 @@
       "SYR"
      ],
      "stability": "contested",
-     "population": 10.0,
+     "population": 10,
      "wealth": 4,
      "note": "Antiochus IV humiliated at Eleusis by Rome; his persecution edicts spark Judea's revolt next year.",
      "extendsBeyondMap": true
@@ -3822,7 +3822,8 @@
      "culture": "pre_ie",
      "cultureName": "Iberian",
      "regions": [
-      "EUS"
+      "EUS",
+      "BAL"
      ],
      "stability": "stable",
      "population": 0.3,
@@ -3874,7 +3875,7 @@
       "POR_S"
      ],
      "stability": "stable",
-     "population": 1.0,
+     "population": 1,
      "wealth": 1
     },
     {
@@ -3971,7 +3972,7 @@
       "ION"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 4,
      "note": "Rome's staunchest Anatolian ally, fabulously wealthy from the Pergamon library and wool trade."
     },
@@ -4041,7 +4042,6 @@
       "AND",
       "ARA",
       "ATT",
-      "BAL",
       "CAS_S",
       "CLB",
       "COR",
@@ -4112,7 +4112,7 @@
       "SYR"
      ],
      "stability": "collapsing",
-     "population": 6.0,
+     "population": 6,
      "wealth": 4,
      "note": "Wracked by dynastic civil war between rival claimants; Parthia already holds Media.",
      "extendsBeyondMap": true
@@ -4486,10 +4486,11 @@
      "capitalRegion": "MAR",
      "regions": [
       "MAR",
-      "RIF"
+      "RIF",
+      "ORA"
      ],
      "stability": "stable",
-     "population": 0.4,
+     "population": 0.55,
      "wealth": 2,
      "note": "Bocchus I's reward for betraying Jugurtha to Rome (105 BC)."
     },
@@ -4536,11 +4537,10 @@
      "capitalRegion": "NUM",
      "regions": [
       "NUM",
-      "ORA",
       "TRP"
      ],
      "stability": "stable",
-     "population": 0.9,
+     "population": 0.75,
      "wealth": 2,
      "note": "Split by the Jugurthine War's settlement; western lands ceded to Bocchus of Mauretania."
     },
@@ -4671,7 +4671,7 @@
       "VAL"
      ],
      "stability": "contested",
-     "population": 15.0,
+     "population": 15,
      "wealth": 3,
      "note": "Asia and Narbonensis add wealthy new provinces; Cilician piracy chokes eastern trade."
     },
@@ -5012,7 +5012,7 @@
       "SWE_S"
      ],
      "stability": "stable",
-     "population": 2.0,
+     "population": 2,
      "wealth": 1
     },
     {
@@ -5190,7 +5190,7 @@
       "MES_S"
      ],
      "stability": "stable",
-     "population": 8.0,
+     "population": 8,
      "wealth": 3,
      "extendsBeyondMap": true
     },
@@ -5209,7 +5209,7 @@
       "EGY_S"
      ],
      "stability": "stable",
-     "population": 4.0,
+     "population": 4,
      "wealth": 5,
      "note": "Ptolemy XII bribes Rome for recognition; Cyprus about to be annexed by Cato."
     },
@@ -5275,7 +5275,7 @@
       "VAL"
      ],
      "stability": "stable",
-     "population": 23.0,
+     "population": 23,
      "wealth": 3,
      "note": "First Triumvirate rules Rome; Gaul still unconquered, the east newly organized."
     },
@@ -5728,10 +5728,11 @@
      "capitalRegion": "EGY_N",
      "regions": [
       "EGY_N",
-      "EGY_S"
+      "EGY_S",
+      "CYP"
      ],
      "stability": "contested",
-     "population": 3.9,
+     "population": 4.1,
      "wealth": 5,
      "note": "Cleopatra VII rules as Caesar's ally and mother of Caesarion."
     },
@@ -5778,7 +5779,6 @@
       "CLB",
       "COR",
       "CRE",
-      "CYP",
       "CYR",
       "EPI",
       "EUS",
@@ -5813,7 +5813,7 @@
       "VAL"
      ],
      "stability": "contested",
-     "population": 40.0,
+     "population": 40,
      "wealth": 3,
      "note": "Caesar assassinated on the Ides of March; Gaul fully conquered, Cleopatra's Egypt a client."
     },
@@ -6255,7 +6255,7 @@
       "MES_S"
      ],
      "stability": "stable",
-     "population": 9.0,
+     "population": 9,
      "wealth": 3,
      "extendsBeyondMap": true
     },
@@ -6270,10 +6270,11 @@
      "capitalRegion": "EGY_N",
      "regions": [
       "EGY_N",
-      "EGY_S"
+      "EGY_S",
+      "CYP"
      ],
      "stability": "collapsing",
-     "population": 3.8,
+     "population": 4,
      "wealth": 5,
      "note": "Actium lost; Cleopatra's Egypt survives one more year before annexation."
     },
@@ -6322,7 +6323,6 @@
       "COR",
       "CRE",
       "CRO",
-      "CYP",
       "CYR",
       "DAL",
       "EPI",
@@ -6361,7 +6361,7 @@
       "VAL"
      ],
      "stability": "consolidating",
-     "population": 46.0,
+     "population": 46,
      "wealth": 3,
      "note": "Actium breaks Antony and Cleopatra; only Egypt remains outside direct rule."
     },
@@ -6513,6 +6513,30 @@
   {
    "title": "Juba II - Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Juba_II"
+  },
+  {
+   "title": "Conquest of Balearic Islands by Romans - Imperium Romanum",
+   "url": "https://imperiumromanum.pl/en/wars/conquest-of-balearic-islands-by-romans/amp/"
+  },
+  {
+   "title": "Second Punic War - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Second_Punic_War"
+  },
+  {
+   "title": "Bocchus I - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bocchus_I"
+  },
+  {
+   "title": "Jugurthine War - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Jugurthine_War"
+  },
+  {
+   "title": "Cleopatra - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cleopatra"
+  },
+  {
+   "title": "Ptolemy XIV Philopator - Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ptolemy_XIV_Philopator"
   }
  ],
  "uncertainties": [
