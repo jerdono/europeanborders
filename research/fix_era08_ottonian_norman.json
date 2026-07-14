@@ -1,0 +1,61 @@
+{
+  "file": "era08_ottonian_norman.json",
+  "corrections": [
+    {
+      "year": 1095,
+      "why": "Rubenid Cilicia is missing from this slice even though the file's own canonical founding year for cilician_armenia is 1080 (used correctly from 1130 on). CIL is instead handed wholly and uncontested to the distant Great Seljuk Empire (capital Isfahan). In reality Ruben I founded the highland principality c.1080 and his son Constantine I (r.1095-1100/1102) was actively expanding from the Taurus into the Cilician plain in exactly this year; the plain itself was fragmented among Turkmen warlords, Byzantine remnants and the Rubenids, not centrally governed from Isfahan.",
+      "assign": { "CIL": "cilician_armenia" },
+      "addEntities": [
+        {
+          "id": "cilician_armenia",
+          "name": "Rubenid Cilicia",
+          "type": "state",
+          "culture": "caucasian",
+          "cultureName": "Armenian",
+          "founded": 1080,
+          "capital": "Vahka",
+          "capitalRegion": "CIL",
+          "regions": ["CIL"],
+          "contestedRegions": ["CIL"],
+          "stability": "consolidating",
+          "population": 0.2,
+          "wealth": 2,
+          "note": "Constantine I pushes down from the Taurus into the Cilician plain; Turkmen warlords and Byzantine remnants still hold pockets"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1180,
+      "why": "Philip Augustus's coronation was 1 Nov 1179 (crowned co-king alongside his father Louis VII at Reims); he became sole king only on Louis VII's death, 18 September 1180. The slice's event and the france entity's note both say he was 'crowned' in 1180, conflating the coronation with the succession. Text-only fix, no territorial change.",
+      "events": [
+        "Manuel Komnenos dies (Sept 1180) — the Komnenian system begins to unravel",
+        "Saladin, sultan since 1174, rings the crusader states with Egypt and Damascus",
+        "Philip Augustus (crowned co-king 1179) becomes sole king of France on Louis VII's death; Stefan Nemanja's Serbia slips the Byzantine leash"
+      ],
+      "update": {
+        "france": { "note": "Philip II Augustus, crowned co-king 1179, sole king since his father's death (Sept 1180) — he will break the Angevins" }
+      },
+      "confidence": "medium"
+    }
+  ],
+  "verified": [
+    "930: Athelstan 'basileus of Britain' and Abd al-Rahman III's 929 caliphate proclamation are correctly dated.",
+    "960: al_andalus holding Ceuta (931) and Tangier (951) is confirmed accurate by search — not an error.",
+    "1045 Byzantine annexation of Bagratid Ani correctly reflected from the 1054 slice onward (byzantium holds ARM/ARM_W); 1064 Seljuk sack of Ani correctly reflected from 1066 onward (seljuk holds ARM while byzantium's ARM_W is marked contested).",
+    "1054/1065/1066/1095 Iberian partition sequence (Fernando I unites León-Castile 1037, dies 1065 splitting Castile/León/Galicia, Alfonso VI reunites by 1072/1085) matches the entity set and dates used.",
+    "Dalmatia's repeated hand-offs (Croatia→Byzantium→Croatia→Venice→Hungary→Byzantium) and the Bosnia/Provence/Portugal region-resolution calls are already self-documented in the file's own uncertainties list and are defensible at this map's granularity — not re-flagged.",
+    "1180: Al-Nasir's Abbasid accession, Saladin's 1171/1174 Ayyubid consolidation, Georgia's Giorgi III/Tamar co-rule (1178), and Ban Kulin's Bosnia (1180) are all correctly dated.",
+    "Founding dates spot-checked against the canonical registry (khazars 650, almohad 1121, hammadids 1015, portugal 1139, castile 1065) all match."
+  ],
+  "sources": [
+    { "title": "Rubenids — Wikipedia", "url": "https://en.wikipedia.org/wiki/Rubenids" },
+    { "title": "Armenian Kingdom of Cilicia — Wikipedia", "url": "https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia" },
+    { "title": "Ruben I — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ruben_I" },
+    { "title": "Philip II of France — Wikipedia", "url": "https://en.wikipedia.org/wiki/Philip_II_of_France" },
+    { "title": "Umayyad Caliphate of Al-Andalus — occupation of Ceuta (931) and Tangier (951)", "url": "https://en.wikipedia.org/wiki/Umayyad_Caliphate" }
+  ],
+  "uncertainties": [
+    "Whether CIL in 1095 should be marked fully contested (Rubenid vs. Turkmen/Byzantine remnants) or split further is a judgment call; the region-level granularity of this map can't resolve sub-regional fragmentation any better than the correction given."
+  ]
+}
