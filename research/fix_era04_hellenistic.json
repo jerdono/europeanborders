@@ -1,0 +1,73 @@
+{
+  "file": "era04_hellenistic.json",
+  "corrections": [
+    {
+      "year": -201,
+      "why": "Balearic Islands (BAL) are shown held by Carthage, but the 201 BC peace after Zama stripped Carthage of all territory outside Africa; Ebusus and the islands became a locally-governed Punic/native enclave, not Carthaginian state territory. No entity in the file better fits this than the existing indigenous 'iberians' tribal bucket used for adjacent unclaimed coastal Iberia.",
+      "assign": { "BAL": "iberians" },
+      "confidence": "medium"
+    },
+    {
+      "year": -168,
+      "why": "Same issue carried forward: Carthage (rump African state after 201 BC) still shown holding BAL, but the Balearics remained outside Carthaginian, and not yet under Roman, control until Rome's conquest in 123 BC (Metellus Balearicus).",
+      "assign": { "BAL": "iberians" },
+      "confidence": "medium"
+    },
+    {
+      "year": -146,
+      "why": "With Carthage destroyed this year, BAL was reassigned straight to Rome, but Rome did not conquer the Balearic Islands until 123 BC (Q. Caecilius Metellus Balearicus) -- for 146-123 BC the islands were effectively independent (local population plus the free Punic city of Ebusus).",
+      "assign": { "BAL": "iberians" },
+      "confidence": "medium"
+    },
+    {
+      "year": -100,
+      "why": "Numidia's own note in this slice says 'western lands ceded to Bocchus of Mauretania,' but the regions array still lists ORA (Oran & W. Algeria) under Numidia -- a direct self-contradiction. Bocchus I received western Numidia up to the Mulucha river in 105 BC (reward for betraying Jugurtha to Rome), 5 years before this slice's year. The -60 slice already correctly shows ORA under Mauretania, confirming -100 is the outlier.",
+      "assign": { "ORA": "mauretania" },
+      "update": {
+        "numidia": { "population": 0.75 },
+        "mauretania": { "population": 0.55 }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": -44,
+      "why": "Cyprus (CYP) is shown held by Rome, but Julius Caesar restored Cyprus to Ptolemaic Egypt (Cleopatra VII and Ptolemy XIV) in 47 BC after the Alexandrian War, reversing Cato's 58 BC annexation. Cyprus stayed under Ptolemaic rule until Egypt's final annexation in 30 BC, after this slice.",
+      "assign": { "CYP": "ptolemaic_egypt" },
+      "update": {
+        "ptolemaic_egypt": { "population": 4.1 }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": -31,
+      "why": "Same issue at Actium: CYP is shown Roman, but Cyprus remained part of the Ptolemaic kingdom (per Caesar's 47 BC restoration, later folded into Antony's 34 BC Donations of Alexandria to Cleopatra Selene) until Egypt's annexation in 30 BC, the year after this slice. The slice's own note that 'only Egypt remains outside direct rule' after Actium is inconsistent with Rome already holding Cyprus, which belonged to that same Ptolemaic crown.",
+      "assign": { "CYP": "ptolemaic_egypt" },
+      "update": {
+        "ptolemaic_egypt": { "population": 4.0 }
+      },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Sardinia/Corsica shown transitioning Carthage->Rome at -218 (approximating the 238 BC Mercenary War aftermath) and Malta likewise at -218 (seized early in the Second Punic War) -- correct and already documented in the file's own uncertainties.",
+    "Numidia gaining Tripolitania (TRP) from Carthage's collapse at -146, then losing it to Rome (Caesar's Africa Nova) at -44 -- matches Masinissa's Emporia seizure (146 BC) and the 46 BC annexation.",
+    "Pergamon's territory (ION) folding into Rome by -100, reflecting Attalus III's 133 BC bequest and the 129 BC province of Asia.",
+    "Cilicia, Crete, Bithynia, Pontus and Syria all correctly shown passing to Rome by -60, matching Pompey's 64-63 BC eastern settlement after defeating Mithridates VI and the Seleucids' extinction.",
+    "Armenia's independence from the Seleucids (Artaxias I, c. 189 BC) correctly reflected from -168 onward; its post-Tigranes reduction to its highland core at -60 also checks out.",
+    "Hasmonean Judea's founding (-140) and its later reduction to a Roman client under Pompey (63 BC) / Antipater-Hyrcanus / Herod (37 BC) are all correctly staged across -100, -60, -44, -31.",
+    "Cappadocia's disappearance as an independent polity at -100 (absorbed by Mithridates VI's Pontus) and reappearance under Ariobarzanes I at -60 matches the historical back-and-forth (Pontic annexation ~101-100 BC, Roman-backed restoration ~96-95 BC).",
+    "Mauretania's founding date (-110) and Bocchus II/Bogud's Caesarian alliance are consistent with the sources."
+  ],
+  "sources": [
+    { "title": "Conquest of Balearic Islands by Romans - Imperium Romanum", "url": "https://imperiumromanum.pl/en/wars/conquest-of-balearic-islands-by-romans/amp/" },
+    { "title": "Second Punic War - Wikipedia", "url": "https://en.wikipedia.org/wiki/Second_Punic_War" },
+    { "title": "Bocchus I - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bocchus_I" },
+    { "title": "Jugurthine War - Wikipedia", "url": "https://en.wikipedia.org/wiki/Jugurthine_War" },
+    { "title": "Cleopatra - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cleopatra" },
+    { "title": "Ptolemy XIV Philopator - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ptolemy_XIV_Philopator" }
+  ],
+  "uncertainties": [
+    "Substituting 'iberians' as BAL's holder for -201/-168/-146 is a modeling choice -- the Balearic population (Talaiotic culture, plus the free Punic city of Ebusus) is not identical to mainland Iberian tribes, but no closer canonical entity id exists and the territorial fact (neither Carthage nor Rome controlled it) is well documented.",
+    "Population deltas applied alongside the ORA and CYP region reassignments are interpolated estimates (matching neighboring slices' totals), not independently sourced figures."
+  ]
+}

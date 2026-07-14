@@ -1,0 +1,45 @@
+{
+  "file": "era11_renaissance.json",
+  "corrections": [
+    {
+      "year": 1512,
+      "why": "NUM (Numidia/E. Algeria, i.e. the Béjaïa–Constantine hinterland) is assigned to the Zayyanid Kingdom of Tlemcen, but Tlemcen's territory lay far to the west (Oran/Tlemcen, correctly held by 'zayyanid' via ORA). The Béjaïa–Constantine region was ruled by the western (Béjaïa) branch of the Hafsid dynasty until the Ottoman conquest of 1529; the city of Béjaïa itself fell to Spain in Jan 1510 (a presidio, city-scale like Oran/Tripoli and not meant to flip cell assignment per this file's own convention). The Ottoman regions list already correctly picks up NUM starting at the 1540 slice, confirming 1512/1526 are the slices needing the fix.",
+      "assign": { "NUM": "hafsid" },
+      "confidence": "high"
+    },
+    {
+      "year": 1526,
+      "why": "Same issue as 1512: NUM (Numidia/Béjaïa-Constantine) was still under Hafsid (Béjaïa-branch) rule in 1526, not the Zayyanid Kingdom of Tlemcen — Ottoman conquest of Constantine only came in 1529, after which the file already (correctly) shows NUM as Ottoman from the 1540 slice on.",
+      "assign": { "NUM": "hafsid" },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Region-assignment completeness: all 7 slices (1512, 1526, 1540, 1556, 1571, 1598, 1610) assign all 122 regions exactly once, no duplicates or gaps.",
+    "Ferdinand's conquest of Iberian Navarre in 1512: the Duke of Alba's army entered July 19 and Pamplona surrendered July 25 — a genuine 'six-day campaign' as the event states.",
+    "Selim I deposed Bayezid II in April 1512 and Massimiliano Sforza was restored as Duke of Milan in Dec 1512 after the Holy League expelled France — both correct for the 1512 slice.",
+    "Cyprus/Venice/Ottoman: Venice holds CYP through 1556, contested and shown as Ottoman-controlled with Venice contestedRegions at 1571 (Famagusta fell Aug 1571) — correctly sequenced.",
+    "Rhodes → Malta: Knights Hospitaller hold DOD (Rhodes) in 1512, are landless (correctly absent) in 1526 after the 1522 siege, and hold MLT (+ TRP 1530-1540) from the 1540 slice after Charles V's 1530 grant.",
+    "Tripolitania (TRP): Hafsid-nominal in 1512/1526, Knights Hospitaller 1540 (granted 1530), Ottoman from 1551 (shown correctly from the 1556 slice) — matches the Dragut conquest date.",
+    "Baghdad (MES_S): Safavid until the Ottoman capture in Dec 1534, correctly shown as Ottoman from the 1540 slice onward.",
+    "Peace of Amasya (1555): Erivan/eastern Georgia stayed Safavid, western Georgia/Kurdistan went Ottoman — matches the file's ARM=Safavid, GEO=contested-note treatment at 1556/1571.",
+    "Treaty of Constantinople (1590): Erivan (ARM) and the Caucasus ceded to the Ottomans — matches the file correctly showing ARM as Ottoman (and Safavid entity absent from the map) at the 1598 slice, with Safavid regaining ARM only after Shah Abbas's 1603-07 reconquest (shown correctly at 1610).",
+    "Union of Lublin (1569) transferring Ukraine (UKR_W) from Lithuania to the Polish crown, and the Livonian Order's collapse (EST to Sweden, LVA to Poland-Lithuania) are both correctly timed.",
+    "Kazan (1552) and Astrakhan (1556) conquests, Muscovy→Russia id switch at the 1556 slice (post-1547 coronation), Zaporozhian Cossack Sich founding (c. 1552) — all consistent with mainstream dating.",
+    "Duchy of Prussia's 1525 secularization and Polish vassalage, Croatia's absorption into the Habsburg AUT/SVK/CRO bloc after 1540, and Sardinia/Naples/Sicily kept as separate crown-territory entities under the Aragonese/Spanish monarch throughout — all defensible and consistent."
+  ],
+  "sources": [
+    { "title": "Capture of Béjaïa (1510) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Capture_of_Bejaia_(1510)" },
+    { "title": "Hafsids of Béjaïa — Wikipedia/DBpedia", "url": "https://en.wikipedia.org/wiki/Hafsids_of_B%C3%A9ja%C3%AFa" },
+    { "title": "Constantine, Algeria — Wikipedia (Hafsid rule to 1529, Ottoman from 1567)", "url": "https://en.wikipedia.org/wiki/Constantine,_Algeria" },
+    { "title": "Kingdom of Tlemcen — Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen" },
+    { "title": "Spanish conquest of Iberian Navarre — Wikipedia", "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Iberian_Navarre" },
+    { "title": "Peace of Amasya — Wikipedia", "url": "https://en.wikipedia.org/wiki/Peace_of_Amasya" },
+    { "title": "Treaty of Constantinople (1590) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1590)" }
+  ],
+  "uncertainties": [
+    "Did not flag the Zayyanid/Hafsid NUM correction's exact hand-off year with more precision than 'still wrong at 1512 and 1526, already fixed by 1540' — the file has no slice between 1526 and 1540 to pin down whether the 1529 Ottoman conquest of Constantine should instead be modeled as a brief Hafsid→Ottoman transition rather than Zayyanid→Ottoman; assigning the interim to 'hafsid' is the best fit given available entities.",
+    "Considered but did not flag: Wattasid Morocco holding all of MAR (Marrakesh) in the 1512 slice despite the Saadi movement's 1511 founding in the Sous — left alone because the Saadis did not take Marrakesh city until 1524/25 per the file's own (correct) 1526 note, so Wattasid nominal control of MAR in 1512 is defensible.",
+    "Considered but did not flag the 1526 event text 'Gustav Vasa's Sweden, independent since 1523, breaks decisively from the Kalmar Union' — the formal Treaty of Malmö break was 1524, two years before this slice; left it as a retrospective event summary rather than a territorial error."
+  ]
+}
