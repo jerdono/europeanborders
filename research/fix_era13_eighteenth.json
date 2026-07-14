@@ -1,0 +1,38 @@
+{
+  "file": "era13_eighteenth.json",
+  "corrections": [
+    {
+      "year": 1789,
+      "why": "Austrian forces under Feldmarschall Laudon took Belgrade by storm on 8 October 1789 (Siege of Belgrade, 15 Sep - 8 Oct 1789). The slice's own event text says 'Joseph's armies take Belgrade this autumn,' and the file's own methodology dates within-year seizures to the slice (see the 1740 Silesia precedent, seized Dec 1740 and shown Prussian that slice, logged in uncertainties) — but SRB is left wholly Ottoman with no contested flag, an internal inconsistency between the narrated event and the map. The gain was temporary (returned to the Ottomans at Sistova, 1791, after this era's slices), so SRB should move to Austria with contested flags on both sides, matching how the file already treats the analogous FLA/Brabant-Revolution situation in this same slice.",
+      "assign": { "SRB": "austria_habsburg" },
+      "update": {
+        "austria_habsburg": {
+          "contestedRegions": ["FLA", "SRB"],
+          "note": "Joseph II's reforms revolt Belgium and Hungary at once; Laudon storms Belgrade in October even as his army fights the Turks."
+        },
+        "ottoman": {
+          "note": "War on two fronts against Russia and Austria; Belgrade falls to Laudon in October. Selim III accedes amid defeat."
+        }
+      },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "All 7 slices (1721, 1740, 1756, 1763, 1772, 1789, 1795) assign all 122 region codes exactly once each, no duplicates or gaps.",
+    "Treaty of Nystad 1721 cessions (Estonia, Livonia, Ingria, Vyborg/Karelia) to Russia, and Sweden losing its Baltic empire, are correct.",
+    "Sicily-for-Sardinia swap (1720) between Austria and Savoy is correctly reflected at the 1721 slice.",
+    "Belgrade/northern Serbia (SRB) correctly moves Austria (1721, post-Passarowitz) -> Ottoman (1740-1772, post-Belgrade 1739) -> Austria again is the only slice needing the fix above; Ottoman retention through 1763/1772 is correct.",
+    "Silesia's transfer to Prussia (contested at 1740, settled by 1763 Hubertusburg) is handled correctly and consistently.",
+    "Naples/Sicily correctly split from Austria to Bourbon Naples between the 1721 and 1740 slices (War of Polish Succession), matching the canonical founding id/date.",
+    "Corsica's sequence (Genoa -> Corsican Republic 1755-69 -> France from 1772) is correctly staged across slices.",
+    "Poland partition sequence is correct: Austria gains VOL (Galicia) 1772 and POL_S (West Galicia/Kraków) 1795; Russia gains BLR 1772 and CRM/LTU/UKR_W by 1789/1795; Poland-Lithuania is correctly removed as an entity after the 1795 Third Partition.",
+    "Crimean Khanate's status (Ottoman vassal through 1763, occupied/contested 1772, absorbed into Russia by 1789) tracks the historical 1774 Küçük Kaynarca / 1783 annexation timeline reasonably given the slice years available.",
+    "Caucasus/Armenia sequence (Safavid 1721 -> Afsharid 1740 -> Erivan Khanate 1756-1789 -> Qajar 1795) matches the post-Nader-Shah fragmentation and Agha Mohammad Khan's reunification and 1795 sack of Tbilisi.",
+    "Prussia's First Partition (1772) gain of Royal Prussia/Netze District is asserted in the entity's note but not reflected in a region change (POL_W stays with Poland-Lithuania); checked but not corrected — the POL_W cell's seed point sits near Poznań (which stayed Commonwealth until 1793), and the file already uses this same convention elsewhere (e.g. LOM staying Venetian despite Austrian Milan, logged in uncertainties) for split cells the tessellation can't resolve at this granularity."
+  ],
+  "sources": [
+    { "title": "Siege of Belgrade (1789) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1789)" },
+    { "title": "First Partition of Poland — Wikipedia", "url": "https://en.wikipedia.org/wiki/First_Partition_of_Poland" },
+    { "title": "Austro-Turkish War (1787-1791) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Austro-Turkish_War_(1788%E2%80%931791)" }
+  ]
+}

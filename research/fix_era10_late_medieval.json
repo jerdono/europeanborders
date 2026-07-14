@@ -1,0 +1,45 @@
+{
+  "file": "era10_late_medieval.json",
+  "corrections": [
+    {
+      "year": 1500,
+      "why": "Region NUM (Numidia/E. Algeria, i.e. the Constantine-Bejaia area) is handed from Hafsid to Zayyanid Tlemcen with the note 'Tlemcen reclaims the central Maghreb as Hafsid grip fails.' Sources agree this is backwards: the Zayyanids were Hafsid tributaries/vassals continuously from 1424 to 1500 (Hafsid expeditions of 1462 and 1466 confirmed this), Zayyanid authority had shrunk to little more than Tlemcen city and its immediate surroundings by this point, and Constantine/Bejaia were 'key Hafsid strongholds' (subdued by the Hafsids 1397-1402 and held as such through this period). There is no support for a Zayyanid eastward expansion into Hafsid Numidia at 1500 (that only happens much later, 16th century, and even then via Ottoman corsairs, not Tlemcen).",
+      "assign": { "NUM": "hafsid" },
+      "update": {
+        "hafsid": {
+          "population": 0.95,
+          "note": "Constantine and Bejaia remain Hafsid strongholds even as Tunis's central grip weakens"
+        },
+        "zayyanid": {
+          "population": 0.3,
+          "note": "Tlemcen still a Hafsid tributary since 1424; authority barely reaches past the capital"
+        }
+      },
+      "confidence": "medium"
+    }
+  ],
+  "verified": [
+    "Structural check (script): every one of the 8 slices assigns all 122 region codes exactly once — no gaps, dupes, or invalid codes.",
+    "Ottoman absorption sequence is on the right side of each slice year: Serbia (1459), Morea (1460), Trebizond (1461), Athens (1456-58), Bosnia (1463) all still separate entities at 1444/1453, all folded into 'ottoman' regions by 1466.",
+    "Aq Qoyunlu replaces Qara Qoyunlu in ARM/ARM_W/MES_N/MES_S exactly after Chapakchur (1467) — Qara Qoyunlu entity correctly removed starting the 1480 slice.",
+    "Crimean Khanate split from the Golden Horde ('Great Horde') at the 1444 slice (founded 1441), consistent with Haci Giray's khanate; steppe region hand-offs (STE, UKR_E, DON) across 1444-1500 track the Great Horde's decline plausibly.",
+    "Kalmar Union: Sweden correctly splits off as a separate entity from the 1453 slice (Karl Knutsson's 1448 election), consistent with denmark/sweden oscillation notes through 1500.",
+    "Muscovy's territorial gains land in the right slices: Novgorod annexed by 1480 (historical 1478), Tver-adjacent growth by 1492 (historical 1485), Severian lands/RUS_S by 1500 (Vedrosha, 14 July 1500).",
+    "Spain: Castile+Aragon union shown from 1480 (founded 1479) is right; Granada (AND) only folds into Spain at the 1492 slice, matching the 2 Jan 1492 capitulation — granada entity correctly removed from 1492 onward.",
+    "Hundred Years' War English holdings track correctly: Normandy still English at 1444, gone by 1453 (Normandy reconquered 1449-50); Aquitaine/Gascony still English at 1444, gone by 1453 (Castillon, 17 July 1453) — England reduced to the home islands+Calais (Calais not a mapped region) from 1453 on.",
+    "Muhammad IX's presence as Granada's ruler in the 1429 slice is defensible: he reclaimed the Alhambra from Muhammad VIII in late 1429 after a mid-year campaign.",
+    "Second Peace of Thorn dated 19 October 1466 and its regional consequences (Teutonic Order reduced, Royal Prussia to Poland) are correctly placed at the 1466 slice.",
+    "HRE splitting into Austria/Bavaria/Saxony/Palatinate/Hesse/Wurttemberg/Lorraine at the 1500 slice checks out against known 15th-century territorial/title dates (Bavaria 1180, Palatinate 1214, Hesse 1264, Lorraine ~959, Saxony 1485 Leipzig partition, Wurttemberg raised to duchy 1495)."
+  ],
+  "sources": [
+    { "title": "Zayyanid dynasty — Wikipedia", "url": "https://en.wikipedia.org/wiki/Zayyanid_dynasty" },
+    { "title": "Kingdom of Tlemcen — Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen" },
+    { "title": "Hafsids of Béjaïa — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hafsids_of_B%C3%A9ja%C3%AFa" },
+    { "title": "Hafsid dynasty — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hafsid_dynasty" },
+    { "title": "Muhammad IX of Granada — Wikipedia", "url": "https://en.wikipedia.org/wiki/Muhammad_IX_of_Granada" }
+  ],
+  "uncertainties": [
+    "Did not re-litigate the file's own extensively documented judgment calls (listed in its 'uncertainties' section) — PIE/LOM/VOL/RUS_S region-resolution approximations, the Kalmar/HRE aggregation choices, the Otranto contested-region treatment, etc. — since the brief instructs against churning defensible calls the author already flagged.",
+    "The NUM correction is inferred from general dynastic-history summaries (Wikipedia-level) rather than a year-specific 1500 map; confidence is medium rather than high because no source pinpoints the NUM/ORA boundary in exactly 1500, only the broader Hafsid-suzerain relationship through that year."
+  ]
+}
