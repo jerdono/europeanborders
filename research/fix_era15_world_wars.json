@@ -1,0 +1,121 @@
+{
+  "file": "era15_world_wars.json",
+  "corrections": [
+    {
+      "year": 1916,
+      "why": "Romania is dropped from the entity list entirely, with MDA (Moldavia/Bessarabia) handed to Russia and WLC absorbed into Austria-Hungary. Bucharest fell 6 Dec 1916 and the Central Powers occupied roughly two-thirds of the country, but the Romanian court, army and government retreated to Iași and held the Moldavian salient continuously through 1917-18 (the same rump state the file itself restores in the 1918 slice, holding just MDA). Removing Romania outright in 1916 breaks that continuity and implies total collapse two years early.",
+      "assign": { "MDA": "romania" },
+      "addEntities": [
+        {
+          "id": "romania",
+          "name": "Romania",
+          "type": "state",
+          "culture": "italic",
+          "founded": 1859,
+          "capital": "Iași",
+          "capitalRegion": "MDA",
+          "regions": ["MDA"],
+          "contestedRegions": ["MDA"],
+          "stability": "contested",
+          "population": 2.5,
+          "wealth": 1,
+          "note": "Rump state after Bucharest falls (6 Dec 1916); court and army hold the Moldavian salient from Iași"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1918,
+      "why": "The slice's own events say 'Allenby takes Damascus as the Ottoman front collapses,' yet SYR (Aleppo-Damascus) stays with the Ottoman Empire (contested). Damascus fell to Allenby/Faisal's forces on 1 Oct 1918 and Aleppo on 25 Oct; by the Armistice of Mudros (30 Oct 1918) all of Syria was under the Allied/Arab Occupied Enemy Territory Administration (OETA East under Faisal, nominally British-overseen), not Ottoman control.",
+      "assign": { "SYR": "uk" },
+      "update": {
+        "ottoman": { "contestedRegions": ["ARM_W"] },
+        "uk": { "contestedRegions": ["SYR"], "note": "Faisal's Arab administration (OETA East) governs Syria under British oversight" }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": 1920,
+      "why": "Armenia is missing from the entity list, with ARM folded into Russia as though already Sovietized. The First Republic of Armenia (proclaimed 1918) was not overthrown until the Soviet 11th Army's invasion of 29 Nov-4 Dec 1920, i.e. it existed for essentially the whole of 1920 -- the file already keeps the parallel case, Georgia, independent through this same slice for the same reason (Georgia wasn't Sovietized until Feb 1921).",
+      "assign": { "ARM": "armenia" },
+      "addEntities": [
+        {
+          "id": "armenia",
+          "name": "Armenia",
+          "type": "state",
+          "culture": "caucasian",
+          "founded": 1918,
+          "capital": "Yerevan",
+          "capitalRegion": "ARM",
+          "regions": ["ARM"],
+          "contestedRegions": ["ARM"],
+          "stability": "contested",
+          "population": 1.3,
+          "wealth": 2,
+          "note": "First Republic, battered by the Turkish-Armenian War; Sovietized only at the very end of 1920 (29 Nov-4 Dec)"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "year": 1929,
+      "why": "saudi_arabia's founded field is set to 1932, three years after this 1929 slice already shows it holding ARB -- an entity cannot be founded after the year the map shows it ruling territory. Ibn Saud unified Hejaz and Nejd and proclaimed himself king in January 1926; the state was only renamed the Kingdom of Saudi Arabia in September 1932. Fixing the date (and reflecting the pre-1932 name) removes the contradiction while keeping the canonical 'saudi_arabia' id for continuity with later slices.",
+      "update": {
+        "saudi_arabia": { "founded": 1926, "name": "Kingdom of Hejaz and Nejd", "note": "Ibn Saud unifies Hejaz and Nejd (1926); renamed Saudi Arabia in 1932" }
+      },
+      "confidence": "medium"
+    },
+    {
+      "year": 1942,
+      "why": "Crete (CRE) is left with a 'greece' entity that otherwise holds no other territory -- i.e. a government-in-exile with a phantom foothold, which the file doesn't do for any other occupied country (Norway, Netherlands, Belgium, Poland etc. are all folded into their occupier once overrun). Crete was occupied by Germany from the end of the Battle of Crete (May 1941), which held the western/majority of the island directly (Italy only had the small eastern Lasithi prefecture until its Sept 1943 surrender, after which Germany held the whole island).",
+      "assign": { "CRE": "germany" },
+      "removeEntities": ["greece"],
+      "update": {
+        "germany": { "contestedRegions": ["STE", "DON", "SRB", "UKR_E", "RUS_S", "CRE"] }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": 1944,
+      "why": "DOD (Rhodes & the Dodecanese) is held by the UK, but the Dodecanese campaign (Sept-Nov 1943) ended in a German victory -- the Battle of Leros fell 16 Nov 1943 and Germany held the entire island group continuously until the war's end in May 1945. The islands should not read as British-controlled at any point in 1944.",
+      "assign": { "DOD": "germany" },
+      "confidence": "high"
+    },
+    {
+      "year": 1944,
+      "why": "A 'syria' entity is introduced holding SYR with founded:1946 -- two years after this 1944 slice already shows it as an independent state, the same kind of founded-after-the-map-shows-it-ruling contradiction as the saudi_arabia case. Syria's National Bloc government had nominal authority from 1941 but French troops remained and full sovereignty (last French withdrawal) wasn't achieved until April 1946, which is also the founding year the project's own canonical registry specifies for this id. Rather than invent an earlier founding date, SYR reverts to 'france' (as in the 1936-1942 slices) so the later era can introduce 'syria' cleanly at its documented 1946 date.",
+      "assign": { "SYR": "france" },
+      "removeEntities": ["syria"],
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "All 11 slices (1914-1944) assign exactly the 122 canonical region codes with no duplicates, gaps, or invalid codes.",
+    "1914: Alsace-Lorraine (LOR) correctly German, not French; Austria-Hungary's Galicia (VOL) and Russia's Caucasus holdings (ARM, GEO) correct; UK's de-facto Egypt/Cyprus control before formal 1914 annexation is a defensible read.",
+    "1920: Poland's reborn state (Versailles+Trianon), Baltic independence, Sevres-era rump Ottoman Anatolia (kept as 'ottoman' pending 1923 Turkey per the project's own canonical registry), and the Greek landing at Smyrna (ION contested) all check out.",
+    "1923: Lausanne's Greek-Turkish population exchange, Egypt's nominal 1922 independence, Ireland's 1922 partition, and Turkey's founding as a distinct id from 1923 are all correctly reflected.",
+    "1936-1938: Spanish Civil War front lines (Aragon offensive reaching the sea by 1938), the Anschluss (Austria folded into Germany 1938), and the Rome-Berlin Axis are consistent with the historical record.",
+    "1940: The Fall of France's occupied/Vichy split (including Vichy retaining Syria and French North Africa pre-Torch), the Soviet annexation of the Baltics/Bessarabia, and Italy's 1939 absorption of Albania are all correct.",
+    "1942: The Axis high-water mark's partition of occupied Greece/Yugoslavia among Germany, Italy, Bulgaria and the Croatian puppet state, and Vichy/Free-French North Africa (Tunisia correctly marked contested for the Tunisia Campaign), hold up.",
+    "1944: Southern Italy under the Allied-aligned Kingdom (Rome fell June 1944) versus northern Italy still German/Salo-aligned, and Romania/Bulgaria's regions reflecting their August-September 1944 switch of sides, are correct."
+  ],
+  "sources": [
+    { "title": "Romanian campaign (1916) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Romanian_campaign_(1916)" },
+    { "title": "Romania in World War I - Wikipedia", "url": "https://en.wikipedia.org/wiki/Romania_in_World_War_I" },
+    { "title": "Occupied Enemy Territory Administration - Wikipedia", "url": "https://en.wikipedia.org/wiki/Occupied_Enemy_Territory_Administration" },
+    { "title": "Battle of Maysalun - Grokipedia", "url": "https://grokipedia.com/page/Battle_of_Maysalun" },
+    { "title": "First Republic of Armenia - Wikipedia", "url": "https://en.wikipedia.org/wiki/First_Republic_of_Armenia" },
+    { "title": "Red Army invasion of Armenia - Wikipedia", "url": "https://en.wikipedia.org/wiki/Red_Army_invasion_of_Armenia" },
+    { "title": "Ibn Saud - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ibn_Saud" },
+    { "title": "Battle of Crete - Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_Crete" },
+    { "title": "Axis occupation of Greece - Wikipedia", "url": "https://en.wikipedia.org/wiki/Axis_occupation_of_Greece" },
+    { "title": "Dodecanese campaign - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dodecanese_campaign" },
+    { "title": "Battle of Leros - Wikipedia", "url": "https://en.wikipedia.org/wiki/Battle_of_Leros" },
+    { "title": "Syria - Wikipedia (French Mandate/independence timeline)", "url": "https://en.wikipedia.org/wiki/Syria" }
+  ],
+  "uncertainties": [
+    "Did not restructure the 1918 slice to show Austria-Hungary's October-November 1918 breakup into Czechoslovakia/Poland/German-Austria/Hungary/South-Slav successor states, even though the label 'the empires begin to fall' invites it -- the file's own uncertainties note already flags 1918 as an intentional blend of early-1918 (Brest-Litovsk German gains in the east) and late-1918 (Ottoman collapse) conditions, and fully unpacking the Habsburg collapse on top of that would be a large structural change rather than a targeted fix; the 1920 slice already shows the correct post-dissolution map two years later.",
+    "Left the 1916/1920/1940 relations entries that reference entity ids absent from that slice ('serbia', 'hejaz', 'ireland', 'norway') uncorrected -- these are real inconsistencies but the corrections schema (assign/update/addEntities/removeEntities/events/label/connectivity) has no field for patching the relations array.",
+    "Thrace (THR) swinging between 'turkey' and 'bulgaria' across slices is a region-resolution artifact (the single THR cell conflates permanently-Turkish Eastern Thrace with Bulgarian-occupied Western Thrace 1941-44); left as-is per the brief's guidance on region-approximation."
+  ]
+}

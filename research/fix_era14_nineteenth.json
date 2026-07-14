@@ -1,0 +1,66 @@
+{
+  "file": "era14_nineteenth.json",
+  "corrections": [
+    {
+      "year": 1799,
+      "why": "Three German entities are anachronistically titled and dated in the 1799 slice, contradicting their own note fields. 'Kingdom of Bavaria' and 'Kingdom of Württemberg' did not exist until Napoleon's Rheinbund reorganization on 1 Jan 1806 (both were still Electorate/Duchy in 1799), yet the 1799 entries carry founded:1806 -- a founding date that postdates the slice year itself, which is internally impossible. Saxony's own note already correctly says 'Electorate of Saxony' while its name field says 'Kingdom of Saxony'. Also fixed: pre-mediatization Württemberg's population was ~0.65M (it only reached ~1.3M by 1810 after the Reichsdeputationshauptschluss and Rheinbund territorial gains more than doubled it), and 'Austrian Empire' did not exist until Francis II proclaimed it in Aug 1804 -- in 1799 the Habsburg lands were still the composite Habsburg Monarchy, not yet a unified 'Empire'.",
+      "update": {
+        "bavaria": { "name": "Electorate of Bavaria", "founded": 1180 },
+        "wurttemberg": { "name": "Duchy of Württemberg", "founded": 1495, "population": 0.65 },
+        "saxony": { "name": "Electorate of Saxony", "founded": 1423 },
+        "austria_habsburg": { "name": "Habsburg Monarchy" }
+      },
+      "confidence": "high"
+    },
+    {
+      "year": 1871,
+      "why": "The Austro-Hungarian Compromise (Ausgleich) of 1867 renamed the Habsburg state to Austria-Hungary; the file's own 1866 and 1871 notes say this explicitly ('Ausgleich with Hungary follows (1867) creating Austria-Hungary' / 'Austria-Hungary after the Ausgleich (1867)'), but the entity's name field still says 'Austrian Empire' in every slice from 1871 through 1913. 'Austrian Empire' is correct for 1799(fixed separately)-1866; from 1871 on it should read Austria-Hungary.",
+      "update": { "austria_habsburg": { "name": "Austria-Hungary" } },
+      "confidence": "high"
+    },
+    {
+      "year": 1878,
+      "why": "Same post-1867 naming fix as 1871: the Dual Monarchy was officially Austria-Hungary, not 'Austrian Empire', by this date.",
+      "update": { "austria_habsburg": { "name": "Austria-Hungary" } },
+      "confidence": "high"
+    },
+    {
+      "year": 1900,
+      "why": "Same post-1867 naming fix: Austria-Hungary, not 'Austrian Empire'.",
+      "update": { "austria_habsburg": { "name": "Austria-Hungary" } },
+      "confidence": "high"
+    },
+    {
+      "year": 1908,
+      "why": "Same post-1867 naming fix: Austria-Hungary, not 'Austrian Empire'.",
+      "update": { "austria_habsburg": { "name": "Austria-Hungary" } },
+      "confidence": "high"
+    },
+    {
+      "year": 1913,
+      "why": "Same post-1867 naming fix: Austria-Hungary, not 'Austrian Empire'.",
+      "update": { "austria_habsburg": { "name": "Austria-Hungary" } },
+      "confidence": "high"
+    }
+  ],
+  "verified": [
+    "Territorial hand-offs at treaty dates: Pressburg 1805 (Austria loses Venetia/Tyrol/Dalmatia to Napoleonic Italy), Tilsit 1807 (Duchy of Warsaw, Prussia halved), Vienna 1815 (Prussia gains Rhineland/Posen/N.Saxony, Norway to Sweden, Congress Poland to Russia), Villafranca/Zurich 1859 (Lombardy to Sardinia, Venetia stays Austrian), Königgrätz/1866 (Hanover/Hesse-Kassel/Nassau/Frankfurt to Prussia, Venetia to Italy), Frankfurt 1871 (Alsace-Lorraine to Germany), Berlin 1878 (Serbia/Romania/Montenegro independent, Bosnia to Austrian administration, Cyprus to Britain), Balkan Wars/Bucharest 1913 (Albania created, Macedonia partitioned, Crete to Greece).",
+    "First and Second Serbian Uprisings and the 1815 re-establishment (founded 1804 then 1815) correctly reflect the historical break between the crushed 1804-13 state and the restored principality.",
+    "Muhammad Ali's Egypt timeline: viceroy 1805, Mamluk massacre 1811, Wahhabi war and recapture of Medina (Nov 1812)/Mecca, hereditary khedivate 1841, Suez Canal opened 1869 -- all correctly sequenced.",
+    "Norway's 1814 transfer from Denmark to Sweden (Kiel/Moss) correctly reflected by the 1815 slice; Sweden-Norway union dissolution in 1905 correctly produces a new 'norway' entity.",
+    "Egypt shown as folded into the UK's regions from 1900 (veiled protectorate) and Tunisia into France (1881 protectorate) are pre-declared, deliberate de-facto-control simplifications in the file's own uncertainties list, not left unflagged by the author -- left as-is per the brief's guidance not to churn defensible judgment calls.",
+    "Persia (Qajar) correctly holds the Erivan Khanate (ARM region) through 1815 and loses it to Russia only after Turkmenchay (1828), consistent with the entity disappearing from the map once it holds zero mapped regions.",
+    "Cretan State (1898) and its 1908 unrecognized enosis declaration, resolved only in the 1913 slice, are correctly staged.",
+    "Duchy of Warsaw's 1809 enlargement with West Galicia and Austria's corresponding loss of POL_S are consistently cross-referenced across the 1806/1812/1815 slices."
+  ],
+  "sources": [
+    { "title": "Kingdom of Württemberg - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_W%C3%BCrttemberg" },
+    { "title": "Duchy of Württemberg - Wikipedia", "url": "https://en.wikipedia.org/wiki/Duchy_of_W%C3%BCrttemberg" },
+    { "title": "Kingdom of Bavaria - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingdom_of_Bavaria" },
+    { "title": "Austro-Hungarian Compromise of 1867 - Wikipedia", "url": "https://en.wikipedia.org/wiki/Austro-Hungarian_Compromise_of_1867" },
+    { "title": "Austria-Hungary - Britannica", "url": "https://www.britannica.com/place/Austria-Hungary" }
+  ],
+  "uncertainties": [
+    "Founded dates assigned to the corrected Bavaria (1180, Wittelsbach investiture), Württemberg (1495, elevation to Duchy) and Saxony (1423, Wettins granted the Electorate) follow the same 'earliest continuous political unit under one id' convention the file already uses for Prussia (founded 1525 despite becoming a kingdom in 1701); reasonable alternative anchor dates exist but these are the standard textbook milestones."
+  ]
+}
