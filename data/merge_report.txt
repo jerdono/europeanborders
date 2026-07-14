@@ -1,238 +1,201 @@
+NOTE founded-drift egypt: -3100, -404, 1805, 1922
+NOTE culture-drift egypt: egyptian, arab
+NOTE founded-drift arabs_early: -3000, -800, 500
+NOTE culture-drift arabs_early: semitic_levantine, arab
 NOTE culture-drift italy_bronze: pre_ie, italic
 NOTE founded-drift balts_early: -2000, -1000
-NOTE founded-drift finnic_peoples: -2000, -1000
+NOTE founded-drift finnic_peoples: -2000, -1500, -1000
 NOTE founded-drift sami: -2000, -1500
-NOTE founded-drift thracians: -1300, -450
+NOTE founded-drift nuragic: -1800, -1600
+NOTE founded-drift illyrians: -1300, -1000
+NOTE founded-drift thracians: -1300, -1100, -450
+NOTE founded-drift dacians: -800, -82
+NOTE founded-drift germani: -750, -100
+NOTE founded-drift britons: -800, -300, 410
+NOTE founded-drift gaels: -600, -300
+NOTE founded-drift berber_tribes: -800, 455
+NOTE founded-drift syracuse: -733, -734
+NOTE founded-drift sarmatians: -450, -200
+NOTE founded-drift cappadocia: -331, -255, -95
+NOTE culture-drift cappadocia: iranic, anatolian
+NOTE culture-drift ptolemaic_egypt: hellenic, egyptian
+NOTE founded-drift armenia_kingdom: -321, 884
+NOTE founded-drift nabataea: -300, -400
+NOTE culture-drift nabataea: arab, semitic_levantine
+NOTE founded-drift alans: 50, 370
+NOTE founded-drift franks: 257, 481
 NOTE founded-drift byzantium: -509, 395
-BOUNDARY -1200(era01_bronze.json) → 14(era05_principate.json): 109 regions change  <<< REVIEW
-    ENG_S:atlantic_bronze→britons
-    ENG_E:atlantic_bronze→britons
-    ENG_M:atlantic_bronze→britons
-    ENG_N:atlantic_bronze→britons
-    WAL:atlantic_bronze→britons
-    SCO_S:atlantic_bronze→britons
-    SCO_N:atlantic_bronze→britons
-    IRL_N:atlantic_bronze→gaels
-    IRL_S:atlantic_bronze→gaels
-    GAL:iberia_bronze→rome
-    EUS:iberia_bronze→rome
-    POR_N:iberia_bronze→rome
-    POR_S:iberia_bronze→rome
-    CAS_N:iberia_bronze→rome
-    CAS_S:iberia_bronze→rome
-    ARA:iberia_bronze→rome
-    VAL:iberia_bronze→rome
-    AND:iberia_bronze→rome
-    BAL:talaiotic→rome
-    BRE:atlantic_bronze→rome
-    NRM:atlantic_bronze→rome
-    PIC:atlantic_bronze→rome
-    IDF:atlantic_bronze→rome
-    LOR:urnfield→rome
-    LOI:atlantic_bronze→rome
-    BUR:urnfield→rome
-    AQU:atlantic_bronze→rome
-    OCC:atlantic_bronze→rome
-    PRO:atlantic_bronze→rome
-    AUV:atlantic_bronze→rome
-    FLA:atlantic_bronze→rome
-    NED:atlantic_bronze→rome
-    RHE:urnfield→rome
-    SAX_L:nordic_bronze→germani
-    BRA:nordic_bronze→germani
-    SAX:urnfield→germani
-    FRK:urnfield→germani
-    BAV:urnfield→rome
-    SWA:urnfield→germani
-    BOH:urnfield→marcomanni
-    AUT:urnfield→rome
-    SUI:urnfield→rome
-    PIE:italy_bronze→rome
-    LOM:italy_bronze→rome
-    TUS:italy_bronze→rome
-    ROM:italy_bronze→rome
-    NAP:italy_bronze→rome
-    CLB:italy_bronze→rome
-    SIC:italy_bronze→rome
-    SAR:nuragic→rome
-    COR:nuragic→rome
-    MLT:italy_bronze→rome
-    JUT:nordic_bronze→germani
-    NOR_S:nordic_bronze→germani
-    SWE_S:nordic_bronze→germani
-    SWE_C:nordic_bronze→germani
+NOTE founded-drift ostrogoths: 456, 493
+NOTE founded-drift lombards: 488, 568
+NOTE founded-drift bulgaria: 681, 1185, 1878
+NOTE founded-drift al_andalus: 756, 1228
+NOTE culture-drift al_andalus: arab, berber
+NOTE founded-drift serbia: 780, 1217, 1804, 1815, 1878
+NOTE founded-drift ireland_states: 800, 1000
+NOTE culture-drift navarre: pre_ie, italic
+NOTE founded-drift wales_states: 850, 1100
+NOTE founded-drift brittany: 846, 939
+NOTE founded-drift kievan_rus: 862, 882
+NOTE founded-drift croatia: 845, 925, 1941, 1991
+NOTE founded-drift norway: 872, 1905
+NOTE culture-drift normandy: germanic, italic
+NOTE founded-drift france: 987, 1870
+NOTE founded-drift poland: 966, 1918
+NOTE founded-drift hungary: 1000, 1918
+NOTE founded-drift georgia: 1008, 1918, 1991
+NOTE founded-drift sweden: 1000, 1523
+NOTE founded-drift norman_sicily: 1059, 1071
+NOTE founded-drift cilician_armenia: 1080, 1198
+NOTE founded-drift zayyanid: 1236, 1235
+NOTE founded-drift lithuania: 1236, 1918
+NOTE founded-drift austria_habsburg: 1282, 1867
+NOTE founded-drift bavaria: 1180, 1806
+NOTE founded-drift saxony: 1485, 1806
+NOTE founded-drift hesse: 1264, 1803
+NOTE founded-drift wurttemberg: 1495, 1806
+NOTE founded-drift russia: 1263, 1547
+NOTE founded-drift ukraine: 1917, 1991
+NOTE founded-drift armenia: 1918, 1991
+NOTE founded-drift slovakia: 1939, 1993
+NOTE founded-drift west_germany: 1945, 1949
+NOTE founded-drift east_germany: 1945, 1949
+BOUNDARY -1200(era01_bronze.json) → -1100(era02_iron.json): 15 regions change
+BOUNDARY -600(era02_iron.json) → -550(era03_classical.json): 8 regions change
+BOUNDARY -301(era03_classical.json) → -270(era04_hellenistic.json): 41 regions change  <<< REVIEW
+    GAL:celtiberians→lusitanians
+    EUS:aquitanians→iberians
+    POR_N:celtiberians→lusitanians
+    POR_S:iberians→lusitanians
+    ARA:iberians→celtiberians
+    AND:carthage→iberians
+    AQU:aquitanians→gauls
+    NED:germani→gauls
+    FRK:gauls→la_tene
+    BAV:gauls→la_tene
+    SWA:gauls→la_tene
+    BOH:gauls→la_tene
+    AUT:gauls→la_tene
+    TUS:etruscans→rome
+    CLB:samnites→rome
     POL_W:lusatian→germani
-    SIL:urnfield→germani
+    SIL:lusatian→la_tene
     POL_C:lusatian→germani
-    POL_S:lusatian→germani
-    VOL:lusatian→germani
-    RUS_S:srubnaya→balts_early
-    UKR_W:trzciniec→sarmatians
-    UKR_E:srubnaya→sarmatians
-    STE:srubnaya→sarmatians
-    CRM:srubnaya→bosporan_kingdom
-    DON:srubnaya→sarmatians
-    SVK:urnfield→quadi
-    HUN:urnfield→rome
-    TRN:thracians→dacians
-    WLC:thracians→dacians
-    MDA:thracians→dacians
-    CRO:illyrians→rome
-    BOS:illyrians→rome
-    DAL:illyrians→rome
-    SRB:illyrians→rome
-    ALB:illyrians→rome
-    MAC:illyrians→rome
-    BGR:thracians→rome
-    EPI:mycenaeans→rome
-    ATT:mycenaeans→rome
-    PEL:mycenaeans→rome
-    AEG:mycenaeans→rome
-    DOD:mycenaeans→rome
-    CRE:mycenaeans→rome
-    CON:troy→rome
-    ION:hittites→rome
-    BIT:troy→rome
-    CAP:hittites→cappadocia
-    PON:kaska→rome
-    CIL:hittites→rome
-    ARM_W:hittites→armenia_kingdom
-    CYP:alashiya→rome
-    GEO:caucasus_bronze→caucasian_iberia
-    ARM:caucasus_bronze→armenia_kingdom
-    SYR:hittites→rome
-    LEV:egypt→rome
-    MES_N:assyria→osroene
-    MES_S:babylon→parthia
+    POL_S:lusatian→la_tene
+    RUS_S:scythians→balts_early
+    DON:sarmatians→scythians
+    SVK:gauls→la_tene
+    HUN:gauls→pannonians
+    MDA:dacians→thracians
+    SRB:thracians→illyrians
+    BGR:odrysian_thrace→thracians
+    THR:lysimachus→thracians
+    EPI:macedon→epirus
+    PEL:greek_poleis→sparta
+    AEG:antigonids→ptolemaic_egypt
+    CRE:greek_poleis→cretan_league
+    CON:lysimachus→byzantion
+    ION:lysimachus→seleucid
+    BIT:lysimachus→bithynia
+    CAP:lysimachus→galatians
+    PON:lysimachus→pontus_kingdom
+    CIL:macedon→seleucid
+    ARM_W:seleucid→armenia_kingdom
+    CYP:antigonids→ptolemaic_egypt
+    GEO:colchis→caucasian_iberia
     ARB:arabs_early→nabataea
-    EGY_N:egypt→rome
-    EGY_S:egypt→rome
-    CYR:libyans→rome
-    TRP:libyans→rome
-    TUN:libyans→rome
-    NUM:libyans→rome
-    ORA:libyans→mauretania
-    RIF:libyans→mauretania
-    MAR:libyans→mauretania
+BOUNDARY -31(era04_hellenistic.json) → 14(era05_principate.json): 21 regions change
 BIGJUMP within era05_principate.json: 370 → 395: 85 regions change
-BOUNDARY 395(era05_principate.json) → 1204(era09_high_medieval.json): 113 regions change  <<< REVIEW
-    ENG_S:west_rome→england
-    ENG_E:west_rome→england
-    ENG_M:west_rome→england
-    ENG_N:west_rome→england
-    WAL:west_rome→wales_states
-    SCO_S:picts→scotland
-    SCO_N:picts→scotland
-    IRL_N:gaels→ireland_states
-    IRL_S:gaels→england
-    GAL:west_rome→leon
-    EUS:west_rome→navarre
-    POR_N:west_rome→portugal
-    POR_S:west_rome→portugal
-    CAS_N:west_rome→castile
-    CAS_S:west_rome→castile
-    ARA:west_rome→aragon
-    VAL:west_rome→almohad
-    AND:west_rome→almohad
-    BAL:west_rome→almohad
-    BRE:west_rome→france
-    NRM:west_rome→france
-    PIC:west_rome→france
-    IDF:west_rome→france
-    LOR:west_rome→hre
-    LOI:west_rome→france
-    BUR:west_rome→france
-    AQU:west_rome→england
-    OCC:west_rome→toulouse
-    PRO:west_rome→aragon
-    AUV:west_rome→france
-    FLA:west_rome→flanders
-    NED:west_rome→hre
-    RHE:west_rome→hre
-    SAX_L:saxons→hre
-    BRA:germani→brandenburg
-    SAX:germani→hre
-    FRK:franks→hre
-    BAV:west_rome→hre
-    SWA:alamanni→hre
-    BOH:marcomanni→bohemia
-    AUT:west_rome→hre
-    SUI:west_rome→hre
-    PIE:west_rome→genoa
-    LOM:west_rome→hre
-    TUS:west_rome→hre
-    ROM:west_rome→papal_states
-    NAP:west_rome→norman_sicily
-    CLB:west_rome→norman_sicily
-    SIC:west_rome→norman_sicily
-    SAR:west_rome→pisa
-    COR:west_rome→pisa
-    MLT:west_rome→norman_sicily
-    JUT:germani→denmark
-    NOR_S:germani→norway
-    NOR_N:sami→norway
-    SWE_S:germani→sweden
-    SWE_C:germani→sweden
-    SWE_N:sami→sweden
-    FIN_N:sami→finnic_peoples
-    KAR:finnic_peoples→novgorod
-    EST:finnic_peoples→balts_early
-    POL_W:germani→poland
-    SIL:germani→poland
-    POL_C:germani→poland
-    POL_S:germani→poland
-    VOL:huns→kievan_rus
-    BLR:balts_early→kievan_rus
-    RUS_NW:finnic_peoples→novgorod
-    RUS_C:finnic_peoples→kievan_rus
-    RUS_S:balts_early→kievan_rus
-    UKR_W:huns→kievan_rus
-    UKR_E:huns→cumans
-    STE:huns→cumans
-    CRM:huns→cumans
-    DON:huns→cumans
-    SVK:quadi→hungary
-    HUN:west_rome→hungary
-    TRN:huns→hungary
-    WLC:huns→cumans
-    MDA:huns→cumans
-    CRO:west_rome→hungary
-    BOS:west_rome→bosnia
-    DAL:west_rome→venice
-    SRB:byzantium→serbia
-    ALB:byzantium→epirus_despotate
-    MAC:byzantium→latin_empire
-    BGR:byzantium→bulgaria
-    THR:byzantium→latin_empire
-    EPI:byzantium→epirus_despotate
-    AEG:byzantium→venice
-    CRE:byzantium→venice
-    CON:byzantium→latin_empire
-    CAP:byzantium→rum_seljuk
-    PON:byzantium→trebizond
-    CIL:byzantium→cilician_armenia
-    ARM_W:byzantium→rum_seljuk
-    CYP:byzantium→cyprus_lusignan
-    GEO:caucasian_iberia→georgia
-    ARM:sassanid→georgia
-    SYR:byzantium→ayyubid
-    LEV:byzantium→crusader_states
-    MES_N:sassanid→ayyubid
-    MES_S:sassanid→abbasid
-    ARB:byzantium→ayyubid
-    EGY_N:byzantium→ayyubid
-    EGY_S:byzantium→ayyubid
-    CYR:byzantium→ayyubid
-    TRP:west_rome→almohad
-    TUN:west_rome→almohad
-    NUM:west_rome→almohad
-    ORA:west_rome→almohad
-    RIF:west_rome→almohad
-    MAR:west_rome→almohad
+BOUNDARY 395(era05_principate.json) → 410(era06_late_antiquity.json): 12 regions change
+BOUNDARY 600(era06_late_antiquity.json) → 620(era07_early_medieval.json): 13 regions change
+BOUNDARY 900(era07_early_medieval.json) → 930(era08_ottonian_norman.json): 27 regions change
+BOUNDARY 1180(era08_ottonian_norman.json) → 1204(era09_high_medieval.json): 25 regions change
+BOUNDARY 1396(era09_high_medieval.json) → 1410(era10_late_medieval.json): 24 regions change
+BOUNDARY 1500(era10_late_medieval.json) → 1512(era11_renaissance.json): 7 regions change
+BOUNDARY 1610(era11_renaissance.json) → 1618(era12_seventeenth.json): 4 regions change
+BOUNDARY 1714(era12_seventeenth.json) → 1721(era13_eighteenth.json): 11 regions change
+BOUNDARY 1795(era13_eighteenth.json) → 1799(era14_nineteenth.json): 9 regions change
+BOUNDARY 1913(era14_nineteenth.json) → 1914(era15_world_wars.json): 0 regions change
+BOUNDARY 1944(era15_world_wars.json) → 1945(era16_postwar.json): 40 regions change  <<< REVIEW
+    GAL:nationalist_spain→spain
+    EUS:nationalist_spain→spain
+    CAS_N:nationalist_spain→spain
+    CAS_S:nationalist_spain→spain
+    ARA:nationalist_spain→spain
+    VAL:nationalist_spain→spain
+    AND:nationalist_spain→spain
+    BAL:nationalist_spain→spain
+    BRE:germany→france
+    NRM:germany→france
+    PIC:germany→france
+    IDF:germany→france
+    LOR:germany→france
+    FLA:germany→belgium
+    NED:germany→netherlands
+    RHE:germany→west_germany
+    SAX_L:germany→west_germany
+    BRA:germany→east_germany
+    SAX:germany→east_germany
+    FRK:germany→west_germany
+    BAV:germany→west_germany
+    SWA:germany→west_germany
+    BOH:germany→czechoslovakia
+    AUT:germany→austria
+    PIE:germany→italy
+    LOM:germany→italy
+    TUS:germany→italy
+    JUT:germany→denmark
+    NOR_S:germany→norway
+    NOR_N:germany→norway
+    EST:germany→ussr
+    LVA:germany→ussr
+    LTU:germany→ussr
+    PRS:germany→ussr
+    POL_W:germany→poland
+    SIL:germany→poland
+    POL_C:ussr→poland
+    POL_S:ussr→poland
+    SVK:slovakia→czechoslovakia
+    RIF:nationalist_spain→spain
 NOTE 117: dropped 2 relations with missing entities
 NOTE 271: dropped 1 relations with missing entities
 NOTE 395: dropped 2 relations with missing entities
 NOTE 1241: dropped 1 relations with missing entities
 NOTE 1291: dropped 2 relations with missing entities
 NOTE 1396: dropped 1 relations with missing entities
+NOTE 1916: dropped 2 relations with missing entities
+NOTE 1920: dropped 1 relations with missing entities
+NOTE 1940: dropped 1 relations with missing entities
 POP -3000: in-map entity sum 8.2M vs benchmark ~4M (×2.27)
+POP 1660: in-map entity sum 59.3M vs benchmark ~135M (×0.44)
+POP 1667: in-map entity sum 60.0M vs benchmark ~137M (×0.44)
+POP 1683: in-map entity sum 63.5M vs benchmark ~141M (×0.45)
+POP 1714: in-map entity sum 67.7M vs benchmark ~152M (×0.44)
+POP 1721: in-map entity sum 49.2M vs benchmark ~156M (×0.32)
+POP 1740: in-map entity sum 54.5M vs benchmark ~164M (×0.33)
+POP 1756: in-map entity sum 57.2M vs benchmark ~175M (×0.33)
+POP 1763: in-map entity sum 61.2M vs benchmark ~182M (×0.34)
+POP 1772: in-map entity sum 62.3M vs benchmark ~190M (×0.33)
+POP 1789: in-map entity sum 68.8M vs benchmark ~207M (×0.33)
+POP 1795: in-map entity sum 63.1M vs benchmark ~213M (×0.30)
+POP 1799: in-map entity sum 63.3M vs benchmark ~217M (×0.29)
+POP 1806: in-map entity sum 68.8M vs benchmark ~227M (×0.30)
+POP 1812: in-map entity sum 73.8M vs benchmark ~237M (×0.31)
+POP 1815: in-map entity sum 76.5M vs benchmark ~242M (×0.32)
+POP 1830: in-map entity sum 95.4M vs benchmark ~266M (×0.36)
+POP 1848: in-map entity sum 109.8M vs benchmark ~295M (×0.37)
+POP 1859: in-map entity sum 115.9M vs benchmark ~324M (×0.36)
+POP 1866: in-map entity sum 126.3M vs benchmark ~345M (×0.37)
+POP 1871: in-map entity sum 136.9M vs benchmark ~359M (×0.38)
+POP 1878: in-map entity sum 149.2M vs benchmark ~379M (×0.39)
+POP 1900: in-map entity sum 82.6M vs benchmark ~444M (×0.19)
+POP 1908: in-map entity sum 89.8M vs benchmark ~484M (×0.19)
+POP 1913: in-map entity sum 86.1M vs benchmark ~510M (×0.17)
+POP 1914: in-map entity sum 176.3M vs benchmark ~513M (×0.34)
+POP 1916: in-map entity sum 163.2M vs benchmark ~520M (×0.31)
+POP 1918: in-map entity sum 198.9M vs benchmark ~527M (×0.38)
+POP 1920: in-map entity sum 201.9M vs benchmark ~534M (×0.38)
+POP 1923: in-map entity sum 233.9M vs benchmark ~545M (×0.43)
+POP 1929: in-map entity sum 247.9M vs benchmark ~566M (×0.44)
+POP 1940: in-map entity sum 253.0M vs benchmark ~594M (×0.43)
+POP 1942: in-map entity sum 216.5M vs benchmark ~599M (×0.36)
+POP 1944: in-map entity sum 229.8M vs benchmark ~604M (×0.38)
