@@ -1,0 +1,50 @@
+{
+  "file": "era02_iron.json",
+  "corrections": [
+    {
+      "year": -1100,
+      "why": "ION (Ionia & Lydia, W. Anatolia) is assigned to neo_hittite_states, whose 'Great Kings' (Carchemish, Malatya, Tabal, Que) were confined to SE Anatolia and N Syria after the Hittite collapse; Carchemish never projected rule ~800km across the plateau to the Aegean coast. The west coast at this date held scattered post-Mycenaean/Luwian population (e.g. continued occupation at Miletus through LH IIIC), the same 'palaces burned, writing lost' condition the file already uses for greek_dark_age elsewhere in the Aegean, and consistent with the file's own uncertainty note that Ionian Greek settlement there only intensifies at -1000.",
+      "assign": { "ION": "greek_dark_age" },
+      "confidence": "high"
+    },
+    {
+      "year": -814,
+      "why": "GEO (Colchis) is folded into Urartu's regions here, but Urartu's only attested push toward Qulha/Colchis is Sarduri II's 743 BC campaign (a raid extracting tribute, not lasting annexation, per Sarduri II's own inscriptions) — a generation after Sarduri I's -860/-830 founding era that this slice's own note cites. At -814 Colchis was still independent of Tushpa; reassign GEO to a Colchian tribal entity and keep Urartu to ARM/ARM_W, matching the file's own -750 treatment (Urartu at its Sarduri II peak) and its -700 reintroduction of colchian_tribes once Urartu recedes.",
+      "assign": { "GEO": "colchian_tribes" },
+      "addEntities": [
+        {
+          "id": "colchian_tribes",
+          "name": "Colchian tribes",
+          "type": "tribal",
+          "culture": "caucasian",
+          "cultureName": "Colchian",
+          "founded": -1100,
+          "regions": ["GEO"],
+          "stability": "stable",
+          "population": 0.2,
+          "wealth": 1,
+          "extendsBeyondMap": false,
+          "note": "Independent chiefdoms on the Phasis; Sarduri II's Colchis campaign is still a generation off"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "verified": [
+    "All 8 slices (-1100..-600) assign exactly the 122 region codes with no gaps or duplicates (checked programmatically)",
+    "Founding years for canonical entities match the data-spec registry exactly: egypt -3100, assyria -2000, babylon -1894, carthage -814, urartu -860, lydia -680, media -678, athens -800, sparta -900, macedon -808, phrygia -1180, israel_judah -1020, phoenician_cities -1200",
+    "Political-event dates check out against mainstream chronology: Carthage's founding 814, Byzantium 667, Cyrene 631, Massalia c.600, first Olympiad 776, Adad-nirari II's reign 911-891, Sennacherib's 701 Judah campaign, Ashurbanipal's sack of Thebes 663, Psamtik I expelling Assyrian garrisons c.655, Scythians displacing Cimmerians off the Pontic steppe c.700",
+    "Kush/Egypt split at -750 (Kashta holding Thebes/EGY_S while Libyan dynasts hold the Delta/EGY_N) matches the conventional c.752 BC start of Kushite control of Upper Egypt",
+    "Cilicia (CIL) correctly shown under Assyria at -700/-650 (Que was an Assyrian province from the 8th century) before breaking free as the Syennesis kingdom by -600",
+    "The file's own uncertainties list already flags several genuinely defensible judgment calls (LEV as one coarse cell for Phoenicia/Philistia/Israel, Media's generous -600 hold on CAP/PON, BAL/MLT Carthaginian dating, Chernoles' Slavic vs Thracian attribution) that do not need further correction"
+  ],
+  "sources": [
+    { "title": "Ionia — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ionia" },
+    { "title": "Neo-Hittite City States — Koç University digital exhibition", "url": "https://librarydigitalcollections.ku.edu.tr/en/digital-exhibitions/neo-hittite-city-states/" },
+    { "title": "Anatolia: The neo-Hittite states, c. 1180-700 BCE — Britannica", "url": "https://www.britannica.com/place/Anatolia/The-neo-Hittite-states-from-c-1180-to-700-bce" },
+    { "title": "Urartu — Wikipedia", "url": "https://en.wikipedia.org/wiki/Urartu" },
+    { "title": "Sarduri II — Wikipedia", "url": "https://en.wikipedia.org/wiki/Sarduris_II" },
+    { "title": "The Northward Expansion of the Kingdom of Urartu and the Historical Geography of the Land of Qulha — Belleten", "url": "https://belleten.gov.tr/eng/abstarct/2574/eng" },
+    { "title": "Colchis — Wikipedia", "url": "https://en.wikipedia.org/wiki/Colchis" }
+  ]
+}
